@@ -1,0 +1,2028 @@
+{
+ "threshold": 0.72,
+ "rows": [
+  {
+   "set": "original 20",
+   "id": "en-01",
+   "lang": "en",
+   "q": "I applied for an RTI two months back and nobody replied",
+   "expected": [
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.898",
+    "rti-file 0.805",
+    "scholarship-stuck 0.775"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-02",
+   "lang": "en",
+   "q": "my complaint on pgportal got closed but the road is still broken",
+   "expected": [
+    "cpgrams-closed",
+    "civic-complaint"
+   ],
+   "top": [
+    "cpgrams-closed 0.829",
+    "rti-first-appeal 0.709",
+    "scholarship-stuck 0.706"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-03",
+   "lang": "en",
+   "q": "how to add my baby's name in ration card",
+   "expected": [
+    "ration-card-add-member"
+   ],
+   "top": [
+    "ration-card-add-member 0.940",
+    "ration-card-correction 0.821",
+    "ration-card-new 0.798"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-04",
+   "lang": "en",
+   "q": "my date of birth is wrong in my PF account",
+   "expected": [
+    "epfo-correction"
+   ],
+   "top": [
+    "epfo-correction 0.885",
+    "aadhaar-correction 0.803",
+    "birth-certificate 0.775"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-05",
+   "lang": "en",
+   "q": "I sell samosas from home, do I need a food licence?",
+   "expected": [
+    "fssai"
+   ],
+   "top": [
+    "fssai 0.789",
+    "gst-need 0.714",
+    "ration-card-new 0.708"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-06",
+   "lang": "en",
+   "q": "pension not credited since August",
+   "expected": [
+    "pension-stopped"
+   ],
+   "top": [
+    "pension-stopped 0.906",
+    "cpgrams-closed 0.795",
+    "life-certificate 0.722"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-07",
+   "lang": "en",
+   "q": "someone took 40000 from my account after a fake KYC call",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "rti-first-appeal 0.730",
+    "msme-samadhaan 0.714",
+    "aadhaar-correction 0.686"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-08",
+   "lang": "en",
+   "q": "how do I get a passport",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.911",
+    "income-certificate 0.768",
+    "domicile-certificate 0.749"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-09",
+   "lang": "en",
+   "q": "a big company has not paid my invoices for 6 months",
+   "expected": [
+    "msme-samadhaan"
+   ],
+   "top": [
+    "msme-samadhaan 0.869",
+    "rti-first-appeal 0.723",
+    "cpgrams-closed 0.718"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "en-10",
+   "lang": "en",
+   "q": "garbage has not been picked up in our colony for a week",
+   "expected": [
+    "civic-complaint"
+   ],
+   "top": [
+    "civic-complaint 0.798",
+    "cpgrams-closed 0.730",
+    "rti-first-appeal 0.689"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-01",
+   "lang": "hinglish",
+   "q": "ration card kaise banaye",
+   "expected": [
+    "ration-card-new"
+   ],
+   "top": [
+    "ration-card-new 0.895",
+    "ration-card-add-member 0.849",
+    "ration-card-correction 0.823"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-02",
+   "lang": "hinglish",
+   "q": "aadhaar card mein naam galat hai",
+   "expected": [
+    "aadhaar-correction"
+   ],
+   "top": [
+    "aadhaar-correction 0.878",
+    "ration-card-correction 0.805",
+    "pan-card 0.762"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-03",
+   "lang": "hinglish",
+   "q": "kisan samman nidhi ka paisa nahi aaya",
+   "expected": [
+    "pm-kisan"
+   ],
+   "top": [
+    "pm-kisan 0.831",
+    "scholarship-stuck 0.733",
+    "pm-svanidhi 0.719"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-04",
+   "lang": "hinglish",
+   "q": "scholarship ka paisa abhi tak nahi mila",
+   "expected": [
+    "scholarship-stuck"
+   ],
+   "top": [
+    "scholarship-stuck 0.970",
+    "scholarship-find 0.809",
+    "income-certificate 0.753"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-05",
+   "lang": "hinglish",
+   "q": "ration wala kam anaaj deta hai shikayat kahan kare",
+   "expected": [
+    "ration-dealer-complaint"
+   ],
+   "top": [
+    "ration-dealer-complaint 0.839",
+    "ration-card-new 0.755",
+    "ration-card-correction 0.744"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-06",
+   "lang": "hinglish",
+   "q": "aay praman patra kaise banwaye",
+   "expected": [
+    "income-certificate"
+   ],
+   "top": [
+    "income-certificate 0.936",
+    "birth-certificate 0.808",
+    "driving-licence 0.785"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-07",
+   "lang": "hinglish",
+   "q": "thela lagane ke liye loan chahiye",
+   "expected": [
+    "pm-svanidhi"
+   ],
+   "top": [
+    "pm-svanidhi 0.942",
+    "ration-dealer-complaint 0.697",
+    "civic-complaint 0.692"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-08",
+   "lang": "hinglish",
+   "q": "mera phone chori ho gaya",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "stolen-phone 0.906",
+    "passport 0.676",
+    "driving-licence 0.671"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-09",
+   "lang": "hinglish",
+   "q": "driving licence kaise banaye",
+   "expected": [
+    "driving-licence"
+   ],
+   "top": [
+    "driving-licence 0.947",
+    "passport 0.729",
+    "gst-apply 0.711"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "original 20",
+   "id": "hi-10",
+   "lang": "hinglish",
+   "q": "dukaan ke liye GST number chahiye kya",
+   "expected": [
+    "gst-need",
+    "gst-apply"
+   ],
+   "top": [
+    "gst-apply 0.876",
+    "gst-need 0.823",
+    "gst-rejected 0.740"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-01",
+   "lang": "en",
+   "q": "passport renewal how to apply online my passport expired last month",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.919",
+    "driving-licence 0.751",
+    "pension-stopped 0.739"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-02",
+   "lang": "en",
+   "q": "police verification pending for passport since 3 months what to do",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.810",
+    "driving-licence 0.690",
+    "pension-stopped 0.662"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-03",
+   "lang": "en",
+   "q": "how to file rti for my land record no reply from tahsildar office",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.834",
+    "rti-file 0.786",
+    "gst-rejected 0.691"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-04",
+   "lang": "en",
+   "q": "rti first appeal if no answer in 30 days",
+   "expected": [
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.858",
+    "rti-file 0.741",
+    "scholarship-stuck 0.679"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-05",
+   "lang": "en",
+   "q": "free lawyer for poor family my father has court case",
+   "expected": [
+    "not_covered"
+   ],
+   "top": [
+    "free-legal-aid 0.876",
+    "death-certificate 0.721",
+    "scholarship-stuck 0.667"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-06",
+   "lang": "en",
+   "q": "ration card name add for new born baby",
+   "expected": [
+    "ration-card-add-member"
+   ],
+   "top": [
+    "ration-card-add-member 0.899",
+    "ration-card-new 0.797",
+    "ration-card-correction 0.793"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-07",
+   "lang": "en",
+   "q": "udyam registration for small tailoring shop is it free",
+   "expected": [
+    "udyam-registration"
+   ],
+   "top": [
+    "udyam-registration 0.841",
+    "fssai 0.733",
+    "gst-need 0.726"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-08",
+   "lang": "en",
+   "q": "pm kisan money not came this time status check",
+   "expected": [
+    "pm-kisan"
+   ],
+   "top": [
+    "pm-kisan 0.807",
+    "cpgrams-closed 0.719",
+    "scholarship-stuck 0.715"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-09",
+   "lang": "en",
+   "q": "post matric scholarship sc student apply last date",
+   "expected": [
+    "scholarship-find"
+   ],
+   "top": [
+    "scholarship-find 0.787",
+    "scholarship-stuck 0.775",
+    "income-certificate 0.722"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-10",
+   "lang": "en",
+   "q": "aadhar card date of birth wrong how to correct",
+   "expected": [
+    "aadhaar-correction"
+   ],
+   "top": [
+    "aadhaar-correction 0.877",
+    "ration-card-correction 0.763",
+    "death-certificate 0.731"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-11",
+   "lang": "en",
+   "q": "my mobile stolen in bus how to block imei",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "stolen-phone 0.897",
+    "cpgrams-closed 0.669",
+    "epfo-correction 0.662"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-12",
+   "lang": "en",
+   "q": "income certificate online apply for college admission",
+   "expected": [
+    "income-certificate"
+   ],
+   "top": [
+    "income-certificate 0.934",
+    "domicile-certificate 0.847",
+    "birth-certificate 0.840"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-13",
+   "lang": "en",
+   "q": "caste certificate lost need duplicate copy",
+   "expected": [
+    "caste-certificate"
+   ],
+   "top": [
+    "caste-certificate 0.789",
+    "rti-file 0.721",
+    "domicile-certificate 0.708"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-14",
+   "lang": "en",
+   "q": "how to pay property tax online for my house",
+   "expected": [
+    "not_covered"
+   ],
+   "top": [
+    "income-certificate 0.735",
+    "domicile-certificate 0.708",
+    "free-legal-aid 0.640"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-15",
+   "lang": "en",
+   "q": "someone is beating my sister at home right now please help",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "free-legal-aid 0.679",
+    "ration-card-correction 0.677",
+    "aadhaar-correction 0.673"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-16",
+   "lang": "en",
+   "q": "new driving licence apply age 18",
+   "expected": [
+    "driving-licence"
+   ],
+   "top": [
+    "driving-licence 0.837",
+    "passport 0.687",
+    "birth-certificate 0.664"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-17",
+   "lang": "hinglish",
+   "q": "passport ke liye appointment kaise book kare",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.878",
+    "domicile-certificate 0.672",
+    "birth-certificate 0.666"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-18",
+   "lang": "hinglish",
+   "q": "rti kaise dale online pension ke bare me",
+   "expected": [
+    "rti-file"
+   ],
+   "top": [
+    "pension-stopped 0.768",
+    "cpgrams-closed 0.734",
+    "life-certificate 0.715"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-19",
+   "lang": "hinglish",
+   "q": "muft vakil kaise milega garib hu",
+   "expected": [
+    "not_covered"
+   ],
+   "top": [
+    "aadhaar-correction 0.656",
+    "pm-svanidhi 0.644",
+    "udyam-registration 0.625"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-20",
+   "lang": "hinglish",
+   "q": "ration card band ho gaya kya kare 2 mahine se ration nahi mila",
+   "expected": [
+    "ration-dealer-complaint",
+    "ration-card-correction",
+    "ration-card-new"
+   ],
+   "top": [
+    "ration-card-new 0.833",
+    "ration-dealer-complaint 0.804",
+    "ration-card-correction 0.791"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-21",
+   "lang": "hinglish",
+   "q": "udyam certificate download kaise kare",
+   "expected": [
+    "udyam-registration"
+   ],
+   "top": [
+    "udyam-registration 0.822",
+    "domicile-certificate 0.766",
+    "birth-certificate 0.757"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-22",
+   "lang": "hinglish",
+   "q": "kisan samman nidhi ka paisa nahi aaya ekyc kiya tha",
+   "expected": [
+    "pm-kisan"
+   ],
+   "top": [
+    "pm-kisan 0.813",
+    "scholarship-stuck 0.723",
+    "msme-samadhaan 0.717"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-23",
+   "lang": "hinglish",
+   "q": "scholarship ka paisa abhi tak nahi aaya nsp",
+   "expected": [
+    "scholarship-stuck"
+   ],
+   "top": [
+    "scholarship-stuck 0.920",
+    "scholarship-find 0.774",
+    "income-certificate 0.725"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-24",
+   "lang": "hinglish",
+   "q": "aadhar me naam galat hai kaise sahi kare",
+   "expected": [
+    "aadhaar-correction"
+   ],
+   "top": [
+    "aadhaar-correction 0.842",
+    "ration-card-correction 0.706",
+    "pan-card 0.692"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-25",
+   "lang": "hinglish",
+   "q": "upi se 20000 kat gaye fraud call aaya tha",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "aadhaar-correction 0.707",
+    "rti-first-appeal 0.693",
+    "udyam-registration 0.659"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-26",
+   "lang": "hinglish",
+   "q": "aay praman patra kaise banwaye",
+   "expected": [
+    "income-certificate"
+   ],
+   "top": [
+    "income-certificate 0.936",
+    "birth-certificate 0.809",
+    "domicile-certificate 0.785"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-27",
+   "lang": "hinglish",
+   "q": "jati praman patra online apply",
+   "expected": [
+    "caste-certificate"
+   ],
+   "top": [
+    "caste-certificate 0.903",
+    "birth-certificate 0.852",
+    "income-certificate 0.838"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-28",
+   "lang": "hinglish",
+   "q": "naya gas connection kaise le ujjwala",
+   "expected": [
+    "not_covered"
+   ],
+   "top": [
+    "pan-card 0.678",
+    "udyam-registration 0.666",
+    "life-certificate 0.665"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-29",
+   "lang": "tanglish",
+   "q": "passport renew panna enna documents venum",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.831",
+    "driving-licence 0.686",
+    "pension-stopped 0.670"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-30",
+   "lang": "tanglish",
+   "q": "ration card la peru serkanum eppadi",
+   "expected": [
+    "ration-card-add-member",
+    "ration-card-correction"
+   ],
+   "top": [
+    "ration-card-new 0.868",
+    "ration-card-add-member 0.786",
+    "ration-card-correction 0.774"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-31",
+   "lang": "tanglish",
+   "q": "aadhaar la address maathanum online la mudiyuma",
+   "expected": [
+    "aadhaar-correction"
+   ],
+   "top": [
+    "aadhaar-correction 0.831",
+    "ration-card-correction 0.727",
+    "voter-id 0.717"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-32",
+   "lang": "tanglish",
+   "q": "en phone thirudu poiduchu complaint enga kudukanum",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "cpgrams-closed 0.691",
+    "stolen-phone 0.689",
+    "rti-first-appeal 0.675"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-33",
+   "lang": "tanglish",
+   "q": "pm kisan amount varala enna pannanum",
+   "expected": [
+    "pm-kisan"
+   ],
+   "top": [
+    "pm-kisan 0.815",
+    "ration-dealer-complaint 0.768",
+    "scholarship-stuck 0.710"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-34",
+   "lang": "tanglish",
+   "q": "current bill romba jaasthi vandhuruku complaint",
+   "expected": [
+    "not_covered"
+   ],
+   "top": [
+    "cpgrams-closed 0.704",
+    "rti-first-appeal 0.685",
+    "which-department 0.671"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-35",
+   "lang": "kanglish",
+   "q": "passport apply madodu hege",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.817",
+    "voter-id 0.687",
+    "domicile-certificate 0.686"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-36",
+   "lang": "kanglish",
+   "q": "ration card hosadagi apply madbeku",
+   "expected": [
+    "ration-card-new"
+   ],
+   "top": [
+    "ration-card-new 0.789",
+    "ration-card-add-member 0.753",
+    "ration-card-correction 0.752"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-37",
+   "lang": "kanglish",
+   "q": "aadhaar alli hesaru tappagide hege sari madodu",
+   "expected": [
+    "aadhaar-correction"
+   ],
+   "top": [
+    "aadhaar-correction 0.755",
+    "pan-card 0.729",
+    "msme-samadhaan 0.684"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-38",
+   "lang": "kanglish",
+   "q": "online fraud aagide bank alli duddu hogide",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "life-certificate 0.694",
+    "aadhaar-correction 0.686",
+    "stolen-phone 0.680"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-39",
+   "lang": "kanglish",
+   "q": "jaati pramana patra hege padeyodu",
+   "expected": [
+    "caste-certificate"
+   ],
+   "top": [
+    "life-certificate 0.752",
+    "aadhaar-correction 0.691",
+    "pan-card 0.664"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "g- batch 1 (40)",
+   "id": "g-40",
+   "lang": "kanglish",
+   "q": "scholarship ge apply madoke last date yavaga",
+   "expected": [
+    "scholarship-find"
+   ],
+   "top": [
+    "scholarship-stuck 0.739",
+    "scholarship-find 0.736",
+    "income-certificate 0.685"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-41",
+   "lang": "kanglish",
+   "q": "passport renewal ge police verification beka",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.847",
+    "driving-licence 0.738",
+    "rti-file 0.681"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-42",
+   "lang": "kanglish",
+   "q": "rti hege haakodu online nalli land vishaya",
+   "expected": [
+    "rti-file"
+   ],
+   "top": [
+    "life-certificate 0.706",
+    "rti-first-appeal 0.669",
+    "udyam-registration 0.655"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-43",
+   "lang": "kanglish",
+   "q": "free lawyer sigutta na nam appa case ge",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.839",
+    "rti-first-appeal 0.689",
+    "pm-svanidhi 0.660"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-44",
+   "lang": "kanglish",
+   "q": "ration card cancel aagide 3 tingalinda ration bandilla",
+   "expected": [
+    "ration-card-new",
+    "ration-dealer-complaint",
+    "ration-card-correction"
+   ],
+   "top": [
+    "ration-card-new 0.825",
+    "ration-card-add-member 0.786",
+    "ration-card-correction 0.778"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-45",
+   "lang": "kanglish",
+   "q": "udyam registration madbeku nanna chikka angadi ge",
+   "expected": [
+    "udyam-registration"
+   ],
+   "top": [
+    "udyam-registration 0.870",
+    "aadhaar-correction 0.752",
+    "fssai 0.726"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-46",
+   "lang": "kanglish",
+   "q": "pm kisan duddu bandilla ekyc madidini",
+   "expected": [
+    "pm-kisan"
+   ],
+   "top": [
+    "pm-kisan 0.686",
+    "pm-svanidhi 0.666",
+    "udyam-registration 0.664"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-47",
+   "lang": "kanglish",
+   "q": "aadhaar alli mobile number change madodu hege",
+   "expected": [
+    "aadhaar-correction"
+   ],
+   "top": [
+    "aadhaar-correction 0.808",
+    "udyam-registration 0.702",
+    "pan-card 0.698"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-48",
+   "lang": "kanglish",
+   "q": "nanna phone kaledu hogide block madodu hege",
+   "expected": [
+    "stolen-phone"
+   ],
+   "top": [
+    "stolen-phone 0.783",
+    "life-certificate 0.682",
+    "rti-first-appeal 0.657"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-49",
+   "lang": "kanglish",
+   "q": "aadaya pramana patra college admission ge beku",
+   "expected": [
+    "income-certificate"
+   ],
+   "top": [
+    "aadhaar-correction 0.686",
+    "scholarship-find 0.684",
+    "pan-card 0.654"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-50",
+   "lang": "kanglish",
+   "q": "mane tax online kattodu hege bbmp",
+   "expected": [
+    "not_covered"
+   ],
+   "top": [
+    "life-certificate 0.688",
+    "income-certificate 0.674",
+    "msme-samadhaan 0.669"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-51",
+   "lang": "en",
+   "q": "tatkal passport how many days it take urgent",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.705",
+    "rti-first-appeal 0.660",
+    "aadhaar-correction 0.635"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-52",
+   "lang": "en",
+   "q": "my mother pension stopped which office to complain",
+   "expected": [
+    "pension-stopped"
+   ],
+   "top": [
+    "cpgrams-closed 0.831",
+    "pension-stopped 0.817",
+    "which-department 0.778"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-53",
+   "lang": "en",
+   "q": "got sms kyc update link clicked now money gone",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "cpgrams-closed 0.714",
+    "rti-first-appeal 0.709",
+    "msme-samadhaan 0.707"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-54",
+   "lang": "en",
+   "q": "scholarship rejected reason not shown what next",
+   "expected": [
+    "scholarship-stuck"
+   ],
+   "top": [
+    "scholarship-stuck 0.840",
+    "scholarship-find 0.735",
+    "income-certificate 0.721"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-55",
+   "lang": "hinglish",
+   "q": "aadhar update ke liye kitne paise lagte hai",
+   "expected": [
+    "aadhaar-correction"
+   ],
+   "top": [
+    "aadhaar-correction 0.780",
+    "pan-card 0.763",
+    "msme-samadhaan 0.714"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-56",
+   "lang": "hinglish",
+   "q": "rti ka jawab galat diya appeal kaise kare",
+   "expected": [
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.809",
+    "aadhaar-correction 0.700",
+    "rti-file 0.699"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-57",
+   "lang": "hinglish",
+   "q": "mere pati maarte hai kya karu",
+   "expected": [
+    "emergency"
+   ],
+   "top": [
+    "aadhaar-correction 0.724",
+    "rti-first-appeal 0.685",
+    "which-department 0.681"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-58",
+   "lang": "tanglish",
+   "q": "udyam certificate free ah illa kasu kattanuma",
+   "expected": [
+    "udyam-registration"
+   ],
+   "top": [
+    "udyam-registration 0.770",
+    "aadhaar-correction 0.698",
+    "rti-file 0.690"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-59",
+   "lang": "tanglish",
+   "q": "caste certificate online apply panna enna venum",
+   "expected": [
+    "caste-certificate"
+   ],
+   "top": [
+    "caste-certificate 0.814",
+    "birth-certificate 0.737",
+    "income-certificate 0.723"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "g- batch 2 (20)",
+   "id": "g-60",
+   "lang": "tanglish",
+   "q": "free legal aid enga kidaikum en case ku",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.754",
+    "rti-first-appeal 0.633",
+    "aadhaar-correction 0.619"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-01",
+   "lang": "en",
+   "q": "how do i ask govt office why my file not moving",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-file 0.717",
+    "rti-first-appeal 0.707",
+    "cpgrams-closed 0.685"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-02",
+   "lang": "en",
+   "q": "rti fee kitna i mean how much is it 10rs",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.750",
+    "msme-samadhaan 0.676",
+    "ration-card-new 0.660"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-03",
+   "lang": "en",
+   "q": "paid online money gone but no confirmaton mail",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.745",
+    "cpgrams-closed 0.726",
+    "scholarship-stuck 0.724"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-04",
+   "lang": "en",
+   "q": "sent rti by post 40 days back no responce",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.893",
+    "rti-file 0.731",
+    "pension-stopped 0.729"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-05",
+   "lang": "en",
+   "q": "they replied but didnt answer my actual questin what next",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.785",
+    "cpgrams-closed 0.701",
+    "scholarship-stuck 0.699"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-06",
+   "lang": "en",
+   "q": "first appeal also ignored where to go now",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.829",
+    "gst-rejected 0.698",
+    "scholarship-stuck 0.694"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-07",
+   "lang": "en",
+   "q": "which commision to complain state or central confused",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "which-department 0.716",
+    "cpgrams-closed 0.690",
+    "pension-stopped 0.642"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-08",
+   "lang": "en",
+   "q": "i addressed it to wrong dept will they send it to right one",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "ration-card-correction 0.790",
+    "epfo-correction 0.766",
+    "rti-first-appeal 0.755"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-09",
+   "lang": "en",
+   "q": "im bpl do i pay anything for rti",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.799",
+    "ration-card-new 0.727",
+    "msme-samadhaan 0.721"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-10",
+   "lang": "en",
+   "q": "they want extra money for copies is that allowed",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "ration-dealer-complaint 0.754",
+    "ration-card-new 0.661",
+    "msme-samadhaan 0.659"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-11",
+   "lang": "en",
+   "q": "can i get copy of my exam answer sheet thru rti",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.763",
+    "rti-file 0.714",
+    "pension-stopped 0.700"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-12",
+   "lang": "en",
+   "q": "what to write in rti letter dont know format",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.733",
+    "rti-file 0.710",
+    "ration-card-correction 0.641"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-13",
+   "lang": "en",
+   "q": "pio name not on website who do i address",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "epfo-correction 0.738",
+    "rti-first-appeal 0.716",
+    "pan-card 0.713"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-14",
+   "lang": "en",
+   "q": "can i file rti for my village panchayat spending",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.732",
+    "pm-kisan 0.704",
+    "ration-card-new 0.685"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-15",
+   "lang": "en",
+   "q": "rti rejected saying personal info but its about me only",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "top": [
+    "rti-first-appeal 0.833",
+    "rti-file 0.796",
+    "gst-rejected 0.709"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-16",
+   "lang": "en",
+   "q": "police verfication still pending after 1 month what do",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "cpgrams-closed 0.676",
+    "pension-stopped 0.671",
+    "rti-first-appeal 0.669"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-17",
+   "lang": "en",
+   "q": "cop never came but status says sent to police",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "rti-first-appeal 0.674",
+    "cpgrams-closed 0.645",
+    "pension-stopped 0.636"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-18",
+   "lang": "en",
+   "q": "got adverse report dont know why i have no case",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "rti-first-appeal 0.786",
+    "cpgrams-closed 0.735",
+    "rti-file 0.724"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-19",
+   "lang": "en",
+   "q": "police said not found at address i was at work",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "civic-complaint 0.724",
+    "rti-first-appeal 0.708",
+    "stolen-phone 0.701"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-20",
+   "lang": "en",
+   "q": "my kid 3 yrs old need police check for passport",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.740",
+    "death-certificate 0.667",
+    "birth-certificate 0.663"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-21",
+   "lang": "en",
+   "q": "dad is 68 renewing passport police will come?",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.797",
+    "death-certificate 0.740",
+    "driving-licence 0.695"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-22",
+   "lang": "en",
+   "q": "shifted to new flat after applying now what",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "rti-first-appeal 0.680",
+    "cpgrams-closed 0.674",
+    "scholarship-stuck 0.655"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-23",
+   "lang": "en",
+   "q": "what documents to show when police come home",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "rti-file 0.690",
+    "death-certificate 0.680",
+    "life-certificate 0.656"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-24",
+   "lang": "en",
+   "q": "can police verification happen thru app no visit",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "stolen-phone 0.697",
+    "passport 0.671",
+    "rti-file 0.661"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-25",
+   "lang": "en",
+   "q": "how long police verification take usually",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "driving-licence 0.609",
+    "passport 0.602",
+    "pension-stopped 0.600"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-26",
+   "lang": "en",
+   "q": "tatkal passport police check before or after",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.757",
+    "aadhaar-correction 0.659",
+    "driving-licence 0.648"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-27",
+   "lang": "en",
+   "q": "police asking money to clear my report",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "cpgrams-closed 0.702",
+    "msme-samadhaan 0.695",
+    "which-department 0.681"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-28",
+   "lang": "en",
+   "q": "old fir closed will it block my passport",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.784",
+    "pension-stopped 0.724",
+    "cpgrams-closed 0.713"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-29",
+   "lang": "en",
+   "q": "living on rent no agreement can police verify",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "cpgrams-closed 0.667",
+    "driving-licence 0.658",
+    "rti-first-appeal 0.658"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-30",
+   "lang": "en",
+   "q": "passport came but verification shows pending is ok?",
+   "expected": [
+    "passport"
+   ],
+   "top": [
+    "passport 0.825",
+    "pension-stopped 0.710",
+    "rti-file 0.705"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-31",
+   "lang": "en",
+   "q": "cant afford lawyer can govt give one free",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.853",
+    "rti-first-appeal 0.688",
+    "pm-svanidhi 0.679"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-32",
+   "lang": "en",
+   "q": "who all can get free legal help",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.837",
+    "driving-licence 0.635",
+    "voter-id 0.627"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-33",
+   "lang": "en",
+   "q": "how to apply free lawyer in my district",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.851",
+    "driving-licence 0.703",
+    "pm-kisan 0.697"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-34",
+   "lang": "en",
+   "q": "husband harrasing me no money for case",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.741",
+    "msme-samadhaan 0.723",
+    "cpgrams-closed 0.710"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-35",
+   "lang": "en",
+   "q": "my son is minor police took him need lawyer",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.779",
+    "death-certificate 0.695",
+    "msme-samadhaan 0.679"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-36",
+   "lang": "en",
+   "q": "brother in jail long time no bail no lawyer",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.732",
+    "rti-first-appeal 0.667",
+    "cpgrams-closed 0.626"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-37",
+   "lang": "en",
+   "q": "what is lok adalat can my case go there",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.696",
+    "aadhaar-correction 0.695",
+    "pan-card 0.662"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-38",
+   "lang": "en",
+   "q": "bank loan fight settle without court possible",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.707",
+    "cpgrams-closed 0.648",
+    "scholarship-stuck 0.648"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-39",
+   "lang": "en",
+   "q": "do i need income proof for free lawyer",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.871",
+    "income-certificate 0.777",
+    "scholarship-find 0.709"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-40",
+   "lang": "en",
+   "q": "is free legal aid only for criminal case or civil also",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.781",
+    "driving-licence 0.615",
+    "rti-first-appeal 0.606"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-41",
+   "lang": "en",
+   "q": "labour not paid salary can i get free help",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "e-shram 0.751",
+    "free-legal-aid 0.737",
+    "cpgrams-closed 0.728"
+   ],
+   "gate": true,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-42",
+   "lang": "en",
+   "q": "im sc can i get free advocate",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.803",
+    "rti-first-appeal 0.714",
+    "pension-stopped 0.696"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-43",
+   "lang": "en",
+   "q": "where is dlsa office how to contact",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "which-department 0.726",
+    "rti-file 0.711",
+    "domicile-certificate 0.650"
+   ],
+   "gate": false,
+   "top1": false
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-44",
+   "lang": "en",
+   "q": "free lawyer not coming to hearings what to do",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.842",
+    "rti-first-appeal 0.673",
+    "scholarship-stuck 0.663"
+   ],
+   "gate": true,
+   "top1": true
+  },
+  {
+   "set": "t- routing only (45)",
+   "id": "t-45",
+   "lang": "en",
+   "q": "land dispute with relatives free legal help avalable",
+   "expected": [
+    "free-legal-aid"
+   ],
+   "top": [
+    "free-legal-aid 0.772",
+    "cpgrams-closed 0.653",
+    "rti-first-appeal 0.651"
+   ],
+   "gate": true,
+   "top1": true
+  }
+ ]
+}

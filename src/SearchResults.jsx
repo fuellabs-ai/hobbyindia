@@ -1,6 +1,30 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Flow, { flowByCard } from './Flow';
 import Feedback from './Feedback';
+import RouteGraph from './RouteGraph';
+import KnowledgeMap from './KnowledgeMap';
+import passageData from '../data/sources/passages.json';
+
+const passageById = Object.fromEntries(passageData.passages.map(p => [p.id, p]));
+const clip = (s, n) => s.length > n ? s.slice(0, s.lastIndexOf(' ', n)) + '…' : s;
+
+// An official FAQ passage HobbyLM-Embed ranked for this question (chunked departments only).
+// Off for launch: on the fresh 45-question test (27 Nov), 3 of the 7 quotes that would be shown were the
+// wrong passage (57% correct). Turn back on only after a new fresh test shows high precision.
+const SHOW_OFFICIAL_QUOTES = false;
+function OfficialQuote({ data, cardId }) {
+  if (!SHOW_OFFICIAL_QUOTES) return null;
+  const best = (data.passages || []).find(p => passageById[p.id] && p.score >= (data.passage_threshold ?? 1));
+  if (!best) return null;
+  const p = passageById[best.id];
+  if (!p.cards.includes(cardId)) return null;
+  return <aside className="official-quote">
+    <span>Related answer from the official FAQ</span>
+    <b>{p.question}</b>
+    <q>{clip(p.text, 320)}</q>
+    <a href={safeUrl(p.url)} target="_blank" rel="noopener noreferrer">{p.source} ↗</a>
+  </aside>;
+}
 import { AlertTriangle, ArrowUpRight, Phone } from 'lucide-react';
 import './search.css';
 import { cardById, emergencyContacts, safeUrl } from './search';
@@ -28,7 +52,7 @@ function Emergency() {
 function Card({ card, primary, onGuide }) {
   return <article className={`result-card ${primary ? 'primary' : ''}`}>
     <div className="result-meta"><span className="coverage">{guides[card.id] ? 'Reviewed guide' : 'Official route only'}</span><span>{card.scope}</span></div>
-    <h4>{card.title}</h4>
+    <h3>{card.title}</h3>
     <p>{card.summary}</p>
     <a className="official-link" href={safeUrl(card.official_url)} target="_blank" rel="noopener noreferrer">{card.official_name}<span className="host">{host(card.official_url)}</span><ArrowUpRight size={16}/><span className="sr-only"> (official site, opens in a new tab)</span></a>
     {onGuide && flowByCard[card.id] && <button className="guide-button" onClick={() => onGuide(card.id)}>Guide me step by step</button>}
@@ -37,13 +61,15 @@ function Card({ card, primary, onGuide }) {
 }
 
 // The citizen chooses: the best match opens as a guided flow (or a card), the others stay one tap away.
-function Chosen({ id, others, onPick }) {
+function Chosen({ id, others, onPick, onTrail, quote }) {
   const card = cardById[id];
   const flow = flowByCard[id];
+  useEffect(() => { if (!flow) onTrail([], { url: safeUrl(card.official_url), label: card.official_name, authority: card.official_name }); }, [id]);
   return <div className="chosen">
-    <div className="chosen-head"><h4>{card.title}</h4><span>{card.scope}</span></div>
-    {flow ? <Flow flow={flow}/> : <Card card={card} primary/>}
+    <div className="chosen-head"><h3>{card.title}</h3><span>{card.scope}</span></div>
+    <Flow key={id} flow={flow} card={card} onTrail={onTrail}/>
     {flow && <p className="card-disclaimer">{DISCLAIMER}</p>}
+    {quote}
     {others.length > 0 && <div className="not-this"><span>Not this?</span>{others.map(o => <button key={o} onClick={() => onPick(o)}>{cardById[o].title}</button>)}</div>}
   </div>;
 }
@@ -51,33 +77,40 @@ function Chosen({ id, others, onPick }) {
 export default function SearchResults({ search, onClear }) {
   const heading = useRef(null);
   const [picked, setPicked] = useState(null);
+  const [route, setRoute] = useState({ trail: [], handoff: null });
+  const onTrail = (trail, handoff) => setRoute({ trail, handoff });
   useEffect(() => { setPicked(null); }, [search?.question, search?.status]);
-  useEffect(() => { if (search?.status === 'done') heading.current?.focus(); }, [search?.status, search?.question]);
+  useEffect(() => { if (search?.status === 'done') heading.current?.focus({ preventScroll: true }); }, [search?.status, search?.question]);
   if (!search) return null;
   const { question, status, data } = search;
   return <section id="search-results" className="search-results" aria-live="polite" aria-busy={status === 'working'}>
     <p className="turn-question">{question}</p>
-    {status === 'working' && <p className="search-status">Finding the closest services…</p>}
+    {status === 'working' && <div className="search-loading"><p className="search-status" role="status">Finding the closest services…</p><div className="skeleton"/><div className="skeleton"/><div className="skeleton short"/></div>}
     {status === 'done' && <>
       {data.emergency && <Emergency/>}
       {search.waking && <p className="waking" role="status">Smart search is starting, about a minute. These are quick keyword results; they’ll update when it’s ready.</p>}
       {search.upgraded && <p className="waking done" role="status">Updated with HobbyLM-Embed smart search.</p>}
       {data.reason === 'script_unsupported' ? <>
-        <h3 ref={heading} tabIndex={-1} className="search-heading">Please type in English letters</h3>
+        <h2 ref={heading} tabIndex={-1} className="search-heading">Please type in English letters</h2>
         <p className="search-note">We can’t read Hindi, Tamil or Kannada script yet. Try typing the same question in English letters, for example “ration card kaise banaye” or “aadhaar la per thappa irukku”.</p>
       </> : <>
-      <h3 ref={heading} tabIndex={-1} className="search-heading">{picked || data.covered ? 'Your next step' : data.ambiguous ? 'Which of these fits?' : 'Not covered yet'}</h3>
+      <h2 ref={heading} tabIndex={-1} className="search-heading">{picked || data.covered ? 'Your next step' : data.ambiguous ? 'Which of these fits?' : 'Not covered yet'}</h2>
       {!picked && data.ambiguous && !data.covered && <p className="search-note">More than one service matches. Pick the one that fits your situation.</p>}
       {!picked && !data.covered && !data.ambiguous && <p className="search-note">We don’t have a card for this question yet. These are the closest services we do cover. They may not fit your situation.</p>}
       {(() => {
         const ids = data.results.map(r => r.id);
         const chosen = picked || (data.covered ? ids[0] : null);
-        if (chosen) return <><Chosen id={chosen} others={ids.filter(i => i !== chosen)} onPick={setPicked}/><Feedback key={chosen + search.question} cardId={chosen} privateMode={data.source === 'private'}/></>;
-        return <><div className="result-list">{ids.map(i => <Card key={i} card={cardById[i]} onGuide={setPicked}/>)}</div>{ids[0] && <Feedback key={ids[0] + search.question} cardId={ids[0]} privateMode={data.source === 'private'}/>}</>;
+        if (chosen) return <><Chosen id={chosen} others={ids.filter(i => i !== chosen)} onPick={setPicked} onTrail={onTrail} quote={<OfficialQuote data={data} cardId={chosen}/>}/><Feedback key={chosen + search.question} cardId={chosen} privateMode={data.source === 'private'}/><RouteGraph question={search.question} data={data} chosenId={chosen} flowTrail={route.trail} handoff={route.handoff} onPick={setPicked}/><KnowledgeMap activeId={chosen} onOpen={setPicked}/></>;
+        return <><div className="result-list">{ids.map(i => <Card key={i} card={cardById[i]} onGuide={setPicked}/>)}</div>{ids[0] && <Feedback key={ids[0] + search.question} cardId={ids[0]} privateMode={data.source === 'private'}/>}<RouteGraph question={search.question} data={data} chosenId={null} onPick={setPicked}/></>;
       })()}
       </>}
       <p className="search-source">
-        {data.source === 'private' ? 'Matched on your computer with HobbyLM-Embed (private mode).' : data.source === 'embedding' ? 'Matched with HobbyLM-Embed.' : data.source === 'local' ? '' : `Matched with keyword search because the search service was ${data.fallbackReason === 'timeout' ? 'slow' : 'unavailable'}.`}{' '}
+        {data.source === 'browse' ? 'Opened from the services map.'
+          : data.source === 'local' ? 'Matched on your device with HobbyLM-Embed Mini.'
+          : data.source === 'private' ? 'Matched on your computer with HobbyLM-Embed (private mode).'
+          : data.source === 'embedding' ? 'Matched with HobbyLM-Embed.'
+          : data.source === 'keyword' && data.fallbackReason ? `Matched with keyword search because the search service was ${data.fallbackReason === 'timeout' ? 'slow' : 'unavailable'}.`
+          : data.source === 'keyword' ? 'Matched with keyword search.' : ''}{' '}
         Results come from fixed cards written by the project team. Nothing here is generated, and the official service decides your case.
       </p>
       <button className="secondary-action" onClick={onClear}>Ask another question</button>

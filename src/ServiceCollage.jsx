@@ -51,7 +51,7 @@ function Guilloche() {
   </svg>;
 }
 
-export default function ServiceCollage({ hideComposer = false }) {
+export default function ServiceCollage({ hideComposer = false, onAsk }) {
   const [state, setState] = useState('Karnataka');
   const [issue, setIssue] = useState('Short quantity');
   const [zoom, setZoom] = useState(1);
@@ -108,7 +108,7 @@ export default function ServiceCollage({ hideComposer = false }) {
         HobbyLM <span className="badge-slot"><button className={`arrow-badge ${arrowPressed ? 'pressed' : ''}`} aria-label="Press the arrow" onClick={pressArrow}><ArrowRight strokeWidth={2.4}/></button></span> explores clearer next steps using <span className="badge-slot seals"><button className="seal-button" aria-label={`Cycle official service logos. Showing ${LOGO_SETS[logoSet].map(([, name]) => name).join(', ')}`} onClick={() => setLogoSet(i => (i + 1) % LOGO_SETS.length)}>{LOGO_SETS[logoSet].map(([file, name], i) => <span key={`${logoSet}-${file}`} className={`logo-seal seal-${i} ${ROUND_LOGOS.has(file) ? 'round' : ''}`} style={{ animationDelay: `${i * 70}ms` }}><img src={`/logos/${file}.svg`} alt="" title={name}/></span>)}</button></span> official Indian sources. It’s an independent experiment. Don’t share <span className="badge-slot print"><button className={`print-button ${printChecked ? 'checked' : ''}`} aria-label="Animate the fingerprint" onClick={animatePrint}><svg viewBox="0 0 48 48" className="fingerprint" aria-hidden="true"><g fill="none" stroke="#e23a8f" strokeWidth="1.6" strokeLinecap="round">{[6, 9.5, 13, 16.5, 20].map((r, i) => <path key={r} pathLength="1" style={{ animationDelay: `${i * 60}ms` }} d={`M${24 - r} ${26 + i * .6}a${r} ${r + 1} 0 0 1 ${r * 2} 0${i % 2 ? `v${3 + i}` : ''}`}/>)}<path pathLength="1" d="M24 26v9M20.5 27v7.5c0 2 .6 4 1.6 5.5M27.5 27v6c0 3-.8 5.6-2 7.6M17 28.5v4c0 3 .9 6 2.6 8.3M31 28v3.5c0 4-1 7.4-3 10"/></g></svg><svg viewBox="0 0 48 48" className="print-check" aria-hidden="true"><path d="M14 25l7 7 13-15" fill="none" stroke="#22b357" strokeWidth="3.4" strokeLinecap="round" strokeLinejoin="round" pathLength="1"/></svg></button></span> personal details here.
       </h2>
       <button className="explore-button" onClick={explore}>Explore the service previews</button>
-      <p className="concept-note">Explore the service concepts. Live model output is available through the experimental toggle.</p>
+      <p className="concept-note">Every answer is written by people and links to the official site. Nothing is generated, and your question stays on your device.</p>
     </div>
 
     <div className="service-scene" ref={sceneRef} tabIndex={-1} aria-label="Service previews" onPointerDown={() => { userPanned.current = true; }} onWheel={e => { if (Math.abs(e.deltaX) > 0) userPanned.current = true; }}>
@@ -231,7 +231,7 @@ export default function ServiceCollage({ hideComposer = false }) {
       </div>
     </div>
 
-    {!hideComposer && <form className="ask-bar" onSubmit={e => { e.preventDefault(); setAskStatus('This is an interface preview. Your question has not been sent or saved.'); }}>
+    {!hideComposer && <form className="ask-bar" onSubmit={e => { e.preventDefault(); const q = ask.trim(); if (!q) return; if (onAsk) { onAsk(q); setAsk(''); setAskStatus(''); } }}>
       {askStatus && <p className="ask-status" role="status">{askStatus}</p>}
       <label className="sr-only" htmlFor="scene-question">Describe what you need</label>
       <input id="scene-question" value={ask} placeholder="Describe what you need…" autoComplete="off" maxLength={500} onChange={e => { setAsk(e.target.value); setAskStatus(''); }}/>

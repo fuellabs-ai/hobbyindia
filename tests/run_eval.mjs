@@ -2,7 +2,7 @@
 // keyword fallback, and writes every result, including failures, to tests/results.json.
 //   node tests/run_eval.mjs [http://127.0.0.1:8791/api/search]
 import { build } from 'esbuild';
-import { readFileSync, writeFileSync, mkdtempSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdtempSync, mkdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
@@ -28,7 +28,10 @@ for (const t of questions) {
   const kw = search.keywordSearch(t.q);
   rows.push({ ...t, normalized: search.normalize(t.q), api: { source: api.source, ms: api.ms, emergency: api.emergency, covered: api.covered, results: api.results, grade: grade(t.expected, api) }, keyword: { emergency: kw.emergency, covered: kw.covered, results: kw.results, grade: grade(t.expected, kw) } });
 }
-writeFileSync(new URL(qfile.replace('.json', '') + '.results.json', import.meta.url), JSON.stringify(rows, null, 1) + '\n');
+// Allow validation without touching UI-owned/frozen question or result files.
+const resultName = qfile.replace('.json', '') + '.results.json';
+if (process.env.EVAL_OUTPUT_DIR) mkdirSync(process.env.EVAL_OUTPUT_DIR, { recursive: true });
+writeFileSync(process.env.EVAL_OUTPUT_DIR ? join(process.env.EVAL_OUTPUT_DIR, resultName) : new URL(resultName, import.meta.url), JSON.stringify(rows, null, 1) + '\n');
 
 const fmt = r => r.results.map(x => `${x.id} ${x.score}`).join(', ');
 for (const r of rows) {

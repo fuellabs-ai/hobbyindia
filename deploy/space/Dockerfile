@@ -10,7 +10,7 @@ ENV HF_HOME=/app/hf
 # Bake the pinned model into the image so the server never downloads it at runtime.
 RUN python -c "from sentence_transformers import SentenceTransformer as S; S('harims95/hobbylm-embed-140m', revision='ea708cee107818fa0c1871eebd26d82a1e3fb1aa', trust_remote_code=True, device='cpu')" \
  && chown -R user /app/hf
-COPY server/search_core.py server/search_server.py server/
+COPY server/search_core.py server/search_server.py server/passage_search.py server/
 COPY data/ data/
 USER user
 # ALLOW_ORIGIN: comma-separated site origins allowed to call the API (set as a Space variable).

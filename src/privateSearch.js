@@ -6,8 +6,10 @@ import * as ort from 'onnxruntime-web/wasm';
 import { AutoTokenizer, env } from '@huggingface/transformers';
 import indexMeta from '../data/index/index.json';
 import vectorsUrl from '../data/index/vectors.f32?url';
+import passagesUrl from '../data/index/passages.f32?url';
 import config from '../data/search_config.json';
-import { cards, redact, normalize, isEmergency, indicScript } from './search';
+import { cards, searchMetadata } from './search';
+import { chunks, passageDim, departmentByCard, rankPassages, passageResponse } from './passageSearch';
 
 export const MODEL_URL = import.meta.env.VITE_PRIVATE_MODEL_URL || '/models/hobbylm_embed_140m.fp32.onnx';
 export const MODEL_MB = 560;
@@ -61,14 +63,22 @@ async function cacheAppShell() {
 
 export async function loadPrivateModel(onProgress) {
   if (state) return;
-  const [buffer, tokenizer, vecBuf] = await Promise.all([
+  const [buffer, tokenizer, vecBuf, passageBuf] = await Promise.all([
     modelBuffer(onProgress),
     AutoTokenizer.from_pretrained('tokenizer'),
-    fetch(vectorsUrl).then(r => r.arrayBuffer()),
+    fetch(vectorsUrl).then(r => { if (!r.ok) throw new Error('card vectors unavailable'); return r.arrayBuffer(); }),
+    fetch(passagesUrl).then(r => { if (!r.ok) throw new Error('passage vectors unavailable'); return r.arrayBuffer(); }),
   ]);
+  if (passageDim !== indexMeta.dim || vecBuf.byteLength !== indexMeta.rows.length * indexMeta.dim * 4 || passageBuf.byteLength !== chunks.length * passageDim * 4) {
+    throw new Error('Search vectors do not match their metadata; reload the application.');
+  }
   const session = await ort.InferenceSession.create(buffer, { executionProviders: ['wasm'] });
   const col = Object.fromEntries(cards.map((c, i) => [c.id, i]));
-  state = { session, tokenizer, vecs: new Float32Array(vecBuf), rowCard: indexMeta.rows.map(r => col[r.card]) };
+  const offsets = Object.fromEntries(cards.map(c => [c.id, 0]));
+  const rowMatches = indexMeta.rows.map(r => ({ via: r.kind,
+    matched: r.kind === 'card' ? cards[col[r.card]].title : cards[col[r.card]].examples[offsets[r.card]++] }));
+  state = { session, tokenizer, vecs: new Float32Array(vecBuf), passageVecs: new Float32Array(passageBuf),
+    rowCard: indexMeta.rows.map(r => col[r.card]), rowMatches };
   await cacheAppShell();
 }
 
@@ -87,19 +97,24 @@ async function embedQuery(text) {
 
 export async function privateSearch(raw) {
   const started = performance.now();
-  const [text] = redact(raw);
-  const norm = normalize(text);
-  const emergency = isEmergency(raw, norm);
-  if (indicScript(raw)) return { emergency, covered: false, reason: 'script_unsupported', results: [], source: 'private', ms: 0 };
-  if (!norm) return { emergency, covered: false, results: [], source: 'private', ms: 0 };
-  const q = await embedQuery(norm);
+  const metadata = searchMetadata(raw, 'private');
+  if (metadata.reason || !metadata.cleaned) return { ...metadata, ms: 0 };
+  if (!state) throw new Error('Private model is not ready');
+  const embedStarted = performance.now();
+  const q = await embedQuery(metadata.cleaned);
+  const embed = Math.round(performance.now() - embedStarted);
   const dim = indexMeta.dim, best = new Array(cards.length).fill(-1);
+  const winners = new Array(cards.length).fill(0);
   for (let r = 0; r < state.rowCard.length; r++) {
     let s = 0; const off = r * dim;
     for (let i = 0; i < dim; i++) s += state.vecs[off + i] * q[i];
-    const c = state.rowCard[r]; if (s > best[c]) best[c] = s;
+    const c = state.rowCard[r]; if (s > best[c]) { best[c] = s; winners[c] = r; }
   }
-  const results = best.map((score, i) => ({ id: cards[i].id, score: Math.round(score * 1e4) / 1e4 }))
-    .sort((a, b) => b.score - a.score).slice(0, config.top_k);
-  return { emergency, covered: results[0].score >= config.threshold, threshold: config.threshold, results, source: 'private', ms: Math.round(performance.now() - started) };
+  // Sort unrounded scores, just like the server; rounding must not change ties.
+  const order = best.map((_, i) => i).sort((a, b) => best[b] - best[a] || a - b).slice(0, config.top_k);
+  const results = order.map(i => ({ id: cards[i].id, score: Math.round(best[i] * 1e4) / 1e4, ...state.rowMatches[winners[i]] }));
+  const ranked = rankPassages(metadata.cleaned, q, state.passageVecs, departmentByCard[results[0]?.id]);
+  const total = Math.round(performance.now() - started);
+  return { ...metadata, covered: Boolean(results.length) && results[0].score >= config.threshold, results,
+    compared: indexMeta.rows.length, ...passageResponse(ranked), timing_ms: { embed, total }, ms: total };
 }

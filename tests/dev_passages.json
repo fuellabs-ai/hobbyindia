@@ -1,0 +1,20 @@
+{
+  "note": "Original synthetic tuning questions only. Five per department, including one deliberately unanswerable question in each. Never a held-out evaluation set.",
+  "questions": [
+    {"id": "dev-rti-1", "dept": "rti", "q": "Will an online information request give me an acknowledgement I can use to track it?", "expected": ["rti-003"]},
+    {"id": "dev-rti-2", "dept": "rti", "q": "Must I pay another charge when I lodge the first RTI appeal?", "expected": ["rti-007"]},
+    {"id": "dev-rti-3", "dept": "rti", "q": "My original RTI was on paper. Can its first appeal be lodged through the online portal?", "expected": ["rti-014", "rti-023"]},
+    {"id": "dev-rti-4", "dept": "rti", "q": "Do I have to register a user account before submitting an RTI online?", "expected": ["rti-010"]},
+    {"id": "dev-rti-5", "dept": "rti", "q": "Where can I schedule an in-person RTI training course?", "expected": []},
+    {"id": "dev-passport-1", "dept": "passport", "q": "My passport has not arrived after half a year because the police check has not finished. Who should I contact?", "expected": ["passport-026"]},
+    {"id": "dev-passport-2", "dept": "passport", "q": "Can my baby get a passport without a police check if a parent holds a valid passport?", "expected": ["passport-030"]},
+    {"id": "dev-passport-3", "dept": "passport", "q": "The police report on my passport application is adverse. How do I clear that?", "expected": ["passport-045"]},
+    {"id": "dev-passport-4", "dept": "passport", "q": "For Tatkaal, is the police check before the passport arrives or afterwards?", "expected": ["passport-046"]},
+    {"id": "dev-passport-5", "dept": "passport", "q": "What is the passport fee for adding extra pages?", "expected": []},
+    {"id": "dev-legal-1", "dept": "legal-aid", "q": "I am a woman earning my own salary. Does that rule out getting a free legal aid lawyer?", "expected": ["legal-aid-062"]},
+    {"id": "dev-legal-2", "dept": "legal-aid", "q": "Will the legal services office charge me just to obtain or submit the legal aid form?", "expected": ["legal-aid-053"]},
+    {"id": "dev-legal-3", "dept": "legal-aid", "q": "Will details I give the legal aid office remain confidential?", "expected": ["legal-aid-100"]},
+    {"id": "dev-legal-4", "dept": "legal-aid", "q": "My application for a free lawyer was rejected. Is there a way to challenge the rejection?", "expected": ["legal-aid-104"]},
+    {"id": "dev-legal-5", "dept": "legal-aid", "q": "How can a lawyer download a panel recruitment examination admit card?", "expected": []}
+  ]
+}

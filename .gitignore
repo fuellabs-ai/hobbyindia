@@ -14,5 +14,18 @@ assets-src/
 public/fonts/helvetica-now-*.woff2
 public/fonts/rhymes-text.woff2
 public/logos/
+# Mini int8 weights: licence check on other training shards pending (HANDOFF.md §12) before publishing. Tokenizer is committed.
+public/mini-model/*.onnx
 __pycache__/
 *.pyc
+data/sources/raw/
+HANDOFF.md
+# Approved build (release/web): same exclusions as public/
+release/web/fonts/helvetica-now-*.woff2
+release/web/fonts/rhymes-text.woff2
+release/web/logos/
+release/web/mini-model/*.onnx
+# Local screenshots, exports and scratch files
+output/
+Untitled-*.json
+Plan B is built*.md

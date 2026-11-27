@@ -12,7 +12,7 @@ numbers and finds the closest of 36 service cards and 10 decision flows. People 
 ends at an official government website. **Nothing is generated.**
 
 - **Server mode (default):** the question goes to a small search server (`server/`). No login. Questions are not logged or stored; numbers that look like Aadhaar, phone or PAN are removed first.
-- **Private mode (laptops):** the model ([ONNX, 560 MB](https://huggingface.co/fuellabs/hobbylm-embed-140m-onnx)) runs in your browser. Your question isn't sent anywhere. Works offline after the first load.
+- **Private mode (laptops):** the model ([ONNX, 560 MB](https://huggingface.co/harims95/hobbylm-embed-140m-onnx)) runs in your browser. Your question isn't sent anywhere. Works offline after the first load.
 - If the server is slow or asleep, the browser falls back to keyword search over the same cards.
 - Emergencies (violence, theft, fraud) always show 112 and cybercrime.gov.in first.
 

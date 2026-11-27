@@ -1,1 +1,15 @@
-{"threshold": 0.70, "top_k": 3, "note": "Shared by server/search_server.py and src/privateSearch.js. 0.70 chosen on dev data only (scripts/tune_threshold.py)."}
+{
+  "threshold": 0.7,
+  "mini_threshold": 0.72,
+  "top_k": 3,
+  "note": "Shared by server/search_server.py, src/privateSearch.js and src/miniSearch.js. 0.70 chosen on dev data only (scripts/tune_threshold.py); mini_threshold 0.72 chosen on practice data only by scripts/eval_mini.mjs.",
+  "passage_threshold": 0,
+  "passage_retrieval": {
+    "chunk_words": 120,
+    "method": "weighted_zscore",
+    "embedding_weight": 0.7,
+    "bm25_weight": 0.3,
+    "quote_gate": "embedding_bm25_agreement",
+    "selected_on": "practice only: tests/passage_tuning_choice.json (54 answerable questions); frozen final test not used"
+  }
+}

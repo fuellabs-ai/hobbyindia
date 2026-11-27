@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Laptop, Lock } from 'lucide-react';
 
+export const SEARCH_MODE = import.meta.env.VITE_SEARCH_MODE || 'local'; // 'local' (Plan B) | 'server' (Plan C)
 export const PRIVATE_COPY = 'Runs on your computer. Your question isn’t sent anywhere. Works offline after the first load.';
 const FLAG = 'hobbylm-private-mode'; // only "on" or absent; no question data is ever stored
 
@@ -8,6 +9,7 @@ let mod = null;
 const load = () => (mod ??= import('./privateSearch'));
 
 // Exposes the private searcher to the page once it's ready (or null).
+// Plan C only: never starts in local mode, even with a leftover "on" flag.
 export function usePrivateMode() {
   const [status, setStatus] = useState('off'); // off | confirm | loading | on | error
   const [progress, setProgress] = useState(0);
@@ -30,7 +32,7 @@ export function usePrivateMode() {
 
   // Turned on before (and cached)? Start again on load, which also works offline.
   useEffect(() => {
-    if (localStorage.getItem(FLAG) !== 'on') return;
+    if (SEARCH_MODE !== 'server' || localStorage.getItem(FLAG) !== 'on') return;
     load().then(m => m.isModelCached()).then(cached => cached ? start() : localStorage.removeItem(FLAG)).catch(() => {});
   }, []);
 
@@ -39,6 +41,7 @@ export function usePrivateMode() {
 
 export default function PrivateModeControl({ pm }) {
   const { status, setStatus, progress, error, start, stop } = pm;
+  if (SEARCH_MODE !== 'server') return null; // local mode: everything already runs on the device
   if (status === 'on') return <div className="private-row on"><Lock size={15} aria-hidden="true"/><span><b>Private mode is on.</b> {PRIVATE_COPY}</span><button onClick={stop}>Turn off</button></div>;
   if (status === 'loading') return <div className="private-row"><span>Downloading HobbyLM-Embed to this computer… {Math.round(progress * 100)}%</span><progress value={progress} max="1" aria-label="Private mode download"/></div>;
   if (status === 'confirm') return <div className="private-row confirm" role="dialog" aria-label="Private mode">
