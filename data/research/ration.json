@@ -1,0 +1,82 @@
+{
+  "area": "Ration",
+  "checked_on": "2026-11-27",
+  "method": "Claude web search, 4 queries, 2026-11-27. Official sources cited where found; aggregator/guide sites (bankbazaar, citizennest, righttoinformation.wiki) used ONLY as evidence that a problem is common, never for facts. No Reddit threads were found. real_phrasings are written by Claude, not copied from users: treat them as drafts and replace with real wording when available. Every link needs a human click-check from India.",
+  "global_findings": [
+    "nfsa.gov.in online ration services have been discontinued in at least Goa after migration to the state SMART-PDS Ration Card Management System (new card, transfer, add/delete member, surrender). Source: https://www.goa.gov.in/wp-content/uploads/2026/06/MIGRATION-TO-NEW-SMART-PDS.pdf. Our cards that link nfsa.gov.in/portal/apply must be re-checked per state.",
+    "Helpline 14445 was allotted by DoT to the Department of Food & Public Distribution for national ration-card portability grievances. Source: https://dot.gov.in/accessservices/allotment-short-code-14445-helpline-purpose-national-portability-ration-cards. Current operating status UNVERIFIED.",
+    "Helpline 1967 is listed as a toll-free PDS call-centre number in a West Bengal food department notice: https://food.wb.gov.in/food/UserAdministration/uploads_Notice/789_20250530_120335_5837.pdf. Whether 1967 works in every state is UNVERIFIED.",
+    "PIB: linking or non-linking of Aadhaar with a ration card is not a criterion for deletion/cancellation under NFSA. Source: https://pib.gov.in/PressReleasePage.aspx?PRID=1808675"
+  ],
+  "situations": [
+    {
+      "situation": "Moved to another city or state and needs ration there now",
+      "real_phrasings": ["I moved to Bengaluru, can I get ration here with my Bihar card?", "shifted to a new city, how do I get my ration", "can I take ration in another state", "dusre state mein ration kaise milega", "naye sheher mein ration card chalega kya"],
+      "why_stuck": "People assume they need a new card; portability (ONORC) lets NFSA cardholders collect at any fair price shop, but many do not know it or the shop refuses.",
+      "evidence": ["https://www.citizennest.com/guide/ration-card-portability-not-working-fix (guide site, shows demand)"],
+      "clarifying_questions": [{"q": "Do you need ration now, or do you want to move your card permanently?", "options": ["Ration now", "Move my card permanently"]}],
+      "branches": [
+        {"when": "Ration now", "next_step": "Go to any fair price shop near your new home and ask to collect your ration under portability.", "authority": "Department of Food & Public Distribution (portability system); state food department for the shop", "official_link": "https://myscheme.gov.in/schemes/onorc", "keep_ready": ["Ration card number", "Aadhaar of the member collecting (fingerprint check)"], "if_it_fails": ["Shop refuses: call the state food helpline (1967 listed in some states, UNVERIFIED for all states) or 14445 (status UNVERIFIED)", "Fingerprint fails: see situation 'Biometric authentication failed at the shop'"], "sources": ["https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/nov/doc20221125135701.pdf", "https://myscheme.gov.in/schemes/onorc"]},
+        {"when": "Move my card permanently", "next_step": "See situation 'Move the ration card to a new state'.", "authority": "", "official_link": "", "keep_ready": [], "if_it_fails": [], "sources": []}
+      ],
+      "state_variation": "Portability applies to NFSA cards; state-scheme (non-NFSA) cards may not be portable across states. Which states fully support portability today: UNVERIFIED."
+    },
+    {
+      "situation": "Move the ration card to a new state permanently",
+      "real_phrasings": ["how to transfer ration card from one state to another", "I shifted to Pune, how do I get a Maharashtra ration card", "ration card surrender certificate kaise milega", "ration card transfer kaise kare dusre state mein", "do I need to cancel my old ration card to apply in new state"],
+      "why_stuck": "Two states are involved: the old state must issue a surrender/deletion certificate, the new state issues the card. Each state uses its own portal and document list.",
+      "evidence": ["https://fcs.uk.gov.in/pages/display/123-ration-card-transfer (official, Uttarakhand)", "https://www.bankbazaar.com/ration-card/ration-card-transfer-process.html (aggregator, shows demand)"],
+      "clarifying_questions": [{"q": "Have you already surrendered your old card?", "options": ["Yes, I have the certificate", "Not yet"]}],
+      "branches": [
+        {"when": "Not yet", "next_step": "Apply to surrender your old card with your old state's food department (District Supply Office or its online service) and get a surrender certificate.", "authority": "Food & Civil Supplies Department of the OLD state (District Supply Officer)", "official_link": "UNVERIFIED: varies by state; example Uttarakhand https://fcs.uk.gov.in/pages/display/123-ration-card-transfer", "keep_ready": ["Old ration card", "Application form of the old state"], "if_it_fails": ["No response: complain to the District Supply Officer of the old district", "Cannot travel back: check whether the old state offers online surrender (UNVERIFIED per state)"], "sources": ["https://fcs.uk.gov.in/pages/display/123-ration-card-transfer"]},
+        {"when": "Yes, I have the certificate", "next_step": "Apply for a new ration card on your NEW state's food department portal.", "authority": "Food & Civil Supplies Department of the NEW state", "official_link": "UNVERIFIED: state portal; nfsa.gov.in no longer handles this in some states (Goa notice)", "keep_ready": ["Surrender certificate", "Proof of new address (electricity/water bill or rent agreement)", "Aadhaar of all members"], "if_it_fails": ["Pending past the state's service timeline: escalate to the District Supply Officer", "Rejected: re-apply with the listed missing document or appeal to the DSO"], "sources": ["https://fcs.uk.gov.in/pages/display/123-ration-card-transfer", "https://www.goa.gov.in/wp-content/uploads/2026/06/MIGRATION-TO-NEW-SMART-PDS.pdf"]}
+      ],
+      "state_variation": "Document lists, fees and whether surrender is online differ by state. Uttarakhand lists a surrender certificate from the DSO (urban) or Gram Panchayat officer (rural)."
+    },
+    {
+      "situation": "Biometric (fingerprint) authentication failed at the ration shop",
+      "real_phrasings": ["fingerprint not matching at ration shop", "my mother's thumb is not working on ration machine", "ration denied because biometric failed", "ration dukan pe angutha match nahi ho raha", "machine mein finger nahi lag raha ration nahi de raha"],
+      "why_stuck": "Elderly and manual workers often fail fingerprint checks; dealers turn people away instead of using alternatives.",
+      "evidence": ["https://uidai.gov.in/images/rajyasabha/RSPQ394(Unstarred).pdf (official: denial due to authentication failure acknowledged)", "https://www.isb.edu/faculty-and-research/bharti-institute-of-public-policy/aadhar-authentication-failure-in-public-distribution-system-of-andhra-pradesh (study)", "https://www.inkl.com/news/senior-citizens-left-in-the-lurch-as-biometric-authentication-fails-at-fair-price-shops (news)"],
+      "clarifying_questions": [],
+      "branches": [
+        {"when": "Always", "next_step": "Ask the dealer to use another member of the family on the card, or an alternative authentication method, and if refused call the food helpline.", "authority": "State Food & Civil Supplies Department (District Supply Officer)", "official_link": "UNVERIFIED: state grievance portal", "keep_ready": ["Ration card number", "Aadhaar of another family member on the card"], "if_it_fails": ["Still refused: call the state food helpline (1967 in some states, UNVERIFIED for all)", "No help from helpline: written complaint to the District Supply Officer"], "sources": ["https://uidai.gov.in/images/rajyasabha/RSPQ394(Unstarred).pdf"]}
+      ],
+      "state_variation": "Fallback methods (OTP, iris, nominee) and exception rules are set by each state: UNVERIFIED. A guide site claims a Supreme Court ruling against denial for authentication failure: UNVERIFIED, not found in an official source."
+    },
+    {
+      "situation": "Ration dealer gives less grain, refuses, or overcharges",
+      "real_phrasings": ["ration dealer is giving less rice", "ration shop asking for extra money", "dealer says stock finished every month", "ration wala kam anaaj deta hai", "kotedar ration nahi de raha"],
+      "why_stuck": "People do not know complaints go to the state food department, not the dealer or the central government.",
+      "evidence": ["https://www.citizennest.com/guide/fair-price-shop-complaint (guide site, shows demand)", "https://www.consumercomplaints.in/bycompany/ration-card-a12613.html (complaints forum)"],
+      "clarifying_questions": [],
+      "branches": [
+        {"when": "Always", "next_step": "Call the state food helpline and register a complaint against the fair price shop.", "authority": "State Food & Civil Supplies Department (District Supply Officer)", "official_link": "UNVERIFIED: state grievance portal; NFSA lists state helplines at https://nfsa.gov.in/", "keep_ready": ["Ration card number", "Shop name or number and location", "Date and what you received"], "if_it_fails": ["No action: written complaint to the District Supply Officer", "Still no action: complaint to the State Food Commission (UNVERIFIED per state)"], "sources": ["https://food.wb.gov.in/food/UserAdministration/uploads_Notice/789_20250530_120335_5837.pdf"]}
+      ],
+      "state_variation": "Helpline numbers and grievance portals differ by state."
+    },
+    {
+      "situation": "Add a family member (newborn, spouse) or the addition is pending",
+      "real_phrasings": ["how to add my baby's name to ration card", "added wife's name but still not showing", "name addition pending for 2 months", "ration card mein bacche ka naam kaise jode", "naam add kiya tha abhi tak nahi aaya"],
+      "why_stuck": "Additions go through the state portal and need eKYC; applications stall silently.",
+      "evidence": ["https://righttoinformation.wiki/ration-card-name-addition-deletion-pending-india (guide, shows demand)", "https://www.citizennest.com/guide/ration-card-name-addition-not-showing-fix (guide, shows demand)"],
+      "clarifying_questions": [{"q": "Have you already applied?", "options": ["Not yet", "Applied, still pending"]}],
+      "branches": [
+        {"when": "Not yet", "next_step": "Apply to add the member on your state food department's ration card portal or at the food office.", "authority": "State Food & Civil Supplies Department", "official_link": "UNVERIFIED: state portal", "keep_ready": ["Ration card", "Birth certificate (child) or marriage certificate (spouse)", "Aadhaar of the new member"], "if_it_fails": ["Rejected: check the reason on the state portal and re-apply", "Portal error: apply at the district/taluk food office"], "sources": ["https://fcs.uk.gov.in/modification-in-ration-card/"]},
+        {"when": "Applied, still pending", "next_step": "Check the application status on the state portal, then escalate to the District Supply Officer if it is past the state's service timeline.", "authority": "District Supply Officer", "official_link": "UNVERIFIED: state portal", "keep_ready": ["Application or acknowledgement number", "Ration card number"], "if_it_fails": ["No response: state food helpline", "Still pending: complaint under the state's Right to Service Act, where one exists (UNVERIFIED per state)"], "sources": []}
+      ],
+      "state_variation": "Timelines (a guide claims 30 days under state Right to Service Acts: UNVERIFIED) and documents differ by state."
+    },
+    {
+      "situation": "Name or ration card deleted or cancelled",
+      "real_phrasings": ["my name was removed from the ration card list", "ration card cancelled without reason", "card deleted because Aadhaar not linked", "ration card se naam kat gaya", "ration card band ho gaya kya kare"],
+      "why_stuck": "Deletions happen in bulk clean-ups (eKYC, duplicates); people get no notice.",
+      "evidence": ["https://pib.gov.in/PressReleasePage.aspx?PRID=1808675 (official)"],
+      "clarifying_questions": [],
+      "branches": [
+        {"when": "Always", "next_step": "Apply to the District Supply Officer for restoration or re-inclusion, quoting the reason given (if any).", "authority": "District Supply Officer, State Food & Civil Supplies Department", "official_link": "UNVERIFIED: state portal", "keep_ready": ["Old ration card number", "Aadhaar of all members", "Proof of current address"], "if_it_fails": ["No reason given: file an RTI with the district supply office asking why the card was deleted", "Rejected: appeal to the district grievance officer / State Food Commission (UNVERIFIED per state)"], "sources": ["https://pib.gov.in/PressReleasePage.aspx?PRID=1808675"]}
+      ],
+      "state_variation": "Restoration process differs by state. Per PIB, non-linking of Aadhaar alone is not a criterion for deletion under NFSA."
+    }
+  ]
+}

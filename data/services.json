@@ -1,0 +1,840 @@
+{
+  "version": "2026-11-27-draft",
+  "note": "Static cards derived from journeys J1-J30 in docs/INDIA_PUBLIC_SERVICE_DEMAND_RESEARCH.md. Summaries are original orientation text, not procedural guidance. No card has human review. url_check records an automated HTTP check from a non-India machine on 2026-11-27; 'tls_blocked' means the handshake failed from that machine, not that the URL is wrong. Every URL needs a human check before launch.",
+  "cards": [
+    {
+      "id": "rti-file",
+      "source": "J1",
+      "title": "File an RTI request",
+      "summary": "Ask a public authority for records, such as file notings or reasons recorded for a decision. Central bodies use RTI Online; many states run their own RTI systems.",
+      "official_name": "RTI Online (Central)",
+      "official_url": "https://rtionline.gov.in/",
+      "url_check": "ok",
+      "scope": "Central online; state rules differ",
+      "keywords": [
+        "rti",
+        "right to information",
+        "information request",
+        "records",
+        "file noting",
+        "pio"
+      ],
+      "examples": [
+        "How do I file an RTI to find out why my application was rejected?",
+        "I want the file notings for my rejected certificate",
+        "How to ask a government office for information"
+      ]
+    },
+    {
+      "id": "rti-first-appeal",
+      "source": "J2",
+      "title": "RTI first appeal",
+      "summary": "If an RTI reply did not arrive in time or was unsatisfactory, a first appeal goes to the First Appellate Authority of the same public authority.",
+      "official_name": "RTI Online (Central)",
+      "official_url": "https://rtionline.gov.in/",
+      "url_check": "ok",
+      "scope": "Central online; state rules differ",
+      "keywords": [
+        "rti",
+        "first appeal",
+        "no reply",
+        "appellate authority",
+        "faa",
+        "rti reply"
+      ],
+      "examples": [
+        "My RTI reply did not come. How do I file the first appeal?",
+        "I filed an RTI 40 days ago and got no reply",
+        "RTI answer was incomplete, what next?"
+      ]
+    },
+    {
+      "id": "cpgrams-closed",
+      "source": "J3",
+      "title": "Government complaint closed but not fixed",
+      "summary": "CPGRAMS is the official channel for grievances about Central government services, including feedback on a grievance that was closed while the problem remains.",
+      "official_name": "CPGRAMS (pgportal.gov.in)",
+      "official_url": "https://pgportal.gov.in/",
+      "url_check": "ok",
+      "scope": "Central; states have their own portals",
+      "keywords": [
+        "cpgrams",
+        "pgportal",
+        "grievance",
+        "complaint closed",
+        "resolved",
+        "disposed",
+        "complaint"
+      ],
+      "examples": [
+        "My government complaint was closed without fixing the problem",
+        "My pension complaint was marked resolved but payment is still missing",
+        "Grievance disposed but nothing changed"
+      ]
+    },
+    {
+      "id": "ration-dealer-complaint",
+      "source": "J4",
+      "title": "Ration shop complaint",
+      "summary": "Complaints about a fair price shop giving less grain, refusing supply or overcharging go to the state food and civil supplies department. NFSA lists state helplines.",
+      "official_name": "National Food Security Portal (NFSA)",
+      "official_url": "https://nfsa.gov.in/",
+      "url_check": "ok",
+      "scope": "State-run",
+      "keywords": [
+        "ration",
+        "ration dealer",
+        "fair price shop",
+        "fps",
+        "grain",
+        "rice",
+        "wheat",
+        "less ration",
+        "nfsa"
+      ],
+      "examples": [
+        "Where should I complain about my ration dealer not giving full grain?",
+        "The ration shop gave me less rice",
+        "Ration dealer is asking for extra money"
+      ]
+    },
+    {
+      "id": "ration-card-new",
+      "source": "J5",
+      "title": "Apply for a new ration card",
+      "summary": "New ration cards are issued by your state's food department. The NFSA portal links to each state's application system.",
+      "official_name": "NFSA state portals",
+      "official_url": "https://nfsa.gov.in/portal/apply",
+      "url_check": "ok",
+      "scope": "State-run",
+      "keywords": [
+        "ration card",
+        "new ration card",
+        "apply ration",
+        "nfsa"
+      ],
+      "examples": [
+        "How do I apply for a new ration card in my state?",
+        "I need a ration card",
+        "Ration card application online"
+      ]
+    },
+    {
+      "id": "ration-card-add-member",
+      "source": "J6",
+      "title": "Add a family member to a ration card",
+      "summary": "Adding a newborn or other member to a ration card is handled by the state food department's ration card system.",
+      "official_name": "NFSA state portals",
+      "official_url": "https://nfsa.gov.in/portal/apply",
+      "url_check": "ok",
+      "scope": "State-run",
+      "keywords": [
+        "ration card",
+        "add member",
+        "newborn",
+        "child",
+        "add name",
+        "family member"
+      ],
+      "examples": [
+        "How do I add my newborn to the ration card?",
+        "Add my wife's name to ration card",
+        "Include child in ration card"
+      ]
+    },
+    {
+      "id": "ration-card-correction",
+      "source": "J7",
+      "title": "Correct a ration card",
+      "summary": "Wrong names, addresses or member details on a ration card are corrected through the state food department.",
+      "official_name": "NFSA state portals",
+      "official_url": "https://nfsa.gov.in/portal/apply",
+      "url_check": "ok",
+      "scope": "State-run",
+      "keywords": [
+        "ration card",
+        "correction",
+        "wrong name",
+        "wrong address",
+        "update ration card"
+      ],
+      "examples": [
+        "My ration card has the wrong name. How do I correct it?",
+        "Change address on ration card",
+        "Spelling mistake in ration card"
+      ]
+    },
+    {
+      "id": "scholarship-find",
+      "source": "J8",
+      "title": "Find and apply for a scholarship",
+      "summary": "The National Scholarship Portal lists many Central and some state schemes. Other scholarships run on state portals or through the institution.",
+      "official_name": "National Scholarship Portal",
+      "official_url": "https://scholarships.gov.in/",
+      "url_check": "ok",
+      "scope": "Central and some state schemes",
+      "keywords": [
+        "scholarship",
+        "nsp",
+        "student",
+        "college fees",
+        "post matric",
+        "pre matric"
+      ],
+      "examples": [
+        "Which scholarship can I apply for and what documents do I need?",
+        "Scholarship for college students",
+        "Where do I start a scholarship application?"
+      ]
+    },
+    {
+      "id": "scholarship-stuck",
+      "source": "J9",
+      "title": "Scholarship rejected, stuck or not paid",
+      "summary": "A stuck or rejected scholarship can sit with the institute, the state or the scheme ministry. The National Scholarship Portal shows status and has a grievance option.",
+      "official_name": "National Scholarship Portal",
+      "official_url": "https://scholarships.gov.in/",
+      "url_check": "ok",
+      "scope": "Central and some state schemes",
+      "keywords": [
+        "scholarship",
+        "rejected",
+        "pending",
+        "not received",
+        "nsp status",
+        "scholarship money"
+      ],
+      "examples": [
+        "My scholarship application is rejected. Who must fix it?",
+        "Scholarship money not received",
+        "NSP application pending at institute"
+      ]
+    },
+    {
+      "id": "income-certificate",
+      "source": "J10",
+      "title": "Income certificate",
+      "summary": "Income certificates are issued by state revenue authorities, usually through the state's e-District or service portal or a Common Service Centre.",
+      "official_name": "National Portal of India (find your state portal)",
+      "official_url": "https://www.india.gov.in/",
+      "url_check": "ok",
+      "scope": "State-run",
+      "keywords": [
+        "income certificate",
+        "income proof",
+        "aay praman",
+        "revenue",
+        "tehsil",
+        "e-district"
+      ],
+      "examples": [
+        "How do I get an income certificate?",
+        "Income certificate apply online",
+        "Where to make income proof for scholarship"
+      ]
+    },
+    {
+      "id": "caste-certificate",
+      "source": "J11",
+      "title": "Caste certificate",
+      "summary": "Caste certificates (SC, ST, OBC) are issued by state revenue authorities through state service portals or offices.",
+      "official_name": "National Portal of India (find your state portal)",
+      "official_url": "https://www.india.gov.in/",
+      "url_check": "ok",
+      "scope": "State-run",
+      "keywords": [
+        "caste certificate",
+        "sc",
+        "st",
+        "obc",
+        "community certificate",
+        "jati"
+      ],
+      "examples": [
+        "How do I get a caste certificate?",
+        "OBC certificate apply",
+        "SC certificate for admission"
+      ]
+    },
+    {
+      "id": "domicile-certificate",
+      "source": "J12",
+      "title": "Domicile or residence certificate",
+      "summary": "Domicile and residence certificates are issued by state revenue authorities through state portals or offices.",
+      "official_name": "National Portal of India (find your state portal)",
+      "official_url": "https://www.india.gov.in/",
+      "url_check": "ok",
+      "scope": "State-run",
+      "keywords": [
+        "domicile",
+        "residence certificate",
+        "niwas",
+        "resident proof",
+        "native certificate"
+      ],
+      "examples": [
+        "How do I get a domicile certificate?",
+        "Residence certificate apply online",
+        "Need native certificate for job"
+      ]
+    },
+    {
+      "id": "birth-certificate",
+      "source": "J13",
+      "title": "Birth registration or birth certificate correction",
+      "summary": "Births are registered by the local Registrar of Births and Deaths. Late registration and corrections go through the registrar or the Civil Registration System.",
+      "official_name": "Civil Registration System",
+      "official_url": "https://crsorgi.gov.in/",
+      "url_check": "tls_blocked",
+      "scope": "Local registrar; state rules",
+      "keywords": [
+        "birth certificate",
+        "birth registration",
+        "late registration",
+        "name in birth certificate",
+        "crs"
+      ],
+      "examples": [
+        "How do I register a birth late?",
+        "Correct the name on my birth certificate",
+        "Birth certificate apply online"
+      ]
+    },
+    {
+      "id": "death-certificate",
+      "source": "J14",
+      "title": "Death certificate or correction",
+      "summary": "Death certificates and corrections are handled by the local registrar or municipality, often through the Civil Registration System.",
+      "official_name": "Civil Registration System",
+      "official_url": "https://crsorgi.gov.in/",
+      "url_check": "tls_blocked",
+      "scope": "Local registrar; state rules",
+      "keywords": [
+        "death certificate",
+        "death registration",
+        "correction",
+        "crs"
+      ],
+      "examples": [
+        "How do I correct a death certificate?",
+        "Get death certificate of my father",
+        "Wrong date on death certificate"
+      ]
+    },
+    {
+      "id": "aadhaar-correction",
+      "source": "J15",
+      "title": "Aadhaar name, date of birth or address correction",
+      "summary": "Aadhaar details are updated through UIDAI, online for some fields and at an Aadhaar centre for others.",
+      "official_name": "UIDAI",
+      "official_url": "https://uidai.gov.in/",
+      "url_check": "ok",
+      "scope": "Central",
+      "keywords": [
+        "aadhaar",
+        "aadhar",
+        "uidai",
+        "date of birth",
+        "dob",
+        "name change",
+        "address update"
+      ],
+      "examples": [
+        "My Aadhaar name or date of birth is wrong. What can I do?",
+        "Update address in Aadhaar",
+        "Aadhaar spelling mistake"
+      ]
+    },
+    {
+      "id": "epfo-correction",
+      "source": "J16",
+      "title": "EPFO / UAN name or date of birth correction",
+      "summary": "Corrections to EPF member details are requested through the EPFO member portal and approved by the employer and EPFO.",
+      "official_name": "EPFO Member Portal",
+      "official_url": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/",
+      "url_check": "ok",
+      "scope": "Central",
+      "keywords": [
+        "epfo",
+        "epf",
+        "uan",
+        "pf",
+        "provident fund",
+        "joint declaration",
+        "name mismatch"
+      ],
+      "examples": [
+        "My EPFO UAN name is wrong. How do I fix it?",
+        "PF date of birth mismatch",
+        "Name mismatch in PF account"
+      ]
+    },
+    {
+      "id": "udyam-registration",
+      "source": "J17",
+      "title": "Register a small business (MSME / Udyam)",
+      "summary": "Udyam Registration is the official, free registration for micro, small and medium enterprises.",
+      "official_name": "Udyam Registration",
+      "official_url": "https://udyamregistration.gov.in/",
+      "url_check": "ok",
+      "scope": "Central",
+      "keywords": [
+        "udyam",
+        "msme",
+        "small business",
+        "registration",
+        "udyog aadhaar",
+        "business registration"
+      ],
+      "examples": [
+        "How do I register my small business as an MSME?",
+        "Udyam registration",
+        "MSME certificate for my shop"
+      ]
+    },
+    {
+      "id": "gst-need",
+      "source": "J18",
+      "title": "Do I need GST registration?",
+      "summary": "Whether a business must register for GST depends on turnover, the type of supply and the state. The GST portal publishes the rules; a tax professional can confirm.",
+      "official_name": "GST Portal",
+      "official_url": "https://www.gst.gov.in/",
+      "url_check": "ok",
+      "scope": "Central and state",
+      "keywords": [
+        "gst",
+        "gst limit",
+        "threshold",
+        "turnover",
+        "need gst"
+      ],
+      "examples": [
+        "Do I need GST registration for my small business?",
+        "GST limit for small shop",
+        "Is GST compulsory for online selling?"
+      ]
+    },
+    {
+      "id": "gst-apply",
+      "source": "J19",
+      "title": "Apply for GST registration",
+      "summary": "New GST registrations are filed on the GST portal.",
+      "official_name": "GST Portal",
+      "official_url": "https://www.gst.gov.in/",
+      "url_check": "ok",
+      "scope": "Central and state",
+      "keywords": [
+        "gst",
+        "gst registration",
+        "gstin",
+        "apply gst",
+        "gst number"
+      ],
+      "examples": [
+        "How do I apply for GST registration?",
+        "Get a GST number",
+        "GSTIN application"
+      ]
+    },
+    {
+      "id": "gst-rejected",
+      "source": "J20",
+      "title": "GST registration rejected or clarification asked",
+      "summary": "Rejections and clarification notices on a GST application are answered on the GST portal before the stated deadline.",
+      "official_name": "GST Portal",
+      "official_url": "https://www.gst.gov.in/",
+      "url_check": "ok",
+      "scope": "Central and state",
+      "keywords": [
+        "gst",
+        "rejected",
+        "clarification",
+        "notice",
+        "gst application"
+      ],
+      "examples": [
+        "Why was my GST registration rejected?",
+        "GST officer asked for clarification",
+        "Reply to GST registration notice"
+      ]
+    },
+    {
+      "id": "msme-samadhaan",
+      "source": "J21",
+      "title": "Customer has not paid my small business",
+      "summary": "Registered micro and small enterprises can file delayed-payment cases against buyers through MSME Samadhaan.",
+      "official_name": "MSME Samadhaan",
+      "official_url": "https://samadhaan.msme.gov.in/",
+      "url_check": "tls_blocked",
+      "scope": "Central",
+      "keywords": [
+        "payment delayed",
+        "not paid",
+        "msme samadhaan",
+        "delayed payment",
+        "buyer not paying",
+        "msefc"
+      ],
+      "examples": [
+        "A customer has not paid my small business for months",
+        "Can I use MSME Samadhaan for delayed payment?",
+        "Company not paying my invoice"
+      ]
+    },
+    {
+      "id": "scheme-finder",
+      "source": "J22",
+      "title": "Find government schemes I might qualify for",
+      "summary": "myScheme lets you search Central and state schemes by eligibility details. Final eligibility is decided by the scheme owner.",
+      "official_name": "myScheme",
+      "official_url": "https://www.myscheme.gov.in/",
+      "url_check": "ok",
+      "scope": "Central and state",
+      "keywords": [
+        "scheme",
+        "yojana",
+        "eligible",
+        "benefit",
+        "government scheme",
+        "myscheme"
+      ],
+      "examples": [
+        "What government schemes might I qualify for?",
+        "Schemes for women",
+        "Benefits for senior citizens"
+      ]
+    },
+    {
+      "id": "pm-kisan",
+      "source": "J23",
+      "title": "PM-KISAN application or stopped payment",
+      "summary": "PM-KISAN registration, status and eKYC are on the official portal; land and bank verification sit with state authorities.",
+      "official_name": "PM-KISAN",
+      "official_url": "https://pmkisan.gov.in/",
+      "url_check": "ok",
+      "scope": "Central scheme, state verification",
+      "keywords": [
+        "pm kisan",
+        "kisan",
+        "farmer",
+        "installment",
+        "kisan samman nidhi",
+        "ekyc"
+      ],
+      "examples": [
+        "How do I apply for PM-KISAN?",
+        "PM-KISAN installment stopped",
+        "Farmer 2000 rupees not received"
+      ]
+    },
+    {
+      "id": "e-shram",
+      "source": "J24",
+      "title": "Register on e-Shram",
+      "summary": "e-Shram is the national registration for unorganised workers. Registration is free on the portal or at a Common Service Centre.",
+      "official_name": "e-Shram",
+      "official_url": "https://eshram.gov.in/",
+      "url_check": "ok",
+      "scope": "Central",
+      "keywords": [
+        "eshram",
+        "e-shram",
+        "shram card",
+        "labour card",
+        "unorganised worker",
+        "daily wage"
+      ],
+      "examples": [
+        "How do I register on e-Shram?",
+        "Shram card benefits",
+        "Labour card for daily wage worker"
+      ]
+    },
+    {
+      "id": "life-certificate",
+      "source": "J25",
+      "title": "Submit a pension life certificate",
+      "summary": "Pensioners can submit a Digital Life Certificate through Jeevan Pramaan, or in person at the bank or pension office.",
+      "official_name": "Jeevan Pramaan",
+      "official_url": "https://jeevanpramaan.gov.in/",
+      "url_check": "ok",
+      "scope": "Central and many state pensions",
+      "keywords": [
+        "life certificate",
+        "jeevan pramaan",
+        "pensioner",
+        "digital life certificate",
+        "pension"
+      ],
+      "examples": [
+        "How do I submit my pension life certificate?",
+        "Jeevan Pramaan online",
+        "Life certificate for pension from home"
+      ]
+    },
+    {
+      "id": "pension-stopped",
+      "source": "J26",
+      "title": "Pension stopped or not credited",
+      "summary": "Central government pension grievances can be raised on the CPENGRAMS pension grievance portal; the bank or pension disbursing office is usually the first contact.",
+      "official_name": "CPENGRAMS pension grievances",
+      "official_url": "https://pgportal.gov.in/pension/",
+      "url_check": "ok",
+      "scope": "Central pensions; states differ",
+      "keywords": [
+        "pension",
+        "pension stopped",
+        "not credited",
+        "pension grievance",
+        "cpengrams"
+      ],
+      "examples": [
+        "My pension has stopped even though I submitted the life certificate",
+        "Pension not credited this month",
+        "Complaint about pension delay"
+      ]
+    },
+    {
+      "id": "pm-svanidhi",
+      "source": "J27",
+      "title": "Street vendor loan (PM SVANidhi)",
+      "summary": "PM SVANidhi offers working-capital loans to street vendors, applied for through the official portal with the urban local body.",
+      "official_name": "PM SVANidhi",
+      "official_url": "https://pmsvanidhi.mohua.gov.in/",
+      "url_check": "tls_blocked",
+      "scope": "Central scheme, urban local bodies",
+      "keywords": [
+        "svanidhi",
+        "street vendor",
+        "hawker",
+        "loan",
+        "thela",
+        "vendor loan"
+      ],
+      "examples": [
+        "How do I get a street-vendor loan under PM SVANidhi?",
+        "Loan for street vendor",
+        "Hawker loan scheme"
+      ]
+    },
+    {
+      "id": "fssai",
+      "source": "J28",
+      "title": "FSSAI registration or licence for a food business",
+      "summary": "Food businesses need FSSAI registration or a licence depending on size and type, applied for on FoSCoS.",
+      "official_name": "FSSAI FoSCoS",
+      "official_url": "https://foscos.fssai.gov.in/",
+      "url_check": "ok",
+      "scope": "Central and state",
+      "keywords": [
+        "fssai",
+        "food licence",
+        "food license",
+        "foscos",
+        "food business",
+        "tiffin",
+        "restaurant"
+      ],
+      "examples": [
+        "Do I need FSSAI registration for my food business?",
+        "Food licence for home tiffin service",
+        "FSSAI license for restaurant"
+      ]
+    },
+    {
+      "id": "which-department",
+      "source": "J29",
+      "title": "Which department handles my problem?",
+      "summary": "The National Portal of India links to Central ministries and state portals. When you know the service, its owning department is the first channel; CPGRAMS handles Central grievances.",
+      "official_name": "National Portal of India",
+      "official_url": "https://www.india.gov.in/",
+      "url_check": "ok",
+      "scope": "Directory",
+      "keywords": [
+        "which department",
+        "whom to contact",
+        "who to complain",
+        "department",
+        "directory"
+      ],
+      "examples": [
+        "Which department should I contact about this problem?",
+        "Who do I complain to about a government office?",
+        "Where do I report a government service problem?"
+      ]
+    },
+    {
+      "id": "civic-complaint",
+      "source": "J30",
+      "title": "Garbage, streetlight, drainage or water complaint",
+      "summary": "Local civic problems belong to your municipality or panchayat, usually through its own app, portal or ward office. The National Portal links to state and city portals.",
+      "official_name": "National Portal of India (find your city portal)",
+      "official_url": "https://www.india.gov.in/",
+      "url_check": "ok",
+      "scope": "Municipal / panchayat",
+      "keywords": [
+        "garbage",
+        "streetlight",
+        "drainage",
+        "water supply",
+        "pothole",
+        "road",
+        "municipality",
+        "sewage",
+        "civic"
+      ],
+      "examples": [
+        "How do I complain about garbage not being collected?",
+        "Streetlight not working in my street",
+        "Unsafe drinking water in my area"
+      ]
+    },
+    {
+      "id": "passport",
+      "source": "added 2026-11-27",
+      "title": "Passport: new, renewal or reissue",
+      "summary": "Passports are applied for and renewed through Passport Seva, followed by an appointment at a Passport Seva Kendra or Post Office Passport Seva Kendra.",
+      "official_name": "Passport Seva",
+      "official_url": "https://www.passportindia.gov.in/",
+      "url_check": "ok",
+      "scope": "Central",
+      "keywords": [
+        "passport",
+        "passport seva",
+        "passport renewal",
+        "reissue passport",
+        "psk",
+        "tatkal"
+      ],
+      "examples": [
+        "How do I apply for a new passport?",
+        "Renew my passport",
+        "Passport appointment booking"
+      ]
+    },
+    {
+      "id": "driving-licence",
+      "source": "added 2026-11-27",
+      "title": "Driving licence: learner, new or renewal",
+      "summary": "Learner licences, driving licences and renewals are handled through Sarathi (Parivahan) and your state transport office (RTO).",
+      "official_name": "Sarathi, Parivahan",
+      "official_url": "https://sarathi.parivahan.gov.in/",
+      "url_check": "ok",
+      "scope": "Central portal, state RTOs",
+      "keywords": [
+        "driving licence",
+        "driving license",
+        "dl",
+        "learner licence",
+        "learning licence",
+        "rto",
+        "sarathi",
+        "licence renewal"
+      ],
+      "examples": [
+        "How do I get a driving licence?",
+        "Apply for a learner licence",
+        "Renew my driving licence"
+      ]
+    },
+    {
+      "id": "pan-card",
+      "source": "added 2026-11-27",
+      "title": "PAN card: new, instant e-PAN or correction",
+      "summary": "An instant e-PAN using Aadhaar is available on the Income Tax e-filing portal. Physical PAN applications and corrections go through Protean (NSDL) or UTIITSL.",
+      "official_name": "Income Tax e-filing portal",
+      "official_url": "https://www.incometax.gov.in/",
+      "url_check": "ok",
+      "scope": "Central",
+      "keywords": [
+        "pan",
+        "pan card",
+        "e-pan",
+        "instant pan",
+        "pan correction",
+        "permanent account number"
+      ],
+      "examples": [
+        "How do I get a PAN card?",
+        "Instant e-PAN with Aadhaar",
+        "Correct my name on PAN card"
+      ]
+    },
+    {
+      "id": "voter-id",
+      "source": "added 2026-11-27",
+      "title": "Voter ID: register, correct or move",
+      "summary": "New voter registration, corrections and address shifts are filed on the Election Commission's Voters' Service Portal.",
+      "official_name": "Voters' Service Portal (ECI)",
+      "official_url": "https://voters.eci.gov.in/",
+      "url_check": "ok",
+      "scope": "Central",
+      "keywords": [
+        "voter id",
+        "voter card",
+        "epic",
+        "electoral roll",
+        "voter registration",
+        "form 6",
+        "election card"
+      ],
+      "examples": [
+        "How do I apply for a voter ID card?",
+        "Change address on voter card",
+        "Is my name on the voter list?"
+      ]
+    },
+    {
+      "id": "free-legal-aid",
+      "source": "added 2026-11-27",
+      "title": "Free legal help (Legal Services Authority)",
+      "summary": "Legal Services Authorities give free lawyers and legal advice to eligible people, including women, children, SC/ST members, workers and people below an income limit. Apply to the District Legal Services Authority or through NALSA.",
+      "official_name": "NALSA (National Legal Services Authority)",
+      "official_url": "https://nalsa.gov.in/",
+      "url_check": "ok",
+      "scope": "Central, state and district",
+      "keywords": [
+        "free lawyer",
+        "legal aid",
+        "free legal help",
+        "nalsa",
+        "dlsa",
+        "legal services",
+        "court case",
+        "advocate",
+        "vakil",
+        "lok adalat"
+      ],
+      "examples": [
+        "I need a free lawyer for a court case",
+        "How can a poor family get legal help?",
+        "Where do I get free legal advice?"
+      ]
+    },
+    {
+      "id": "stolen-phone",
+      "source": "added 2026-11-27",
+      "title": "Block a lost or stolen phone",
+      "summary": "Sanchar Saathi (Department of Telecommunications) lets you block a lost or stolen phone by its IMEI so it cannot be used, and unblock it if found. Report the theft to the police as well.",
+      "official_name": "Sanchar Saathi (DoT)",
+      "official_url": "https://sancharsaathi.gov.in/",
+      "url_check": "ok",
+      "scope": "Central",
+      "keywords": [
+        "stolen phone",
+        "lost phone",
+        "mobile stolen",
+        "block imei",
+        "imei",
+        "sanchar saathi",
+        "ceir",
+        "phone lost"
+      ],
+      "examples": [
+        "My phone was stolen, how do I block it?",
+        "Lost my mobile in the bus",
+        "Block IMEI of stolen phone"
+      ]
+    }
+  ]
+}

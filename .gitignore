@@ -1,0 +1,18 @@
+node_modules/
+dist/
+feedback_counts.json*
+*.log
+.DS_Store
+# Internal notes and QA captures (reference captures, launch notes)
+.qa/
+.impeccable/
+DESIGN.md
+PRODUCT.md
+LAUNCH_CHECKLIST.md
+assets-src/
+# Not ours to redistribute: commercial fonts (no licence) and government scheme logos (permission pending).
+public/fonts/helvetica-now-*.woff2
+public/fonts/rhymes-text.woff2
+public/logos/
+__pycache__/
+*.pyc

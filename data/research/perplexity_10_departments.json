@@ -1,0 +1,501 @@
+{
+ "area": "Government services across 10 departments",
+ "checked_on": "2026-11-27",
+ "situations": [
+  {
+   "situation": "Passport application is delayed because police verification is pending or marked adverse.",
+   "real_phrasings": [
+    "My passport police verification is pending for months, what should I do?",
+    "Passport status shows police verification pending but no update",
+    "Police report is adverse on my passport application, how do I fix it?",
+    "Passport police verification 6 mahine se pending hai, kya karun?",
+    "Passport adverse police report aaya hai, correction kaise hogi?"
+   ],
+   "why_stuck": "People cannot see intermediate police-verification activity on the passport portal; Passport Seva states that physical movement of verification papers between district police, police stations and intelligence units is a major cause of PVR delay. An adverse report also requires clarification through the Passport Office.",
+   "evidence": [
+    "https://www.passportindia.gov.in/psp/passportApp (checked 2026-11-27)",
+    "https://services1.passportindia.gov.in/psp/FaqPoliceVerification (checked 2026-11-27)",
+    "https://portal2.passportindia.gov.in/AppOnlineProject/online/faqPoliceVerification (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "What does your Passport Seva status show?",
+     "options": [
+      "Police verification pending",
+      "Police report adverse",
+      "Passport already granted but not received"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Police verification pending",
+     "next_step": "Track the application using the file number and date of birth; if it remains pending after a reasonable period, visit the concerned Passport Office and, if needed, register a grievance.",
+     "authority": "Concerned Regional Passport Office; police verification is conducted by the jurisdictional police authorities.",
+     "official_link": "https://www.passportindia.gov.in/psp/passportApp",
+     "keep_ready": [
+      "Passport application file number",
+      "Date of birth",
+      "Proof of current address and identity"
+     ],
+     "if_it_fails": [
+      "Rejected or adverse report: contact the concerned Passport Office to understand the reason; Passport Seva says clarification may lead to re-verification if required. https://services1.passportindia.gov.in/psp/FaqPoliceVerification",
+      "No response: register a grievance on Passport Seva or call 1800-258-1800; if unresolved, escalate to the Directorate of Public Grievances at https://dpg.gov.in/Default.aspx. https://www.passportindia.gov.in/psp/Grievance",
+      "Portal error: use the Passport Seva grievance page or call 1800-258-1800. https://www.passportindia.gov.in/psp/Grievance"
+     ],
+     "sources": [
+      "https://www.passportindia.gov.in/psp/passportApp",
+      "https://services1.passportindia.gov.in/psp/FaqPoliceVerification",
+      "https://www.passportindia.gov.in/psp/Grievance"
+     ]
+    }
+   ],
+   "state_variation": "Police-verification practice and processing time vary by state and police jurisdiction; Passport Seva explicitly notes that verification activities are not uniformly tracked online."
+  },
+  {
+   "situation": "A public authority does not reply to an RTI application within 30 days.",
+   "real_phrasings": [
+    "My RTI application has received no reply after 30 days, what next?",
+    "How do I file first appeal when CPIO does not respond?",
+    "RTI portal is not allowing me to file first appeal",
+    "RTI ka jawab 30 din se nahi aaya, first appeal kaise karun?",
+    "RTI portal first appeal allow nahi kar raha, kya karun?"
+   ],
+   "why_stuck": "Applicants often try to appeal before 30 days have elapsed, or do not know that the first appeal is filed on the same RTI Online portal using the original registration number and email ID.",
+   "evidence": [
+    "https://rtionline.gov.in/faq.php (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "Has at least 30 days passed since you filed the RTI application?",
+     "options": [
+      "Yes",
+      "No"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Yes, 30 days have passed and there is no CPIO response",
+     "next_step": "Select 'Submit First Appeal' on the RTI Online portal and file the first appeal using the original registration number and registered email ID.",
+     "authority": "First Appellate Authority of the concerned public authority.",
+     "official_link": "https://rtionline.gov.in/faq.php",
+     "keep_ready": [
+      "Original RTI registration number",
+      "Registered email ID",
+      "Copy of the RTI application and any CPIO response"
+     ],
+     "if_it_fails": [
+      "Portal will not allow the appeal: RTI Online says this can occur when the 30-day period has not completed; wait until it completes, then retry. https://rtionline.gov.in/faq.php",
+      "No response to the first appeal: file a second appeal with the concerned Information Commission; the exact Commission depends on whether the public authority is Central or State. UNVERIFIED for a single universal filing link."
+     ],
+     "sources": [
+      "https://rtionline.gov.in/faq.php"
+     ]
+    }
+   ],
+   "state_variation": "State public authorities are handled by the respective State Information Commission; Central public authorities are handled by the Central Information Commission. The RTI Online portal is for Central public authorities."
+  },
+  {
+   "situation": "A person needs free legal aid but does not know whether they qualify or where to apply.",
+   "real_phrasings": [
+    "Am I eligible for free legal aid in India?",
+    "How do I apply for legal aid through DLSA?",
+    "I cannot afford a lawyer, where can I get free legal help?",
+    "Muze free legal aid chahiye, DLSA me apply kaise karun?",
+    "Legal aid ke liye eligibility kya hai aur documents kaunse lagenge?"
+   ],
+   "why_stuck": "Eligibility is commonly misunderstood as universal free legal aid; NALSA says eligibility depends on Section 12 of the Legal Services Authorities Act, 1987, and some categories, such as senior citizens, also depend on State rules.",
+   "evidence": [
+    "https://nalsa.gov.in/faqs/ (checked 2026-11-27)",
+    "https://delhi.nalsa.gov.in/legal-aid/ (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "Which category best describes you?",
+     "options": [
+      "Woman or child",
+      "SC/ST member",
+      "Person with disability, custody, industrial workman, disaster victim, or income-eligible person",
+      "None of these"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Person appears eligible under Section 12",
+     "next_step": "Apply through NALSA's Legal Services Management System or approach the nearest District Legal Services Authority / Taluk Legal Services Committee.",
+     "authority": "District Legal Services Authority (DLSA) or Taluk Legal Services Committee (TLSC), under the State Legal Services Authority and NALSA.",
+     "official_link": "https://nalsa.gov.in/faqs/",
+     "keep_ready": [
+      "Identity proof",
+      "Proof of eligibility category or income, as applicable",
+      "Brief facts and case-related papers"
+     ],
+     "if_it_fails": [
+      "Application rejected: ask the DLSA for the eligibility or prima-facie-case reason and approach the State Legal Services Authority for review; NALSA states that eligibility and existence of a prima facie case are examined. https://nalsa.gov.in/faqs/",
+      "No response: visit or contact the concerned DLSA/SLSA; NALSA lists in-person, post, LSMS portal and email as application channels. https://nalsa.gov.in/faqs/"
+     ],
+     "sources": [
+      "https://nalsa.gov.in/faqs/",
+      "https://delhi.nalsa.gov.in/legal-aid/"
+     ]
+    }
+   ],
+   "state_variation": "Yes. Income limits and additional eligibility rules differ by State; for example, Delhi lists an annual-income limit of Rs 3 lakh for general eligible persons and separate limits for senior citizens and transgender persons. Check the relevant State Legal Services Authority page."
+  },
+  {
+   "situation": "A ration-card holder cannot get subsidised foodgrains after moving to another State or district because the card has not been ported or updated.",
+   "real_phrasings": [
+    "My ration card is not working in another state, how do I port it?",
+    "Ration card portability is not showing my entitlement",
+    "My name is on the ration card but the shop says no ration available",
+    "Dusre state me ration card port nahi ho raha, kya karun?",
+    "Ration card me naam hai par dealer bol raha hai entitlement nahi dikh rahi"
+   ],
+   "why_stuck": "People confuse the national portability system with State ration-card databases; a card may exist in the home State but not be visible or usable at the destination fair-price shop until portability and beneficiary details are correctly recorded.",
+   "evidence": [
+    "https://nfsa.gov.in/doc/FAQ_for_Mera_Ration_2.pdf (checked 2026-11-27)",
+    "https://nfsa.gov.in/public/frmRegisterPublicGrievance.aspx (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "Where are you trying to take ration now?",
+     "options": [
+      "Same district, but dealer says entitlement is not visible",
+      "Another district in the same State",
+      "Another State"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Another district or State",
+     "next_step": "Use the Mera Ration 2.0 app to submit a grievance and monitor its redressal; also approach the destination State food-and-civil-supplies office with the ration-card number.",
+     "authority": "Destination State Food and Civil Supplies Department / Fair Price Shop, with NFSA and Department of Food and Public Distribution oversight.",
+     "official_link": "https://nfsa.gov.in/doc/FAQ_for_Mera_Ration_2.pdf",
+     "keep_ready": [
+      "Ration card number",
+      "Aadhaar-linked member details",
+      "Current address or proof of relocation"
+     ],
+     "if_it_fails": [
+      "Entitlement not visible or rejected: register an online grievance with NFSA/DFPD, providing district and ration-card number. https://nfsa.gov.in/public/frmRegisterPublicGrievance.aspx",
+      "No response: follow up through the Mera Ration app grievance-status facility. https://nfsa.gov.in/doc/FAQ_for_Mera_Ration_2.pdf"
+     ],
+     "sources": [
+      "https://nfsa.gov.in/doc/FAQ_for_Mera_Ration_2.pdf",
+      "https://nfsa.gov.in/public/frmRegisterPublicGrievance.aspx"
+     ]
+    }
+   ],
+   "state_variation": "Yes. Ration-card issuance, member addition/deletion, address change and local dealer allocation are State subjects; NFSA supports national portability, but the destination State food department decides operational implementation."
+  },
+  {
+   "situation": "An MSME owner has lost the Udyam registration number or needs to correct/update registration details.",
+   "real_phrasings": [
+    "I forgot my Udyam registration number, how can I recover it?",
+    "How do I update my Udyam registration details?",
+    "My Udyam certificate details are wrong, how do I correct them?",
+    "Udyam registration number bhool gaya hun, kaise nikale?",
+    "Udyam certificate me galti hai, update kaise karun?"
+   ],
+   "why_stuck": "Entrepreneurs often search for renewal, but Udyam registration does not require renewal; they instead need to retrieve the existing number or update registration details.",
+   "evidence": [
+    "https://www.udyamregistration.gov.in/ForgotRegNo.aspx (checked 2026-11-27)",
+    "https://udyamregistration.gov.in/default.aspx (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "What do you need to do?",
+     "options": [
+      "Recover a forgotten Udyam/UAM number",
+      "Correct or update registration details"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Forgot Udyam/UAM registration number",
+     "next_step": "Use the 'Forgot UAM/Udyam Registration Number' page, choose the registration type and OTP option, then validate the OTP sent to the registered mobile number or email.",
+     "authority": "Office of DC-MSME, Ministry of MSME, Government of India.",
+     "official_link": "https://www.udyamregistration.gov.in/ForgotRegNo.aspx",
+     "keep_ready": [
+      "Aadhaar-linked mobile number or email used in the application",
+      "Aadhaar number",
+      "Enterprise/PAN details if needed for identification"
+     ],
+     "if_it_fails": [
+      "OTP not received or number not found: contact CHAMPIONS support at champions@gov.in or call/WhatsApp +91 8308809334, Monday to Friday, 10:00 AM to 6:00 PM. https://www.udyamregistration.gov.in/ForgotRegNo.aspx",
+      "Portal error: retry from the official Udyam portal and use the same official support contact. https://udyamregistration.gov.in/default.aspx"
+     ],
+     "sources": [
+      "https://www.udyamregistration.gov.in/ForgotRegNo.aspx",
+      "https://udyamregistration.gov.in/default.aspx"
+     ]
+    }
+   ],
+   "state_variation": "No material State variation for Udyam registration; it is a Central Ministry of MSME process. State-level MSME incentives may differ separately."
+  },
+  {
+   "situation": "A PM-KISAN beneficiary has not received an instalment because eKYC is pending or the payment status is unclear.",
+   "real_phrasings": [
+    "PM Kisan eKYC pending, why have I not received payment?",
+    "PM Kisan payment status shows no instalment credited",
+    "How do I complete PM Kisan eKYC?",
+    "PM Kisan eKYC pending hai, paisa nahi aaya, kya karun?",
+    "PM Kisan beneficiary status me payment nahi dikh raha"
+   ],
+   "why_stuck": "Farmers may not realise that eKYC is mandatory and that eKYC status can take up to 24 hours to reflect; eligibility or physical-verification issues can also temporarily withhold benefits.",
+   "evidence": [
+    "https://pmkisan.gov.in/Documents/Note-on-Modes-and-processes-of-ekyc-13th-Nov-English.pdf (checked 2026-11-27)",
+    "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx (checked 2026-11-27)",
+    "https://www.pmkisan.gov.in/?hl=en-IN (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "What does Know Your Status show?",
+     "options": [
+      "eKYC is pending or shows 'No'",
+      "eKYC is complete but payment is not credited",
+      "Eligibility or physical verification issue is shown"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "eKYC pending or shows 'No'",
+     "next_step": "Complete eKYC through the PM-KISAN portal/mobile app or an authorised CSC VLE, then recheck beneficiary status after 24 hours.",
+     "authority": "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, through the State Nodal Department and local revenue/agriculture machinery.",
+     "official_link": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx",
+     "keep_ready": [
+      "Aadhaar number",
+      "PM-KISAN registration number",
+      "Bank account and land-record details"
+     ],
+     "if_it_fails": [
+      "eKYC fails or status does not update: use the KYS module or Kisan-eMitra chatbot; the official note says status reflects after 24 hours. https://pmkisan.gov.in/Documents/Note-on-Modes-and-processes-of-ekyc-13th-Nov-English.pdf",
+      "Payment not credited despite completed eKYC: check payment status, bank name, UTR number and credited date on Know Your Status; if eligibility/verification is flagged, follow the instructions shown there. https://pmkisan.gov.in/BeneficiaryStatus_New.aspx"
+     ],
+     "sources": [
+      "https://pmkisan.gov.in/Documents/Note-on-Modes-and-processes-of-ekyc-13th-Nov-English.pdf",
+      "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx",
+      "https://www.pmkisan.gov.in/?hl=en-IN"
+     ]
+    }
+   ],
+   "state_variation": "Yes. Land records, beneficiary verification and exclusion checks are administered through State governments; PM-KISAN states that some suspected exclusion cases remain withheld until physical verification is completed."
+  },
+  {
+   "situation": "A scholarship application remains unverified or is marked defective by the institute on the National Scholarship Portal.",
+   "real_phrasings": [
+    "My NSP application is pending verification at my institute",
+    "NSP application marked defective, what should I do?",
+    "Scholarship verification is delayed by college, whom should I contact?",
+    "NSP application institute verification pending hai, kya karun?",
+    "Scholarship defective mark ho gaya, document kaise repair karun?"
+   ],
+   "why_stuck": "Students often wait for the portal rather than contacting the institute nodal officer; NSP procedures place institute-level verification and defect correction at the institute, while delays are to be addressed with the scheme-owner ministry or department.",
+   "evidence": [
+    "https://scholarships.gov.in/public/FAQ/NSPInstituteFAQV1.7.pdf (checked 2026-11-27)",
+    "https://scholarships.gov.in/public/FAQ/NSP_SOP.pdf (checked 2026-11-27)",
+    "https://scholarships.gov.in/public/FAQ/FAQ_NSP2.0_Students_Ver3_Updated.pdf (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "What is the current application status?",
+     "options": [
+      "Pending verification at institute",
+      "Marked defective",
+      "Rejected"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Pending verification at institute",
+     "next_step": "Contact the Institute Nodal Officer and request verification before the scheme's verification deadline.",
+     "authority": "Institute Nodal Officer; district, State or ministry-level nodal officer monitors pendency depending on the scheme.",
+     "official_link": "https://scholarships.gov.in/public/FAQ/NSP_SOP.pdf",
+     "keep_ready": [
+      "NSP application ID",
+      "Institute name and course details",
+      "Uploaded documents and bank/Aadhaar details"
+     ],
+     "if_it_fails": [
+      "Marked defective: immediately contact the Institute or District/State Nodal Officer and request that it be marked defective so corrections can be made. https://scholarships.gov.in/public/FAQ/FAQ_NSP2.0_Students_Ver3_Updated.pdf",
+      "No response or inordinate verification delay: register a grievance on NSP and contact the scheme-owner ministry/department listed under the portal's Service section. https://scholarships.gov.in/home/Public",
+      "Portal error: use NSP Grievance Registration and check status. https://scholarships.gov.in/home/Public"
+     ],
+     "sources": [
+      "https://scholarships.gov.in/public/FAQ/NSPInstituteFAQV1.7.pdf",
+      "https://scholarships.gov.in/public/FAQ/NSP_SOP.pdf",
+      "https://scholarships.gov.in/public/FAQ/FAQ_NSP2.0_Students_Ver3_Updated.pdf",
+      "https://scholarships.gov.in/home/Public"
+     ]
+    }
+   ],
+   "state_variation": "Yes. The scholarship scheme owner, eligibility rules, verification levels and deadlines differ by Central, State and UT scheme; the institute must follow the applicable scheme guidelines."
+  },
+  {
+   "situation": "An Aadhaar update request is rejected and the person does not know the reason or how to correct it.",
+   "real_phrasings": [
+    "My Aadhaar update request was rejected, what should I do?",
+    "How do I know why my Aadhaar address update was rejected?",
+    "Aadhaar update rejected, can I apply again?",
+    "Aadhaar update reject ho gaya, reason kaise pata karun?",
+    "Aadhaar address update dobara kaise karun?"
+   ],
+   "why_stuck": "Applicants often resubmit without knowing the rejection reason; UIDAI advises calling 1947 to obtain the reason and taking corrective action before filing another request.",
+   "evidence": [
+    "https://uidai.gov.in/en/enrolment-and-update (checked 2026-11-27)",
+    "https://www.uidai.gov.in/images/LR_Aadhaar_Handbook_2026.pdf (checked 2026-11-27)",
+    "https://uidai.gov.in/en/grievance-feedback (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "What do you need to do now?",
+     "options": [
+      "Find the rejection reason",
+      "Book or reschedule an update appointment"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Update request rejected",
+     "next_step": "Call UIDAI helpline 1947 to obtain the rejection reason, then correct the issue and submit a fresh update request through the appropriate channel.",
+     "authority": "Unique Identification Authority of India (UIDAI).",
+     "official_link": "https://uidai.gov.in/en/enrolment-and-update",
+     "keep_ready": [
+      "Aadhaar number or enrolment/update slip",
+      "Registered mobile number",
+      "Valid proof for the field being updated"
+     ],
+     "if_it_fails": [
+      "Repeated rejection: submit a complaint through UIDAI's Grievance Redressal Portal, email help@uidai.gov.in, or call 1947. https://uidai.gov.in/en/enrolment-and-update",
+      "Appointment issue: reschedule or cancel through the appointment portal before 24 hours using the same mobile number or email used for booking. https://uidai.gov.in/en/enrolment-and-update"
+     ],
+     "sources": [
+      "https://uidai.gov.in/en/enrolment-and-update",
+      "https://www.uidai.gov.in/images/LR_Aadhaar_Handbook_2026.pdf",
+      "https://uidai.gov.in/en/grievance-feedback"
+     ]
+    }
+   ],
+   "state_variation": "No. Aadhaar enrolment, update and grievance handling are administered nationally by UIDAI, although the nearest Aadhaar Seva Kendra or enrolment centre varies by location."
+  },
+  {
+   "situation": "A person has suffered online financial fraud or lost a mobile phone and needs to report it quickly and block the stolen handset.",
+   "real_phrasings": [
+    "I was scammed online, how do I report cyber fraud?",
+    "My phone was stolen, how do I block the IMEI?",
+    "Money was debited from my account in a fraud, what should I do first?",
+    "Online fraud ho gaya hai, cybercrime me complaint kaise karun?",
+    "Phone chori ho gaya hai, IMEI block kaise karun?"
+   ],
+   "why_stuck": "Victims often report only to the bank or police and miss the parallel cybercrime report; for a stolen phone, they may not know that IMEI blocking is handled through CEIR/Sanchar Saathi in addition to an FIR.",
+   "evidence": [
+    "https://www.cybercrime.gov.in/faq (checked 2026-11-27)",
+    "https://cybercrime.gov.in/ (checked 2026-11-27)"
+   ],
+   "clarifying_questions": [
+    {
+     "q": "What happened?",
+     "options": [
+      "Online financial fraud",
+      "Mobile phone stolen or lost",
+      "Both"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Online financial fraud",
+     "next_step": "Report the financial fraud on the National Cyber Crime Reporting Portal under 'Report Other Cybercrimes' and immediately contact the bank/payment provider using its official fraud-reporting channel.",
+     "authority": "National Cyber Crime Reporting Portal / Indian Cyber Crime Coordination Centre (I4C), with the jurisdictional police and the affected bank or payment provider.",
+     "official_link": "https://www.cybercrime.gov.in/faq",
+     "keep_ready": [
+      "Transaction IDs, UPI/bank statements and screenshots",
+      "Fraudster's phone number, email, website or social-media link",
+      "Complaint details and affected account information"
+     ],
+     "if_it_fails": [
+      "Complaint rejected or no response: use the portal's 'Report Suspect' facility to report the suspect identifier, and follow up with the jurisdictional police through the complaint reference. https://cybercrime.gov.in/Webform/cyber_suspect.aspx",
+      "Portal error: report the suspect identifier through the official Report Suspect page and preserve all evidence; the portal provides separate reporting options for women/child-related and other cybercrimes. https://www.cybercrime.gov.in/faq"
+     ],
+     "sources": [
+      "https://www.cybercrime.gov.in/faq",
+      "https://cybercrime.gov.in/",
+      "https://cybercrime.gov.in/Webform/cyber_suspect.aspx"
+     ]
+    },
+    {
+     "when": "Mobile phone stolen or lost",
+     "next_step": "File a police complaint/FIR and use the government's CEIR/Sanchar Saathi facility to block the phone's IMEI; report the fraud separately on the cybercrime portal if financial fraud also occurred.",
+     "authority": "Jurisdictional police for the theft complaint; Department of Telecommunications CEIR/Sanchar Saathi for IMEI blocking.",
+     "official_link": "https://www.cybercrime.gov.in/faq",
+     "keep_ready": [
+      "Mobile number and IMEI number",
+      "Purchase invoice or phone details",
+      "Police complaint/FIR details"
+     ],
+     "if_it_fails": [
+      "IMEI not blocked: follow up with the telecom service provider and police using the CEIR/Sanchar Saathi complaint reference; the exact CEIR portal link was not verified in this research, so treat the specific URL as UNVERIFIED.",
+      "Police do not register the complaint: approach the jurisdictional police station and use the cybercrime portal for the online-fraud component where applicable. https://www.cybercrime.gov.in/faq"
+     ],
+     "sources": [
+      "https://www.cybercrime.gov.in/faq",
+      "https://cybercrime.gov.in/"
+     ]
+    }
+   ],
+   "state_variation": "Yes. Police FIR registration, investigation and recovery are handled by the State/UT police; cybercrime reporting and suspect reporting are national portals."
+  },
+  {
+   "situation": "An applicant's income, caste, or domicile certificate application is rejected or pending because of missing documents or State-specific verification requirements.",
+   "real_phrasings": [
+    "My income certificate application is rejected due to documents",
+    "Caste certificate verification is pending, whom should I contact?",
+    "How do I get a domicile certificate in my state?",
+    "Income certificate me document issue aa gaya, kya karun?",
+    "Caste certificate pending hai, tehsil me jana padega?"
+   ],
+   "why_stuck": "These certificates are State/UT services, so applicants commonly use a Central portal or another State's form; document lists, issuing officer, validity and verification process differ by State.",
+   "evidence": [
+    "UNVERIFIED: no single national official page was verified in this research for all States' income, caste and domicile certificate processes."
+   ],
+   "clarifying_questions": [
+    {
+     "q": "Which certificate and State/UT is involved?",
+     "options": [
+      "Income certificate",
+      "Caste certificate",
+      "Domicile certificate"
+     ]
+    }
+   ],
+   "branches": [
+    {
+     "when": "Application rejected or pending in the applicant's own State/UT",
+     "next_step": "Open the official State/UT e-District or revenue-department certificate service, check the exact defect or pending status, and submit the specified correction or missing document to the designated issuing authority.",
+     "authority": "State/UT Revenue Department, Tehsildar/Sub-Divisional Magistrate or the designated e-District certificate-issuing authority; the exact office varies by State.",
+     "official_link": "UNVERIFIED: use the official State/UT e-District portal; no universal official link can be correctly supplied without identifying the State.",
+     "keep_ready": [
+      "Application or acknowledgement number",
+      "Identity and address proof",
+      "State-specified income, caste, residence or land/education documents"
+     ],
+     "if_it_fails": [
+      "Rejected: read the rejection reason on the State e-District application status page and reapply only after supplying the prescribed document or correction; specific rules are State-specific and UNVERIFIED without the State name.",
+      "No response: approach the Tehsildar/revenue office or the e-District helpdesk of that State; helpline numbers differ by State and are UNVERIFIED without the State name."
+     ],
+     "sources": [
+      "UNVERIFIED"
+     ]
+    }
+   ],
+   "state_variation": "Yes, substantially. Income, caste and domicile certificates are issued under State/UT rules; the application portal, documents, issuing officer, fee, validity and grievance route differ by State. The State or UT must be identified before an exact official link or helpline can be verified."
+  }
+ ]
+}

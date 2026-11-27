@@ -1,0 +1,586 @@
+{
+ "model": "harims95/hobbylm-embed-140m",
+ "revision": "ea708cee107818fa0c1871eebd26d82a1e3fb1aa",
+ "dim": 512,
+ "rows": [
+  {
+   "card": "rti-file",
+   "kind": "card"
+  },
+  {
+   "card": "rti-first-appeal",
+   "kind": "card"
+  },
+  {
+   "card": "cpgrams-closed",
+   "kind": "card"
+  },
+  {
+   "card": "ration-dealer-complaint",
+   "kind": "card"
+  },
+  {
+   "card": "ration-card-new",
+   "kind": "card"
+  },
+  {
+   "card": "ration-card-add-member",
+   "kind": "card"
+  },
+  {
+   "card": "ration-card-correction",
+   "kind": "card"
+  },
+  {
+   "card": "scholarship-find",
+   "kind": "card"
+  },
+  {
+   "card": "scholarship-stuck",
+   "kind": "card"
+  },
+  {
+   "card": "income-certificate",
+   "kind": "card"
+  },
+  {
+   "card": "caste-certificate",
+   "kind": "card"
+  },
+  {
+   "card": "domicile-certificate",
+   "kind": "card"
+  },
+  {
+   "card": "birth-certificate",
+   "kind": "card"
+  },
+  {
+   "card": "death-certificate",
+   "kind": "card"
+  },
+  {
+   "card": "aadhaar-correction",
+   "kind": "card"
+  },
+  {
+   "card": "epfo-correction",
+   "kind": "card"
+  },
+  {
+   "card": "udyam-registration",
+   "kind": "card"
+  },
+  {
+   "card": "gst-need",
+   "kind": "card"
+  },
+  {
+   "card": "gst-apply",
+   "kind": "card"
+  },
+  {
+   "card": "gst-rejected",
+   "kind": "card"
+  },
+  {
+   "card": "msme-samadhaan",
+   "kind": "card"
+  },
+  {
+   "card": "scheme-finder",
+   "kind": "card"
+  },
+  {
+   "card": "pm-kisan",
+   "kind": "card"
+  },
+  {
+   "card": "e-shram",
+   "kind": "card"
+  },
+  {
+   "card": "life-certificate",
+   "kind": "card"
+  },
+  {
+   "card": "pension-stopped",
+   "kind": "card"
+  },
+  {
+   "card": "pm-svanidhi",
+   "kind": "card"
+  },
+  {
+   "card": "fssai",
+   "kind": "card"
+  },
+  {
+   "card": "which-department",
+   "kind": "card"
+  },
+  {
+   "card": "civic-complaint",
+   "kind": "card"
+  },
+  {
+   "card": "passport",
+   "kind": "card"
+  },
+  {
+   "card": "driving-licence",
+   "kind": "card"
+  },
+  {
+   "card": "pan-card",
+   "kind": "card"
+  },
+  {
+   "card": "voter-id",
+   "kind": "card"
+  },
+  {
+   "card": "free-legal-aid",
+   "kind": "card"
+  },
+  {
+   "card": "stolen-phone",
+   "kind": "card"
+  },
+  {
+   "card": "rti-file",
+   "kind": "example"
+  },
+  {
+   "card": "rti-file",
+   "kind": "example"
+  },
+  {
+   "card": "rti-file",
+   "kind": "example"
+  },
+  {
+   "card": "rti-first-appeal",
+   "kind": "example"
+  },
+  {
+   "card": "rti-first-appeal",
+   "kind": "example"
+  },
+  {
+   "card": "rti-first-appeal",
+   "kind": "example"
+  },
+  {
+   "card": "cpgrams-closed",
+   "kind": "example"
+  },
+  {
+   "card": "cpgrams-closed",
+   "kind": "example"
+  },
+  {
+   "card": "cpgrams-closed",
+   "kind": "example"
+  },
+  {
+   "card": "ration-dealer-complaint",
+   "kind": "example"
+  },
+  {
+   "card": "ration-dealer-complaint",
+   "kind": "example"
+  },
+  {
+   "card": "ration-dealer-complaint",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-new",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-new",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-new",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-add-member",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-add-member",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-add-member",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-correction",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-correction",
+   "kind": "example"
+  },
+  {
+   "card": "ration-card-correction",
+   "kind": "example"
+  },
+  {
+   "card": "scholarship-find",
+   "kind": "example"
+  },
+  {
+   "card": "scholarship-find",
+   "kind": "example"
+  },
+  {
+   "card": "scholarship-find",
+   "kind": "example"
+  },
+  {
+   "card": "scholarship-stuck",
+   "kind": "example"
+  },
+  {
+   "card": "scholarship-stuck",
+   "kind": "example"
+  },
+  {
+   "card": "scholarship-stuck",
+   "kind": "example"
+  },
+  {
+   "card": "income-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "income-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "income-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "caste-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "caste-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "caste-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "domicile-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "domicile-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "domicile-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "birth-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "birth-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "birth-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "death-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "death-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "death-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "aadhaar-correction",
+   "kind": "example"
+  },
+  {
+   "card": "aadhaar-correction",
+   "kind": "example"
+  },
+  {
+   "card": "aadhaar-correction",
+   "kind": "example"
+  },
+  {
+   "card": "epfo-correction",
+   "kind": "example"
+  },
+  {
+   "card": "epfo-correction",
+   "kind": "example"
+  },
+  {
+   "card": "epfo-correction",
+   "kind": "example"
+  },
+  {
+   "card": "udyam-registration",
+   "kind": "example"
+  },
+  {
+   "card": "udyam-registration",
+   "kind": "example"
+  },
+  {
+   "card": "udyam-registration",
+   "kind": "example"
+  },
+  {
+   "card": "gst-need",
+   "kind": "example"
+  },
+  {
+   "card": "gst-need",
+   "kind": "example"
+  },
+  {
+   "card": "gst-need",
+   "kind": "example"
+  },
+  {
+   "card": "gst-apply",
+   "kind": "example"
+  },
+  {
+   "card": "gst-apply",
+   "kind": "example"
+  },
+  {
+   "card": "gst-apply",
+   "kind": "example"
+  },
+  {
+   "card": "gst-rejected",
+   "kind": "example"
+  },
+  {
+   "card": "gst-rejected",
+   "kind": "example"
+  },
+  {
+   "card": "gst-rejected",
+   "kind": "example"
+  },
+  {
+   "card": "msme-samadhaan",
+   "kind": "example"
+  },
+  {
+   "card": "msme-samadhaan",
+   "kind": "example"
+  },
+  {
+   "card": "msme-samadhaan",
+   "kind": "example"
+  },
+  {
+   "card": "scheme-finder",
+   "kind": "example"
+  },
+  {
+   "card": "scheme-finder",
+   "kind": "example"
+  },
+  {
+   "card": "scheme-finder",
+   "kind": "example"
+  },
+  {
+   "card": "pm-kisan",
+   "kind": "example"
+  },
+  {
+   "card": "pm-kisan",
+   "kind": "example"
+  },
+  {
+   "card": "pm-kisan",
+   "kind": "example"
+  },
+  {
+   "card": "e-shram",
+   "kind": "example"
+  },
+  {
+   "card": "e-shram",
+   "kind": "example"
+  },
+  {
+   "card": "e-shram",
+   "kind": "example"
+  },
+  {
+   "card": "life-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "life-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "life-certificate",
+   "kind": "example"
+  },
+  {
+   "card": "pension-stopped",
+   "kind": "example"
+  },
+  {
+   "card": "pension-stopped",
+   "kind": "example"
+  },
+  {
+   "card": "pension-stopped",
+   "kind": "example"
+  },
+  {
+   "card": "pm-svanidhi",
+   "kind": "example"
+  },
+  {
+   "card": "pm-svanidhi",
+   "kind": "example"
+  },
+  {
+   "card": "pm-svanidhi",
+   "kind": "example"
+  },
+  {
+   "card": "fssai",
+   "kind": "example"
+  },
+  {
+   "card": "fssai",
+   "kind": "example"
+  },
+  {
+   "card": "fssai",
+   "kind": "example"
+  },
+  {
+   "card": "which-department",
+   "kind": "example"
+  },
+  {
+   "card": "which-department",
+   "kind": "example"
+  },
+  {
+   "card": "which-department",
+   "kind": "example"
+  },
+  {
+   "card": "civic-complaint",
+   "kind": "example"
+  },
+  {
+   "card": "civic-complaint",
+   "kind": "example"
+  },
+  {
+   "card": "civic-complaint",
+   "kind": "example"
+  },
+  {
+   "card": "passport",
+   "kind": "example"
+  },
+  {
+   "card": "passport",
+   "kind": "example"
+  },
+  {
+   "card": "passport",
+   "kind": "example"
+  },
+  {
+   "card": "driving-licence",
+   "kind": "example"
+  },
+  {
+   "card": "driving-licence",
+   "kind": "example"
+  },
+  {
+   "card": "driving-licence",
+   "kind": "example"
+  },
+  {
+   "card": "pan-card",
+   "kind": "example"
+  },
+  {
+   "card": "pan-card",
+   "kind": "example"
+  },
+  {
+   "card": "pan-card",
+   "kind": "example"
+  },
+  {
+   "card": "voter-id",
+   "kind": "example"
+  },
+  {
+   "card": "voter-id",
+   "kind": "example"
+  },
+  {
+   "card": "voter-id",
+   "kind": "example"
+  },
+  {
+   "card": "free-legal-aid",
+   "kind": "example"
+  },
+  {
+   "card": "free-legal-aid",
+   "kind": "example"
+  },
+  {
+   "card": "free-legal-aid",
+   "kind": "example"
+  },
+  {
+   "card": "stolen-phone",
+   "kind": "example"
+  },
+  {
+   "card": "stolen-phone",
+   "kind": "example"
+  },
+  {
+   "card": "stolen-phone",
+   "kind": "example"
+  }
+ ],
+ "content_hash": "624a7428c5c8ac77",
+ "guides": [],
+ "built_at": "2026-11-27T09:42:53+00:00"
+}

@@ -1,0 +1,155 @@
+{
+  "note": "Decision flows, written by Claude on 2026-11-27 from data/research/perplexity_10_departments.json and data/research/ration.json. Every link responded from a non-India machine on 2026-11-27 except where url_check says otherwise. Not yet reviewed by two people: the page labels them 'Checked by Fuel Labs, 27 Nov 2026'. Nothing marked UNVERIFIED in the research is used here.",
+  "checked_on": "2026-11-27",
+  "flows": [
+    {
+      "id": "passport",
+      "cards": ["passport"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "What do you need?", "options": [
+          {"label": "Apply for a new passport or renew", "next": "apply"},
+          {"label": "My application is stuck at police verification", "next": "pending"},
+          {"label": "Police report came back adverse", "next": "adverse"}]},
+        "apply": {"step": "Apply on Passport Seva, then book an appointment at a Passport Seva Kendra.", "authority": "Ministry of External Affairs (Passport Seva)", "link": {"label": "Open Passport Seva", "url": "https://www.passportindia.gov.in/"}, "keep": ["Proof of address", "Proof of date of birth", "Old passport (for renewal)"], "fails": [{"label": "Can't get an appointment or the portal fails", "next": "grievance"}]},
+        "pending": {"step": "Track your application with your file number and date of birth. If it stays pending, visit your Passport Office.", "authority": "Regional Passport Office (verification is done by your local police)", "link": {"label": "Track your application", "url": "https://www.passportindia.gov.in/psp/passportApp"}, "keep": ["File number", "Date of birth"], "fails": [{"label": "Still pending", "next": "grievance"}]},
+        "adverse": {"step": "Contact your Passport Office to learn the reason. A clarification can lead to re-verification.", "authority": "Regional Passport Office", "link": {"label": "Police verification FAQ", "url": "https://services1.passportindia.gov.in/psp/FaqPoliceVerification"}, "keep": ["File number", "Proof of current address and identity"], "fails": [{"label": "No response from the Passport Office", "next": "grievance"}]},
+        "grievance": {"step": "Register a grievance on Passport Seva, or call the Passport Seva helpline.", "authority": "Ministry of External Affairs (Passport Seva)", "link": {"label": "Passport Seva grievance", "url": "https://www.passportindia.gov.in/psp/Grievance"}, "call": [{"label": "Passport Seva 1800-258-1800", "tel": "18002581800"}], "keep": ["File number"], "fails": []}
+      }
+    },
+    {
+      "id": "rti",
+      "cards": ["rti-file", "rti-first-appeal"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "Have you already filed your RTI?", "options": [
+          {"label": "Not yet", "next": "file"},
+          {"label": "Filed, no reply after 30 days", "next": "appeal"},
+          {"label": "Filed, less than 30 days ago", "next": "wait"}]},
+        "file": {"step": "File your RTI on RTI Online. It covers Central government bodies; state bodies use their own state RTI system.", "authority": "Public Information Officer of the department that holds the records", "link": {"label": "Open RTI Online", "url": "https://rtionline.gov.in/"}, "keep": ["The exact records you want", "Name of the department"], "fails": []},
+        "wait": {"step": "Wait until 30 days have passed. RTI Online only allows a first appeal after that.", "authority": "", "link": {"label": "RTI Online FAQ", "url": "https://rtionline.gov.in/faq.php"}, "keep": [], "fails": []},
+        "appeal": {"step": "File a first appeal: choose 'Submit First Appeal' on RTI Online.", "authority": "First Appellate Authority of the same department", "link": {"label": "Open RTI Online", "url": "https://rtionline.gov.in/"}, "keep": ["RTI registration number", "Email ID you used", "Copy of your RTI"], "fails": [{"label": "The portal won't let me appeal", "next": "wait"}, {"label": "No reply to my first appeal", "next": "second"}]},
+        "second": {"step": "File a second appeal with the Information Commission: the Central Information Commission for Central bodies, or your State Information Commission for state bodies.", "authority": "Central or State Information Commission", "link": {"label": "Central Information Commission", "url": "https://cic.gov.in/"}, "keep": ["RTI and first appeal registration numbers"], "fails": []}
+      }
+    },
+    {
+      "id": "legal-aid",
+      "cards": ["free-legal-aid"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "Which describes you?", "options": [
+          {"label": "Woman or child", "next": "apply"},
+          {"label": "SC or ST", "next": "apply"},
+          {"label": "Person with disability, worker, disaster victim, or low income", "next": "apply"},
+          {"label": "None of these", "next": "check"}]},
+        "apply": {"step": "Apply for free legal aid through NALSA, or go to the District Legal Services Authority at your district court.", "authority": "District Legal Services Authority (under your State Legal Services Authority)", "link": {"label": "NALSA: how to apply", "url": "https://nalsa.gov.in/faqs/"}, "keep": ["Identity proof", "Proof of your category or income", "Your case papers"], "fails": [{"label": "My application was rejected", "next": "rejected"}, {"label": "No response", "next": "noresponse"}]},
+        "check": {"step": "Income limits differ by state, so you may still qualify. Ask the District Legal Services Authority at your district court.", "authority": "District Legal Services Authority", "link": {"label": "NALSA: who is eligible", "url": "https://nalsa.gov.in/faqs/"}, "keep": ["Proof of income", "Your case papers"], "fails": []},
+        "rejected": {"step": "Ask the District Legal Services Authority for the reason, then approach your State Legal Services Authority for a review.", "authority": "State Legal Services Authority", "link": {"label": "NALSA FAQ", "url": "https://nalsa.gov.in/faqs/"}, "keep": ["Your application details"], "fails": []},
+        "noresponse": {"step": "Contact the District or State Legal Services Authority in person, by post or by email.", "authority": "District or State Legal Services Authority", "link": {"label": "NALSA FAQ", "url": "https://nalsa.gov.in/faqs/"}, "keep": ["Your application details"], "fails": []}
+      }
+    },
+    {
+      "id": "ration",
+      "cards": ["ration-card-new"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "Did you recently move from another district or state?", "options": [
+          {"label": "Yes, I moved", "next": "moved"},
+          {"label": "No, I need my first ration card", "next": "first"}]},
+        "first": {"step": "Apply for a ration card through your state's food and civil supplies department.", "authority": "State Food and Civil Supplies Department", "link": {"label": "Find your state's ration portal", "url": "https://nfsa.gov.in/"}, "keep": ["Aadhaar of every family member", "Proof of address"], "fails": []},
+        "moved": {"ask": "Do you need ration now, or do you want to move your card permanently?", "options": [
+          {"label": "I need ration now", "next": "now"},
+          {"label": "Move my card permanently", "next": "permanent"}]},
+        "now": {"step": "Go to any ration shop near your new home and collect your ration with your existing card. You don't need a new card for this.", "authority": "State Food and Civil Supplies Department (national portability)", "link": {"label": "Mera Ration app: how it works", "url": "https://nfsa.gov.in/doc/FAQ_for_Mera_Ration_2.pdf"}, "keep": ["Ration card number", "Aadhaar of the person collecting"], "fails": [{"label": "Shop refused, or my entitlement isn't showing", "next": "grievance"}, {"label": "My fingerprint failed", "next": "fingerprint"}]},
+        "fingerprint": {"step": "Ask the dealer to authenticate another family member on the same card. If they still refuse, register a grievance.", "authority": "State Food and Civil Supplies Department", "link": {"label": "Register a ration grievance", "url": "https://nfsa.gov.in/public/frmRegisterPublicGrievance.aspx"}, "keep": ["Ration card number", "Another family member's Aadhaar"], "fails": []},
+        "grievance": {"step": "Register an online grievance with your district and ration card number, then track it in the Mera Ration app.", "authority": "Department of Food and Public Distribution, with your state food department", "link": {"label": "Register a ration grievance", "url": "https://nfsa.gov.in/public/frmRegisterPublicGrievance.aspx"}, "keep": ["Ration card number", "District name"], "fails": []},
+        "permanent": {"step": "Surrender your card in your old state to get a surrender certificate, then apply in your new state's ration portal.", "authority": "Food departments of both states", "link": {"label": "Find your state's ration portal", "url": "https://nfsa.gov.in/"}, "keep": ["Surrender certificate", "Proof of new address", "Aadhaar of every family member"], "fails": [{"label": "Application stuck or rejected", "next": "grievance"}]}
+      }
+    },
+    {
+      "id": "udyam",
+      "cards": ["udyam-registration"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "What do you need?", "options": [
+          {"label": "Register my business", "next": "register"},
+          {"label": "I forgot my Udyam number", "next": "forgot"},
+          {"label": "Update my registration details", "next": "update"}]},
+        "register": {"step": "Register on the Udyam portal. Registration is free.", "authority": "Ministry of MSME", "link": {"label": "Open Udyam Registration", "url": "https://udyamregistration.gov.in/"}, "keep": ["Aadhaar of the owner", "PAN of the business or owner", "Aadhaar-linked mobile number"], "fails": [{"label": "OTP not received or portal error", "next": "support"}]},
+        "forgot": {"step": "On the Udyam portal, choose 'Forgot Udyam/UAM number' and verify with the OTP sent to your registered mobile or email.", "authority": "Ministry of MSME", "link": {"label": "Open Udyam Registration", "url": "https://udyamregistration.gov.in/"}, "keep": ["Mobile number or email used to register"], "fails": [{"label": "OTP not received or number not found", "next": "support"}]},
+        "update": {"step": "Log in on the Udyam portal to update your registration details.", "authority": "Ministry of MSME", "link": {"label": "Open Udyam Registration", "url": "https://udyamregistration.gov.in/"}, "keep": ["Udyam registration number", "Registered mobile number"], "fails": [{"label": "Portal error", "next": "support"}]},
+        "support": {"step": "Contact the Ministry of MSME's CHAMPIONS support (Monday to Friday, 10 am to 6 pm), or email champions@gov.in.", "authority": "Ministry of MSME", "link": {"label": "Open Udyam Registration", "url": "https://udyamregistration.gov.in/"}, "call": [{"label": "CHAMPIONS +91 83088 09334", "tel": "+918308809334"}], "keep": [], "fails": []}
+      }
+    },
+    {
+      "id": "pm-kisan",
+      "cards": ["pm-kisan"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "What does 'Know Your Status' on the PM-KISAN site show?", "options": [
+          {"label": "eKYC pending, or 'No'", "next": "ekyc"},
+          {"label": "eKYC done, but no money", "next": "payment"},
+          {"label": "An eligibility or verification problem", "next": "verify"},
+          {"label": "I haven't checked yet", "next": "check"}]},
+        "check": {"step": "Check your status on the PM-KISAN 'Know Your Status' page.", "authority": "Department of Agriculture and Farmers Welfare", "link": {"label": "Know Your Status", "url": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx"}, "keep": ["PM-KISAN registration number or Aadhaar"], "fails": []},
+        "ekyc": {"step": "Complete eKYC on the PM-KISAN portal or app, or at a Common Service Centre. Check your status again after 24 hours.", "authority": "Department of Agriculture and Farmers Welfare (verification by your state)", "link": {"label": "PM-KISAN portal", "url": "https://pmkisan.gov.in/"}, "keep": ["Aadhaar number", "Aadhaar-linked mobile number"], "fails": [{"label": "eKYC fails or status doesn't change", "next": "payment"}]},
+        "payment": {"step": "On 'Know Your Status', check the payment status, bank name, UTR number and credit date, and follow the instructions shown there.", "authority": "Department of Agriculture and Farmers Welfare", "link": {"label": "Know Your Status", "url": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx"}, "keep": ["Registration number", "Bank account details"], "fails": []},
+        "verify": {"step": "Follow the instructions shown on 'Know Your Status'. Land and eligibility checks are done by your state's agriculture or revenue office.", "authority": "State agriculture or revenue department", "link": {"label": "Know Your Status", "url": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx"}, "keep": ["Registration number", "Land record details"], "fails": []}
+      }
+    },
+    {
+      "id": "scholarship",
+      "cards": ["scholarship-stuck"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "What does your scholarship application status show?", "options": [
+          {"label": "Pending verification at my institute", "next": "pending"},
+          {"label": "Marked defective", "next": "defective"},
+          {"label": "Rejected, or no money after approval", "next": "grievance"}]},
+        "pending": {"step": "Ask your institute's scholarship nodal officer to verify your application before the scheme's deadline.", "authority": "Institute Nodal Officer", "link": {"label": "National Scholarship Portal", "url": "https://scholarships.gov.in/home/Public"}, "keep": ["NSP application ID", "Institute and course details"], "fails": [{"label": "The institute isn't responding", "next": "grievance"}]},
+        "defective": {"step": "Contact your institute or district nodal officer right away so your application can be corrected.", "authority": "Institute or District Nodal Officer", "link": {"label": "National Scholarship Portal", "url": "https://scholarships.gov.in/home/Public"}, "keep": ["NSP application ID"], "fails": [{"label": "No response", "next": "grievance"}]},
+        "grievance": {"step": "Register a grievance on the National Scholarship Portal and track its status there.", "authority": "The ministry or department that runs your scheme", "link": {"label": "NSP grievance", "url": "https://scholarships.gov.in/home/Public"}, "keep": ["NSP application ID"], "fails": []}
+      }
+    },
+    {
+      "id": "aadhaar",
+      "cards": ["aadhaar-correction"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "Where are you with your Aadhaar correction?", "options": [
+          {"label": "Haven't applied yet", "next": "apply"},
+          {"label": "My update was rejected", "next": "rejected"},
+          {"label": "I need to book or change an appointment", "next": "appointment"}]},
+        "apply": {"step": "Update your details through UIDAI: some fields online, others at an Aadhaar centre.", "authority": "UIDAI", "link": {"label": "UIDAI: enrolment and update", "url": "https://uidai.gov.in/en/enrolment-and-update"}, "keep": ["Aadhaar number", "Registered mobile number", "Proof for the detail you're correcting"], "fails": [{"label": "My update was rejected", "next": "rejected"}]},
+        "rejected": {"step": "Call UIDAI on 1947 to find out why, fix the problem, then submit a new update request.", "authority": "UIDAI", "link": {"label": "UIDAI: enrolment and update", "url": "https://uidai.gov.in/en/enrolment-and-update"}, "call": [{"label": "UIDAI 1947", "tel": "1947"}], "keep": ["Update request number (URN)", "Registered mobile number"], "fails": [{"label": "Rejected again", "next": "complaint"}]},
+        "appointment": {"step": "Book, reschedule or cancel your appointment on UIDAI, at least 24 hours ahead, using the same mobile number or email.", "authority": "UIDAI", "link": {"label": "UIDAI: enrolment and update", "url": "https://uidai.gov.in/en/enrolment-and-update"}, "keep": ["Mobile number or email used to book"], "fails": []},
+        "complaint": {"step": "Raise a complaint with UIDAI: call 1947 or email help@uidai.gov.in.", "authority": "UIDAI", "link": {"label": "UIDAI: enrolment and update", "url": "https://uidai.gov.in/en/enrolment-and-update"}, "call": [{"label": "UIDAI 1947", "tel": "1947"}], "keep": ["Update request number (URN)"], "fails": []}
+      }
+    },
+    {
+      "id": "fraud-phone",
+      "cards": ["stolen-phone"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "What happened?", "options": [
+          {"label": "Money lost to online fraud", "next": "fraud"},
+          {"label": "Phone stolen or lost", "next": "phone"}]},
+        "fraud": {"step": "Call 1930 or report on the National Cyber Crime Reporting Portal right away, and contact your bank's official fraud line.", "authority": "Indian Cyber Crime Coordination Centre, with your police and bank", "link": {"label": "Report at cybercrime.gov.in", "url": "https://cybercrime.gov.in/"}, "call": [{"label": "Cyber fraud helpline 1930", "tel": "1930"}], "keep": ["Transaction IDs and screenshots", "Fraudster's number, link or ID"], "fails": []},
+        "phone": {"step": "File a police complaint, then block your phone's IMEI on Sanchar Saathi so it can't be used.", "authority": "Your local police, and the Department of Telecommunications", "link": {"label": "Block it on Sanchar Saathi", "url": "https://sancharsaathi.gov.in/"}, "keep": ["Mobile number and IMEI", "Police complaint number"], "fails": [{"label": "Money was also taken", "next": "fraud"}]}
+      }
+    },
+    {
+      "id": "certificates",
+      "cards": ["income-certificate", "caste-certificate", "domicile-certificate"],
+      "start": "q",
+      "nodes": {
+        "q": {"ask": "Have you already applied?", "options": [
+          {"label": "Not yet", "next": "apply"},
+          {"label": "Applied: pending or rejected", "next": "stuck"}]},
+        "apply": {"step": "Apply on your state's e-District or citizen-services portal, or at a Common Service Centre.", "authority": "State Revenue Department (Tehsildar or SDM office)", "link": {"label": "Find your state portal", "url": "https://www.india.gov.in/"}, "keep": ["Identity proof", "Address proof", "Documents your state asks for"], "fails": [{"label": "Pending or rejected", "next": "stuck"}]},
+        "stuck": {"step": "Check the reason on your state portal's application status page, then submit the missing document or correction to the issuing office.", "authority": "Tehsildar or SDM office (varies by state)", "link": {"label": "Find your state portal", "url": "https://www.india.gov.in/"}, "keep": ["Application number", "The document they asked for"], "fails": [{"label": "No response", "next": "office"}]},
+        "office": {"step": "Visit the Tehsildar or revenue office, or your state e-District helpdesk, with your application number.", "authority": "Tehsildar or SDM office", "link": {"label": "Find your state portal", "url": "https://www.india.gov.in/"}, "keep": ["Application number"], "fails": []}
+      }
+    }
+  ]
+}

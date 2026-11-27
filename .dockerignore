@@ -1,0 +1,10 @@
+node_modules
+dist
+assets-src
+tests
+.qa
+.impeccable
+data/research
+feedback_counts.json*
+*.log
+.git

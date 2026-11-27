@@ -1,0 +1,167 @@
+{
+ "note": "Grok batch 2, 2026-11-27, written without seeing our cards. Expected answers set by Claude BEFORE running. Changed from Grok labels: g-52 pension is covered (pension-stopped card); g-48 lost phone -> stolen-phone card, not emergency; g-44 accepts any of three ration cards (no 'card cancelled' card).",
+ "questions": [
+  {
+   "id": "g-41",
+   "lang": "kanglish",
+   "q": "passport renewal ge police verification beka",
+   "expected": [
+    "passport"
+   ]
+  },
+  {
+   "id": "g-42",
+   "lang": "kanglish",
+   "q": "rti hege haakodu online nalli land vishaya",
+   "expected": [
+    "rti-file"
+   ]
+  },
+  {
+   "id": "g-43",
+   "lang": "kanglish",
+   "q": "free lawyer sigutta na nam appa case ge",
+   "expected": [
+    "free-legal-aid"
+   ]
+  },
+  {
+   "id": "g-44",
+   "lang": "kanglish",
+   "q": "ration card cancel aagide 3 tingalinda ration bandilla",
+   "expected": [
+    "ration-card-new",
+    "ration-dealer-complaint",
+    "ration-card-correction"
+   ]
+  },
+  {
+   "id": "g-45",
+   "lang": "kanglish",
+   "q": "udyam registration madbeku nanna chikka angadi ge",
+   "expected": [
+    "udyam-registration"
+   ]
+  },
+  {
+   "id": "g-46",
+   "lang": "kanglish",
+   "q": "pm kisan duddu bandilla ekyc madidini",
+   "expected": [
+    "pm-kisan"
+   ]
+  },
+  {
+   "id": "g-47",
+   "lang": "kanglish",
+   "q": "aadhaar alli mobile number change madodu hege",
+   "expected": [
+    "aadhaar-correction"
+   ]
+  },
+  {
+   "id": "g-48",
+   "lang": "kanglish",
+   "q": "nanna phone kaledu hogide block madodu hege",
+   "expected": [
+    "stolen-phone"
+   ]
+  },
+  {
+   "id": "g-49",
+   "lang": "kanglish",
+   "q": "aadaya pramana patra college admission ge beku",
+   "expected": [
+    "income-certificate"
+   ]
+  },
+  {
+   "id": "g-50",
+   "lang": "kanglish",
+   "q": "mane tax online kattodu hege bbmp",
+   "expected": [
+    "not_covered"
+   ]
+  },
+  {
+   "id": "g-51",
+   "lang": "en",
+   "q": "tatkal passport how many days it take urgent",
+   "expected": [
+    "passport"
+   ]
+  },
+  {
+   "id": "g-52",
+   "lang": "en",
+   "q": "my mother pension stopped which office to complain",
+   "expected": [
+    "pension-stopped"
+   ]
+  },
+  {
+   "id": "g-53",
+   "lang": "en",
+   "q": "got sms kyc update link clicked now money gone",
+   "expected": [
+    "emergency"
+   ]
+  },
+  {
+   "id": "g-54",
+   "lang": "en",
+   "q": "scholarship rejected reason not shown what next",
+   "expected": [
+    "scholarship-stuck"
+   ]
+  },
+  {
+   "id": "g-55",
+   "lang": "hinglish",
+   "q": "aadhar update ke liye kitne paise lagte hai",
+   "expected": [
+    "aadhaar-correction"
+   ]
+  },
+  {
+   "id": "g-56",
+   "lang": "hinglish",
+   "q": "rti ka jawab galat diya appeal kaise kare",
+   "expected": [
+    "rti-first-appeal"
+   ]
+  },
+  {
+   "id": "g-57",
+   "lang": "hinglish",
+   "q": "mere pati maarte hai kya karu",
+   "expected": [
+    "emergency"
+   ]
+  },
+  {
+   "id": "g-58",
+   "lang": "tanglish",
+   "q": "udyam certificate free ah illa kasu kattanuma",
+   "expected": [
+    "udyam-registration"
+   ]
+  },
+  {
+   "id": "g-59",
+   "lang": "tanglish",
+   "q": "caste certificate online apply panna enna venum",
+   "expected": [
+    "caste-certificate"
+   ]
+  },
+  {
+   "id": "g-60",
+   "lang": "tanglish",
+   "q": "free legal aid enga kidaikum en case ku",
+   "expected": [
+    "free-legal-aid"
+   ]
+  }
+ ]
+}

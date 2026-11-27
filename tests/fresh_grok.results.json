@@ -1,0 +1,2006 @@
+[
+ {
+  "id": "g-01",
+  "lang": "en",
+  "q": "passport renewal how to apply online my passport expired last month",
+  "intended": "passport",
+  "expected": [
+   "passport"
+  ],
+  "normalized": "passport renewal how to apply online my passport expired last month",
+  "api": {
+   "source": "embedding",
+   "ms": 109,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 0.8757
+    },
+    {
+     "id": "driving-licence",
+     "score": 0.7356
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 0.7199
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 17.5
+    },
+    {
+     "id": "driving-licence",
+     "score": 7.28
+    },
+    {
+     "id": "ration-card-new",
+     "score": 4.48
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-02",
+  "lang": "en",
+  "q": "police verification pending for passport since 3 months what to do",
+  "intended": "passport",
+  "expected": [
+   "passport"
+  ],
+  "normalized": "police verification pending for passport since 3 months what to do",
+  "api": {
+   "source": "embedding",
+   "ms": 76,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 0.7932
+    },
+    {
+     "id": "driving-licence",
+     "score": 0.7048
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 0.6549
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "scholarship-stuck",
+     "score": 7.22
+    },
+    {
+     "id": "passport",
+     "score": 7.22
+    },
+    {
+     "id": "msme-samadhaan",
+     "score": 3.61
+    }
+   ],
+   "grade": "partial (in closest 3, below threshold)"
+  }
+ },
+ {
+  "id": "g-03",
+  "lang": "en",
+  "q": "how to file rti for my land record no reply from tahsildar office",
+  "intended": "rti",
+  "expected": [
+   "rti-file",
+   "rti-first-appeal"
+  ],
+  "normalized": "how to file rti for my land record no reply from tahsildar office",
+  "api": {
+   "source": "embedding",
+   "ms": 84,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "rti-first-appeal",
+     "score": 0.798
+    },
+    {
+     "id": "rti-file",
+     "score": 0.7713
+    },
+    {
+     "id": "gst-rejected",
+     "score": 0.6503
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "rti-first-appeal",
+     "score": 24.56
+    },
+    {
+     "id": "rti-file",
+     "score": 21.41
+    },
+    {
+     "id": "gst-rejected",
+     "score": 4.76
+    }
+   ],
+   "grade": "partial (right card, below threshold)"
+  }
+ },
+ {
+  "id": "g-04",
+  "lang": "en",
+  "q": "rti first appeal if no answer in 30 days",
+  "intended": "rti",
+  "expected": [
+   "rti-first-appeal"
+  ],
+  "normalized": "rti first appeal if no answer in 30 days",
+  "api": {
+   "source": "embedding",
+   "ms": 75,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "rti-first-appeal",
+     "score": 0.8563
+    },
+    {
+     "id": "rti-file",
+     "score": 0.747
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 0.6819
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "rti-first-appeal",
+     "score": 38.63
+    },
+    {
+     "id": "rti-file",
+     "score": 5.89
+    },
+    {
+     "id": "gst-rejected",
+     "score": 3.61
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-05",
+  "lang": "en",
+  "q": "free lawyer for poor family my father has court case",
+  "intended": "free_legal_help",
+  "expected": [
+   "not_covered"
+  ],
+  "normalized": "free lawyer for poor family my father has court case",
+  "api": {
+   "source": "embedding",
+   "ms": 78,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "free-legal-aid",
+     "score": 0.8616
+    },
+    {
+     "id": "death-certificate",
+     "score": 0.7164
+    },
+    {
+     "id": "msme-samadhaan",
+     "score": 0.6307
+    }
+   ],
+   "grade": "FAIL"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "free-legal-aid",
+     "score": 39.35
+    },
+    {
+     "id": "ration-card-add-member",
+     "score": 5.89
+    },
+    {
+     "id": "death-certificate",
+     "score": 3.61
+    }
+   ],
+   "grade": "FAIL"
+  }
+ },
+ {
+  "id": "g-06",
+  "lang": "en",
+  "q": "ration card name add for new born baby",
+  "intended": "ration_card",
+  "expected": [
+   "ration-card-add-member"
+  ],
+  "normalized": "ration card name add for new born baby",
+  "api": {
+   "source": "embedding",
+   "ms": 68,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "ration-card-add-member",
+     "score": 0.8695
+    },
+    {
+     "id": "ration-card-new",
+     "score": 0.8101
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 0.805
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "ration-card-add-member",
+     "score": 22.35
+    },
+    {
+     "id": "ration-card-new",
+     "score": 15.39
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 15.13
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-07",
+  "lang": "en",
+  "q": "udyam registration for small tailoring shop is it free",
+  "intended": "msme_udyam",
+  "expected": [
+   "udyam-registration"
+  ],
+  "normalized": "udyam registration for small tailoring shop is it free",
+  "api": {
+   "source": "embedding",
+   "ms": 76,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "udyam-registration",
+     "score": 0.8662
+    },
+    {
+     "id": "e-shram",
+     "score": 0.7112
+    },
+    {
+     "id": "fssai",
+     "score": 0.6982
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "udyam-registration",
+     "score": 20.53
+    },
+    {
+     "id": "gst-need",
+     "score": 8.18
+    },
+    {
+     "id": "ration-dealer-complaint",
+     "score": 5.13
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-08",
+  "lang": "en",
+  "q": "pm kisan money not came this time status check",
+  "intended": "pm_kisan",
+  "expected": [
+   "pm-kisan"
+  ],
+  "normalized": "pm farmer money not came this time status check",
+  "api": {
+   "source": "embedding",
+   "ms": 69,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "pm-kisan",
+     "score": 0.7659
+    },
+    {
+     "id": "cpgrams-closed",
+     "score": 0.7057
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0.6804
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "pm-kisan",
+     "score": 19.06
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 11.78
+    },
+    {
+     "id": "pm-svanidhi",
+     "score": 5.89
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-09",
+  "lang": "en",
+  "q": "post matric scholarship sc student apply last date",
+  "intended": "scholarship",
+  "expected": [
+   "scholarship-find"
+  ],
+  "normalized": "post matric scholarship sc student apply last date",
+  "api": {
+   "source": "embedding",
+   "ms": 68,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "scholarship-find",
+     "score": 0.7252
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 0.724
+    },
+    {
+     "id": "caste-certificate",
+     "score": 0.7155
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "scholarship-find",
+     "score": 31.24
+    },
+    {
+     "id": "caste-certificate",
+     "score": 7.28
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 5.13
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-10",
+  "lang": "en",
+  "q": "aadhar card date of birth wrong how to correct",
+  "intended": "aadhaar_correction",
+  "expected": [
+   "aadhaar-correction"
+  ],
+  "normalized": "aadhar card date of birth wrong how to correct",
+  "api": {
+   "source": "embedding",
+   "ms": 74,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 0.8693
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 0.7221
+    },
+    {
+     "id": "epfo-correction",
+     "score": 0.6945
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 26.99
+    },
+    {
+     "id": "epfo-correction",
+     "score": 16.77
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 12.71
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-11",
+  "lang": "en",
+  "q": "my mobile stolen in bus how to block imei",
+  "intended": "stolen_phone",
+  "expected": [
+   "emergency"
+  ],
+  "normalized": "my mobile stolen in bus how to block imei",
+  "api": {
+   "source": "embedding",
+   "ms": 71,
+   "emergency": true,
+   "covered": true,
+   "results": [
+    {
+     "id": "stolen-phone",
+     "score": 0.8856
+    },
+    {
+     "id": "ration-card-new",
+     "score": 0.6134
+    },
+    {
+     "id": "cpgrams-closed",
+     "score": 0.6119
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": true,
+   "covered": true,
+   "results": [
+    {
+     "id": "stolen-phone",
+     "score": 38.5
+    },
+    {
+     "id": "rti-file",
+     "score": 0
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-12",
+  "lang": "en",
+  "q": "income certificate online apply for college admission",
+  "intended": "income_certificate",
+  "expected": [
+   "income-certificate"
+  ],
+  "normalized": "income certificate online apply for college admission",
+  "api": {
+   "source": "embedding",
+   "ms": 64,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "income-certificate",
+     "score": 0.9269
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 0.8384
+    },
+    {
+     "id": "birth-certificate",
+     "score": 0.8339
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "income-certificate",
+     "score": 14.44
+    },
+    {
+     "id": "scholarship-find",
+     "score": 9.99
+    },
+    {
+     "id": "caste-certificate",
+     "score": 8.22
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-13",
+  "lang": "en",
+  "q": "caste certificate lost need duplicate copy",
+  "intended": "caste_certificate",
+  "expected": [
+   "caste-certificate"
+  ],
+  "normalized": "caste certificate lost need duplicate copy",
+  "api": {
+   "source": "embedding",
+   "ms": 67,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "caste-certificate",
+     "score": 0.792
+    },
+    {
+     "id": "rti-file",
+     "score": 0.7098
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 0.6983
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "caste-certificate",
+     "score": 13.44
+    },
+    {
+     "id": "stolen-phone",
+     "score": 7.22
+    },
+    {
+     "id": "income-certificate",
+     "score": 3.22
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-14",
+  "lang": "en",
+  "q": "how to pay property tax online for my house",
+  "intended": "out_of_scope:property_tax",
+  "expected": [
+   "not_covered"
+  ],
+  "normalized": "how to pay property tax online for my house",
+  "api": {
+   "source": "embedding",
+   "ms": 71,
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "income-certificate",
+     "score": 0.6856
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 0.6688
+    },
+    {
+     "id": "pan-card",
+     "score": 0.5944
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "gst-need",
+     "score": 4.65
+    },
+    {
+     "id": "pan-card",
+     "score": 2.94
+    },
+    {
+     "id": "rti-file",
+     "score": 1.7
+    }
+   ],
+   "grade": "FAIL"
+  }
+ },
+ {
+  "id": "g-15",
+  "lang": "en",
+  "q": "someone is beating my sister at home right now please help",
+  "intended": "emergency:violence",
+  "expected": [
+   "emergency"
+  ],
+  "normalized": "someone is beating my sister at home right now please help",
+  "api": {
+   "source": "embedding",
+   "ms": 73,
+   "emergency": true,
+   "covered": false,
+   "results": [
+    {
+     "id": "ration-card-new",
+     "score": 0.6226
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 0.6186
+    },
+    {
+     "id": "aadhaar-correction",
+     "score": 0.6161
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": true,
+   "covered": false,
+   "results": [
+    {
+     "id": "rti-file",
+     "score": 7.22
+    },
+    {
+     "id": "free-legal-aid",
+     "score": 7.22
+    },
+    {
+     "id": "life-certificate",
+     "score": 2.94
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-16",
+  "lang": "en",
+  "q": "new driving licence apply age 18",
+  "intended": "out_of_scope:driving_licence",
+  "expected": [
+   "driving-licence"
+  ],
+  "normalized": "new driving licence apply age 18",
+  "api": {
+   "source": "embedding",
+   "ms": 71,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "driving-licence",
+     "score": 0.7787
+    },
+    {
+     "id": "birth-certificate",
+     "score": 0.6401
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 0.6298
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "driving-licence",
+     "score": 21.39
+    },
+    {
+     "id": "ration-card-new",
+     "score": 6.66
+    },
+    {
+     "id": "fssai",
+     "score": 5.89
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-17",
+  "lang": "hinglish",
+  "q": "passport ke liye appointment kaise book kare",
+  "intended": "passport",
+  "expected": [
+   "passport"
+  ],
+  "normalized": "passport for appointment how book kare",
+  "api": {
+   "source": "embedding",
+   "ms": 72,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 0.8372
+    },
+    {
+     "id": "pm-kisan",
+     "score": 0.6439
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 0.6388
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 10.83
+    },
+    {
+     "id": "rti-file",
+     "score": 0
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-18",
+  "lang": "hinglish",
+  "q": "rti kaise dale online pension ke bare me",
+  "intended": "rti",
+  "expected": [
+   "rti-file"
+  ],
+  "normalized": "rti how dale online pension bare me",
+  "api": {
+   "source": "embedding",
+   "ms": 78,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "pension-stopped",
+     "score": 0.7379
+    },
+    {
+     "id": "cpgrams-closed",
+     "score": 0.6932
+    },
+    {
+     "id": "life-certificate",
+     "score": 0.6688
+    }
+   ],
+   "grade": "FAIL (wrong card)"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "rti-file",
+     "score": 7.59
+    },
+    {
+     "id": "life-certificate",
+     "score": 6.83
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 5.89
+    }
+   ],
+   "grade": "partial (right card, below threshold)"
+  }
+ },
+ {
+  "id": "g-19",
+  "lang": "hinglish",
+  "q": "muft vakil kaise milega garib hu",
+  "intended": "free_legal_help",
+  "expected": [
+   "not_covered"
+  ],
+  "normalized": "muft vakil how to get garib hu",
+  "api": {
+   "source": "embedding",
+   "ms": 77,
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 0.6517
+    },
+    {
+     "id": "pan-card",
+     "score": 0.6047
+    },
+    {
+     "id": "pm-svanidhi",
+     "score": 0.6038
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "free-legal-aid",
+     "score": 7.22
+    },
+    {
+     "id": "rti-file",
+     "score": 0
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0
+    }
+   ],
+   "grade": "FAIL"
+  }
+ },
+ {
+  "id": "g-20",
+  "lang": "hinglish",
+  "q": "ration card band ho gaya kya kare 2 mahine se ration nahi mila",
+  "intended": "ration_card",
+  "expected": [
+   "ration-dealer-complaint",
+   "ration-card-correction",
+   "ration-card-new"
+  ],
+  "normalized": "ration card stopped what to do 2 mahine se ration not received",
+  "api": {
+   "source": "embedding",
+   "ms": 82,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "ration-card-new",
+     "score": 0.7831
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 0.7466
+    },
+    {
+     "id": "ration-dealer-complaint",
+     "score": 0.7437
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "ration-card-new",
+     "score": 11.5
+    },
+    {
+     "id": "ration-card-add-member",
+     "score": 11.5
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 11.5
+    }
+   ],
+   "grade": "partial (right card, below threshold)"
+  }
+ },
+ {
+  "id": "g-21",
+  "lang": "hinglish",
+  "q": "udyam certificate download kaise kare",
+  "intended": "msme_udyam",
+  "expected": [
+   "udyam-registration"
+  ],
+  "normalized": "udyam certificate download how to",
+  "api": {
+   "source": "embedding",
+   "ms": 68,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "udyam-registration",
+     "score": 0.8074
+    },
+    {
+     "id": "rti-file",
+     "score": 0.6963
+    },
+    {
+     "id": "birth-certificate",
+     "score": 0.6935
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "udyam-registration",
+     "score": 8.83
+    },
+    {
+     "id": "income-certificate",
+     "score": 3.22
+    },
+    {
+     "id": "caste-certificate",
+     "score": 3.22
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-22",
+  "lang": "hinglish",
+  "q": "kisan samman nidhi ka paisa nahi aaya ekyc kiya tha",
+  "intended": "pm_kisan",
+  "expected": [
+   "pm-kisan"
+  ],
+  "normalized": "farmer samman nidhi money not received ekyc kiya tha",
+  "api": {
+   "source": "embedding",
+   "ms": 73,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "pm-kisan",
+     "score": 0.7766
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 0.6725
+    },
+    {
+     "id": "pm-svanidhi",
+     "score": 0.6647
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "pm-kisan",
+     "score": 34.83
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 14.78
+    },
+    {
+     "id": "ration-dealer-complaint",
+     "score": 2.94
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-23",
+  "lang": "hinglish",
+  "q": "scholarship ka paisa abhi tak nahi aaya nsp",
+  "intended": "scholarship",
+  "expected": [
+   "scholarship-stuck"
+  ],
+  "normalized": "scholarship money still not received nsp",
+  "api": {
+   "source": "embedding",
+   "ms": 68,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "scholarship-stuck",
+     "score": 0.9138
+    },
+    {
+     "id": "scholarship-find",
+     "score": 0.7363
+    },
+    {
+     "id": "income-certificate",
+     "score": 0.6577
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "scholarship-stuck",
+     "score": 28.8
+    },
+    {
+     "id": "scholarship-find",
+     "score": 11.02
+    },
+    {
+     "id": "ration-dealer-complaint",
+     "score": 2.94
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-24",
+  "lang": "hinglish",
+  "q": "aadhar me naam galat hai kaise sahi kare",
+  "intended": "aadhaar_correction",
+  "expected": [
+   "aadhaar-correction"
+  ],
+  "normalized": "aadhar me name wrong how sahi kare",
+  "api": {
+   "source": "embedding",
+   "ms": 116,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 0.7854
+    },
+    {
+     "id": "pan-card",
+     "score": 0.6552
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 0.6249
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 13.16
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 8.24
+    },
+    {
+     "id": "epfo-correction",
+     "score": 5.93
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-25",
+  "lang": "hinglish",
+  "q": "upi se 20000 kat gaye fraud call aaya tha",
+  "intended": "emergency:online_fraud",
+  "expected": [
+   "emergency"
+  ],
+  "normalized": "upi se 20000 kat gaye fraud call aaya tha",
+  "api": {
+   "source": "embedding",
+   "ms": 84,
+   "emergency": true,
+   "covered": false,
+   "results": [
+    {
+     "id": "rti-first-appeal",
+     "score": 0.6776
+    },
+    {
+     "id": "free-legal-aid",
+     "score": 0.6697
+    },
+    {
+     "id": "aadhaar-correction",
+     "score": 0.6546
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": true,
+   "covered": false,
+   "results": [
+    {
+     "id": "rti-file",
+     "score": 0
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0
+    },
+    {
+     "id": "cpgrams-closed",
+     "score": 0
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-26",
+  "lang": "hinglish",
+  "q": "aay praman patra kaise banwaye",
+  "intended": "income_certificate",
+  "expected": [
+   "income-certificate"
+  ],
+  "normalized": "income certificate how to apply",
+  "api": {
+   "source": "embedding",
+   "ms": 2,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "income-certificate",
+     "score": 0.899
+    },
+    {
+     "id": "birth-certificate",
+     "score": 0.7943
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 0.7732
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "income-certificate",
+     "score": 12.74
+    },
+    {
+     "id": "caste-certificate",
+     "score": 4.61
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 4.61
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-27",
+  "lang": "hinglish",
+  "q": "jati praman patra online apply",
+  "intended": "caste_certificate",
+  "expected": [
+   "caste-certificate"
+  ],
+  "normalized": "caste certificate online apply",
+  "api": {
+   "source": "embedding",
+   "ms": 65,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "caste-certificate",
+     "score": 0.8594
+    },
+    {
+     "id": "income-certificate",
+     "score": 0.8411
+    },
+    {
+     "id": "birth-certificate",
+     "score": 0.837
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "caste-certificate",
+     "score": 14.83
+    },
+    {
+     "id": "income-certificate",
+     "score": 6.31
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 6.31
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-28",
+  "lang": "hinglish",
+  "q": "naya gas connection kaise le ujjwala",
+  "intended": "out_of_scope:gas_connection",
+  "expected": [
+   "not_covered"
+  ],
+  "normalized": "naya gas connection how to get ujjwala",
+  "api": {
+   "source": "embedding",
+   "ms": 80,
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "pan-card",
+     "score": 0.6463
+    },
+    {
+     "id": "udyam-registration",
+     "score": 0.6436
+    },
+    {
+     "id": "life-certificate",
+     "score": 0.6203
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "rti-file",
+     "score": 0
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0
+    },
+    {
+     "id": "cpgrams-closed",
+     "score": 0
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-29",
+  "lang": "tanglish",
+  "q": "passport renew panna enna documents venum",
+  "intended": "passport",
+  "expected": [
+   "passport"
+  ],
+  "normalized": "passport renew panna enna documents venum",
+  "api": {
+   "source": "embedding",
+   "ms": 69,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 0.8007
+    },
+    {
+     "id": "driving-licence",
+     "score": 0.6963
+    },
+    {
+     "id": "pension-stopped",
+     "score": 0.655
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 13.11
+    },
+    {
+     "id": "driving-licence",
+     "score": 5.89
+    },
+    {
+     "id": "scholarship-find",
+     "score": 3.61
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-30",
+  "lang": "tanglish",
+  "q": "ration card la peru serkanum eppadi",
+  "intended": "ration_card",
+  "expected": [
+   "ration-card-add-member",
+   "ration-card-correction"
+  ],
+  "normalized": "ration card la peru serkanum eppadi",
+  "api": {
+   "source": "embedding",
+   "ms": 79,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "ration-card-new",
+     "score": 0.8201
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 0.7387
+    },
+    {
+     "id": "ration-card-add-member",
+     "score": 0.7221
+    }
+   ],
+   "grade": "FAIL (wrong card)"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "ration-card-new",
+     "score": 11.5
+    },
+    {
+     "id": "ration-card-add-member",
+     "score": 11.5
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 11.5
+    }
+   ],
+   "grade": "partial (in closest 3, below threshold)"
+  }
+ },
+ {
+  "id": "g-31",
+  "lang": "tanglish",
+  "q": "aadhaar la address maathanum online la mudiyuma",
+  "intended": "aadhaar_correction",
+  "expected": [
+   "aadhaar-correction"
+  ],
+  "normalized": "aadhaar la need to change the address online la mudiyuma",
+  "api": {
+   "source": "embedding",
+   "ms": 95,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 0.816
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 0.6936
+    },
+    {
+     "id": "udyam-registration",
+     "score": 0.686
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 17.09
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 7.69
+    },
+    {
+     "id": "udyam-registration",
+     "score": 5.13
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-32",
+  "lang": "tanglish",
+  "q": "en phone thirudu poiduchu complaint enga kudukanum",
+  "intended": "emergency:theft",
+  "expected": [
+   "emergency"
+  ],
+  "normalized": "en phone thirudu poiduchu complaint enga kudukanum",
+  "api": {
+   "source": "embedding",
+   "ms": 98,
+   "emergency": true,
+   "covered": false,
+   "results": [
+    {
+     "id": "cpgrams-closed",
+     "score": 0.6828
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0.654
+    },
+    {
+     "id": "which-department",
+     "score": 0.6352
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": true,
+   "covered": true,
+   "results": [
+    {
+     "id": "stolen-phone",
+     "score": 7.22
+    },
+    {
+     "id": "cpgrams-closed",
+     "score": 4.61
+    },
+    {
+     "id": "ration-dealer-complaint",
+     "score": 4.61
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-33",
+  "lang": "tanglish",
+  "q": "pm kisan amount varala enna pannanum",
+  "intended": "pm_kisan",
+  "expected": [
+   "pm-kisan"
+  ],
+  "normalized": "pm farmer amount not received what should I do",
+  "api": {
+   "source": "embedding",
+   "ms": 145,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "pm-kisan",
+     "score": 0.8003
+    },
+    {
+     "id": "ration-dealer-complaint",
+     "score": 0.6912
+    },
+    {
+     "id": "cpgrams-closed",
+     "score": 0.6845
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "pm-kisan",
+     "score": 19.06
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 8.89
+    },
+    {
+     "id": "pm-svanidhi",
+     "score": 5.89
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-34",
+  "lang": "tanglish",
+  "q": "current bill romba jaasthi vandhuruku complaint",
+  "intended": "out_of_scope:electricity_bill",
+  "expected": [
+   "not_covered"
+  ],
+  "normalized": "current bill romba jaasthi vandhuruku complaint",
+  "api": {
+   "source": "embedding",
+   "ms": 97,
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "cpgrams-closed",
+     "score": 0.6581
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0.6243
+    },
+    {
+     "id": "aadhaar-correction",
+     "score": 0.6201
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "cpgrams-closed",
+     "score": 4.61
+    },
+    {
+     "id": "ration-dealer-complaint",
+     "score": 4.61
+    },
+    {
+     "id": "which-department",
+     "score": 4.61
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-35",
+  "lang": "kanglish",
+  "q": "passport apply madodu hege",
+  "intended": "passport",
+  "expected": [
+   "passport"
+  ],
+  "normalized": "passport apply madodu hege",
+  "api": {
+   "source": "embedding",
+   "ms": 87,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 0.7416
+    },
+    {
+     "id": "udyam-registration",
+     "score": 0.6643
+    },
+    {
+     "id": "domicile-certificate",
+     "score": 0.6573
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "passport",
+     "score": 8.61
+    },
+    {
+     "id": "ration-card-new",
+     "score": 2.77
+    },
+    {
+     "id": "scholarship-find",
+     "score": 2.77
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-36",
+  "lang": "kanglish",
+  "q": "ration card hosadagi apply madbeku",
+  "intended": "ration_card",
+  "expected": [
+   "ration-card-new"
+  ],
+  "normalized": "ration card hosadagi apply madbeku",
+  "api": {
+   "source": "embedding",
+   "ms": 103,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "ration-card-new",
+     "score": 0.7652
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 0.7273
+    },
+    {
+     "id": "ration-card-add-member",
+     "score": 0.7067
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "ration-card-new",
+     "score": 14.27
+    },
+    {
+     "id": "ration-card-add-member",
+     "score": 11.5
+    },
+    {
+     "id": "ration-card-correction",
+     "score": 11.5
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-37",
+  "lang": "kanglish",
+  "q": "aadhaar alli hesaru tappagide hege sari madodu",
+  "intended": "aadhaar_correction",
+  "expected": [
+   "aadhaar-correction"
+  ],
+  "normalized": "aadhaar alli hesaru tappagide hege sari madodu",
+  "api": {
+   "source": "embedding",
+   "ms": 111,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "pan-card",
+     "score": 0.7275
+    },
+    {
+     "id": "aadhaar-correction",
+     "score": 0.7088
+    },
+    {
+     "id": "udyam-registration",
+     "score": 0.6583
+    }
+   ],
+   "grade": "FAIL (wrong card)"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": false,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 5.13
+    },
+    {
+     "id": "udyam-registration",
+     "score": 5.13
+    },
+    {
+     "id": "pan-card",
+     "score": 2.56
+    }
+   ],
+   "grade": "partial (right card, below threshold)"
+  }
+ },
+ {
+  "id": "g-38",
+  "lang": "kanglish",
+  "q": "online fraud aagide bank alli duddu hogide",
+  "intended": "online_fraud",
+  "expected": [
+   "emergency"
+  ],
+  "normalized": "online fraud aagide bank alli duddu hogide",
+  "api": {
+   "source": "embedding",
+   "ms": 103,
+   "emergency": true,
+   "covered": false,
+   "results": [
+    {
+     "id": "aadhaar-correction",
+     "score": 0.6508
+    },
+    {
+     "id": "udyam-registration",
+     "score": 0.6222
+    },
+    {
+     "id": "stolen-phone",
+     "score": 0.6197
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": true,
+   "covered": true,
+   "results": [
+    {
+     "id": "life-certificate",
+     "score": 4.27
+    },
+    {
+     "id": "pm-kisan",
+     "score": 2.56
+    },
+    {
+     "id": "pension-stopped",
+     "score": 2.56
+    }
+   ],
+   "grade": "pass"
+  }
+ },
+ {
+  "id": "g-39",
+  "lang": "kanglish",
+  "q": "jaati pramana patra hege padeyodu",
+  "intended": "caste_certificate",
+  "expected": [
+   "caste-certificate"
+  ],
+  "normalized": "jaati pramana patra hege padeyodu",
+  "api": {
+   "source": "embedding",
+   "ms": 97,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "life-certificate",
+     "score": 0.7052
+    },
+    {
+     "id": "pan-card",
+     "score": 0.6519
+    },
+    {
+     "id": "udyam-registration",
+     "score": 0.6415
+    }
+   ],
+   "grade": "FAIL (wrong card)"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "income-certificate",
+     "score": 8.58
+    },
+    {
+     "id": "rti-file",
+     "score": 0
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0
+    }
+   ],
+   "grade": "FAIL (wrong card)"
+  }
+ },
+ {
+  "id": "g-40",
+  "lang": "kanglish",
+  "q": "scholarship ge apply madoke last date yavaga",
+  "intended": "scholarship",
+  "expected": [
+   "scholarship-find"
+  ],
+  "normalized": "scholarship ge apply madoke last date yavaga",
+  "api": {
+   "source": "embedding",
+   "ms": 89,
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "scholarship-find",
+     "score": 0.7001
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 0.6955
+    },
+    {
+     "id": "rti-first-appeal",
+     "score": 0.6124
+    }
+   ],
+   "grade": "pass"
+  },
+  "keyword": {
+   "emergency": false,
+   "covered": true,
+   "results": [
+    {
+     "id": "scholarship-find",
+     "score": 7.9
+    },
+    {
+     "id": "scholarship-stuck",
+     "score": 5.13
+    },
+    {
+     "id": "aadhaar-correction",
+     "score": 5.13
+    }
+   ],
+   "grade": "pass"
+  }
+ }
+]

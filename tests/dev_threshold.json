@@ -1,0 +1,21 @@
+{
+  "note": "Threshold tuning only. Never overlaps tests/questions.json. In-scope side = leave-one-out over each card's example questions.",
+  "not_covered": [
+    "how do I renew my vehicle registration",
+    "where do I pay property tax",
+    "book a train ticket",
+    "marriage certificate registration",
+    "my electricity bill is too high",
+    "how to apply for a gas connection",
+    "what is the weather today",
+    "write a poem about the monsoon",
+    "best biryani in Hyderabad",
+    "visa for the United States",
+    "how do I file income tax return",
+    "bank account opening documents",
+    "school admission for my son",
+    "bijli ka bill zyada aaya",
+    "train ticket kaise book kare",
+    "shaadi ka certificate kahan milega"
+  ]
+}

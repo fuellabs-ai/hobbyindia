@@ -1,0 +1,1 @@
+{"threshold": 0.70, "top_k": 3, "note": "Shared by server/search_server.py and src/privateSearch.js. 0.70 chosen on dev data only (scripts/tune_threshold.py)."}

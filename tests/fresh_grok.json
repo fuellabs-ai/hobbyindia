@@ -1,0 +1,369 @@
+{
+ "note": "Fresh questions written by Grok on 2026-11-27 without seeing our cards. Expected answers set by Claude BEFORE any run. Grok labels changed: g-16 driving licence is now covered; g-05/g-19 free legal help has no card so expected not_covered; g-11 stolen phone expected emergency banner (no Sanchar Saathi card). g-20 accepts any of three ration cards because no 'card cancelled' card exists. Gate (fixed before run): expected card in top 3 for >=85% overall; emergency 100%.",
+ "questions": [
+  {
+   "id": "g-01",
+   "lang": "en",
+   "q": "passport renewal how to apply online my passport expired last month",
+   "intended": "passport",
+   "expected": [
+    "passport"
+   ]
+  },
+  {
+   "id": "g-02",
+   "lang": "en",
+   "q": "police verification pending for passport since 3 months what to do",
+   "intended": "passport",
+   "expected": [
+    "passport"
+   ]
+  },
+  {
+   "id": "g-03",
+   "lang": "en",
+   "q": "how to file rti for my land record no reply from tahsildar office",
+   "intended": "rti",
+   "expected": [
+    "rti-file",
+    "rti-first-appeal"
+   ]
+  },
+  {
+   "id": "g-04",
+   "lang": "en",
+   "q": "rti first appeal if no answer in 30 days",
+   "intended": "rti",
+   "expected": [
+    "rti-first-appeal"
+   ]
+  },
+  {
+   "id": "g-05",
+   "lang": "en",
+   "q": "free lawyer for poor family my father has court case",
+   "intended": "free_legal_help",
+   "expected": [
+    "not_covered"
+   ]
+  },
+  {
+   "id": "g-06",
+   "lang": "en",
+   "q": "ration card name add for new born baby",
+   "intended": "ration_card",
+   "expected": [
+    "ration-card-add-member"
+   ]
+  },
+  {
+   "id": "g-07",
+   "lang": "en",
+   "q": "udyam registration for small tailoring shop is it free",
+   "intended": "msme_udyam",
+   "expected": [
+    "udyam-registration"
+   ]
+  },
+  {
+   "id": "g-08",
+   "lang": "en",
+   "q": "pm kisan money not came this time status check",
+   "intended": "pm_kisan",
+   "expected": [
+    "pm-kisan"
+   ]
+  },
+  {
+   "id": "g-09",
+   "lang": "en",
+   "q": "post matric scholarship sc student apply last date",
+   "intended": "scholarship",
+   "expected": [
+    "scholarship-find"
+   ]
+  },
+  {
+   "id": "g-10",
+   "lang": "en",
+   "q": "aadhar card date of birth wrong how to correct",
+   "intended": "aadhaar_correction",
+   "expected": [
+    "aadhaar-correction"
+   ]
+  },
+  {
+   "id": "g-11",
+   "lang": "en",
+   "q": "my mobile stolen in bus how to block imei",
+   "intended": "stolen_phone",
+   "expected": [
+    "emergency"
+   ]
+  },
+  {
+   "id": "g-12",
+   "lang": "en",
+   "q": "income certificate online apply for college admission",
+   "intended": "income_certificate",
+   "expected": [
+    "income-certificate"
+   ]
+  },
+  {
+   "id": "g-13",
+   "lang": "en",
+   "q": "caste certificate lost need duplicate copy",
+   "intended": "caste_certificate",
+   "expected": [
+    "caste-certificate"
+   ]
+  },
+  {
+   "id": "g-14",
+   "lang": "en",
+   "q": "how to pay property tax online for my house",
+   "intended": "out_of_scope:property_tax",
+   "expected": [
+    "not_covered"
+   ]
+  },
+  {
+   "id": "g-15",
+   "lang": "en",
+   "q": "someone is beating my sister at home right now please help",
+   "intended": "emergency:violence",
+   "expected": [
+    "emergency"
+   ]
+  },
+  {
+   "id": "g-16",
+   "lang": "en",
+   "q": "new driving licence apply age 18",
+   "intended": "out_of_scope:driving_licence",
+   "expected": [
+    "driving-licence"
+   ]
+  },
+  {
+   "id": "g-17",
+   "lang": "hinglish",
+   "q": "passport ke liye appointment kaise book kare",
+   "intended": "passport",
+   "expected": [
+    "passport"
+   ]
+  },
+  {
+   "id": "g-18",
+   "lang": "hinglish",
+   "q": "rti kaise dale online pension ke bare me",
+   "intended": "rti",
+   "expected": [
+    "rti-file"
+   ]
+  },
+  {
+   "id": "g-19",
+   "lang": "hinglish",
+   "q": "muft vakil kaise milega garib hu",
+   "intended": "free_legal_help",
+   "expected": [
+    "not_covered"
+   ]
+  },
+  {
+   "id": "g-20",
+   "lang": "hinglish",
+   "q": "ration card band ho gaya kya kare 2 mahine se ration nahi mila",
+   "intended": "ration_card",
+   "expected": [
+    "ration-dealer-complaint",
+    "ration-card-correction",
+    "ration-card-new"
+   ]
+  },
+  {
+   "id": "g-21",
+   "lang": "hinglish",
+   "q": "udyam certificate download kaise kare",
+   "intended": "msme_udyam",
+   "expected": [
+    "udyam-registration"
+   ]
+  },
+  {
+   "id": "g-22",
+   "lang": "hinglish",
+   "q": "kisan samman nidhi ka paisa nahi aaya ekyc kiya tha",
+   "intended": "pm_kisan",
+   "expected": [
+    "pm-kisan"
+   ]
+  },
+  {
+   "id": "g-23",
+   "lang": "hinglish",
+   "q": "scholarship ka paisa abhi tak nahi aaya nsp",
+   "intended": "scholarship",
+   "expected": [
+    "scholarship-stuck"
+   ]
+  },
+  {
+   "id": "g-24",
+   "lang": "hinglish",
+   "q": "aadhar me naam galat hai kaise sahi kare",
+   "intended": "aadhaar_correction",
+   "expected": [
+    "aadhaar-correction"
+   ]
+  },
+  {
+   "id": "g-25",
+   "lang": "hinglish",
+   "q": "upi se 20000 kat gaye fraud call aaya tha",
+   "intended": "emergency:online_fraud",
+   "expected": [
+    "emergency"
+   ]
+  },
+  {
+   "id": "g-26",
+   "lang": "hinglish",
+   "q": "aay praman patra kaise banwaye",
+   "intended": "income_certificate",
+   "expected": [
+    "income-certificate"
+   ]
+  },
+  {
+   "id": "g-27",
+   "lang": "hinglish",
+   "q": "jati praman patra online apply",
+   "intended": "caste_certificate",
+   "expected": [
+    "caste-certificate"
+   ]
+  },
+  {
+   "id": "g-28",
+   "lang": "hinglish",
+   "q": "naya gas connection kaise le ujjwala",
+   "intended": "out_of_scope:gas_connection",
+   "expected": [
+    "not_covered"
+   ]
+  },
+  {
+   "id": "g-29",
+   "lang": "tanglish",
+   "q": "passport renew panna enna documents venum",
+   "intended": "passport",
+   "expected": [
+    "passport"
+   ]
+  },
+  {
+   "id": "g-30",
+   "lang": "tanglish",
+   "q": "ration card la peru serkanum eppadi",
+   "intended": "ration_card",
+   "expected": [
+    "ration-card-add-member",
+    "ration-card-correction"
+   ]
+  },
+  {
+   "id": "g-31",
+   "lang": "tanglish",
+   "q": "aadhaar la address maathanum online la mudiyuma",
+   "intended": "aadhaar_correction",
+   "expected": [
+    "aadhaar-correction"
+   ]
+  },
+  {
+   "id": "g-32",
+   "lang": "tanglish",
+   "q": "en phone thirudu poiduchu complaint enga kudukanum",
+   "intended": "emergency:theft",
+   "expected": [
+    "emergency"
+   ]
+  },
+  {
+   "id": "g-33",
+   "lang": "tanglish",
+   "q": "pm kisan amount varala enna pannanum",
+   "intended": "pm_kisan",
+   "expected": [
+    "pm-kisan"
+   ]
+  },
+  {
+   "id": "g-34",
+   "lang": "tanglish",
+   "q": "current bill romba jaasthi vandhuruku complaint",
+   "intended": "out_of_scope:electricity_bill",
+   "expected": [
+    "not_covered"
+   ]
+  },
+  {
+   "id": "g-35",
+   "lang": "kanglish",
+   "q": "passport apply madodu hege",
+   "intended": "passport",
+   "expected": [
+    "passport"
+   ]
+  },
+  {
+   "id": "g-36",
+   "lang": "kanglish",
+   "q": "ration card hosadagi apply madbeku",
+   "intended": "ration_card",
+   "expected": [
+    "ration-card-new"
+   ]
+  },
+  {
+   "id": "g-37",
+   "lang": "kanglish",
+   "q": "aadhaar alli hesaru tappagide hege sari madodu",
+   "intended": "aadhaar_correction",
+   "expected": [
+    "aadhaar-correction"
+   ]
+  },
+  {
+   "id": "g-38",
+   "lang": "kanglish",
+   "q": "online fraud aagide bank alli duddu hogide",
+   "intended": "online_fraud",
+   "expected": [
+    "emergency"
+   ]
+  },
+  {
+   "id": "g-39",
+   "lang": "kanglish",
+   "q": "jaati pramana patra hege padeyodu",
+   "intended": "caste_certificate",
+   "expected": [
+    "caste-certificate"
+   ]
+  },
+  {
+   "id": "g-40",
+   "lang": "kanglish",
+   "q": "scholarship ge apply madoke last date yavaga",
+   "intended": "scholarship",
+   "expected": [
+    "scholarship-find"
+   ]
+  }
+ ]
+}

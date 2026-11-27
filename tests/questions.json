@@ -1,0 +1,167 @@
+{
+  "note": "Frozen 2026-11-27 before threshold tuning or any search run. Realistic, hand-written questions (not collected from users). expected = list of acceptable top-1 card ids; 'not_covered' = should fall below threshold; 'emergency' = must show 112/cybercrime first. 2026-11-27: en-08 and hi-09 changed from not_covered to passport/driving-licence because those cards were added on request (scope change, not tuning).",
+  "questions": [
+    {
+      "id": "en-01",
+      "lang": "en",
+      "q": "I applied for an RTI two months back and nobody replied",
+      "expected": [
+        "rti-first-appeal"
+      ]
+    },
+    {
+      "id": "en-02",
+      "lang": "en",
+      "q": "my complaint on pgportal got closed but the road is still broken",
+      "expected": [
+        "cpgrams-closed",
+        "civic-complaint"
+      ]
+    },
+    {
+      "id": "en-03",
+      "lang": "en",
+      "q": "how to add my baby's name in ration card",
+      "expected": [
+        "ration-card-add-member"
+      ]
+    },
+    {
+      "id": "en-04",
+      "lang": "en",
+      "q": "my date of birth is wrong in my PF account",
+      "expected": [
+        "epfo-correction"
+      ]
+    },
+    {
+      "id": "en-05",
+      "lang": "en",
+      "q": "I sell samosas from home, do I need a food licence?",
+      "expected": [
+        "fssai"
+      ]
+    },
+    {
+      "id": "en-06",
+      "lang": "en",
+      "q": "pension not credited since August",
+      "expected": [
+        "pension-stopped"
+      ]
+    },
+    {
+      "id": "en-07",
+      "lang": "en",
+      "q": "someone took 40000 from my account after a fake KYC call",
+      "expected": [
+        "emergency"
+      ]
+    },
+    {
+      "id": "en-08",
+      "lang": "en",
+      "q": "how do I get a passport",
+      "expected": [
+        "passport"
+      ]
+    },
+    {
+      "id": "en-09",
+      "lang": "en",
+      "q": "a big company has not paid my invoices for 6 months",
+      "expected": [
+        "msme-samadhaan"
+      ]
+    },
+    {
+      "id": "en-10",
+      "lang": "en",
+      "q": "garbage has not been picked up in our colony for a week",
+      "expected": [
+        "civic-complaint"
+      ]
+    },
+    {
+      "id": "hi-01",
+      "lang": "hinglish",
+      "q": "ration card kaise banaye",
+      "expected": [
+        "ration-card-new"
+      ]
+    },
+    {
+      "id": "hi-02",
+      "lang": "hinglish",
+      "q": "aadhaar card mein naam galat hai",
+      "expected": [
+        "aadhaar-correction"
+      ]
+    },
+    {
+      "id": "hi-03",
+      "lang": "hinglish",
+      "q": "kisan samman nidhi ka paisa nahi aaya",
+      "expected": [
+        "pm-kisan"
+      ]
+    },
+    {
+      "id": "hi-04",
+      "lang": "hinglish",
+      "q": "scholarship ka paisa abhi tak nahi mila",
+      "expected": [
+        "scholarship-stuck"
+      ]
+    },
+    {
+      "id": "hi-05",
+      "lang": "hinglish",
+      "q": "ration wala kam anaaj deta hai shikayat kahan kare",
+      "expected": [
+        "ration-dealer-complaint"
+      ]
+    },
+    {
+      "id": "hi-06",
+      "lang": "hinglish",
+      "q": "aay praman patra kaise banwaye",
+      "expected": [
+        "income-certificate"
+      ]
+    },
+    {
+      "id": "hi-07",
+      "lang": "hinglish",
+      "q": "thela lagane ke liye loan chahiye",
+      "expected": [
+        "pm-svanidhi"
+      ]
+    },
+    {
+      "id": "hi-08",
+      "lang": "hinglish",
+      "q": "mera phone chori ho gaya",
+      "expected": [
+        "emergency"
+      ]
+    },
+    {
+      "id": "hi-09",
+      "lang": "hinglish",
+      "q": "driving licence kaise banaye",
+      "expected": [
+        "driving-licence"
+      ]
+    },
+    {
+      "id": "hi-10",
+      "lang": "hinglish",
+      "q": "dukaan ke liye GST number chahiye kya",
+      "expected": [
+        "gst-need",
+        "gst-apply"
+      ]
+    }
+  ]
+}
