@@ -1,0 +1,2983 @@
+{
+ "fetched_on": "2026-11-27",
+ "built_on": "2026-11-27",
+ "dim": 512,
+ "note": "Short excerpts of official FAQs, shown with a link to the source. Rights remain with the publishers.",
+ "chunk_words": 120,
+ "passages": [
+  {
+   "id": "rti-000",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "To which Public Authority can I file a request through this portal?",
+   "text": "An applicant who desires to obtain information under the RTI Act, 2005 can make a request through this RTI Online Portal to the Central Ministries/Departments and other Central Public Authorities mentioned in ONLINE RTI request form.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-001",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "How do I write my application for seeking the information as per RTI Act 2005?",
+   "text": "The text of the application may be written in the prescribed column of the RTI request form. At present, the text of the application is confined up to 3000 characters only. In case, the text of an application contains more than 3000 characters, it can be uploaded as a PDF attachment in the \"Supporting Document\" column of the form.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-002",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "How do I make the payment for RTI fee?",
+   "text": "After filling the first page of the RTI request form, a non-BPL applicant has to click on \"Make Payment\" button for payment of the prescribed RTI fee. The applicant can pay the prescribed RTI fee through the following modes: (i) Internet banking through SBI payment gateway and its associated banks. (ii) Using ATM-cum-Debit card of State Bank of India. (iii) Credit/Debit card of Master/Visa. (iv) UPI It may be noted that no RTI fee is required to be paid by a citizen who is below poverty line, as per RTI Rules, 2012. However, the BPL applicant must attach a copy of the certificate issued by the appropriate government in this regard, along with the application.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-003",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Do I get any receipt for online filing of RTI application?",
+   "text": "On submission of an application, a unique registration number will be issued, which may be referred by the applicant for any future reference. It may be noted that the application filed through this RTI Online Portal will reach electronically to the \"Nodal Officer\" of the said Ministry/Department and \"Not\" to the CPIO of the concerned Ministry/Department. The Nodal Officer will transmit the RTI application electronically to the concerned CPIO.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-004",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "What will happen to my application if I select a wrong Public Authority in the RTI request form?",
+   "text": "In case the RTI application is not meant for the Public authority which has been selected by the applicant, the \"Nodal Officer\" of the said public authority would transfer the application electronically to the \"Nodal Officer\" of the concerned Central Public authority, if aligned to this portal and physically to that Central Public authority which is not aligned to this portal, under section 6(3) of the RTI Act. It may be noted that RTI applications filed through this portal for the state public authorities, including NCT of Delhi, would be returned, without any refund of fee",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-005",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Will I be informed about the additional fee (if any) is required to pay?",
+   "text": "In case additional fee representing the cost is required for providing information, the CPIO will intimate the same, which can be viewed by the applicant through \"View Status\" option in the RTI Online Portal and an e-mail alert or SMS or both will also be sent to the applicant for the same. For payment of additional fee online, the applicant needs to use the option ‘View Status’ in the RTI Online Portal and on providing the registration number of the request, option for \"Make Payment\" will be available.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-006",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "How do I file an appeal with First Appellate Authority?",
+   "text": "For making an appeal to the first Appellate Authority, the applicant has to select the option \"Submit First Appeal\" in the RTI Online Portal and fill up the form that will appear. The registration number and e-mail ID of the original application is required for filing the first appeal.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-007",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Do I need to make any payment for filing an appeal?",
+   "text": "As per RTI Act, no fee has to be paid for first appeal.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-008",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Do I get any SMS from RTI Online Portal?",
+   "text": "Though optional, the mobile number can be provided by the applicant/ appellant in order to receive SMS alerts.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-009",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "What can I do if I forgot my login credentials?",
+   "text": "You can go to View History column to see your past RTI requests/appeals.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-010",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Is it mandatory to create user account on RTI online web portal?",
+   "text": "No. You can directly file your RTI on \"Submit Request\" tab.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-011",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "How much time RTI request/appeal retain at this portal?",
+   "text": "In the View History/View Status citizen can see RTI Cases retained for a period of 3 years.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-012",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "What should I do if amount is deducted from my account but registration number is not generated?",
+   "text": "Use \"Payment Reconciliation\" feature Please do not attempt to make payment repeatedly or try to submit request once again. Kindly wait for the 24 to 48 working hours as registration number will be generated after reconciliation. If it is not generated within stipulated time frame then kindly send an e-mail at helprtionline-dopt[at]nic[dot]in with your transaction details. However, in cases of unsuccessful RTI payment requests, if the requester wishes to check the payment status before 48 hours, it can be verified using the \"Payment Reconciliation\" feature.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-013",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "What should I do when portal is not allowing me to file the first appeal?",
+   "text": "This may happen under following two situation: 1) When your RTI application has been physically transferred to other public authority, which is not aligned to this portal. In such a case, you are required to file your appeal in physical mode to the concerned public authority. 2) Another case can be if your RTI application has not been replied to by CPIO and 30 days period has not lapsed. In such a case, you may file first appeal only after completion of stipulated time period of 30 days.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-014",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Can I file online first appeal for any RTI application filed physically in the first place ?",
+   "text": "No,Online first appeal can only be filed against previously filed online RTI application.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-015",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Why RTI application filed by me is not reflecting in my user account history?",
+   "text": "If you have opted to file RTI or First Appeal directly i.e without logging into your user account, then in such cases you will not be able to see the filed RTI or Appeal in your registered account's history. However you can always check its status in \"View Status\" with the provided Reg. Nos.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-016",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Why I have received multiple RTI registration numbers, even though I have filed single RTI application ?",
+   "text": "This is the case where in your RTI application has been forwarded to multiple CPIOs since the information sought lies with more than one PIO.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-017",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "How can I View Status/Reply of my RTI Application or First Appeal?",
+   "text": "Status/Reply of the RTI Application or First appeal filed online can be viewed by the applicant by clicking on \"View Status\".",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-018",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "What if the Registration Number is not received on my Email or Mobile No. even after 48 working Hours?",
+   "text": "Registration Number are generated after reconciliation of bank scrolls for cases whose numbers are not generated instantly after the payment. This procedure may take 24 to 48 working hours. If someones still does not receive the Registration Number, They may contact their respective bank for refund of amount.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-019",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "How to upload a supporting document if an alert comes as \"SUPPORTING DOCUMENTS REQUIRED FROM APPLICANT\"?",
+   "text": "When a Public Authority request for supporting document, an alert is sent to the applicant to his/her Mobile or Email Id. In such situation, the applicant is requested to visit the RTI Online Website and enter the details in 'View Status'. Once the detail is entered, the current status of the RTI application is shown along with the option for uploading the supporting document.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-020",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "What queries can be raised with Helpline Email helprtionline-dopt(at)nic(dot)in ?",
+   "text": "Helpline mail id is exclusively meant for queries or problem being faced while filing the online RTI through this portal. Please do not send mail to this helpline for any other matter or asking for any other details. The reply is limited to RTI online portal of Central Government only.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-021",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "What should I do when my browser show certificate error while opening RTI online portal?",
+   "text": "You should ignore the certificate error and proceed forward. Kindly select, Mozilla Firefox – I understand the risk add exception. Google Chrome – Proceed Anyway. Internet Explorer - Continue to this website",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-022",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Can I file RTI application for state public authorities through this portal?",
+   "text": "No. This Portal is exclusively meant for Public Authorities under Central Govt. only.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-023",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "If the RTI application is filed manually , then is it possible to file 1st appeal on line?",
+   "text": "Manual applications can be lodged into RTI Online portal by CPIOs and can be disposed off by CPIO online. In this context, if applicant provides email id/Mobile No. in the application form and CPIO lodges this RTI application in the portal , then the actions taken by CPIO will be conveyed to applicant automatically through e-mail and Mobile SMS. Then applicant can file 1st appeal with the help of registration number conveyed .",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-024",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "What are the reasons for my RTI payment failing?",
+   "text": "The major reasons for failure are due to Business declines, Business Decline are as under: 1. Customer has set e-Commerce flag as Disabled for Debit / Credit Card. 2. Customer either closed the internet browser or not proceeded further with the transaction resulting into session timeout. 3. Wrong OTP or no OTP entered by customer. 4. Wrong details of cards entered by customers like Card No, CVV, expiry date. 5. Insufficient balance in customer’s account. 6. Customer cancelled the transaction and reinitiated with different mode of payment (say from Debit card to UPI etc.). 7. Customer received collect request for payment in UPI app, but not completed the payment within time limit.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-025",
+   "dept": "rti",
+   "cards": [
+    "rti-file",
+    "rti-first-appeal"
+   ],
+   "source": "RTI Online FAQ",
+   "url": "https://rtionline.gov.in/faq.php",
+   "question": "Why this OTP feature is introduced in view status option?",
+   "text": "RTI Application may contain personal information of the Applicant and if any third person gets the registration number and email id, then the person can view this personal information. So, in order to protect personal information of the applicant, according to cyber security norms, this OTP validating feature has been introduced. In view status option while OTPs are promptly dispatched from the NIC email domain, delays may occasionally occur due to high traffic on either NIC server or external email services like Gmail or Yahoo. Importantly, OTPs do not expire until they are used, meaning users can access the status of their applications as soon as the OTP arrives. Home National Portal of India Complaint & Second Appeal to CIC FAQ Policy Copyright © 2026. All rights reserved | Website designed, developed, and hosted by National Informatics Centre, New Delhi | Content owned and managed by DOP&T",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-026",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I applied for my Passport 6 months ago and the police verification is still pending? What should I do?",
+   "text": "If you have not received your Passport, please visit the Passport Office (PO) concerned.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-027",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "Why is Police Verification required for issuance of Passport?",
+   "text": "Passport is an extremely important and valuable document. In order to ensure it does not go to the wrong hands, police verification is required to ascertain details furnished by applicant.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-028",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "What are various Police Verification modes?",
+   "text": "There are 2 modes of police verification: - Police Verification is required on a Post-Passport Issuance basis. - Police Verification is required on Pre-Passport Issuance basis Depending upon whether an application is for issue of fresh Passport or re-issue of Passport, Passport Office (PO) shall decide whether Police Verification is required. In most cases, pre-police verification would be required. An exception is made in cases pertaining to Government servants who are required to submit 'Identity Certificate' as per Annexure 'A' or 'No Objection Certificate' as per Annexure 'G' and in processing of Tatkaal application.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-029",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "How much time does it take to process a Passport application where Police Verification Mode is Pre/Post/No?",
+   "text": "Please refer to citizen charter in the following link",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-030",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I want to apply for a Passport for my one year old baby. Would Police Verification be done in his/her case also? OR I am a minor and wish to apply for a Passport. What documents do I need to submit to avoid delay due to Police Verification?",
+   "text": "Generally, no PV is required in case of minor children up to the age of 18 years (validity of Passport limited to 5 years) whose either or both parents hold a valid Passport and the name of either parent is mentioned in his/her spouse′s Passport along with the consent of both parents is available in the form of Annexure-D. Children between 15-18 years have an option to apply for 10 years validity Passport on pre-PV basis. However, final decision on PV mode rests with Passport Office.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-031",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "If parents have Passport with adverse Police Verification Report or they have a criminal background, can Passport be issued to minor on urgent basis?",
+   "text": "In such cases, minors can be issued Passport under the Tatkaal scheme subject to approval of competent authority.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-032",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "If a minor (age 14) is applying for a Passport and his parents (who held a valid Passport) have expired but they had Passport. Can he/she submit his/her deceased parent's Passport copy and death certificate to avail NO Police verification?",
+   "text": "No, in such cases the applicant is not required to submit the deceased parent's Passport copy and death certificate. Following documents have to be submitted: - Proof of DOB - Proof of Present Address (Of legal Guardian) - A Declaration affirming the particulars furnished in the application about the minor child as per: Annexure \"C\" (signed by legal guardian) - Attested photocopy of Passport, if any, of the legal guardian",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-033",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I am 65 years of age and want to travel abroad to visit my children. What documents do I need to submit to escape Police Verification?",
+   "text": "Passport cannot be issued without police verification in your case. But if you apply under the Tatkaal scheme with required documents, you can be issued a Passport on post police verification basis.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-034",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "Is Police Verification done for Government/Public Sector/Statutory body employees?",
+   "text": "Government/Public Sector/Statutory body employees can be issued Passport without police verification, if they submit Identity Certificate in original as per Annexure \"A\" as an additional document along with the application form. They can be issued a Passport on post police verification basis, if they submit No Objection Certificate (NOC) (as per Annexure \"G\") and on pre-police verification basis, if they submit Prior Intimation Letter (PI) as per Annexure \"H\" as an additional document along with the application form.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-035",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I am an active member of FICCI. What documents do I need to submit to escape Police Verification?",
+   "text": "Passport cannot be issued without police verification in your case. But if you apply under the Tatkaal scheme with required documents, you can be issued a Passport on post police verification basis.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-036",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I am a Retired Government official. Can I be issued a Passport without Police Verification?",
+   "text": "You cannot obtain a Passport without police verification. But, if you apply under the Tatkaal scheme with required documents, Passport can be issued on Post police verification basis (i.e. police verification would be done after the issuance of Passport).",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-037",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I belong to Jammu & Kashmir and am currently studying in Delhi for past two years. I want to apply for my Passport. Will the police verification be done at my Permanent address in J&K as well?",
+   "text": "Police verification will be done at both permanent and present address.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-038",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I am a resident of Nagaland. Can I be issued a Passport without Police Verification?",
+   "text": "Police Verification will be done before issuance of Passport.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-039",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "Will Police Verification be done for the applicant having Diplomatic/Official Passport and applying for ordinary Passport while in service?",
+   "text": "In the given case, Government/Public Sector/Statutory body employees can be issued Passport without police verification (PV), if they submit Identity Certificate in original as per Annexure \"A\" as an additional document along with the application form. They can be issued a Passport on post-Police Verification (PV) basis, if they submit No Objection Certificate (NOC) (as per Annexure \"G\") and on pre police verification basis, if they submit Prior Intimation Letter (PI) as per Annexure \"H\" as an additional document along with the application form. Else, Passport will be issued on pre-Police Verification (PV) basis, or post-Police Verification (PV) basis - if they apply under Tatkaal scheme.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-040",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "My father is an Government officer. Will the police verification be done in my case? If yes, can I avoid delay in Passport issuance due to police verification by submitting some documents?",
+   "text": "Dependent family members of Government/Public Sector/Statutory body employees can be issued Passport without police verification, if they submit the following additional documents along with their application form: - \"Identity Certificate\" in original as per Annexure \"A\" (of dependent). They can also be issued Passport on post police verification basis, if they apply under the Tatkaal scheme with required documents.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-041",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I have changed my name from Ashim Arora to Sachin Arora. Can it create a problem during Police Verification?",
+   "text": "You need to attach the required documents along with your application form. For list of documents to be submitted please click on \"Documents Required\" link on Home page.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-042",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "A court case is pending against me. Can a Passport be issued to me after successful Police Verification?",
+   "text": "If a criminal case is pending against you in any court, you can be issued a Passport subject to the condition that you enclose a written permission granted by the court allowing you to travel abroad. Normally a short validity Passport valid for one year is issued, subject to conditions if any, mentioned in the Court order as per GSR 570 (E) dated 25 August, 1993.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-043",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I have been convicted by court last year. Can a Passport be issued to me after successful Police Verification?",
+   "text": "Yes, subject to the provisions of the Passports Act, 1967 and approval of competent authority.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-044",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "I am an Indian Citizen by origin and have been repatriated from Bangladesh. I want to apply for a Passport. Can I be issued a Passport without police verification?",
+   "text": "No, Passport cannot be issued without Police Verification in your case.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-045",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "The file status shows that my police report is \"adverse\". How should I proceed further?",
+   "text": "Please contact Passport Office (PO) to understand the reason of adverse report. Post clarification, if required a re-verification can be requested. PO needs to get a clear police report from the re-verification, for issue of a Passport On receipt of a clear report from the police, your file will be processed further for issue of a Passport.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-046",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "Is police verification done before issuance of Passport under the Tatkaal scheme?",
+   "text": "No, police verification is not done before issuance of Passport under the Tatkaal scheme. In case of the Tatkaal scheme, police verification is done on post police verification basis as per the case.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-047",
+   "dept": "passport",
+   "cards": [
+    "passport"
+   ],
+   "source": "Passport Seva: police verification FAQ",
+   "url": "https://www.passportindia.gov.in/psp/FaqPoliceVerification",
+   "question": "How can I prove that I have stayed at my present address for more than a year during Police Verification?",
+   "text": "Address proof is required only for the present address of the applicant, irrespective of the period of stay at the present address. Address proof is not required for other places the applicant stayed during the last one year period before the date of application. However, addresses of all places of residence during the last one year have to be furnished by the applicant to enable police verification.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-040",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the National Legal Services Authority (NALSA)? Where are its offices situated?",
+   "text": "The National Legal Services Authority (NALSA) is the central authority, constituted under the Legal Services Authorities Act, 1987, to provide free and competent legal services to the weaker sections of the society to ensure that opportunities for securing justice are not denied to any citizen by reason of economic or other disabilities, and to organize Lok Adalats for amicable and faster settlement of disputes. It coordinates and monitors the functioning of the Legal Services Institutions constituted across India for proper implementation of legal aid programmes. It was formed on 9th November 1995 and is headed by the Chief Justice of India as the Patron-in-Chief. The NALSA Office is located in the Additional Building Complex of the Supreme Court of India, Tilak Marg, New Delhi (110001). The NALSA Centre for Citizen Services is set up at Jaisalmer House, Man Singh Road, New Delhi-110011. One can approach any of the NALSA Offices during office hours on all working days.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-041",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the role and function of NALSA?",
+   "text": "As per Section 4 of the Legal Services Authorities Act, 1987, NALSA has been assigned to perform all or any of the following functions: Laying down policies and principles for making legal services available under the provisions of the Legal Services Authorities Act, 1987; Framing the most effective and economical schemes for the purpose of making legal services available under the provisions of the Legal Services Authorities Act, 1987; Utilizing the funds at its disposal and making appropriate allocations of funds to the State Authorities and District Authorities; Taking necessary steps by way of social justice litigation with regard to consumer protection, environmental protection, or any other matter of special concern to the weaker sections of the society and for this purpose, give training to social workers in legal skills; Organizing legal aid camps, especially in rural areas, slums, or labor colonies with the dual purpose of educating the weaker sections of the society as to their rights as well as encouraging the settlement of disputes through Lok Adalats; Encouraging the settlement of disputes by way of negotiation, arbitration, and conciliation; Undertaking and promoting research in the field of legal services with special reference to the need for such services among the poor; Doing all things necessary for the purpose of ensuring commitment to the Fundamental Duties of citizens under",
+   "part": 1,
+   "parts": 3
+  },
+  {
+   "id": "legal-aid-042",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the role and function of NALSA?",
+   "text": "Part IVA of the Constitution; Monitoring and evaluating implementation of the legal aid programmes at periodic intervals and providing independent evaluation of programmes and schemes implemented in whole or in part by funds provided under this Act; Providing grants-in-aid for specific schemes to various voluntary social service institutions and the State and District Authorities, from out of the amounts placed at its disposal for the implementation of the legal services schemes under the provisions of this Legal Services Authorities Act, 1987; Developing, in consultation with the Bar Council of India, programmes for clinical legal education and promoting guidance and supervising the establishment and working of legal services clinics in universities, law colleges, and other institutions; Taking appropriate measures for spreading legal literacy and legal awareness amongst the people and, in particular, to educate weaker sections of the society about the rights, benefits, and privileges guaranteed by social welfare legislations and other enactments as well as administrative programmes and measures; Making special efforts to enlist the support of voluntary social welfare institutions working at the grassroots level, particularly among the Scheduled Castes and the Scheduled Tribes, women, and rural and urban labor; and Coordinating and monitoring the functioning of State Authorities, District Authorities, Supreme Court Legal Services Committee, High Court Legal Services Committees, Taluka Legal Services Committees and voluntary social service",
+   "part": 2,
+   "parts": 3
+  },
+  {
+   "id": "legal-aid-043",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the role and function of NALSA?",
+   "text": "institutions and other legal services organizations and give general directions for the proper implementation of the legal services programs. As per Section 5 of the Legal Services Authorities Act, 1987, NALSA has also been entrusted with the duty to work in coordination with other agencies for the purposes of providing access to justice to the marginalized sections of the society.",
+   "part": 3,
+   "parts": 3
+  },
+  {
+   "id": "legal-aid-044",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What are the State Legal Services Authorities? What are their roles and responsibilities?",
+   "text": "A State Legal Services Authority (SLSA) is constituted for every State/Union Territory under Section 6 of the Legal Services Authorities Act, 1987. The SLSA is headed by the Chief Justice of the High Court of the respective State, as its Patron-in-Chief. SLSAs give effect to the policy and directions of NALSA, and are assigned the following functions under Section 7 of the Legal Services Authorities Act, 1987: Give legal service to persons who satisfy the criteria laid down under Section 12 of the Legal Services Authorities Act, 1987; Conduct Lok Adalats, including Lok Adalats for High Court cases; Undertake preventive and strategic legal aid programmes; and Perform such other functions as the State Authority may, in consultation with NALSA, fix by Regulations.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-045",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What are the District Legal Services Authorities and the Taluka Legal Services Committees? What are their roles and responsibilities?",
+   "text": "Section 9 of the Legal Services Authorities Act, 1987, provides for the constitution of the District Legal Services Authorities (DLSAs) by the State Government, in consultation with the Chief Justice of the High Court, for every District in the State, to exercise the powers and perform the functions conferred on, or assigned to, the DLSA under Sections 10 and 11 of the Legal Services Authorities Act, 1987. The DLSA is headed by the District & Sessions Judge of the respective district as the Chairman, DLSA. Similarly, Section 11A of the Legal Services Authorities Act, 1987, provides for the constitution of the Taluka Legal Services Committees (TLSC) by the State Authority for each Taluka or mandal or for a group of Talukas or mandals, to exercise the powers and perform the functions conferred on, or assigned to them, under Section 11B of the Legal Services Authorities Act, 1987. The TLSC is headed by the senior Civil Judge operating within its jurisdiction as the ex-officio Chairman. As per Sections 10 and 11 of the Legal Services Authorities Act, 1987, it shall be the duty of every DLSA to perform such of the functions of the State Authority in the District as may be delegated to it from time to time by the State Authority. The DLSA may perform all or any of",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-046",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What are the District Legal Services Authorities and the Taluka Legal Services Committees? What are their roles and responsibilities?",
+   "text": "the following functions, namely: Coordinate the activities of the TLSC and other legal services in the District; Organize Lok Adalats within the District; Perform such other functions as the State Authority may fix by regulations. The DLSAs are expected to act in coordination with other agencies and be subject to directions given by the NALSA, for promoting the cause of legal services to the poor. As per Section 11B of the Legal Services Authorities Act, 1987, it shall be the duty of every TLSC to: Co-ordinate the activities of legal services in the Taluka; Organize Lok Adalats within the Taluka; and Perform such other functions as the DLSA may assign to it.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-047",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What are the High Court Legal Services Committees? What are their roles and responsibilities?",
+   "text": "Section 8A of the Legal Services Authorities Act, 1987, provides that the SLSA shall constitute a Committee to be called the High Court Legal Services Committee (HCLSC) for every High Court, for the purpose of exercising such powers and performing such functions as may be determined by Regulations made by the State Authority. It is headed by a sitting Judge of the concerned High Court, as the Chairman. HCLSCs have been established to provide free and competent legal services to weaker sections of the society who wish to file or defend a case in the concerned High Court of a State.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-048",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the Supreme Court Legal Services Committee? What is its role and responsibility?",
+   "text": "The Supreme Court Legal Services Committee (SCLSC) is constituted under Section 3A of the Legal Services Authorities Act, 1987, to provide free and competent legal services to those who fall within the purview of Section 12 of the Legal Services Authorities Act, 1987, in cases that fall under the jurisdiction of the Supreme Court of India. LEGAL SERVICES",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-049",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What are legal services? What is included in free legal aid provided by the Legal Services Institutions? What is the nature of free legal services?",
+   "text": "According to Section 2(c) of the Act, “legal services” includes any service in the conduct of any case or other legal proceeding before any court or other authority or tribunal and the giving of advice on any legal matter. It includes free legal services in civil and criminal matters for those poor and marginalized people who cannot afford the services of a lawyer for the conduct of a case or a legal proceeding in any Court, Tribunal or Authority. Provision of free legal aid may include: Representation by an Advocate in legal proceedings; Payment of process fees, expenses of witnesses and all other charges (charges such as court fees, stamp duty etc.) payable or incurred in connection with any legal proceedings in appropriate cases (provided that Court Fees will be payable only after an application moved before the concerned Court for suing as an indigent has been disposed of and orders of the Court obtained thereon); Preparation of pleadings, memo of appeal, paper book including printing and translation of documents in legal proceedings; Drafting of legal documents, special leave petition etc.; Supply of certified copies of judgments, orders, notes of evidence and other documents in legal proceedings. Free Legal Services also include provision of aid and advice to the beneficiaries to access the benefits under the welfare statutes and schemes",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-050",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What are legal services? What is included in free legal aid provided by the Legal Services Institutions? What is the nature of free legal services?",
+   "text": "framed by the Central Government or the State Government and to ensure access to justice in any other manner.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-051",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How is free legal aid different from legal advice and assistance?",
+   "text": "Legal aid is the provision of legal representation to a person in the District Courts, High Courts and Supreme Court or tribunals, by a lawyer assigned by the Legal Service Authority concerned. Legal Advice and Assistance is the provision of advice on general areas of law as governed by the laws of India by the lawyers employed with the Legal Services Institution concerned. For e.g. if a person has to file a case in court, he would be provided legal aid (in form of assignment of a Legal Services Advocate). However, if he only needs some help in drafting a legal notice to be sent prior to filing of a complaint under Section 138 of the Negotiable Instruments Act 1881, he would get legal consultation/ advice regarding the same. A person who does not come under the purview of Section 12 of Legal Services Authorities Act, 1987, to be eligible for free legal aid, can still avail legal advice and assistance from the Legal Services Institutions.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-052",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whether one needs to pay for legal services provided by Legal Services Institutions constituted under the Legal Services Authorities Act, 1987?",
+   "text": "No. Legal services provided by the Legal Services Institutions are completely free of cost to the beneficiary. All costs involved are borne by the Legal Services Institutions.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-053",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Does one have to pay any charge/fee for acquiring or submitting an application form for free legal aid?",
+   "text": "No, there is absolutely no charge for getting or submitting an application form for free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-054",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Are there any Helpline Services provided by NALSA for urgent legal assistance?",
+   "text": "Yes. One can directly contact on NALSA Helpline Toll-Free Number 15100 to seek urgent legal assistance.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-055",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How can one approach NALSA/ SLSA/ DLSA/ TLSC/ HCLSC/ SCLSC? Where can an application for legal aid be made?",
+   "text": "One may approach the NALSA/SLSA/DLSA/TLSC/HCLSC/SCLSC personally; or by post; or through NALSA’s Legal Services Management System (LSMS) portal; or through e-mail. Depending upon the territorial and subject matter jurisdiction of the case, an individual should approach the following appropriate authority: Taluka Legal Services Committee which is in the premises of the Court in that Taluka; or District Legal Services Authority which is in the premises of the District Court in the District Headquarters; or The concerned State Legal Services Authority (as the State Legal Services Authorities maintain a central panel for some categories of cases such as for the Tribunals etc.); The High Court Legal Services Committee which is in the premises of the concerned High Court; or The Supreme Court Legal Services Committee for cases before the Hon’ble Supreme Court. Each District Legal Services Authority, High Court Legal Services Committee and State Legal Services Authority has a Front Office where an application for legal aid can be filed. One can even access and apply on the online portal of NALSA (https://nalsa.gov.in/) or the website of the State Legal Services Authorities. One can also fill up the ready-made form/application form that is available at the nearest Legal Services Institution and submit the same at either the Legal Services Institution physically, or post the application to the Legal Services Institution. One",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-056",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How can one approach NALSA/ SLSA/ DLSA/ TLSC/ HCLSC/ SCLSC? Where can an application for legal aid be made?",
+   "text": "can even make an application in writing on a simple piece of paper with the necessary details such as: name, gender, residential address, employment status, nationality, whether SC/ST (with proof in support), income per annum (with affidavit), the case for which legal aid is required etc. and submit it physically or send by post Another option is to send the application online i.e. by email to NALSA (at nalsa-dla@nic.in). It is also possible to make an application orally – a Paralegal Volunteer or an officer of the concerned Legal Services Institution will assist the person in such cases.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-057",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can one choose a lawyer of his choice while availing free legal aid?",
+   "text": "It is possible to avail the services of a lawyer of one’s choice from the Panel of lawyers empanelled with the Legal Services Institution concerned. According to Regulation 7(6) of the National Legal Services Authority (Free and Competent Legal Services) Regulations 2010, the application for legal services will be scrutinized by the Member-Secretary or the Secretary and if the applicant has mentioned/expressed his/her choice of a lawyer on the panel, such Member-Secretary or Secretary can consider and allow the same. However, it is not mandatory to permit the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-058",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can one get free legal consultation only, even if one does not want to pursue a proper case in the courts?",
+   "text": "Yes, it is possible to get legal consultation only (which is covered under “legal advice and assistance”).",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-059",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How can one give feedback on the services provided by the Legal Services Institutions under the Legal Services Authorities Act, 1987?",
+   "text": "One can submit the feedback on the LSMS portal; by email or post or by visiting the office of the concerned Legal Services Authority. LEGAL AID BENEFICIARIES",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-060",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Who is eligible to seek legal aid from the Legal Services Institutions under the Legal Services Authorities Act, 1987? What kind of cases can one apply free legal aid for?",
+   "text": "As per Section 12 of the Legal Services Authorities Act, 1987, every person who has to file or defend a case shall be entitled to legal services under the Act if that person is– A member of a Scheduled Caste or Scheduled Tribe (on producing a certificate in this regard); A victim of trafficking in human beings or begar as referred to in Article 23 of the Constitution of India 1950; A woman or a child; A person with disability as defined in legislations dealing with rights of persons with disabilities; A person under circumstances of underserved want such as being a victim of a mass disaster, ethnic, violence, caste atrocity, flood, drought, earthquake or industrial disaster; An industrial workman; A person in custody, including custody in a protective home within the meaning of clause (g) of Section 2 of the Immoral Traffic (Prevention) Act, 1956 (104 of 1956), or in an observation home, special home, place of safety, children’s home under the juvenile justice laws, or in a psychiatric hospital or psychiatric nursing home under the Mental Healthcare legislations; or Person in receipt of annual income less than Rs. 03 lakh or such other higher amount as may be prescribed by the State Government, if the case is before a court other than the Supreme Court, and less than",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-061",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Who is eligible to seek legal aid from the Legal Services Institutions under the Legal Services Authorities Act, 1987? What kind of cases can one apply free legal aid for?",
+   "text": "rupees twelve thousand or such other higher amount as may be prescribed by the Central Government if the case is before the Supreme Court. In addition to these categories, any person falling within criteria specially created by the State- specific Legal Aid Regulations may also get free legal aid. (SEE QUESTION NO. 30.) NALSA also has come up with specific schemes for providing free legal services to its targeted beneficiaries. The schemes are available at https://nalsa.gov.in/acts-rules/preventive-strategic-legal-services-schemes According to Section 13 (1) of the Legal Services Authorities Act, 1987, any individual who satisfies any criteria under Section 12 is entitled to receive legal services, provided that the concerned Legal Services Institution is satisfied that such person has a genuine case to prosecute or defend the matter. There is hence, no bar as to which kind of cases one can apply and not apply for. All kinds of cases are included as long as the individual satisfies the eligibility under Section 12 of the Legal Services Authorities Act, 1987.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-062",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whether a financially independent woman is eligible for free legal aid?",
+   "text": "Yes, a woman is entitled for free legal aid irrespective of her income or financial status. A woman is eligible to apply for free legal aid by virtue of Section 12(c) of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-063",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Till what age is a child eligible for free legal aid?",
+   "text": "A child is eligible for free legal aid till the age of majority i.e. 18 years. This is provided in Section 12 (c) of the Legal Services Authorities Act, 1987. So, any child can apply for free legal aid till he turns 18 years old. Even on attaining the age of majority, the child can continue to get free legal aid, if she/ he falls within the other criteria enlisted in Section 12 of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-064",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How can a child apply for grant of free legal aid?",
+   "text": "A child can apply for legal aid through his parents/ legal guardian.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-065",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a child being prosecuted for a criminal offence be provided free legal aid?",
+   "text": "A child alleged to be in conflict with law is entitled to free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-066",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Are Senior Citizens eligible for free legal aid?",
+   "text": "Senior citizens’ eligibility for free legal aid depends on the rules framed by the respective State Governments in this regard. In Delhi for example, senior citizens are eligible for free legal aid subject to prescribed ceiling of annual income for senior citizens i.e. Rs. 4 lacs per annum. One may look into the specific State regulations on legal services to check eligibility.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-067",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Is a person with mental illness eligible for grant of free legal aid?",
+   "text": "Yes. Section 12 (d) of the Legal Services Authorities Act, 1987, provides for the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-068",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Is a person under circumstances of undeserved want (such as being a victim of a mass disaster, ethnic, violence, caste atrocity, flood, drought, earthquake, or industrial disaster) eligible for free legal aid?",
+   "text": "Yes. Section 12 of the Legal Services Authorities Act, 1987, provides for the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-069",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Is an Industrial Workman eligible for free legal aid?",
+   "text": "Yes. Section 12 of the Legal Services Authorities Act, 1987 provides for the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-070",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Is a person who is in custody, including custody in a protective home or in a psychiatric hospital or psychiatric nursing home eligible for free legal aid?",
+   "text": "Yes. Section 12 of the Legal Services Authorities Act, 1987 provides for the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-071",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whether a person from Other Backward Class (OBC) is entitled to free legal aid like a person of the SC/ ST community?",
+   "text": "No. He may only be entitled if he falls within the other categories mentioned in Section 12 of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-072",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can persons called for questioning at the Police Station or persons arrested by the Police avail free legal aid?",
+   "text": "Yes, as per NALSA’s Early Access to Justice at Pre-Arrest, Arrest and Remand framework, persons called for questioning i.e. suspects and persons arrested by the police can also avail free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-073",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can persons avail of legal aid services at the time of production and remand hearings in magistrate courts?",
+   "text": "Yes, persons can avail of free legal aid services at the time of production and remand hearing in Magistrate Courts including the courts of Executive Magistrates.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-074",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Does NALSA have any specific schemes for different categories of legal aid beneficiaries?",
+   "text": "Yes. NALSA has several Preventive & Strategic Legal Services Schemes, the compendium of which is available at https://nalsa.gov.in/acts-rules/preventive-strategic-legal-services-schemes . The list of schemes is as under: NALSA (Legal Services to Disaster Victims through Legal Services Authorities) Scheme, 2010; NALSA (Victims of Trafficking and Commercial Sexual Exploitation) Scheme, 2015; NALSA (Legal Services to the Workers in the Unorganised Sector) Scheme, 2015; NALSA (Child Friendly Legal Services to Children and their Protection) Scheme, 2015; NALSA (Legal Services to the Mentally Ill and Mentally Disabled Persons) Scheme, 2015; NALSA (Effective Implementation of Poverty Alleviation) Scheme, 2015; NALSA (Protection and Enforcement of Tribal Rights) Scheme, 2015; NALSA (Legal Services to the Victims of Drug Abuse and Eradication of Drug Menace) Scheme, 2015; NALSA (Legal Services to Senior Citizens) Scheme, 2016; NALSA (Legal Services to Victims of Acid Attacks) Scheme, 2016; NALSA’s Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes, 2018; Early Access to Justice at Pre-Arrest, Arrest and Remand Stag",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-075",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the income parameter for grant of legal aid to a person?",
+   "text": "Based on Section 12 (h) of the Legal Services Authority Act,1987 and the prevailing State Regulation regarding grant of Legal Aid to a person having annual income less than a prescribed limit, a person may get free legal aid. Those persons who have annual income of less than the amount prescribed by the respective State Government, if the case is before any court other than the Supreme Court, and less than Rs. 5 Lakhs, if the case is before the Supreme Court, are eligible for free legal aid. The income ceiling limit as prescribed by different States/Union Territories is as under: S.No S. No. States/Union Territories Income Ceiling Limit (Per Annum) Income Ceiling Limit (Per Annum) Andhra Pradesh Rs.3,00,000/- Arunachal Pradesh Rs.1,00,000/- Assam Rs.3,00,000/- Bihar Rs.1,50,000/- Chhattisgarh Rs. 1,50,000/- Goa Rs.3,00,000/- Gujarat Rs.1,00,000/- Haryana Rs.3,00,000/- Himachal Pradesh Rs.3,00,000/- 10. Jammu & Kashmir Rs.1,00,000/- 11. Jharkhand Rs.3,00,000 12. Karnataka Rs.3,00,000 13. Kerala Rs.300,000 14. Madhya Pradesh Rs.1,00,000 15. Maharashtra Rs.3,00,000 16. Manipur Rs.3,00,000 17. Meghalaya Rs.1,00,000 18. Mizoram Rs. 25,000 19. Nagaland Rs.1,00,000 20. Odisha Rs.3,00,000 21. Punjab Rs.3,00,000 22. Rajasthan Rs.3,00,000 23. Sikkim Rs. 3,00,000 24. Telangana Rs.1,00,000 25. Tamil Nadu Rs.3,00,000 26. Tripura Rs. 1,50,000 27. Uttar Pradesh Rs.1,00,000 28. Uttarakhand Rs.3,00,000 29. West Bengal Rs. 1,00,000 30. Andaman & Nicobar Islands Rs.3,00,000 31. Chandigarh UT Rs.3,00,000 32. Dadra",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-076",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the income parameter for grant of legal aid to a person?",
+   "text": "& Nagar Haveli UT Rs.15,000 33. Daman & Diu Rs.1,00,000 34. Delhi General –Rs. 3,00,000, Senior citizen- Rs. 4,00,000, Transgender – Rs. 4,00,000 35. Lakshadweep Rs.9,000 36. Puducherry Rs.1,00,000 As per Section 13(2) of the Legal Services Authorities Act, 1987, an affidavit made by a person as to his income is generally regarded as sufficient for making him/her eligible for the entitlement of legal services under the Act, unless the concerned Authority has reasons to question or disbelief such affidavit.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-077",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "If a person has an annual income which is more than the amount prescribed under the Legal Services Authorities Act/ extant rules in this regard in the different states, can he still get free legal aid if he falls within any other category of beneficiaries enlisted in Section 12 of the Legal Services Authorities Act?",
+   "text": "Yes. If he falls within any other category mentioned in Section 12 of the Legal Services Authorities Act, 1987. For e.g. a man from the Scheduled Tribe, even if he is earning Rs. 10 lakhs per annum, is eligible for free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-078",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can an application for grant of legal services be made by a person on behalf of another based on a general power of attorney?",
+   "text": "Generally no. The application for legal aid has to be made in person generally and not through an authorized representative (except in cases of children or person with mental illness). The legal aid application has to be accompanied by the Affidavit sworn by the person seeking grant of legal aid (when a person is claiming free legal aid based on annual income criteria) and such an Affidavit cannot be made on behalf of some other person. However, in some cases, if the person seeking legal aid is incapacitated for some reason to apply in person for legal aid, his duly authorized representative/ person holding his General Power of Attorney may apply for legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-079",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a person apply for free legal aid in a case in which he was earlier being represented by another private counsel?",
+   "text": "Yes. One may still apply for free legal aid. However, before assignment of a legal aid counsel, the person may have to furnish a No Objection Certificate from the earlier counsel or copy of judicial order discharging the private counsel (where applicable).",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-080",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a person who is aggrieved by an order of a High Court or the Supreme Court get free legal aid to file an appeal/ curative petition etc.?",
+   "text": "Yes. One can apply for legal aid for challenging orders passed by the High Courts as well as the Supreme Court.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-081",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Is there any income criteria to be considered while considering the question of grant of legal aid to a person of SC/ ST community?",
+   "text": "No. The very fact that a person belongs to the SC/ST community entitles him to get free legal aid. The legal aid application needs to be supported by a certificate issued by the appropriate authority in this regard.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-082",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a wealthy businessman who is in custody in a case of cheating be given free legal aid?",
+   "text": "A person who is facing criminal trial and is in police/ judicial custody is entitled to get free legal aid irrespective of his financial status or social standing. There is no bar under Section 12 of the Legal Services Authorities Act, 1987 to provide Free Legal Aid to a wealthy businessman if he happens to be a prisoner.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-083",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a convict apply for free legal aid to challenge his conviction before the High Court or Supreme Court?",
+   "text": "Yes. He can apply for free legal aid in these scenarios as well. He may apply through the prison authorities or the prison legal aid clinic established by the Legal Services Institutions along with the legal aid formal application and custody certificate.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-084",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Is a victim or a complainant who is aggrieved by an order of a court entitled to grant of free legal aid?",
+   "text": "Yes, if he meets the eligibility criteria of Section 12 of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-085",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a person get free legal aid to challenge an order rejecting, dismissing or cancelling bail when the criminal appeal is pending before the High Court or Supreme Court?",
+   "text": "The grant of legal aid can be considered for filing a petition before the High Courts or Supreme Court against any interlocutory order including the rejection of bail. Such a person can get free Legal Aid if he/she satisfies the conditions and eligibility criteria as laid down under Section 12 of the Legal Services Authorities Act.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-086",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a person who is abroad but has a case to file or defend in India, get legal aid?",
+   "text": "Yes, such a person may apply for legal aid through email or LSMS Portal, provided he/ she meets the criteria under Section 12 and 13 of the Legal Services Authorities Act, 1987. LEGAL AID PROVIDERS",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-087",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Who provides legal aid?",
+   "text": "Legal aid providers include Panel Lawyers, Legal Aid Defence Counsels and Paralegal Volunteers, who are empanelled with the Legal Services Institutions. These persons are neither government lawyers/ agents or public servants.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-088",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Who are Panel Lawyers?",
+   "text": "Panel lawyers are lawyers who are empanelled with the Legal Services Institutions for a fixed tenure. They provide legal representation for the concerned Legal Services Institutions but are permitted to provide representation on private legal cases too.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-089",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Who is a Legal Aid Defence Counsel?",
+   "text": "Legal Aid Defence Counsels are appointed by the District Legal Services Authority to provide legal representation in criminal matters within the district. They are attached to the Legal Aid Defence Counsel office and are dedicated only to provide legal aid services i.e. they cannot take up any private legal cases. They are neither Government pleaders or advocates nor public servants.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-090",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Who are para-legal volunteers?",
+   "text": "Paralegal volunteers (PLVs) are volunteers selected from diverse social and educational backgrounds through the process of NALSA’s Para-Legal Volunteers Scheme. They are expected to act as intermediaries in bridging the gap between the common people and the Legal Services Institutions reaching out to the people at their doorsteps. NATURE OF CASES IN WHICH LEGAL AID CAN BE GIVEN",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-091",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What types of legal matters do the Legal Services Institutions under the Legal Services Authorities Act, assist with?",
+   "text": "The Legal Services Institutions under the Legal Services Authorities Act, 1987 provide legal aid and assistance in civil as well as criminal cases. They also provide assistance in quasi- criminal or judicial cases. They also provide legal assistance and legal aid in cases before Tribunals and Forums.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-092",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can Legal Services Institutions under the Legal Services Authorities Act, 1987, assist with matters related to family disputes and domestic violence?",
+   "text": "Yes, even in matrimonial cases, legal aid is provided.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-093",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can Legal Services Institutions under the Act provide assistance in accessing justice for victims of sexual harassment or assault?",
+   "text": "Yes. Legal Services Institutions are duty bound to provide legal aid to such categories of persons as well as per Section 12(c) of the Legal Services Authorities Act, 1987. Section 40 of the Protection of Children from Sexual Offences Act, 2012 also provides for the same. NALSA has also come up with a Scheme titled “Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes – 2018”, which has been used as a template by other States to formulate a Scheme for victim compensation. Victims of sexual crimes are paid compensation in terms of the prevailing schemes for victim compensation and the SLSAs are the disbursement authority for the compensation.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-094",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How can Legal Services Institutions assist victims of domestic violence?",
+   "text": "A victim of domestic violence can file an application for free legal aid in her nearest Legal Services Institution. She can also seek compensation under the NALSA’s Compensation Scheme for Women Victims/Survivors of Sexual Assault/Other Crimes – 2018. The concerned Legal Services Institution can assist such a woman in filing court cases. Such a woman can also be provided counselling services. Further, the Legal Services Institution can also collaborate with various NGOs, Women Cells etc. which can then provide specialised assistance in such cases.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-095",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Do Legal Services help with legal issues related to land and property disputes?",
+   "text": "NALSA helps individuals access legal aid through different Legal Services Institution such as SLSAs/DLSAs, if they meet the eligibility criteria under Section 12 and 13 of the Legal Services Authorities Act, 1987. It encourages individuals to resolve their land and property related disputes through Alternative Dispute Resolution mechanisms (Lok Adalat and Mediation).",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-096",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can Legal Services Institutions assist in matters related to consumer rights and disputes?",
+   "text": "Yes. One can approach the nearest Legal Services Institution for such cases through the standard procedure of applying for legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-097",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can Legal Services Institutions assist in cases of wrongful incarceration or miscarriage of justice?",
+   "text": "Yes, Legal Services Institutions can offer legal aid to individuals facing wrongful incarceration, striving to rectify miscarriages of justice through proper legal representation. The concerned Legal Services Institution identify such persons who are wrongly incarcerated and then assist them to file appropriate applications before the concerned court or board.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-098",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can Legal Services Institutions assist in cases of wrongful termination or unfair labour practices?",
+   "text": "Yes, Legal Services Institutions can provide legal aid in cases of wrongful termination or unfair labour practices under Section 12 (f) of the Legal Services Authorities Act, 1987. Their issues are also addressed under the NALSA (Legal Services to the Workers in the Unorganized Sector) Scheme, 2015 by mobilizing the machinery of the State Government and the District Administration to identify and register all unorganized workers in all categories and to extend the benefits of all government schemes.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-099",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can Legal Services Institutions assist individuals facing discrimination based on caste or religion?",
+   "text": "Under Section 12 (a) of the Legal Services Authorities Act, 1987, a member of a Scheduled Caste or Scheduled Tribe is entitled to seek free legal aid. Such persons can approach their nearest Legal Services Institution or visit Legal Services Clinics to avail free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-100",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Will the information given by a legal aid applicant be safe and privileged with the Legal Services Institutions?",
+   "text": "Yes, the personal information of the clients approaching the Legal Services Authorities is kept confidential.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-101",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can one get free legal aid lawyer at any stage of case? Can one get free legal aid at the time of appeal even though a person had a personal lawyer before the appellate stage?",
+   "text": "Yes, one can apply to get free legal aid at any stage of the case as long as one is eligible to obtain free legal services as per Section 12 of the Legal Services Authorities Act, 1987. Even if a person had a personal lawyer before and now requires a legal aid lawyer only at the stage of appeal (and is eligible under Section 12 of the Legal Services Authorities Act, 1987), the person can make an application to avail the same. Even if a person has engaged a private lawyer, he/ she can also get second opinion from Panel Lawyers. PROCESSING OF APPLICATION",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-102",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the procedure adopted after a person submits an application for legal aid with the Legal Services Institutions?",
+   "text": "Legal aid is provided to the entitled persons through legal services authorities existing from the National to Taluka levels including the NALSA, State Legal Services Authorities, District Legal Services Authorities, Taluka Legal Services Committees, Supreme Court Legal Services Committee and High Court Legal Services Committees. If, however, an application or request for legal aid is received by NALSA, NALSA forwards the same to the concerned Legal Services Institution. Once the application is submitted with the proper authority, it would be perused by the concerned Legal Services Institution as to what action is needed upon the same. The information about the next step on the application would then be sent to the parties concerned. The action taken on an application received would vary from providing counselling/advice to the parties, providing a lawyer to represent them in the court, etc.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-103",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the procedure after an application for legal aid is allowed?",
+   "text": "Once the application is allowed, the applicant is given intimation about the assignment of a lawyer. A letter of appointment is also issued to the assigned lawyer with a copy to the applicant. The lawyer would thereafter contact the applicant at the earliest. The applicant may also contact the lawyer in the meanwhile.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-104",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can one appeal if the application for free legal services is rejected?",
+   "text": "According to Regulation 7(5) of the National Legal Services Authority (Free and Competent Legal Services) Regulations 2010, the application for legal services will be scrutinized by the Member-Secretary or the Secretary and if any individual is aggrieved by the decision made upon their application, he/she has an option to appeal to the Executive Chairman or Chairman of the Legal Services Institution and the decision resulting from the appeal would be a final one.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-105",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How will a person get an intimation/information of the acceptance, success, failure, etc. of his application?",
+   "text": "Once the application is scrutinized by the concerned authorities, the information of its success or failure is given to the applicant in the following ways: If the application was made physically at the front office of any Legal Services Institution, an address (either residential or email) for correspondence is usually noted and information regarding the application is sent to the same. If the application is made online via the LSMS Portal via the NALSA website, an application number is generated, and the appropriate Legal Services Institution is contacted. The applicant can track the status of the application on the online portal itself. If the application has been received from Government Departments / Centralized Public Grievance Redress and Monitoring System (CPGRAM), an email is sent to the applicant. The applicant can also get a scanned copy of the application on the CPGRAM website. Remarks regarding the application are also made on CPGRAM website and the website of the Legal Services Institution. REJECTION AND WITHDRAWAL OF LEGAL AID",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-106",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "When can legal aid be denied or withdrawn?",
+   "text": "Legal Aid can be denied at the initial stage before the application for legal aid is accepted. It can also be withdrawn at the later stage after the application has been accepted and legal aid has been provided. Legal aid can be denied or withdrawn in the following circumstances: Legal aid can be denied if a person is found ineligible under Section 12 of the Legal Services Authorities Act, 1987; Legal aid can be withdrawn if the aided person who applied under the income category is found to possess sufficient means; Legal aid can be withdrawn where the aided person obtained legal services by misrepresentation or fraud; Legal aid can be withdrawn where the aided person does not cooperate with the Legal Services Institution or with the Legal Services Advocate; Legal aid can be withdrawn where the person engages a legal practitioner other than the one assigned by the Legal Services Institution; Legal aid can be withdrawn in the event of death of the aided person except in the case of civil proceedings where the right or liability survives; Legal aid can be withdrawn where the application for legal service or the matter in question is found to be an abuse of the process of law or of legal services. Regulation 6 of the National Legal Services Authority (Free And",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-107",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "When can legal aid be denied or withdrawn?",
+   "text": "Competent Legal Services) Regulations, 2010 provides that the applicant shall be informed that if free legal services have been obtained by furnishing incorrect or false information or in a fraudulent manner, the legal services shall be stopped forthwith and that the expenses incurred by the Legal Services Institutions shall be recoverable from him or her. GRIEVANCE REDRESSAL AND UPDATES ON CASE STATUS",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-108",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whom can one approach if he wants to make a complaint against the conduct an officer/ official of a Legal Services Institution?",
+   "text": "A complaint can be made regarding the conduct of a Legal Services Institution to the higher authority in the following hierarchical order: To the Ld. Member Secretary, National Legal Services Authority if complaint is against a State Legal Services Authority; To the Ld. Member Secretary, State Legal Services Authority if it is against a District Legal Services Authority/ Taluka Legal Services Committee; To the Ld. Member Secretary, State Legal Services Authority if the complaint is against the High Court Legal Services Committee; To the Ld. Member Secretary, NALSA, if the complaint is against the Supreme Court Legal Services Committee.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-109",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How can one know the case status? Where can one find the next date of hearing ?",
+   "text": "One can request one’s legal aid lawyer to give update about the case status and the next date of hearing. Additionally, one may download the ‘e-courts’ app on mobile phone or visit their website here- https://services.ecourts.gov.in/ecourtindia_v6/ and enter the case details to find out all information related to the case.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-110",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a person get legal advice for more than one matter?",
+   "text": "Yes, a person can get legal advice for more than one matter. ALTERNATE DISPUTE RESOLUTION MECHANISM",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-111",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is a Lok Adalat?",
+   "text": "Lok Adalat is a forum for alternative dispute resolution in India. It is a people’s court where disputes are settled amicably, without the need for lengthy court proceedings.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-112",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What are the kinds of cases can be taken up in a Lok Adalat?",
+   "text": "The following types of cases can be settled in the Lok Adalats: Any case of civil nature and Compoundable criminal cases. One can approach the Lok Adalat even at the pre-litigation stage (i.e. before a case is filed in the Court of law). If a case falling under the above category is pending in the Court, the concerned party may request the Court to have the matter referred to the Lok Adalat. However, matters relating to divorce and criminal cases which are non-compoundable under the Code of Criminal Procedure cannot be referred to the Lok Adalat.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-113",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What are the benefits of getting a case referred to Lok Adalat?",
+   "text": "There are many advantages of settlement of a case in the Lok Adalat, some of which are as follows: The cases are determined with utmost expedition, thus saving the valuable time of the parties. There is no fees to be paid in the Lok Adalat. The parties are not required to engage any Advocate. Even the Court Fees paid by the parties would be returned, if the case is amicably settled. Thus, the parties would be saving their money. Since the award of Lok Adalat is prepared on the basis of compromise between the parties, they would maintain their friendly relationships. An award passed by the Lok Adalat is deemed to be a decree of a civil Court. It is final and binding on all the parties to the dispute. No appeal would lie to any Court against the award. There is finality to the litigation.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-114",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is a Permanent Lok Adalat?",
+   "text": "It is an inexpensive forum for amicable resolution of a dispute between an aggrieved person and a Public Utility Service provider.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-115",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is a ‘Public Utility Service’?",
+   "text": "A ‘Public Utility Service’, as defined by Section 22-A(b) of the Legal Services Authorities Act, 1987, means any- Transport service for the carriage of passengers or goods by air, road or water; or Postal, telegraph or telephone service; or supply of power, light or water to the public by any establishment; or System of public conservancy or sanitation; or Service in hospital or dispensary; or insurance service; or Education or educational institutions; Housing and real-estate services and includes any service which the Central Government or the State Government, as the case may be, may, in the public interest, by notification declare to be a public utility service for the purpose of Chapter VI-A of the Act.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-116",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whether Permanent Lok Adalats for Public Utility Services can dispose of criminal cases?",
+   "text": "Yes, Permanent Lok Adalats for Public Utility Services have jurisdiction in respect of matters relating to an offence, which are compoundable under any law.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-117",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What type of disputes in Public Utility Services the Permanent Lok Adalats for Public Utility Services would decide?",
+   "text": "The Permanent Lok Adalats for Public Utility Services would decide disputes relating to deficiency in service, claims for damages/ compensation, recovery of money, etc., pertaining to all Public Utility services.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-118",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whether a party in a pending case before a Civil Court/Criminal Court or a Statutory Forum may approach Permanent Lok Adalats for adjudication of a case pertaining to a Public Utility Services?",
+   "text": "No. A party to a dispute can only make an application to the Permanent Lok Adalats for Public Utility Services for settlement of dispute, before the dispute is brought before in any Court or Statutory Forum and not thereafter.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-119",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How can one file an application before the Permanent Lok Adalats for Public Utility Services?",
+   "text": "An application can be filed before the Permanent Lok Adalats for Public Utility Services on a plain paper depicting the true and correct facts and the details of the person/Authority/public utility services provider against whom relief is claimed, on any working day. Such an application should however, be accompanied by supporting documents and copies to be furnished to the opposite party.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-120",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Is it compulsory for the parties to appear in person during a hearing in Permanent Lok Adalat for Public Utility Services?",
+   "text": "Yes. The appearance of the parties in person is necessary at the time of conducting conciliation proceedings between the parties, but they may not be required to appear in person at the time of filing of applications for taking cognizance of case by Permanent Lok Adalat.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-121",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Is there any condition to affix Court Fee on the application to be filed before Permanent Lok Adalat (Public Utility Services) ?",
+   "text": "No, there is no requirement of affixing any Court Fee.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-122",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Can a party invoke jurisdiction of any other Court or Statutory Forum/ Tribunal after filing an application before Permanent Lok Adalat (Public Utility Services) in the same dispute?",
+   "text": "No. After an application is made to the Permanent Lok Adalat, no party to that application shall invoke jurisdiction of any other Court in the same dispute.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-123",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whether the Permanent Lok Adalat (Public Utility Services) is bound by the Code of Civil Procedure, 1908 and the Indian Evidence Act, 1872?",
+   "text": "No, the Permanent Lok Adalat is not bound by the Code of Civil Procedure, 1908 and the Indian Evidence Act, 1872. 77. What procedure is adopted by the Permanent Lok Adalat (Public Utility Services) while conducting conciliation proceedings or deciding a dispute on merit. Permanent Lok Adalat shall be guided by the principles of natural justice, objectivity, fair play, equity and other principles of justice as per Section 22-D of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-124",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whether the Award passed by the Permanent Lok Adalat (Public Utility Sevices) is final or appealable?",
+   "text": "Every award of the Permanent Lok Adalat made either on merit or in terms of a settlement agreement, shall be final and binding on all the parties thereto and on persons claiming under it as per Section 22-E (1) of the Legal Services Authorities Act, 1987 and shall not be called in question in any original suit, application or execution proceeding as per Section 22-E (4) of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-125",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How is an Award passed by Permanent Lok Adalat?",
+   "text": "The Award made by Permanent Lok Adalat shall be by a majority of the persons constituting the Permanent Lok Adalat.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-126",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "Whether the Award passed by the Permanent Lok Adalat (Public Utility Services) is deemed to be a decree of a civil court ?",
+   "text": "Yes, the Award passed by the Permanent Lok Adalat (Public Utility Services) shall be deemed to be a decree of a civil court and executable as if it were a decree made by that court.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-127",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is the difference between a Regular Lok Adalat and a Permanent Lok Adalat for Public Utility Services?",
+   "text": "The main difference between these two Lok Adalats is when one of the parties to a dispute, pending before any Court and referred to the Regular Lok Adalat or a pre-litigation case, does not agree, the other party will be advised to pursue his remedies by approaching Civil Court/ Appropriate Forum, but in the Permanent Lok Adalat for Public Utility Services, even if one of the parties fail to reach an agreement during conciliation proceedings, it may decide the dispute on merits under Section 22-C (8) of the Legal Services Authorities Act, 1987 and such a decision shall be final and binding on all the parties thereto and on persons claiming under them under Section 22-E (1) of the Legal Services Authorities Act, 1987 and shall not be called in question in any original suit, application or execution proceeding as per Section 22-E(4)of the Act.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-128",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What is Mediation?",
+   "text": "Mediation is a non-binding negotiation process in which a neutral third person facilitates the parties to the dispute in arriving at a mutually acceptable settlement. The process is informal where the outcome of the dispute is controlled by the parties themselves. The entire process is confidential. Civil cases, matrimonial and family disputes are best suited for mediation. LEGAL AWARENESS & OUTREACH",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-129",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How does NALSA and other Legal Services Institutions promote legal awareness?",
+   "text": "NALSA as well as other Legal Services Institutions regularly conduct legal literacy and awareness programmes about the rights of the weaker and marginalized sections of the society. These awareness and legal literacy programmes are organized not only in cities and towns but also in rural and remote areas. Legal Literacy Clubs and Clinics have also been set up in schools and colleges. The activities conducted are duly reported in NALSA’s newsletters and annual reports.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-130",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How does NALSA and other Legal Services Institutions promote legal literacy among marginalized communities?",
+   "text": "They do so by organizing legal literacy camps and programs to empower marginalized communities with knowledge about their legal rights and responsibilities.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-131",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "What role does NALSA and other Legal Services Institutions play in promoting legal aid awareness in schools and colleges?",
+   "text": "They organize programs in educational institutions to enhance legal awareness among students, ensuring a foundation of legal knowledge from an early age. It conducts awareness programs such as legal literacy workshops and seminars in schools and colleges. It engages students in interactive sessions using Acts and presentations. It also distributes informative brochures and pamphlets about child rights. Various legal service clinics are also established in schools and colleges.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-132",
+   "dept": "legal-aid",
+   "cards": [
+    "free-legal-aid"
+   ],
+   "source": "NALSA FAQ",
+   "url": "https://nalsa.gov.in/faqs/",
+   "question": "How does NALSA and other Legal Services Institutions collaborate with other legal aid organizations, nationally and internationally?",
+   "text": "They collaborate both at national and international levels to share resources, expertise, and best practices. At national level, they collaborate with Ministries, NGOs, Law Schools and Judicial Academies to conduct seminars, workshops, campaigns etc. At international level, they collaborate with international bodies, organizations etc. to share their resources and expertise. VANI AI Assistant for NALSA Disclaimer | Contact Us",
+   "part": 1,
+   "parts": 1
+  }
+ ],
+ "chunks": [
+  {
+   "id": "rti-000:chunk-1",
+   "parent_id": "rti-000",
+   "text": "An applicant who desires to obtain information under the RTI Act, 2005 can make a request through this RTI Online Portal to the Central Ministries/Departments and other Central Public Authorities mentioned in ONLINE RTI request form.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-001:chunk-1",
+   "parent_id": "rti-001",
+   "text": "The text of the application may be written in the prescribed column of the RTI request form. At present, the text of the application is confined up to 3000 characters only. In case, the text of an application contains more than 3000 characters, it can be uploaded as a PDF attachment in the \"Supporting Document\" column of the form.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-002:chunk-1",
+   "parent_id": "rti-002",
+   "text": "After filling the first page of the RTI request form, a non-BPL applicant has to click on \"Make Payment\" button for payment of the prescribed RTI fee. The applicant can pay the prescribed RTI fee through the following modes: (i) Internet banking through SBI payment gateway and its associated banks. (ii) Using ATM-cum-Debit card of State Bank of India. (iii) Credit/Debit card of Master/Visa. (iv) UPI It may be noted that no RTI fee is required to be paid by a citizen who is below poverty line, as per RTI Rules, 2012. However, the BPL applicant must attach a copy of the certificate issued by the appropriate government in this regard, along with the application.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-003:chunk-1",
+   "parent_id": "rti-003",
+   "text": "On submission of an application, a unique registration number will be issued, which may be referred by the applicant for any future reference. It may be noted that the application filed through this RTI Online Portal will reach electronically to the \"Nodal Officer\" of the said Ministry/Department and \"Not\" to the CPIO of the concerned Ministry/Department. The Nodal Officer will transmit the RTI application electronically to the concerned CPIO.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-004:chunk-1",
+   "parent_id": "rti-004",
+   "text": "In case the RTI application is not meant for the Public authority which has been selected by the applicant, the \"Nodal Officer\" of the said public authority would transfer the application electronically to the \"Nodal Officer\" of the concerned Central Public authority, if aligned to this portal and physically to that Central Public authority which is not aligned to this portal, under section 6(3) of the RTI Act. It may be noted that RTI applications filed through this portal for the state public authorities, including NCT of Delhi, would be returned, without any refund of fee",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-005:chunk-1",
+   "parent_id": "rti-005",
+   "text": "In case additional fee representing the cost is required for providing information, the CPIO will intimate the same, which can be viewed by the applicant through \"View Status\" option in the RTI Online Portal and an e-mail alert or SMS or both will also be sent to the applicant for the same. For payment of additional fee online, the applicant needs to use the option ‘View Status’ in the RTI Online Portal and on providing the registration number of the request, option for \"Make Payment\" will be available.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-006:chunk-1",
+   "parent_id": "rti-006",
+   "text": "For making an appeal to the first Appellate Authority, the applicant has to select the option \"Submit First Appeal\" in the RTI Online Portal and fill up the form that will appear. The registration number and e-mail ID of the original application is required for filing the first appeal.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-007:chunk-1",
+   "parent_id": "rti-007",
+   "text": "As per RTI Act, no fee has to be paid for first appeal.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-008:chunk-1",
+   "parent_id": "rti-008",
+   "text": "Though optional, the mobile number can be provided by the applicant/ appellant in order to receive SMS alerts.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-009:chunk-1",
+   "parent_id": "rti-009",
+   "text": "You can go to View History column to see your past RTI requests/appeals.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-010:chunk-1",
+   "parent_id": "rti-010",
+   "text": "No. You can directly file your RTI on \"Submit Request\" tab.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-011:chunk-1",
+   "parent_id": "rti-011",
+   "text": "In the View History/View Status citizen can see RTI Cases retained for a period of 3 years.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-012:chunk-1",
+   "parent_id": "rti-012",
+   "text": "Use \"Payment Reconciliation\" feature Please do not attempt to make payment repeatedly or try to submit request once again. Kindly wait for the 24 to 48 working hours as registration number will be generated after reconciliation. If it is not generated within stipulated time frame then kindly send an e-mail at helprtionline-dopt[at]nic[dot]in with your transaction details. However, in cases of unsuccessful RTI payment requests, if the requester wishes to check the payment status before 48 hours, it can be verified using the \"Payment Reconciliation\" feature.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-013:chunk-1",
+   "parent_id": "rti-013",
+   "text": "This may happen under following two situation: 1) When your RTI application has been physically transferred to other public authority, which is not aligned to this portal. In such a case, you are required to file your appeal in physical mode to the concerned public authority. 2) Another case can be if your RTI application has not been replied to by CPIO and 30 days period has not lapsed. In such a case, you may file first appeal only after completion of stipulated time period of 30 days.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-014:chunk-1",
+   "parent_id": "rti-014",
+   "text": "No,Online first appeal can only be filed against previously filed online RTI application.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-015:chunk-1",
+   "parent_id": "rti-015",
+   "text": "If you have opted to file RTI or First Appeal directly i.e without logging into your user account, then in such cases you will not be able to see the filed RTI or Appeal in your registered account's history. However you can always check its status in \"View Status\" with the provided Reg. Nos.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-016:chunk-1",
+   "parent_id": "rti-016",
+   "text": "This is the case where in your RTI application has been forwarded to multiple CPIOs since the information sought lies with more than one PIO.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-017:chunk-1",
+   "parent_id": "rti-017",
+   "text": "Status/Reply of the RTI Application or First appeal filed online can be viewed by the applicant by clicking on \"View Status\".",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-018:chunk-1",
+   "parent_id": "rti-018",
+   "text": "Registration Number are generated after reconciliation of bank scrolls for cases whose numbers are not generated instantly after the payment. This procedure may take 24 to 48 working hours. If someones still does not receive the Registration Number, They may contact their respective bank for refund of amount.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-019:chunk-1",
+   "parent_id": "rti-019",
+   "text": "When a Public Authority request for supporting document, an alert is sent to the applicant to his/her Mobile or Email Id. In such situation, the applicant is requested to visit the RTI Online Website and enter the details in 'View Status'. Once the detail is entered, the current status of the RTI application is shown along with the option for uploading the supporting document.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-020:chunk-1",
+   "parent_id": "rti-020",
+   "text": "Helpline mail id is exclusively meant for queries or problem being faced while filing the online RTI through this portal. Please do not send mail to this helpline for any other matter or asking for any other details. The reply is limited to RTI online portal of Central Government only.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-021:chunk-1",
+   "parent_id": "rti-021",
+   "text": "You should ignore the certificate error and proceed forward. Kindly select, Mozilla Firefox – I understand the risk add exception. Google Chrome – Proceed Anyway. Internet Explorer - Continue to this website",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-022:chunk-1",
+   "parent_id": "rti-022",
+   "text": "No. This Portal is exclusively meant for Public Authorities under Central Govt. only.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-023:chunk-1",
+   "parent_id": "rti-023",
+   "text": "Manual applications can be lodged into RTI Online portal by CPIOs and can be disposed off by CPIO online. In this context, if applicant provides email id/Mobile No. in the application form and CPIO lodges this RTI application in the portal , then the actions taken by CPIO will be conveyed to applicant automatically through e-mail and Mobile SMS. Then applicant can file 1st appeal with the help of registration number conveyed .",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-024:chunk-1",
+   "parent_id": "rti-024",
+   "text": "The major reasons for failure are due to Business declines, Business Decline are as under: 1. Customer has set e-Commerce flag as Disabled for Debit / Credit Card. 2. Customer either closed the internet browser or not proceeded further with the transaction resulting into session timeout. 3. Wrong OTP or no OTP entered by customer. 4. Wrong details of cards entered by customers like Card No, CVV, expiry date. 5. Insufficient balance in customer’s account. 6. Customer cancelled the transaction and reinitiated with different mode of payment (say from Debit card to UPI etc.). 7. Customer received collect request for payment in UPI app, but not completed the payment within time limit.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "rti-025:chunk-1",
+   "parent_id": "rti-025",
+   "text": "RTI Application may contain personal information of the Applicant and if any third person gets the registration number and email id, then the person can view this personal information. So, in order to protect personal information of the applicant, according to cyber security norms, this OTP validating feature has been introduced. In view status option while OTPs are promptly dispatched from the NIC email domain, delays may occasionally occur due to high traffic on either NIC server or external email services like Gmail or Yahoo. Importantly, OTPs do not expire until they are used, meaning users can access the status of their applications as soon as the OTP arrives. Home National Portal of India Complaint & Second Appeal to CIC",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "rti-025:chunk-2",
+   "parent_id": "rti-025",
+   "text": "FAQ Policy Copyright © 2026. All rights reserved | Website designed, developed, and hosted by National Informatics Centre, New Delhi | Content owned and managed by DOP&T",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "passport-026:chunk-1",
+   "parent_id": "passport-026",
+   "text": "If you have not received your Passport, please visit the Passport Office (PO) concerned.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-027:chunk-1",
+   "parent_id": "passport-027",
+   "text": "Passport is an extremely important and valuable document. In order to ensure it does not go to the wrong hands, police verification is required to ascertain details furnished by applicant.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-028:chunk-1",
+   "parent_id": "passport-028",
+   "text": "There are 2 modes of police verification: - Police Verification is required on a Post-Passport Issuance basis. - Police Verification is required on Pre-Passport Issuance basis Depending upon whether an application is for issue of fresh Passport or re-issue of Passport, Passport Office (PO) shall decide whether Police Verification is required. In most cases, pre-police verification would be required. An exception is made in cases pertaining to Government servants who are required to submit 'Identity Certificate' as per Annexure 'A' or 'No Objection Certificate' as per Annexure 'G' and in processing of Tatkaal application.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-029:chunk-1",
+   "parent_id": "passport-029",
+   "text": "Please refer to citizen charter in the following link",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-030:chunk-1",
+   "parent_id": "passport-030",
+   "text": "Generally, no PV is required in case of minor children up to the age of 18 years (validity of Passport limited to 5 years) whose either or both parents hold a valid Passport and the name of either parent is mentioned in his/her spouse′s Passport along with the consent of both parents is available in the form of Annexure-D. Children between 15-18 years have an option to apply for 10 years validity Passport on pre-PV basis. However, final decision on PV mode rests with Passport Office.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-031:chunk-1",
+   "parent_id": "passport-031",
+   "text": "In such cases, minors can be issued Passport under the Tatkaal scheme subject to approval of competent authority.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-032:chunk-1",
+   "parent_id": "passport-032",
+   "text": "No, in such cases the applicant is not required to submit the deceased parent's Passport copy and death certificate. Following documents have to be submitted: - Proof of DOB - Proof of Present Address (Of legal Guardian) - A Declaration affirming the particulars furnished in the application about the minor child as per: Annexure \"C\" (signed by legal guardian) - Attested photocopy of Passport, if any, of the legal guardian",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-033:chunk-1",
+   "parent_id": "passport-033",
+   "text": "Passport cannot be issued without police verification in your case. But if you apply under the Tatkaal scheme with required documents, you can be issued a Passport on post police verification basis.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-034:chunk-1",
+   "parent_id": "passport-034",
+   "text": "Government/Public Sector/Statutory body employees can be issued Passport without police verification, if they submit Identity Certificate in original as per Annexure \"A\" as an additional document along with the application form. They can be issued a Passport on post police verification basis, if they submit No Objection Certificate (NOC) (as per Annexure \"G\") and on pre-police verification basis, if they submit Prior Intimation Letter (PI) as per Annexure \"H\" as an additional document along with the application form.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-035:chunk-1",
+   "parent_id": "passport-035",
+   "text": "Passport cannot be issued without police verification in your case. But if you apply under the Tatkaal scheme with required documents, you can be issued a Passport on post police verification basis.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-036:chunk-1",
+   "parent_id": "passport-036",
+   "text": "You cannot obtain a Passport without police verification. But, if you apply under the Tatkaal scheme with required documents, Passport can be issued on Post police verification basis (i.e. police verification would be done after the issuance of Passport).",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-037:chunk-1",
+   "parent_id": "passport-037",
+   "text": "Police verification will be done at both permanent and present address.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-038:chunk-1",
+   "parent_id": "passport-038",
+   "text": "Police Verification will be done before issuance of Passport.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-039:chunk-1",
+   "parent_id": "passport-039",
+   "text": "In the given case, Government/Public Sector/Statutory body employees can be issued Passport without police verification (PV), if they submit Identity Certificate in original as per Annexure \"A\" as an additional document along with the application form. They can be issued a Passport on post-Police Verification (PV) basis, if they submit No Objection Certificate (NOC) (as per Annexure \"G\") and on pre police verification basis, if they submit Prior Intimation Letter (PI) as per Annexure \"H\" as an additional document along with the application form. Else, Passport will be issued on pre-Police Verification (PV) basis, or post-Police Verification (PV) basis - if they apply under Tatkaal scheme.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-040:chunk-1",
+   "parent_id": "passport-040",
+   "text": "Dependent family members of Government/Public Sector/Statutory body employees can be issued Passport without police verification, if they submit the following additional documents along with their application form: - \"Identity Certificate\" in original as per Annexure \"A\" (of dependent). They can also be issued Passport on post police verification basis, if they apply under the Tatkaal scheme with required documents.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-041:chunk-1",
+   "parent_id": "passport-041",
+   "text": "You need to attach the required documents along with your application form. For list of documents to be submitted please click on \"Documents Required\" link on Home page.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-042:chunk-1",
+   "parent_id": "passport-042",
+   "text": "If a criminal case is pending against you in any court, you can be issued a Passport subject to the condition that you enclose a written permission granted by the court allowing you to travel abroad. Normally a short validity Passport valid for one year is issued, subject to conditions if any, mentioned in the Court order as per GSR 570 (E) dated 25 August, 1993.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-043:chunk-1",
+   "parent_id": "passport-043",
+   "text": "Yes, subject to the provisions of the Passports Act, 1967 and approval of competent authority.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-044:chunk-1",
+   "parent_id": "passport-044",
+   "text": "No, Passport cannot be issued without Police Verification in your case.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-045:chunk-1",
+   "parent_id": "passport-045",
+   "text": "Please contact Passport Office (PO) to understand the reason of adverse report. Post clarification, if required a re-verification can be requested. PO needs to get a clear police report from the re-verification, for issue of a Passport On receipt of a clear report from the police, your file will be processed further for issue of a Passport.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-046:chunk-1",
+   "parent_id": "passport-046",
+   "text": "No, police verification is not done before issuance of Passport under the Tatkaal scheme. In case of the Tatkaal scheme, police verification is done on post police verification basis as per the case.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "passport-047:chunk-1",
+   "parent_id": "passport-047",
+   "text": "Address proof is required only for the present address of the applicant, irrespective of the period of stay at the present address. Address proof is not required for other places the applicant stayed during the last one year period before the date of application. However, addresses of all places of residence during the last one year have to be furnished by the applicant to enable police verification.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-040:chunk-1",
+   "parent_id": "legal-aid-040",
+   "text": "The National Legal Services Authority (NALSA) is the central authority, constituted under the Legal Services Authorities Act, 1987, to provide free and competent legal services to the weaker sections of the society to ensure that opportunities for securing justice are not denied to any citizen by reason of economic or other disabilities, and to organize Lok Adalats for amicable and faster settlement of disputes. It coordinates and monitors the functioning of the Legal Services Institutions constituted across India for proper implementation of legal aid programmes. It was formed on 9th November 1995 and is headed by the Chief Justice of India as the Patron-in-Chief. The NALSA Office is located in the Additional Building Complex of the Supreme Court of India,",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-040:chunk-2",
+   "parent_id": "legal-aid-040",
+   "text": "Tilak Marg, New Delhi (110001). The NALSA Centre for Citizen Services is set up at Jaisalmer House, Man Singh Road, New Delhi-110011. One can approach any of the NALSA Offices during office hours on all working days.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-041:chunk-1",
+   "parent_id": "legal-aid-041",
+   "text": "As per Section 4 of the Legal Services Authorities Act, 1987, NALSA has been assigned to perform all or any of the following functions: Laying down policies and principles for making legal services available under the provisions of the Legal Services Authorities Act, 1987; Framing the most effective and economical schemes for the purpose of making legal services available under the provisions of the Legal Services Authorities Act, 1987; Utilizing the funds at its disposal and making appropriate allocations of funds to the State Authorities and District Authorities; Taking necessary steps by way of social justice litigation with regard to consumer protection, environmental protection, or any other matter of special concern to the weaker sections of the society and for",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-041:chunk-2",
+   "parent_id": "legal-aid-041",
+   "text": "this purpose, give training to social workers in legal skills; Organizing legal aid camps, especially in rural areas, slums, or labor colonies with the dual purpose of educating the weaker sections of the society as to their rights as well as encouraging the settlement of disputes through Lok Adalats; Encouraging the settlement of disputes by way of negotiation, arbitration, and conciliation; Undertaking and promoting research in the field of legal services with special reference to the need for such services among the poor; Doing all things necessary for the purpose of ensuring commitment to the Fundamental Duties of citizens under",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-042:chunk-1",
+   "parent_id": "legal-aid-042",
+   "text": "Part IVA of the Constitution; Monitoring and evaluating implementation of the legal aid programmes at periodic intervals and providing independent evaluation of programmes and schemes implemented in whole or in part by funds provided under this Act; Providing grants-in-aid for specific schemes to various voluntary social service institutions and the State and District Authorities, from out of the amounts placed at its disposal for the implementation of the legal services schemes under the provisions of this Legal Services Authorities Act, 1987; Developing, in consultation with the Bar Council of India, programmes for clinical legal education and promoting guidance and supervising the establishment and working of legal services clinics in universities, law colleges, and other institutions; Taking appropriate measures for spreading",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-042:chunk-2",
+   "parent_id": "legal-aid-042",
+   "text": "legal literacy and legal awareness amongst the people and, in particular, to educate weaker sections of the society about the rights, benefits, and privileges guaranteed by social welfare legislations and other enactments as well as administrative programmes and measures; Making special efforts to enlist the support of voluntary social welfare institutions working at the grassroots level, particularly among the Scheduled Castes and the Scheduled Tribes, women, and rural and urban labor; and Coordinating and monitoring the functioning of State Authorities, District Authorities, Supreme Court Legal Services Committee, High Court Legal Services Committees, Taluka Legal Services Committees and voluntary social service",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-043:chunk-1",
+   "parent_id": "legal-aid-043",
+   "text": "institutions and other legal services organizations and give general directions for the proper implementation of the legal services programs. As per Section 5 of the Legal Services Authorities Act, 1987, NALSA has also been entrusted with the duty to work in coordination with other agencies for the purposes of providing access to justice to the marginalized sections of the society.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-044:chunk-1",
+   "parent_id": "legal-aid-044",
+   "text": "A State Legal Services Authority (SLSA) is constituted for every State/Union Territory under Section 6 of the Legal Services Authorities Act, 1987. The SLSA is headed by the Chief Justice of the High Court of the respective State, as its Patron-in-Chief. SLSAs give effect to the policy and directions of NALSA, and are assigned the following functions under Section 7 of the Legal Services Authorities Act, 1987: Give legal service to persons who satisfy the criteria laid down under Section 12 of the Legal Services Authorities Act, 1987; Conduct Lok Adalats, including Lok Adalats for High Court cases; Undertake preventive and strategic legal aid programmes; and Perform such other functions as the State Authority may, in consultation with NALSA, fix",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-044:chunk-2",
+   "parent_id": "legal-aid-044",
+   "text": "by Regulations.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-045:chunk-1",
+   "parent_id": "legal-aid-045",
+   "text": "Section 9 of the Legal Services Authorities Act, 1987, provides for the constitution of the District Legal Services Authorities (DLSAs) by the State Government, in consultation with the Chief Justice of the High Court, for every District in the State, to exercise the powers and perform the functions conferred on, or assigned to, the DLSA under Sections 10 and 11 of the Legal Services Authorities Act, 1987. The DLSA is headed by the District & Sessions Judge of the respective district as the Chairman, DLSA. Similarly, Section 11A of the Legal Services Authorities Act, 1987, provides for the constitution of the Taluka Legal Services Committees (TLSC) by the State Authority for each Taluka or mandal or for a group of",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-045:chunk-2",
+   "parent_id": "legal-aid-045",
+   "text": "Talukas or mandals, to exercise the powers and perform the functions conferred on, or assigned to them, under Section 11B of the Legal Services Authorities Act, 1987. The TLSC is headed by the senior Civil Judge operating within its jurisdiction as the ex-officio Chairman. As per Sections 10 and 11 of the Legal Services Authorities Act, 1987, it shall be the duty of every DLSA to perform such of the functions of the State Authority in the District as may be delegated to it from time to time by the State Authority. The DLSA may perform all or any of",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-046:chunk-1",
+   "parent_id": "legal-aid-046",
+   "text": "the following functions, namely: Coordinate the activities of the TLSC and other legal services in the District; Organize Lok Adalats within the District; Perform such other functions as the State Authority may fix by regulations. The DLSAs are expected to act in coordination with other agencies and be subject to directions given by the NALSA, for promoting the cause of legal services to the poor. As per Section 11B of the Legal Services Authorities Act, 1987, it shall be the duty of every TLSC to: Co-ordinate the activities of legal services in the Taluka; Organize Lok Adalats within the Taluka; and Perform such other functions as the DLSA may assign to it.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-047:chunk-1",
+   "parent_id": "legal-aid-047",
+   "text": "Section 8A of the Legal Services Authorities Act, 1987, provides that the SLSA shall constitute a Committee to be called the High Court Legal Services Committee (HCLSC) for every High Court, for the purpose of exercising such powers and performing such functions as may be determined by Regulations made by the State Authority. It is headed by a sitting Judge of the concerned High Court, as the Chairman. HCLSCs have been established to provide free and competent legal services to weaker sections of the society who wish to file or defend a case in the concerned High Court of a State.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-048:chunk-1",
+   "parent_id": "legal-aid-048",
+   "text": "The Supreme Court Legal Services Committee (SCLSC) is constituted under Section 3A of the Legal Services Authorities Act, 1987, to provide free and competent legal services to those who fall within the purview of Section 12 of the Legal Services Authorities Act, 1987, in cases that fall under the jurisdiction of the Supreme Court of India. LEGAL SERVICES",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-049:chunk-1",
+   "parent_id": "legal-aid-049",
+   "text": "According to Section 2(c) of the Act, “legal services” includes any service in the conduct of any case or other legal proceeding before any court or other authority or tribunal and the giving of advice on any legal matter. It includes free legal services in civil and criminal matters for those poor and marginalized people who cannot afford the services of a lawyer for the conduct of a case or a legal proceeding in any Court, Tribunal or Authority. Provision of free legal aid may include: Representation by an Advocate in legal proceedings; Payment of process fees, expenses of witnesses and all other charges (charges such as court fees, stamp duty etc.) payable or incurred in connection with any legal",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-049:chunk-2",
+   "parent_id": "legal-aid-049",
+   "text": "proceedings in appropriate cases (provided that Court Fees will be payable only after an application moved before the concerned Court for suing as an indigent has been disposed of and orders of the Court obtained thereon); Preparation of pleadings, memo of appeal, paper book including printing and translation of documents in legal proceedings; Drafting of legal documents, special leave petition etc.; Supply of certified copies of judgments, orders, notes of evidence and other documents in legal proceedings. Free Legal Services also include provision of aid and advice to the beneficiaries to access the benefits under the welfare statutes and schemes",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-050:chunk-1",
+   "parent_id": "legal-aid-050",
+   "text": "framed by the Central Government or the State Government and to ensure access to justice in any other manner.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-051:chunk-1",
+   "parent_id": "legal-aid-051",
+   "text": "Legal aid is the provision of legal representation to a person in the District Courts, High Courts and Supreme Court or tribunals, by a lawyer assigned by the Legal Service Authority concerned. Legal Advice and Assistance is the provision of advice on general areas of law as governed by the laws of India by the lawyers employed with the Legal Services Institution concerned. For e.g. if a person has to file a case in court, he would be provided legal aid (in form of assignment of a Legal Services Advocate). However, if he only needs some help in drafting a legal notice to be sent prior to filing of a complaint under Section 138 of the Negotiable Instruments Act 1881,",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-051:chunk-2",
+   "parent_id": "legal-aid-051",
+   "text": "he would get legal consultation/ advice regarding the same. A person who does not come under the purview of Section 12 of Legal Services Authorities Act, 1987, to be eligible for free legal aid, can still avail legal advice and assistance from the Legal Services Institutions.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-052:chunk-1",
+   "parent_id": "legal-aid-052",
+   "text": "No. Legal services provided by the Legal Services Institutions are completely free of cost to the beneficiary. All costs involved are borne by the Legal Services Institutions.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-053:chunk-1",
+   "parent_id": "legal-aid-053",
+   "text": "No, there is absolutely no charge for getting or submitting an application form for free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-054:chunk-1",
+   "parent_id": "legal-aid-054",
+   "text": "Yes. One can directly contact on NALSA Helpline Toll-Free Number 15100 to seek urgent legal assistance.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-055:chunk-1",
+   "parent_id": "legal-aid-055",
+   "text": "One may approach the NALSA/SLSA/DLSA/TLSC/HCLSC/SCLSC personally; or by post; or through NALSA’s Legal Services Management System (LSMS) portal; or through e-mail. Depending upon the territorial and subject matter jurisdiction of the case, an individual should approach the following appropriate authority: Taluka Legal Services Committee which is in the premises of the Court in that Taluka; or District Legal Services Authority which is in the premises of the District Court in the District Headquarters; or The concerned State Legal Services Authority (as the State Legal Services Authorities maintain a central panel for some categories of cases such as for the Tribunals etc.); The High Court Legal Services Committee which is in the premises of the concerned High Court; or The Supreme",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-055:chunk-2",
+   "parent_id": "legal-aid-055",
+   "text": "Court Legal Services Committee for cases before the Hon’ble Supreme Court. Each District Legal Services Authority, High Court Legal Services Committee and State Legal Services Authority has a Front Office where an application for legal aid can be filed. One can even access and apply on the online portal of NALSA (https://nalsa.gov.in/) or the website of the State Legal Services Authorities. One can also fill up the ready-made form/application form that is available at the nearest Legal Services Institution and submit the same at either the Legal Services Institution physically, or post the application to the Legal Services Institution. One",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-056:chunk-1",
+   "parent_id": "legal-aid-056",
+   "text": "can even make an application in writing on a simple piece of paper with the necessary details such as: name, gender, residential address, employment status, nationality, whether SC/ST (with proof in support), income per annum (with affidavit), the case for which legal aid is required etc. and submit it physically or send by post Another option is to send the application online i.e. by email to NALSA (at nalsa-dla@nic.in). It is also possible to make an application orally – a Paralegal Volunteer or an officer of the concerned Legal Services Institution will assist the person in such cases.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-057:chunk-1",
+   "parent_id": "legal-aid-057",
+   "text": "It is possible to avail the services of a lawyer of one’s choice from the Panel of lawyers empanelled with the Legal Services Institution concerned. According to Regulation 7(6) of the National Legal Services Authority (Free and Competent Legal Services) Regulations 2010, the application for legal services will be scrutinized by the Member-Secretary or the Secretary and if the applicant has mentioned/expressed his/her choice of a lawyer on the panel, such Member-Secretary or Secretary can consider and allow the same. However, it is not mandatory to permit the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-058:chunk-1",
+   "parent_id": "legal-aid-058",
+   "text": "Yes, it is possible to get legal consultation only (which is covered under “legal advice and assistance”).",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-059:chunk-1",
+   "parent_id": "legal-aid-059",
+   "text": "One can submit the feedback on the LSMS portal; by email or post or by visiting the office of the concerned Legal Services Authority. LEGAL AID BENEFICIARIES",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-060:chunk-1",
+   "parent_id": "legal-aid-060",
+   "text": "As per Section 12 of the Legal Services Authorities Act, 1987, every person who has to file or defend a case shall be entitled to legal services under the Act if that person is– A member of a Scheduled Caste or Scheduled Tribe (on producing a certificate in this regard); A victim of trafficking in human beings or begar as referred to in Article 23 of the Constitution of India 1950; A woman or a child; A person with disability as defined in legislations dealing with rights of persons with disabilities; A person under circumstances of underserved want such as being a victim of a mass disaster, ethnic, violence, caste atrocity, flood, drought, earthquake or industrial disaster; An industrial workman;",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-060:chunk-2",
+   "parent_id": "legal-aid-060",
+   "text": "A person in custody, including custody in a protective home within the meaning of clause (g) of Section 2 of the Immoral Traffic (Prevention) Act, 1956 (104 of 1956), or in an observation home, special home, place of safety, children’s home under the juvenile justice laws, or in a psychiatric hospital or psychiatric nursing home under the Mental Healthcare legislations; or Person in receipt of annual income less than Rs. 03 lakh or such other higher amount as may be prescribed by the State Government, if the case is before a court other than the Supreme Court, and less than",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-061:chunk-1",
+   "parent_id": "legal-aid-061",
+   "text": "rupees twelve thousand or such other higher amount as may be prescribed by the Central Government if the case is before the Supreme Court. In addition to these categories, any person falling within criteria specially created by the State- specific Legal Aid Regulations may also get free legal aid. (SEE QUESTION NO. 30.) NALSA also has come up with specific schemes for providing free legal services to its targeted beneficiaries. The schemes are available at https://nalsa.gov.in/acts-rules/preventive-strategic-legal-services-schemes According to Section 13 (1) of the Legal Services Authorities Act, 1987, any individual who satisfies any criteria under Section 12 is entitled to receive legal services, provided that the concerned Legal Services Institution is satisfied that such person has a genuine case to",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-061:chunk-2",
+   "parent_id": "legal-aid-061",
+   "text": "prosecute or defend the matter. There is hence, no bar as to which kind of cases one can apply and not apply for. All kinds of cases are included as long as the individual satisfies the eligibility under Section 12 of the Legal Services Authorities Act, 1987.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-062:chunk-1",
+   "parent_id": "legal-aid-062",
+   "text": "Yes, a woman is entitled for free legal aid irrespective of her income or financial status. A woman is eligible to apply for free legal aid by virtue of Section 12(c) of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-063:chunk-1",
+   "parent_id": "legal-aid-063",
+   "text": "A child is eligible for free legal aid till the age of majority i.e. 18 years. This is provided in Section 12 (c) of the Legal Services Authorities Act, 1987. So, any child can apply for free legal aid till he turns 18 years old. Even on attaining the age of majority, the child can continue to get free legal aid, if she/ he falls within the other criteria enlisted in Section 12 of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-064:chunk-1",
+   "parent_id": "legal-aid-064",
+   "text": "A child can apply for legal aid through his parents/ legal guardian.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-065:chunk-1",
+   "parent_id": "legal-aid-065",
+   "text": "A child alleged to be in conflict with law is entitled to free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-066:chunk-1",
+   "parent_id": "legal-aid-066",
+   "text": "Senior citizens’ eligibility for free legal aid depends on the rules framed by the respective State Governments in this regard. In Delhi for example, senior citizens are eligible for free legal aid subject to prescribed ceiling of annual income for senior citizens i.e. Rs. 4 lacs per annum. One may look into the specific State regulations on legal services to check eligibility.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-067:chunk-1",
+   "parent_id": "legal-aid-067",
+   "text": "Yes. Section 12 (d) of the Legal Services Authorities Act, 1987, provides for the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-068:chunk-1",
+   "parent_id": "legal-aid-068",
+   "text": "Yes. Section 12 of the Legal Services Authorities Act, 1987, provides for the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-069:chunk-1",
+   "parent_id": "legal-aid-069",
+   "text": "Yes. Section 12 of the Legal Services Authorities Act, 1987 provides for the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-070:chunk-1",
+   "parent_id": "legal-aid-070",
+   "text": "Yes. Section 12 of the Legal Services Authorities Act, 1987 provides for the same.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-071:chunk-1",
+   "parent_id": "legal-aid-071",
+   "text": "No. He may only be entitled if he falls within the other categories mentioned in Section 12 of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-072:chunk-1",
+   "parent_id": "legal-aid-072",
+   "text": "Yes, as per NALSA’s Early Access to Justice at Pre-Arrest, Arrest and Remand framework, persons called for questioning i.e. suspects and persons arrested by the police can also avail free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-073:chunk-1",
+   "parent_id": "legal-aid-073",
+   "text": "Yes, persons can avail of free legal aid services at the time of production and remand hearing in Magistrate Courts including the courts of Executive Magistrates.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-074:chunk-1",
+   "parent_id": "legal-aid-074",
+   "text": "Yes. NALSA has several Preventive & Strategic Legal Services Schemes, the compendium of which is available at https://nalsa.gov.in/acts-rules/preventive-strategic-legal-services-schemes . The list of schemes is as under: NALSA (Legal Services to Disaster Victims through Legal Services Authorities) Scheme, 2010; NALSA (Victims of Trafficking and Commercial Sexual Exploitation) Scheme, 2015; NALSA (Legal Services to the Workers in the Unorganised Sector) Scheme, 2015; NALSA (Child Friendly Legal Services to Children and their Protection) Scheme, 2015; NALSA (Legal Services to the Mentally Ill and Mentally Disabled Persons) Scheme, 2015; NALSA (Effective Implementation of Poverty Alleviation) Scheme, 2015; NALSA (Protection and Enforcement of Tribal Rights) Scheme, 2015; NALSA (Legal Services to the Victims of Drug Abuse and Eradication of Drug Menace) Scheme, 2015; NALSA (Legal",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-074:chunk-2",
+   "parent_id": "legal-aid-074",
+   "text": "Services to Senior Citizens) Scheme, 2016; NALSA (Legal Services to Victims of Acid Attacks) Scheme, 2016; NALSA’s Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes, 2018; Early Access to Justice at Pre-Arrest, Arrest and Remand Stag",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-075:chunk-1",
+   "parent_id": "legal-aid-075",
+   "text": "Based on Section 12 (h) of the Legal Services Authority Act,1987 and the prevailing State Regulation regarding grant of Legal Aid to a person having annual income less than a prescribed limit, a person may get free legal aid. Those persons who have annual income of less than the amount prescribed by the respective State Government, if the case is before any court other than the Supreme Court, and less than Rs. 5 Lakhs, if the case is before the Supreme Court, are eligible for free legal aid. The income ceiling limit as prescribed by different States/Union Territories is as under: S.No S. No. States/Union Territories Income Ceiling Limit (Per Annum) Income Ceiling Limit (Per Annum) Andhra Pradesh Rs.3,00,000/- Arunachal",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-075:chunk-2",
+   "parent_id": "legal-aid-075",
+   "text": "Pradesh Rs.1,00,000/- Assam Rs.3,00,000/- Bihar Rs.1,50,000/- Chhattisgarh Rs. 1,50,000/- Goa Rs.3,00,000/- Gujarat Rs.1,00,000/- Haryana Rs.3,00,000/- Himachal Pradesh Rs.3,00,000/- 10. Jammu & Kashmir Rs.1,00,000/- 11. Jharkhand Rs.3,00,000 12. Karnataka Rs.3,00,000 13. Kerala Rs.300,000 14. Madhya Pradesh Rs.1,00,000 15. Maharashtra Rs.3,00,000 16. Manipur Rs.3,00,000 17. Meghalaya Rs.1,00,000 18. Mizoram Rs. 25,000 19. Nagaland Rs.1,00,000 20. Odisha Rs.3,00,000 21. Punjab Rs.3,00,000 22. Rajasthan Rs.3,00,000 23. Sikkim Rs. 3,00,000 24. Telangana Rs.1,00,000 25. Tamil Nadu Rs.3,00,000 26. Tripura Rs. 1,50,000 27. Uttar Pradesh Rs.1,00,000 28. Uttarakhand Rs.3,00,000 29. West Bengal Rs. 1,00,000 30. Andaman & Nicobar Islands Rs.3,00,000 31. Chandigarh UT Rs.3,00,000 32. Dadra",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-076:chunk-1",
+   "parent_id": "legal-aid-076",
+   "text": "& Nagar Haveli UT Rs.15,000 33. Daman & Diu Rs.1,00,000 34. Delhi General –Rs. 3,00,000, Senior citizen- Rs. 4,00,000, Transgender – Rs. 4,00,000 35. Lakshadweep Rs.9,000 36. Puducherry Rs.1,00,000 As per Section 13(2) of the Legal Services Authorities Act, 1987, an affidavit made by a person as to his income is generally regarded as sufficient for making him/her eligible for the entitlement of legal services under the Act, unless the concerned Authority has reasons to question or disbelief such affidavit.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-077:chunk-1",
+   "parent_id": "legal-aid-077",
+   "text": "Yes. If he falls within any other category mentioned in Section 12 of the Legal Services Authorities Act, 1987. For e.g. a man from the Scheduled Tribe, even if he is earning Rs. 10 lakhs per annum, is eligible for free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-078:chunk-1",
+   "parent_id": "legal-aid-078",
+   "text": "Generally no. The application for legal aid has to be made in person generally and not through an authorized representative (except in cases of children or person with mental illness). The legal aid application has to be accompanied by the Affidavit sworn by the person seeking grant of legal aid (when a person is claiming free legal aid based on annual income criteria) and such an Affidavit cannot be made on behalf of some other person. However, in some cases, if the person seeking legal aid is incapacitated for some reason to apply in person for legal aid, his duly authorized representative/ person holding his General Power of Attorney may apply for legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-079:chunk-1",
+   "parent_id": "legal-aid-079",
+   "text": "Yes. One may still apply for free legal aid. However, before assignment of a legal aid counsel, the person may have to furnish a No Objection Certificate from the earlier counsel or copy of judicial order discharging the private counsel (where applicable).",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-080:chunk-1",
+   "parent_id": "legal-aid-080",
+   "text": "Yes. One can apply for legal aid for challenging orders passed by the High Courts as well as the Supreme Court.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-081:chunk-1",
+   "parent_id": "legal-aid-081",
+   "text": "No. The very fact that a person belongs to the SC/ST community entitles him to get free legal aid. The legal aid application needs to be supported by a certificate issued by the appropriate authority in this regard.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-082:chunk-1",
+   "parent_id": "legal-aid-082",
+   "text": "A person who is facing criminal trial and is in police/ judicial custody is entitled to get free legal aid irrespective of his financial status or social standing. There is no bar under Section 12 of the Legal Services Authorities Act, 1987 to provide Free Legal Aid to a wealthy businessman if he happens to be a prisoner.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-083:chunk-1",
+   "parent_id": "legal-aid-083",
+   "text": "Yes. He can apply for free legal aid in these scenarios as well. He may apply through the prison authorities or the prison legal aid clinic established by the Legal Services Institutions along with the legal aid formal application and custody certificate.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-084:chunk-1",
+   "parent_id": "legal-aid-084",
+   "text": "Yes, if he meets the eligibility criteria of Section 12 of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-085:chunk-1",
+   "parent_id": "legal-aid-085",
+   "text": "The grant of legal aid can be considered for filing a petition before the High Courts or Supreme Court against any interlocutory order including the rejection of bail. Such a person can get free Legal Aid if he/she satisfies the conditions and eligibility criteria as laid down under Section 12 of the Legal Services Authorities Act.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-086:chunk-1",
+   "parent_id": "legal-aid-086",
+   "text": "Yes, such a person may apply for legal aid through email or LSMS Portal, provided he/ she meets the criteria under Section 12 and 13 of the Legal Services Authorities Act, 1987. LEGAL AID PROVIDERS",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-087:chunk-1",
+   "parent_id": "legal-aid-087",
+   "text": "Legal aid providers include Panel Lawyers, Legal Aid Defence Counsels and Paralegal Volunteers, who are empanelled with the Legal Services Institutions. These persons are neither government lawyers/ agents or public servants.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-088:chunk-1",
+   "parent_id": "legal-aid-088",
+   "text": "Panel lawyers are lawyers who are empanelled with the Legal Services Institutions for a fixed tenure. They provide legal representation for the concerned Legal Services Institutions but are permitted to provide representation on private legal cases too.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-089:chunk-1",
+   "parent_id": "legal-aid-089",
+   "text": "Legal Aid Defence Counsels are appointed by the District Legal Services Authority to provide legal representation in criminal matters within the district. They are attached to the Legal Aid Defence Counsel office and are dedicated only to provide legal aid services i.e. they cannot take up any private legal cases. They are neither Government pleaders or advocates nor public servants.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-090:chunk-1",
+   "parent_id": "legal-aid-090",
+   "text": "Paralegal volunteers (PLVs) are volunteers selected from diverse social and educational backgrounds through the process of NALSA’s Para-Legal Volunteers Scheme. They are expected to act as intermediaries in bridging the gap between the common people and the Legal Services Institutions reaching out to the people at their doorsteps. NATURE OF CASES IN WHICH LEGAL AID CAN BE GIVEN",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-091:chunk-1",
+   "parent_id": "legal-aid-091",
+   "text": "The Legal Services Institutions under the Legal Services Authorities Act, 1987 provide legal aid and assistance in civil as well as criminal cases. They also provide assistance in quasi- criminal or judicial cases. They also provide legal assistance and legal aid in cases before Tribunals and Forums.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-092:chunk-1",
+   "parent_id": "legal-aid-092",
+   "text": "Yes, even in matrimonial cases, legal aid is provided.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-093:chunk-1",
+   "parent_id": "legal-aid-093",
+   "text": "Yes. Legal Services Institutions are duty bound to provide legal aid to such categories of persons as well as per Section 12(c) of the Legal Services Authorities Act, 1987. Section 40 of the Protection of Children from Sexual Offences Act, 2012 also provides for the same. NALSA has also come up with a Scheme titled “Compensation Scheme for Women Victims/Survivors of Sexual Assault/other Crimes – 2018”, which has been used as a template by other States to formulate a Scheme for victim compensation. Victims of sexual crimes are paid compensation in terms of the prevailing schemes for victim compensation and the SLSAs are the disbursement authority for the compensation.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-094:chunk-1",
+   "parent_id": "legal-aid-094",
+   "text": "A victim of domestic violence can file an application for free legal aid in her nearest Legal Services Institution. She can also seek compensation under the NALSA’s Compensation Scheme for Women Victims/Survivors of Sexual Assault/Other Crimes – 2018. The concerned Legal Services Institution can assist such a woman in filing court cases. Such a woman can also be provided counselling services. Further, the Legal Services Institution can also collaborate with various NGOs, Women Cells etc. which can then provide specialised assistance in such cases.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-095:chunk-1",
+   "parent_id": "legal-aid-095",
+   "text": "NALSA helps individuals access legal aid through different Legal Services Institution such as SLSAs/DLSAs, if they meet the eligibility criteria under Section 12 and 13 of the Legal Services Authorities Act, 1987. It encourages individuals to resolve their land and property related disputes through Alternative Dispute Resolution mechanisms (Lok Adalat and Mediation).",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-096:chunk-1",
+   "parent_id": "legal-aid-096",
+   "text": "Yes. One can approach the nearest Legal Services Institution for such cases through the standard procedure of applying for legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-097:chunk-1",
+   "parent_id": "legal-aid-097",
+   "text": "Yes, Legal Services Institutions can offer legal aid to individuals facing wrongful incarceration, striving to rectify miscarriages of justice through proper legal representation. The concerned Legal Services Institution identify such persons who are wrongly incarcerated and then assist them to file appropriate applications before the concerned court or board.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-098:chunk-1",
+   "parent_id": "legal-aid-098",
+   "text": "Yes, Legal Services Institutions can provide legal aid in cases of wrongful termination or unfair labour practices under Section 12 (f) of the Legal Services Authorities Act, 1987. Their issues are also addressed under the NALSA (Legal Services to the Workers in the Unorganized Sector) Scheme, 2015 by mobilizing the machinery of the State Government and the District Administration to identify and register all unorganized workers in all categories and to extend the benefits of all government schemes.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-099:chunk-1",
+   "parent_id": "legal-aid-099",
+   "text": "Under Section 12 (a) of the Legal Services Authorities Act, 1987, a member of a Scheduled Caste or Scheduled Tribe is entitled to seek free legal aid. Such persons can approach their nearest Legal Services Institution or visit Legal Services Clinics to avail free legal aid.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-100:chunk-1",
+   "parent_id": "legal-aid-100",
+   "text": "Yes, the personal information of the clients approaching the Legal Services Authorities is kept confidential.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-101:chunk-1",
+   "parent_id": "legal-aid-101",
+   "text": "Yes, one can apply to get free legal aid at any stage of the case as long as one is eligible to obtain free legal services as per Section 12 of the Legal Services Authorities Act, 1987. Even if a person had a personal lawyer before and now requires a legal aid lawyer only at the stage of appeal (and is eligible under Section 12 of the Legal Services Authorities Act, 1987), the person can make an application to avail the same. Even if a person has engaged a private lawyer, he/ she can also get second opinion from Panel Lawyers. PROCESSING OF APPLICATION",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-102:chunk-1",
+   "parent_id": "legal-aid-102",
+   "text": "Legal aid is provided to the entitled persons through legal services authorities existing from the National to Taluka levels including the NALSA, State Legal Services Authorities, District Legal Services Authorities, Taluka Legal Services Committees, Supreme Court Legal Services Committee and High Court Legal Services Committees. If, however, an application or request for legal aid is received by NALSA, NALSA forwards the same to the concerned Legal Services Institution. Once the application is submitted with the proper authority, it would be perused by the concerned Legal Services Institution as to what action is needed upon the same. The information about the next step on the application would then be sent to the parties concerned. The action taken on an application received",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-102:chunk-2",
+   "parent_id": "legal-aid-102",
+   "text": "would vary from providing counselling/advice to the parties, providing a lawyer to represent them in the court, etc.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-103:chunk-1",
+   "parent_id": "legal-aid-103",
+   "text": "Once the application is allowed, the applicant is given intimation about the assignment of a lawyer. A letter of appointment is also issued to the assigned lawyer with a copy to the applicant. The lawyer would thereafter contact the applicant at the earliest. The applicant may also contact the lawyer in the meanwhile.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-104:chunk-1",
+   "parent_id": "legal-aid-104",
+   "text": "According to Regulation 7(5) of the National Legal Services Authority (Free and Competent Legal Services) Regulations 2010, the application for legal services will be scrutinized by the Member-Secretary or the Secretary and if any individual is aggrieved by the decision made upon their application, he/she has an option to appeal to the Executive Chairman or Chairman of the Legal Services Institution and the decision resulting from the appeal would be a final one.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-105:chunk-1",
+   "parent_id": "legal-aid-105",
+   "text": "Once the application is scrutinized by the concerned authorities, the information of its success or failure is given to the applicant in the following ways: If the application was made physically at the front office of any Legal Services Institution, an address (either residential or email) for correspondence is usually noted and information regarding the application is sent to the same. If the application is made online via the LSMS Portal via the NALSA website, an application number is generated, and the appropriate Legal Services Institution is contacted. The applicant can track the status of the application on the online portal itself. If the application has been received from Government Departments / Centralized Public Grievance Redress and Monitoring System (CPGRAM),",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-105:chunk-2",
+   "parent_id": "legal-aid-105",
+   "text": "an email is sent to the applicant. The applicant can also get a scanned copy of the application on the CPGRAM website. Remarks regarding the application are also made on CPGRAM website and the website of the Legal Services Institution. REJECTION AND WITHDRAWAL OF LEGAL AID",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-106:chunk-1",
+   "parent_id": "legal-aid-106",
+   "text": "Legal Aid can be denied at the initial stage before the application for legal aid is accepted. It can also be withdrawn at the later stage after the application has been accepted and legal aid has been provided. Legal aid can be denied or withdrawn in the following circumstances: Legal aid can be denied if a person is found ineligible under Section 12 of the Legal Services Authorities Act, 1987; Legal aid can be withdrawn if the aided person who applied under the income category is found to possess sufficient means; Legal aid can be withdrawn where the aided person obtained legal services by misrepresentation or fraud; Legal aid can be withdrawn where the aided person does not cooperate with",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-106:chunk-2",
+   "parent_id": "legal-aid-106",
+   "text": "the Legal Services Institution or with the Legal Services Advocate; Legal aid can be withdrawn where the person engages a legal practitioner other than the one assigned by the Legal Services Institution; Legal aid can be withdrawn in the event of death of the aided person except in the case of civil proceedings where the right or liability survives; Legal aid can be withdrawn where the application for legal service or the matter in question is found to be an abuse of the process of law or of legal services. Regulation 6 of the National Legal Services Authority (Free And",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-107:chunk-1",
+   "parent_id": "legal-aid-107",
+   "text": "Competent Legal Services) Regulations, 2010 provides that the applicant shall be informed that if free legal services have been obtained by furnishing incorrect or false information or in a fraudulent manner, the legal services shall be stopped forthwith and that the expenses incurred by the Legal Services Institutions shall be recoverable from him or her. GRIEVANCE REDRESSAL AND UPDATES ON CASE STATUS",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-108:chunk-1",
+   "parent_id": "legal-aid-108",
+   "text": "A complaint can be made regarding the conduct of a Legal Services Institution to the higher authority in the following hierarchical order: To the Ld. Member Secretary, National Legal Services Authority if complaint is against a State Legal Services Authority; To the Ld. Member Secretary, State Legal Services Authority if it is against a District Legal Services Authority/ Taluka Legal Services Committee; To the Ld. Member Secretary, State Legal Services Authority if the complaint is against the High Court Legal Services Committee; To the Ld. Member Secretary, NALSA, if the complaint is against the Supreme Court Legal Services Committee.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-109:chunk-1",
+   "parent_id": "legal-aid-109",
+   "text": "One can request one’s legal aid lawyer to give update about the case status and the next date of hearing. Additionally, one may download the ‘e-courts’ app on mobile phone or visit their website here- https://services.ecourts.gov.in/ecourtindia_v6/ and enter the case details to find out all information related to the case.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-110:chunk-1",
+   "parent_id": "legal-aid-110",
+   "text": "Yes, a person can get legal advice for more than one matter. ALTERNATE DISPUTE RESOLUTION MECHANISM",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-111:chunk-1",
+   "parent_id": "legal-aid-111",
+   "text": "Lok Adalat is a forum for alternative dispute resolution in India. It is a people’s court where disputes are settled amicably, without the need for lengthy court proceedings.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-112:chunk-1",
+   "parent_id": "legal-aid-112",
+   "text": "The following types of cases can be settled in the Lok Adalats: Any case of civil nature and Compoundable criminal cases. One can approach the Lok Adalat even at the pre-litigation stage (i.e. before a case is filed in the Court of law). If a case falling under the above category is pending in the Court, the concerned party may request the Court to have the matter referred to the Lok Adalat. However, matters relating to divorce and criminal cases which are non-compoundable under the Code of Criminal Procedure cannot be referred to the Lok Adalat.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-113:chunk-1",
+   "parent_id": "legal-aid-113",
+   "text": "There are many advantages of settlement of a case in the Lok Adalat, some of which are as follows: The cases are determined with utmost expedition, thus saving the valuable time of the parties. There is no fees to be paid in the Lok Adalat. The parties are not required to engage any Advocate. Even the Court Fees paid by the parties would be returned, if the case is amicably settled. Thus, the parties would be saving their money. Since the award of Lok Adalat is prepared on the basis of compromise between the parties, they would maintain their friendly relationships. An award passed by the Lok Adalat is deemed to be a decree of a civil Court. It is",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-113:chunk-2",
+   "parent_id": "legal-aid-113",
+   "text": "final and binding on all the parties to the dispute. No appeal would lie to any Court against the award. There is finality to the litigation.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-114:chunk-1",
+   "parent_id": "legal-aid-114",
+   "text": "It is an inexpensive forum for amicable resolution of a dispute between an aggrieved person and a Public Utility Service provider.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-115:chunk-1",
+   "parent_id": "legal-aid-115",
+   "text": "A ‘Public Utility Service’, as defined by Section 22-A(b) of the Legal Services Authorities Act, 1987, means any- Transport service for the carriage of passengers or goods by air, road or water; or Postal, telegraph or telephone service; or supply of power, light or water to the public by any establishment; or System of public conservancy or sanitation; or Service in hospital or dispensary; or insurance service; or Education or educational institutions; Housing and real-estate services and includes any service which the Central Government or the State Government, as the case may be, may, in the public interest, by notification declare to be a public utility service for the purpose of Chapter VI-A of the Act.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-116:chunk-1",
+   "parent_id": "legal-aid-116",
+   "text": "Yes, Permanent Lok Adalats for Public Utility Services have jurisdiction in respect of matters relating to an offence, which are compoundable under any law.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-117:chunk-1",
+   "parent_id": "legal-aid-117",
+   "text": "The Permanent Lok Adalats for Public Utility Services would decide disputes relating to deficiency in service, claims for damages/ compensation, recovery of money, etc., pertaining to all Public Utility services.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-118:chunk-1",
+   "parent_id": "legal-aid-118",
+   "text": "No. A party to a dispute can only make an application to the Permanent Lok Adalats for Public Utility Services for settlement of dispute, before the dispute is brought before in any Court or Statutory Forum and not thereafter.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-119:chunk-1",
+   "parent_id": "legal-aid-119",
+   "text": "An application can be filed before the Permanent Lok Adalats for Public Utility Services on a plain paper depicting the true and correct facts and the details of the person/Authority/public utility services provider against whom relief is claimed, on any working day. Such an application should however, be accompanied by supporting documents and copies to be furnished to the opposite party.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-120:chunk-1",
+   "parent_id": "legal-aid-120",
+   "text": "Yes. The appearance of the parties in person is necessary at the time of conducting conciliation proceedings between the parties, but they may not be required to appear in person at the time of filing of applications for taking cognizance of case by Permanent Lok Adalat.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-121:chunk-1",
+   "parent_id": "legal-aid-121",
+   "text": "No, there is no requirement of affixing any Court Fee.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-122:chunk-1",
+   "parent_id": "legal-aid-122",
+   "text": "No. After an application is made to the Permanent Lok Adalat, no party to that application shall invoke jurisdiction of any other Court in the same dispute.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-123:chunk-1",
+   "parent_id": "legal-aid-123",
+   "text": "No, the Permanent Lok Adalat is not bound by the Code of Civil Procedure, 1908 and the Indian Evidence Act, 1872. 77. What procedure is adopted by the Permanent Lok Adalat (Public Utility Services) while conducting conciliation proceedings or deciding a dispute on merit. Permanent Lok Adalat shall be guided by the principles of natural justice, objectivity, fair play, equity and other principles of justice as per Section 22-D of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-124:chunk-1",
+   "parent_id": "legal-aid-124",
+   "text": "Every award of the Permanent Lok Adalat made either on merit or in terms of a settlement agreement, shall be final and binding on all the parties thereto and on persons claiming under it as per Section 22-E (1) of the Legal Services Authorities Act, 1987 and shall not be called in question in any original suit, application or execution proceeding as per Section 22-E (4) of the Legal Services Authorities Act, 1987.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-125:chunk-1",
+   "parent_id": "legal-aid-125",
+   "text": "The Award made by Permanent Lok Adalat shall be by a majority of the persons constituting the Permanent Lok Adalat.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-126:chunk-1",
+   "parent_id": "legal-aid-126",
+   "text": "Yes, the Award passed by the Permanent Lok Adalat (Public Utility Services) shall be deemed to be a decree of a civil court and executable as if it were a decree made by that court.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-127:chunk-1",
+   "parent_id": "legal-aid-127",
+   "text": "The main difference between these two Lok Adalats is when one of the parties to a dispute, pending before any Court and referred to the Regular Lok Adalat or a pre-litigation case, does not agree, the other party will be advised to pursue his remedies by approaching Civil Court/ Appropriate Forum, but in the Permanent Lok Adalat for Public Utility Services, even if one of the parties fail to reach an agreement during conciliation proceedings, it may decide the dispute on merits under Section 22-C (8) of the Legal Services Authorities Act, 1987 and such a decision shall be final and binding on all the parties thereto and on persons claiming under them under Section 22-E (1) of the Legal",
+   "part": 1,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-127:chunk-2",
+   "parent_id": "legal-aid-127",
+   "text": "Services Authorities Act, 1987 and shall not be called in question in any original suit, application or execution proceeding as per Section 22-E(4)of the Act.",
+   "part": 2,
+   "parts": 2
+  },
+  {
+   "id": "legal-aid-128:chunk-1",
+   "parent_id": "legal-aid-128",
+   "text": "Mediation is a non-binding negotiation process in which a neutral third person facilitates the parties to the dispute in arriving at a mutually acceptable settlement. The process is informal where the outcome of the dispute is controlled by the parties themselves. The entire process is confidential. Civil cases, matrimonial and family disputes are best suited for mediation. LEGAL AWARENESS & OUTREACH",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-129:chunk-1",
+   "parent_id": "legal-aid-129",
+   "text": "NALSA as well as other Legal Services Institutions regularly conduct legal literacy and awareness programmes about the rights of the weaker and marginalized sections of the society. These awareness and legal literacy programmes are organized not only in cities and towns but also in rural and remote areas. Legal Literacy Clubs and Clinics have also been set up in schools and colleges. The activities conducted are duly reported in NALSA’s newsletters and annual reports.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-130:chunk-1",
+   "parent_id": "legal-aid-130",
+   "text": "They do so by organizing legal literacy camps and programs to empower marginalized communities with knowledge about their legal rights and responsibilities.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-131:chunk-1",
+   "parent_id": "legal-aid-131",
+   "text": "They organize programs in educational institutions to enhance legal awareness among students, ensuring a foundation of legal knowledge from an early age. It conducts awareness programs such as legal literacy workshops and seminars in schools and colleges. It engages students in interactive sessions using Acts and presentations. It also distributes informative brochures and pamphlets about child rights. Various legal service clinics are also established in schools and colleges.",
+   "part": 1,
+   "parts": 1
+  },
+  {
+   "id": "legal-aid-132:chunk-1",
+   "parent_id": "legal-aid-132",
+   "text": "They collaborate both at national and international levels to share resources, expertise, and best practices. At national level, they collaborate with Ministries, NGOs, Law Schools and Judicial Academies to conduct seminars, workshops, campaigns etc. At international level, they collaborate with international bodies, organizations etc. to share their resources and expertise. VANI AI Assistant for NALSA Disclaimer | Contact Us",
+   "part": 1,
+   "parts": 1
+  }
+ ]
+}

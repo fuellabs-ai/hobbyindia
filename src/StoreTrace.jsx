@@ -19,7 +19,7 @@ function storeTree() {
     { id: 'data', name: 'data/', dir: true, children: [
       { id: 'demo', name: 'scenarios/', dir: true, children: [
         { id: 'cpgrams', name: 'cpgrams-decision-concept.json' },
-        { id: 'rti', name: 'rti-decision-concept.json', logo: '/logos/rti.svg' },
+        { id: 'rti', name: 'rti-decision-concept.json', logo: null },
       ] },
       { id: 'services', name: 'services.json' },
       { id: 'routing', name: 'routing.jsonl' },

@@ -1,0 +1,105 @@
+PRACTICE ONLY — not the frozen final test. No settings were selected or changed during this run.
+Model: harims95/hobbylm-embed-140m @ ea708cee107818fa0c1871eebd26d82a1e3fb1aa
+120-word children; 141 unchanged labelled parents; 159 vector rows.
+Rank: 0.7*z(max child cosine) + 0.3*z(max child BM25); population std + 1e-9.
+Quote eligibility: same top parent, positive BM25 evidence, cosine >= 0; UI quotes remain OFF.
+60 practice rows, 54 answerable rows used for hit/MRR; all 60 used for quote precision.
+tests/passages_labelled.json sha256 ad297bb830acbb6a702eff609eeb2e26e2dc2ad7a14089c6c804cb6d3bd0ddd9
+tests/dev_passages.json sha256 b3e7951dd0e4a0e81802eee2707436cf8e143ddfb1611925a31802019625e507
+tests/passage_tuning_choice.json sha256 59ee1b945a2323057bb67a36e7e19f6f543d69ef5ce1a31061eb4289bec9c853
+
+overall HobbyLM-Embed: n=54 hit@1=0.556 hit@3=0.759 MRR=0.681
+overall BM25: n=54 hit@1=0.444 hit@3=0.722 MRR=0.614
+overall Hybrid 0.7/0.3: n=54 hit@1=0.667 hit@3=0.852 MRR=0.766
+legal-aid HobbyLM-Embed: n=19 hit@1=0.632 hit@3=0.737 MRR=0.700
+legal-aid BM25: n=19 hit@1=0.579 hit@3=0.737 MRR=0.682
+legal-aid Hybrid 0.7/0.3: n=19 hit@1=0.684 hit@3=0.842 MRR=0.762
+passport HobbyLM-Embed: n=18 hit@1=0.500 hit@3=0.722 MRR=0.642
+passport BM25: n=18 hit@1=0.333 hit@3=0.667 MRR=0.548
+passport Hybrid 0.7/0.3: n=18 hit@1=0.611 hit@3=0.778 MRR=0.720
+rti HobbyLM-Embed: n=17 hit@1=0.529 hit@3=0.824 MRR=0.700
+rti BM25: n=17 hit@1=0.412 hit@3=0.765 MRR=0.608
+rti Hybrid 0.7/0.3: n=17 hit@1=0.706 hit@3=0.941 MRR=0.819
+MISS embedding p-01 [rti] expected=rti-000|rti-010|rti-001|rti-002 rank=2 top3=rti-022:0.7481,rti-000:0.7444,rti-010:0.7382
+MISS keyword p-01 [rti] expected=rti-000|rti-010|rti-001|rti-002 rank=2 top3=rti-022:8.9997,rti-000:6.0665,rti-006:4.1810
+MISS hybrid p-01 [rti] expected=rti-000|rti-010|rti-001|rti-002 rank=2 top3=rti-022:2.3807,rti-000:1.8464,rti-010:1.2510
+MISS embedding p-04 [rti] expected=rti-013|rti-006 rank=8 top3=rti-011:0.6628,rti-009:0.6620,rti-017:0.6541
+MISS keyword p-04 [rti] expected=rti-013|rti-006 rank=18 top3=rti-017:5.6117,rti-016:3.4942,rti-018:2.5975
+MISS hybrid p-04 [rti] expected=rti-013|rti-006 rank=11 top3=rti-017:1.8067,rti-016:1.2615,rti-009:1.0321
+MISS embedding p-08 [rti] expected=rti-022|rti-004|rti-000 rank=3 top3=rti-015:0.6598,rti-010:0.6595,rti-022:0.6484
+MISS keyword p-08 [rti] expected=rti-022|rti-004|rti-000 rank=3 top3=rti-008:3.4811,rti-012:3.4736,rti-022:3.4128
+MISS keyword p-09 [rti] expected=rti-010|rti-000|rti-001|rti-002 rank=3 top3=rti-006:3.2963,rti-014:2.9203,rti-010:2.6597
+MISS embedding p-10 [rti] expected=rti-013|rti-006 rank=4 top3=rti-016:0.6735,rti-008:0.6417,rti-017:0.6389
+MISS keyword p-10 [rti] expected=rti-013|rti-006 rank=5 top3=rti-017:4.4413,rti-018:3.9536,rti-016:2.6972
+MISS hybrid p-10 [rti] expected=rti-013|rti-006 rank=3 top3=rti-016:1.9791,rti-017:1.7079,rti-013:1.0568
+MISS embedding p-11 [rti] expected=rti-006|rti-013|rti-014 rank=2 top3=rti-007:0.6674,rti-013:0.6611,rti-014:0.6543
+MISS embedding p-14 [rti] expected=rti-013|rti-006 rank=5 top3=rti-008:0.6522,rti-012:0.6492,rti-017:0.6421
+MISS keyword p-14 [rti] expected=rti-013|rti-006 rank=2 top3=rti-012:5.9055,rti-013:5.6933,rti-021:5.0672
+MISS hybrid p-14 [rti] expected=rti-013|rti-006 rank=2 top3=rti-012:1.6626,rti-013:1.3481,rti-017:1.2565
+MISS embedding p-15 [rti] expected=rti-013|rti-006|rti-014 rank=2 top3=rti-007:0.6609,rti-013:0.6328,rti-023:0.6207
+MISS hybrid p-15 [rti] expected=rti-013|rti-006|rti-014 rank=2 top3=rti-007:2.1507,rti-013:1.5009,rti-006:1.4847
+MISS keyword p-16 [passport] expected=passport-026|passport-029 rank=2 top3=passport-042:3.1028,passport-026:2.7515,passport-036:0.2575
+MISS embedding p-19 [passport] expected=passport-030 rank=2 top3=passport-040:0.8142,passport-030:0.7972,passport-033:0.7805
+MISS embedding p-20 [passport] expected=passport-033 rank=6 top3=passport-040:0.7482,passport-030:0.7341,passport-032:0.7339
+MISS keyword p-20 [passport] expected=passport-033 rank=9 top3=passport-040:4.5597,passport-027:4.0288,passport-030:3.9731
+MISS hybrid p-20 [passport] expected=passport-033 rank=6 top3=passport-040:2.0494,passport-030:1.6388,passport-032:1.6330
+MISS keyword p-21 [passport] expected=passport-028|passport-046 rank=2 top3=passport-029:4.1248,passport-028:3.4838,passport-036:1.3615
+MISS embedding p-23 [passport] expected=passport-037|passport-047 rank=2 top3=passport-041:0.7763,passport-047:0.7623,passport-026:0.7296
+MISS keyword p-23 [passport] expected=passport-037|passport-047 rank=2 top3=passport-041:5.3379,passport-047:3.8826,passport-037:3.0668
+MISS hybrid p-23 [passport] expected=passport-037|passport-047 rank=2 top3=passport-041:2.4069,passport-047:1.8890,passport-037:0.9840
+MISS embedding p-24 [passport] expected=passport-029|passport-026 rank=6 top3=passport-046:0.7619,passport-040:0.7533,passport-036:0.7506
+MISS keyword p-24 [passport] expected=passport-029|passport-026 rank=5 top3=passport-036:0.2575,passport-038:0.2563,passport-028:0.2525
+MISS hybrid p-24 [passport] expected=passport-029|passport-026 rank=6 top3=passport-046:1.2736,passport-036:1.1895,passport-038:1.0207
+MISS embedding p-25 [passport] expected=passport-045 rank=2 top3=passport-041:0.7258,passport-045:0.7251,passport-028:0.6971
+MISS keyword p-25 [passport] expected=passport-045 rank=3 top3=passport-042:3.6511,passport-033:3.6477,passport-045:3.6437
+MISS embedding p-26 [passport] expected=passport-030 rank=3 top3=passport-040:0.7789,passport-033:0.7540,passport-030:0.7539
+MISS keyword p-26 [passport] expected=passport-030 rank=16 top3=passport-042:3.1028,passport-043:2.6309,passport-036:0.2575
+MISS hybrid p-26 [passport] expected=passport-030 rank=3 top3=passport-040:1.3031,passport-033:0.6939,passport-030:0.6913
+MISS embedding p-28 [passport] expected=passport-029|passport-026 rank=8 top3=passport-034:0.7528,passport-036:0.7503,passport-039:0.7500
+MISS keyword p-28 [passport] expected=passport-029|passport-026 rank=5 top3=passport-036:0.2575,passport-038:0.2563,passport-028:0.2525
+MISS hybrid p-28 [passport] expected=passport-029|passport-026 rank=7 top3=passport-036:1.2638,passport-039:1.1634,passport-038:1.1322
+MISS embedding p-29 [passport] expected=passport-045 rank=6 top3=passport-028:0.7009,passport-046:0.6983,passport-038:0.6972
+MISS keyword p-29 [passport] expected=passport-045 rank=2 top3=passport-026:6.0215,passport-045:5.1587,passport-035:2.9817
+MISS hybrid p-29 [passport] expected=passport-045 rank=2 top3=passport-026:1.4814,passport-045:1.2762,passport-028:0.9612
+MISS embedding p-30 [passport] expected=passport-026|passport-029 rank=10 top3=passport-046:0.7248,passport-036:0.7245,passport-040:0.7232
+MISS keyword p-30 [passport] expected=passport-026|passport-029 rank=5 top3=passport-036:0.2575,passport-038:0.2563,passport-028:0.2525
+MISS hybrid p-30 [passport] expected=passport-026|passport-029 rank=7 top3=passport-036:1.2519,passport-046:1.1053,passport-040:0.9790
+MISS embedding p-31 [legal-aid] expected=legal-aid-060|legal-aid-061 rank=6 top3=legal-aid-057:0.7210,legal-aid-101:0.7170,legal-aid-082:0.7050
+MISS keyword p-31 [legal-aid] expected=legal-aid-060|legal-aid-061 rank=2 top3=legal-aid-101:9.4531,legal-aid-061:8.4302,legal-aid-057:7.9718
+MISS hybrid p-31 [legal-aid] expected=legal-aid-060|legal-aid-061 rank=3 top3=legal-aid-101:2.4247,legal-aid-057:2.2648,legal-aid-061:1.9804
+MISS embedding p-32 [legal-aid] expected=legal-aid-055|legal-aid-056|legal-aid-102 rank=9 top3=legal-aid-101:0.7492,legal-aid-061:0.7481,legal-aid-064:0.7450
+MISS keyword p-32 [legal-aid] expected=legal-aid-055|legal-aid-056|legal-aid-102 rank=4 top3=legal-aid-083:9.8891,legal-aid-064:9.3979,legal-aid-051:9.3751
+MISS hybrid p-32 [legal-aid] expected=legal-aid-055|legal-aid-056|legal-aid-102 rank=3 top3=legal-aid-064:1.9803,legal-aid-083:1.9285,legal-aid-055:1.8025
+MISS keyword p-34 [legal-aid] expected=legal-aid-062|legal-aid-092 rank=29 top3=legal-aid-101:10.7699,legal-aid-058:6.2579,legal-aid-094:5.5858
+MISS hybrid p-34 [legal-aid] expected=legal-aid-062|legal-aid-092 rank=4 top3=legal-aid-101:2.9855,legal-aid-058:2.3622,legal-aid-094:1.9342
+MISS embedding p-37 [legal-aid] expected=legal-aid-095|legal-aid-091|legal-aid-061 rank=3 top3=legal-aid-092:0.7174,legal-aid-060:0.7026,legal-aid-061:0.6953
+MISS embedding p-39 [legal-aid] expected=legal-aid-055|legal-aid-060|legal-aid-056 rank=3 top3=legal-aid-109:0.6523,legal-aid-112:0.6384,legal-aid-055:0.6358
+MISS keyword p-39 [legal-aid] expected=legal-aid-055|legal-aid-060|legal-aid-056 rank=6 top3=legal-aid-118:6.6489,legal-aid-101:6.2120,legal-aid-080:5.9559
+MISS hybrid p-39 [legal-aid] expected=legal-aid-055|legal-aid-060|legal-aid-056 rank=3 top3=legal-aid-109:2.1375,legal-aid-118:1.9712,legal-aid-055:1.9663
+MISS keyword p-40 [legal-aid] expected=legal-aid-112|legal-aid-111|legal-aid-113 rank=3 top3=legal-aid-125:8.6900,legal-aid-127:7.9344,legal-aid-112:7.8498
+MISS embedding p-42 [legal-aid] expected=legal-aid-055|legal-aid-056|legal-aid-053 rank=9 top3=legal-aid-060:0.6471,legal-aid-061:0.6338,legal-aid-086:0.6311
+MISS embedding p-43 [legal-aid] expected=legal-aid-060|legal-aid-062|legal-aid-055 rank=9 top3=legal-aid-057:0.6812,legal-aid-084:0.6707,legal-aid-101:0.6628
+MISS keyword p-43 [legal-aid] expected=legal-aid-060|legal-aid-062|legal-aid-055 rank=12 top3=legal-aid-101:7.6754,legal-aid-109:5.2495,legal-aid-057:5.1086
+MISS hybrid p-43 [legal-aid] expected=legal-aid-060|legal-aid-062|legal-aid-055 rank=9 top3=legal-aid-101:2.9328,legal-aid-057:2.7002,legal-aid-058:1.9865
+MISS keyword p-44 [legal-aid] expected=legal-aid-112|legal-aid-111|legal-aid-113 rank=2 top3=legal-aid-127:7.9344,legal-aid-112:7.8498,legal-aid-113:7.8498
+MISS embedding p-45 [legal-aid] expected=legal-aid-055|legal-aid-060|legal-aid-056 rank=8 top3=legal-aid-057:0.6601,legal-aid-084:0.6591,legal-aid-082:0.6463
+MISS keyword p-45 [legal-aid] expected=legal-aid-055|legal-aid-060|legal-aid-056 rank=12 top3=legal-aid-101:7.6754,legal-aid-109:5.2495,legal-aid-057:5.1086
+MISS hybrid p-45 [legal-aid] expected=legal-aid-055|legal-aid-060|legal-aid-056 rank=9 top3=legal-aid-101:2.7930,legal-aid-057:2.4579,legal-aid-082:1.8442
+MISS keyword dev-rti-1 [rti] expected=rti-003 rank=4 top3=rti-000:7.1235,rti-005:6.2449,rti-010:6.2159
+MISS keyword dev-rti-2 [rti] expected=rti-007 rank=6 top3=rti-013:5.8094,rti-002:4.9237,rti-014:4.4603
+MISS embedding dev-rti-3 [rti] expected=rti-014|rti-023 rank=2 top3=rti-013:0.8410,rti-014:0.8344,rti-023:0.8003
+MISS keyword dev-rti-3 [rti] expected=rti-014|rti-023 rank=2 top3=rti-017:9.8003,rti-023:9.2361,rti-006:8.4551
+MISS keyword dev-rti-4 [rti] expected=rti-010 rank=2 top3=rti-015:8.3477,rti-010:7.0319,rti-016:3.8705
+MISS keyword dev-passport-1 [passport] expected=passport-026 rank=2 top3=passport-045:6.1859,passport-026:5.7952,passport-043:5.0099
+MISS keyword dev-passport-2 [passport] expected=passport-030 rank=4 top3=passport-045:4.7640,passport-032:3.7109,passport-040:3.6362
+6 unanswerable dev rows excluded from hit/MRR; included in quote-gate precision.
+overall agreement gate: shown=18/60 right=15/18 precision=0.833
+QUOTE MISS p-01 [rti] predicted=rti-022 expected=rti-000|rti-010|rti-001|rti-002
+QUOTE MISS p-20 [passport] predicted=passport-040 expected=passport-033
+QUOTE MISS p-23 [passport] predicted=passport-041 expected=passport-037|passport-047
+legal-aid agreement gate: shown=7/20 right=7/7 precision=1.000
+passport agreement gate: shown=7/20 right=5/7 precision=0.714
+QUOTE MISS p-20 [passport] predicted=passport-040 expected=passport-033
+QUOTE MISS p-23 [passport] predicted=passport-041 expected=passport-037|passport-047
+rti agreement gate: shown=4/20 right=3/4 precision=0.750
+QUOTE MISS p-01 [rti] predicted=rti-022 expected=rti-000|rti-010|rti-001|rti-002

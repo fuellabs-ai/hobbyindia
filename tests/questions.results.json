@@ -9,21 +9,27 @@
   "normalized": "i applied for an rti two months back and nobody replied",
   "api": {
    "source": "embedding",
-   "ms": 130,
+   "ms": 123,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "rti-first-appeal",
-     "score": 0.89
+     "score": 0.89,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     },
     {
      "id": "rti-file",
-     "score": 0.7708
+     "score": 0.7708,
+     "via": "example",
+     "matched": "How do I file an RTI to find out why my application was rejected?"
     },
     {
      "id": "pension-stopped",
-     "score": 0.7466
+     "score": 0.7466,
+     "via": "example",
+     "matched": "My pension has stopped even though I submitted the life certificate"
     }
    ],
    "grade": "pass"
@@ -34,15 +40,21 @@
    "results": [
     {
      "id": "rti-file",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     },
     {
      "id": "msme-samadhaan",
-     "score": 3.61
+     "score": 3.61,
+     "via": "keyword",
+     "matched": "Customer has not paid my small business"
     }
    ],
    "grade": "partial (in closest 3, below threshold)"
@@ -59,21 +71,27 @@
   "normalized": "my complaint on pgportal got closed but the road is still broken",
   "api": {
    "source": "embedding",
-   "ms": 79,
+   "ms": 83,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "cpgrams-closed",
-     "score": 0.8135
+     "score": 0.8135,
+     "via": "example",
+     "matched": "My government complaint was closed without fixing the problem"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.6837
+     "score": 0.6837,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     },
     {
      "id": "civic-complaint",
-     "score": 0.6837
+     "score": 0.6837,
+     "via": "card",
+     "matched": "Garbage, streetlight, drainage or water complaint"
     }
    ],
    "grade": "pass"
@@ -84,15 +102,21 @@
    "results": [
     {
      "id": "cpgrams-closed",
-     "score": 26.27
+     "score": 26.27,
+     "via": "keyword",
+     "matched": "Government complaint closed but not fixed"
     },
     {
      "id": "civic-complaint",
-     "score": 11.83
+     "score": 11.83,
+     "via": "keyword",
+     "matched": "Garbage, streetlight, drainage or water complaint"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     }
    ],
    "grade": "pass"
@@ -108,21 +132,27 @@
   "normalized": "how to add my babys name in ration card",
   "api": {
    "source": "embedding",
-   "ms": 77,
+   "ms": 71,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "ration-card-add-member",
-     "score": 0.8891
+     "score": 0.8891,
+     "via": "example",
+     "matched": "How do I add my newborn to the ration card?"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.8046
+     "score": 0.8046,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     },
     {
      "id": "ration-card-new",
-     "score": 0.7817
+     "score": 0.7817,
+     "via": "example",
+     "matched": "I need a ration card"
     }
    ],
    "grade": "pass"
@@ -133,15 +163,21 @@
    "results": [
     {
      "id": "ration-card-add-member",
-     "score": 22.35
+     "score": 22.35,
+     "via": "keyword",
+     "matched": "Add a family member to a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 15.13
+     "score": 15.13,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     },
     {
      "id": "ration-card-new",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     }
    ],
    "grade": "pass"
@@ -157,21 +193,27 @@
   "normalized": "my date of birth is wrong in my pf account",
   "api": {
    "source": "embedding",
-   "ms": 75,
+   "ms": 68,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "epfo-correction",
-     "score": 0.8651
+     "score": 0.8651,
+     "via": "example",
+     "matched": "PF date of birth mismatch"
     },
     {
      "id": "aadhaar-correction",
-     "score": 0.7684
+     "score": 0.7684,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.7229
+     "score": 0.7229,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     }
    ],
    "grade": "pass"
@@ -182,15 +224,21 @@
    "results": [
     {
      "id": "epfo-correction",
-     "score": 22.73
+     "score": 22.73,
+     "via": "keyword",
+     "matched": "EPFO / UAN name or date of birth correction"
     },
     {
      "id": "aadhaar-correction",
-     "score": 15.56
+     "score": 15.56,
+     "via": "keyword",
+     "matched": "Aadhaar name, date of birth or address correction"
     },
     {
      "id": "pan-card",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "PAN card: new, instant e-PAN or correction"
     }
    ],
    "grade": "pass"
@@ -206,21 +254,27 @@
   "normalized": "i sell samosas from home do i need a food licence",
   "api": {
    "source": "embedding",
-   "ms": 82,
+   "ms": 71,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "fssai",
-     "score": 0.7544
+     "score": 0.7544,
+     "via": "example",
+     "matched": "Food licence for home tiffin service"
     },
     {
      "id": "gst-need",
-     "score": 0.6605
+     "score": 0.6605,
+     "via": "example",
+     "matched": "Do I need GST registration for my small business?"
     },
     {
      "id": "udyam-registration",
-     "score": 0.6444
+     "score": 0.6444,
+     "via": "example",
+     "matched": "MSME certificate for my shop"
     }
    ],
    "grade": "pass"
@@ -231,15 +285,21 @@
    "results": [
     {
      "id": "fssai",
-     "score": 16.04
+     "score": 16.04,
+     "via": "keyword",
+     "matched": "FSSAI registration or licence for a food business"
     },
     {
      "id": "driving-licence",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "Driving licence: learner, new or renewal"
     },
     {
      "id": "life-certificate",
-     "score": 2.94
+     "score": 2.94,
+     "via": "keyword",
+     "matched": "Submit a pension life certificate"
     }
    ],
    "grade": "pass"
@@ -255,21 +315,27 @@
   "normalized": "pension not credited since august",
   "api": {
    "source": "embedding",
-   "ms": 73,
+   "ms": 65,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "pension-stopped",
-     "score": 0.9153
+     "score": 0.9153,
+     "via": "example",
+     "matched": "Pension not credited this month"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0.7825
+     "score": 0.7825,
+     "via": "example",
+     "matched": "My pension complaint was marked resolved but payment is still missing"
     },
     {
      "id": "life-certificate",
-     "score": 0.6782
+     "score": 0.6782,
+     "via": "example",
+     "matched": "Life certificate for pension from home"
     }
    ],
    "grade": "pass"
@@ -280,15 +346,21 @@
    "results": [
     {
      "id": "pension-stopped",
-     "score": 15.35
+     "score": 15.35,
+     "via": "keyword",
+     "matched": "Pension stopped or not credited"
     },
     {
      "id": "life-certificate",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Submit a pension life certificate"
     },
     {
      "id": "cpgrams-closed",
-     "score": 2.56
+     "score": 2.56,
+     "via": "keyword",
+     "matched": "Government complaint closed but not fixed"
     }
    ],
    "grade": "pass"
@@ -304,21 +376,27 @@
   "normalized": "someone took 40000 from my account after a fake kyc call",
   "api": {
    "source": "embedding",
-   "ms": 80,
+   "ms": 76,
    "emergency": true,
    "covered": false,
    "results": [
     {
      "id": "msme-samadhaan",
-     "score": 0.6835
+     "score": 0.6835,
+     "via": "example",
+     "matched": "A customer has not paid my small business for months"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.6762
+     "score": 0.6762,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     },
     {
      "id": "epfo-correction",
-     "score": 0.662
+     "score": 0.662,
+     "via": "example",
+     "matched": "Name mismatch in PF account"
     }
    ],
    "grade": "pass"
@@ -329,15 +407,21 @@
    "results": [
     {
      "id": "pan-card",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "PAN card: new, instant e-PAN or correction"
     },
     {
      "id": "epfo-correction",
-     "score": 2.94
+     "score": 2.94,
+     "via": "keyword",
+     "matched": "EPFO / UAN name or date of birth correction"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     }
    ],
    "grade": "pass"
@@ -353,21 +437,27 @@
   "normalized": "how do i get a passport",
   "api": {
    "source": "embedding",
-   "ms": 67,
+   "ms": 63,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "passport",
-     "score": 0.8835
+     "score": 0.8835,
+     "via": "example",
+     "matched": "How do I apply for a new passport?"
     },
     {
      "id": "driving-licence",
-     "score": 0.7752
+     "score": 0.7752,
+     "via": "example",
+     "matched": "How do I get a driving licence?"
     },
     {
      "id": "income-certificate",
-     "score": 0.7673
+     "score": 0.7673,
+     "via": "example",
+     "matched": "How do I get an income certificate?"
     }
    ],
    "grade": "pass"
@@ -378,15 +468,21 @@
    "results": [
     {
      "id": "passport",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "Passport: new, renewal or reissue"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     }
    ],
    "grade": "pass"
@@ -402,21 +498,27 @@
   "normalized": "a big company has not paid my invoices for 6 months",
   "api": {
    "source": "embedding",
-   "ms": 78,
+   "ms": 76,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "msme-samadhaan",
-     "score": 0.8594
+     "score": 0.8594,
+     "via": "example",
+     "matched": "Company not paying my invoice"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.7103
+     "score": 0.7103,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0.6872
+     "score": 0.6872,
+     "via": "example",
+     "matched": "My pension complaint was marked resolved but payment is still missing"
     }
    ],
    "grade": "pass"
@@ -427,15 +529,21 @@
    "results": [
     {
      "id": "msme-samadhaan",
-     "score": 20.4
+     "score": 20.4,
+     "via": "keyword",
+     "matched": "Customer has not paid my small business"
     },
     {
      "id": "scholarship-stuck",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "pension-stopped",
-     "score": 3.61
+     "score": 3.61,
+     "via": "keyword",
+     "matched": "Pension stopped or not credited"
     }
    ],
    "grade": "pass"
@@ -451,21 +559,27 @@
   "normalized": "garbage has not been picked up in our colony for a week",
   "api": {
    "source": "embedding",
-   "ms": 80,
+   "ms": 71,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "civic-complaint",
-     "score": 0.7549
+     "score": 0.7549,
+     "via": "example",
+     "matched": "How do I complain about garbage not being collected?"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0.6862
+     "score": 0.6862,
+     "via": "example",
+     "matched": "Grievance disposed but nothing changed"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.6541
+     "score": 0.6541,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     }
    ],
    "grade": "pass"
@@ -476,15 +590,21 @@
    "results": [
     {
      "id": "civic-complaint",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "Garbage, streetlight, drainage or water complaint"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     }
    ],
    "grade": "pass"
@@ -500,21 +620,27 @@
   "normalized": "ration card how to apply",
   "api": {
    "source": "embedding",
-   "ms": 65,
+   "ms": 64,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "ration-card-new",
-     "score": 0.8538
+     "score": 0.8538,
+     "via": "example",
+     "matched": "Ration card application online"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.8186
+     "score": 0.8186,
+     "via": "example",
+     "matched": "Change address on ration card"
     },
     {
      "id": "ration-card-add-member",
-     "score": 0.8101
+     "score": 0.8101,
+     "via": "example",
+     "matched": "Add my wife's name to ration card"
     }
    ],
    "grade": "pass"
@@ -525,15 +651,21 @@
    "results": [
     {
      "id": "ration-card-new",
-     "score": 14.27
+     "score": 14.27,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     },
     {
      "id": "ration-card-add-member",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Add a family member to a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     }
    ],
    "grade": "pass"
@@ -549,21 +681,27 @@
   "normalized": "aadhaar card in name wrong",
   "api": {
    "source": "embedding",
-   "ms": 69,
+   "ms": 71,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 0.8578
+     "score": 0.8578,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.7695
+     "score": 0.7695,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     },
     {
      "id": "pan-card",
-     "score": 0.7466
+     "score": 0.7466,
+     "via": "example",
+     "matched": "Correct my name on PAN card"
     }
    ],
    "grade": "pass"
@@ -574,15 +712,21 @@
    "results": [
     {
      "id": "ration-card-correction",
-     "score": 12.13
+     "score": 12.13,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     },
     {
      "id": "aadhaar-correction",
-     "score": 11.06
+     "score": 11.06,
+     "via": "keyword",
+     "matched": "Aadhaar name, date of birth or address correction"
     },
     {
      "id": "pan-card",
-     "score": 8.27
+     "score": 8.27,
+     "via": "keyword",
+     "matched": "PAN card: new, instant e-PAN or correction"
     }
    ],
    "grade": "partial (in closest 3, below threshold)"
@@ -598,21 +742,27 @@
   "normalized": "farmer samman nidhi money not received",
   "api": {
    "source": "embedding",
-   "ms": 72,
+   "ms": 70,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "pm-kisan",
-     "score": 0.7932
+     "score": 0.7932,
+     "via": "example",
+     "matched": "Farmer 2000 rupees not received"
     },
     {
      "id": "scholarship-stuck",
-     "score": 0.6973
+     "score": 0.6973,
+     "via": "example",
+     "matched": "Scholarship money not received"
     },
     {
      "id": "pm-svanidhi",
-     "score": 0.6723
+     "score": 0.6723,
+     "via": "example",
+     "matched": "How do I get a street-vendor loan under PM SVANidhi?"
     }
    ],
    "grade": "pass"
@@ -623,15 +773,21 @@
    "results": [
     {
      "id": "pm-kisan",
-     "score": 27.61
+     "score": 27.61,
+     "via": "keyword",
+     "matched": "PM-KISAN application or stopped payment"
     },
     {
      "id": "scholarship-stuck",
-     "score": 14.78
+     "score": 14.78,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 2.94
+     "score": 2.94,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     }
    ],
    "grade": "pass"
@@ -647,21 +803,27 @@
   "normalized": "scholarship money still not received",
   "api": {
    "source": "embedding",
-   "ms": 68,
+   "ms": 63,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "scholarship-stuck",
-     "score": 0.9653
+     "score": 0.9653,
+     "via": "example",
+     "matched": "Scholarship money not received"
     },
     {
      "id": "scholarship-find",
-     "score": 0.7512
+     "score": 0.7512,
+     "via": "example",
+     "matched": "Scholarship for college students"
     },
     {
      "id": "income-certificate",
-     "score": 0.6844
+     "score": 0.6844,
+     "via": "example",
+     "matched": "Where to make income proof for scholarship"
     }
    ],
    "grade": "pass"
@@ -672,15 +834,21 @@
    "results": [
     {
      "id": "scholarship-stuck",
-     "score": 22.91
+     "score": 22.91,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "scholarship-find",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Find and apply for a scholarship"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 2.94
+     "score": 2.94,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     }
    ],
    "grade": "pass"
@@ -696,21 +864,27 @@
   "normalized": "ration wala less grain deta complaint where kare",
   "api": {
    "source": "embedding",
-   "ms": 76,
+   "ms": 74,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "ration-dealer-complaint",
-     "score": 0.7809
+     "score": 0.7809,
+     "via": "example",
+     "matched": "Where should I complain about my ration dealer not giving full grain?"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.6866
+     "score": 0.6866,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     },
     {
      "id": "ration-card-new",
-     "score": 0.6833
+     "score": 0.6833,
+     "via": "example",
+     "matched": "I need a ration card"
     }
    ],
    "grade": "pass"
@@ -721,15 +895,21 @@
    "results": [
     {
      "id": "ration-dealer-complaint",
-     "score": 23.65
+     "score": 23.65,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     },
     {
      "id": "cpgrams-closed",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Government complaint closed but not fixed"
     },
     {
      "id": "ration-card-new",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     }
    ],
    "grade": "pass"
@@ -751,15 +931,21 @@
    "results": [
     {
      "id": "income-certificate",
-     "score": 0.899
+     "score": 0.899,
+     "via": "example",
+     "matched": "Income certificate apply online"
     },
     {
      "id": "birth-certificate",
-     "score": 0.7943
+     "score": 0.7943,
+     "via": "example",
+     "matched": "Birth certificate apply online"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.7732
+     "score": 0.7732,
+     "via": "example",
+     "matched": "Residence certificate apply online"
     }
    ],
    "grade": "pass"
@@ -770,15 +956,21 @@
    "results": [
     {
      "id": "income-certificate",
-     "score": 12.74
+     "score": 12.74,
+     "via": "keyword",
+     "matched": "Income certificate"
     },
     {
      "id": "caste-certificate",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Caste certificate"
     },
     {
      "id": "domicile-certificate",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Domicile or residence certificate"
     }
    ],
    "grade": "pass"
@@ -794,21 +986,27 @@
   "normalized": "street vendor set up for need loan",
   "api": {
    "source": "embedding",
-   "ms": 67,
+   "ms": 70,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "pm-svanidhi",
-     "score": 0.9139
+     "score": 0.9139,
+     "via": "example",
+     "matched": "Loan for street vendor"
     },
     {
      "id": "civic-complaint",
-     "score": 0.6428
+     "score": 0.6428,
+     "via": "example",
+     "matched": "Streetlight not working in my street"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 0.6424
+     "score": 0.6424,
+     "via": "example",
+     "matched": "Ration dealer is asking for extra money"
     }
    ],
    "grade": "pass"
@@ -819,15 +1017,21 @@
    "results": [
     {
      "id": "pm-svanidhi",
-     "score": 26.33
+     "score": 26.33,
+     "via": "keyword",
+     "matched": "Street vendor loan (PM SVANidhi)"
     },
     {
      "id": "civic-complaint",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "Garbage, streetlight, drainage or water complaint"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     }
    ],
    "grade": "pass"
@@ -843,21 +1047,27 @@
   "normalized": "my phone theft",
   "api": {
    "source": "embedding",
-   "ms": 57,
+   "ms": 61,
    "emergency": true,
    "covered": true,
    "results": [
     {
      "id": "stolen-phone",
-     "score": 0.862
+     "score": 0.862,
+     "via": "example",
+     "matched": "My phone was stolen, how do I block it?"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0.6448
+     "score": 0.6448,
+     "via": "example",
+     "matched": "My pension complaint was marked resolved but payment is still missing"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.6279
+     "score": 0.6279,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     }
    ],
    "grade": "pass"
@@ -868,15 +1078,21 @@
    "results": [
     {
      "id": "stolen-phone",
-     "score": 10.83
+     "score": 10.83,
+     "via": "keyword",
+     "matched": "Block a lost or stolen phone"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     }
    ],
    "grade": "pass"
@@ -892,21 +1108,27 @@
   "normalized": "driving licence how to apply",
   "api": {
    "source": "embedding",
-   "ms": 63,
+   "ms": 68,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "driving-licence",
-     "score": 0.8707
+     "score": 0.8707,
+     "via": "example",
+     "matched": "How do I get a driving licence?"
     },
     {
      "id": "passport",
-     "score": 0.7241
+     "score": 0.7241,
+     "via": "example",
+     "matched": "How do I apply for a new passport?"
     },
     {
      "id": "gst-apply",
-     "score": 0.7221
+     "score": 0.7221,
+     "via": "example",
+     "matched": "How do I apply for GST registration?"
     }
    ],
    "grade": "pass"
@@ -917,15 +1139,21 @@
    "results": [
     {
      "id": "driving-licence",
-     "score": 17.5
+     "score": 17.5,
+     "via": "keyword",
+     "matched": "Driving licence: learner, new or renewal"
     },
     {
      "id": "fssai",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "FSSAI registration or licence for a food business"
     },
     {
      "id": "ration-card-new",
-     "score": 2.77
+     "score": 2.77,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     }
    ],
    "grade": "pass"
@@ -942,21 +1170,27 @@
   "normalized": "shop for gst number is it needed",
   "api": {
    "source": "embedding",
-   "ms": 70,
+   "ms": 73,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "gst-apply",
-     "score": 0.8706
+     "score": 0.8706,
+     "via": "example",
+     "matched": "Get a GST number"
     },
     {
      "id": "gst-need",
-     "score": 0.8241
+     "score": 0.8241,
+     "via": "example",
+     "matched": "Do I need GST registration for my small business?"
     },
     {
      "id": "gst-rejected",
-     "score": 0.7156
+     "score": 0.7156,
+     "via": "example",
+     "matched": "Reply to GST registration notice"
     }
    ],
    "grade": "pass"
@@ -967,15 +1201,21 @@
    "results": [
     {
      "id": "gst-apply",
-     "score": 14.02
+     "score": 14.02,
+     "via": "keyword",
+     "matched": "Apply for GST registration"
     },
     {
      "id": "gst-need",
-     "score": 7.69
+     "score": 7.69,
+     "via": "keyword",
+     "matched": "Do I need GST registration?"
     },
     {
      "id": "pan-card",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "PAN card: new, instant e-PAN or correction"
     }
    ],
    "grade": "pass"

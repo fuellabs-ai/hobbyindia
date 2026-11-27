@@ -1,0 +1,276 @@
+{
+ "note": "FINAL passage test, frozen 2026-11-27. Written by Grok in a new chat, English only, without seeing FAQs. Not run, not used for tuning. Labels: GLM (tests/passages_final_labelled.json) + 10 spot-checked by a person. Run ONCE with the method chosen on the practice set.",
+ "sha256_16": "bc1cdbcf6b970fc7",
+ "questions": [
+  {
+   "id": "t-01",
+   "dept": "rti",
+   "lang": "en",
+   "q": "how do i ask govt office why my file not moving"
+  },
+  {
+   "id": "t-02",
+   "dept": "rti",
+   "lang": "en",
+   "q": "rti fee kitna i mean how much is it 10rs"
+  },
+  {
+   "id": "t-03",
+   "dept": "rti",
+   "lang": "en",
+   "q": "paid online money gone but no confirmaton mail"
+  },
+  {
+   "id": "t-04",
+   "dept": "rti",
+   "lang": "en",
+   "q": "sent rti by post 40 days back no responce"
+  },
+  {
+   "id": "t-05",
+   "dept": "rti",
+   "lang": "en",
+   "q": "they replied but didnt answer my actual questin what next"
+  },
+  {
+   "id": "t-06",
+   "dept": "rti",
+   "lang": "en",
+   "q": "first appeal also ignored where to go now"
+  },
+  {
+   "id": "t-07",
+   "dept": "rti",
+   "lang": "en",
+   "q": "which commision to complain state or central confused"
+  },
+  {
+   "id": "t-08",
+   "dept": "rti",
+   "lang": "en",
+   "q": "i addressed it to wrong dept will they send it to right one"
+  },
+  {
+   "id": "t-09",
+   "dept": "rti",
+   "lang": "en",
+   "q": "im bpl do i pay anything for rti"
+  },
+  {
+   "id": "t-10",
+   "dept": "rti",
+   "lang": "en",
+   "q": "they want extra money for copies is that allowed"
+  },
+  {
+   "id": "t-11",
+   "dept": "rti",
+   "lang": "en",
+   "q": "can i get copy of my exam answer sheet thru rti"
+  },
+  {
+   "id": "t-12",
+   "dept": "rti",
+   "lang": "en",
+   "q": "what to write in rti letter dont know format"
+  },
+  {
+   "id": "t-13",
+   "dept": "rti",
+   "lang": "en",
+   "q": "pio name not on website who do i address"
+  },
+  {
+   "id": "t-14",
+   "dept": "rti",
+   "lang": "en",
+   "q": "can i file rti for my village panchayat spending"
+  },
+  {
+   "id": "t-15",
+   "dept": "rti",
+   "lang": "en",
+   "q": "rti rejected saying personal info but its about me only"
+  },
+  {
+   "id": "t-16",
+   "dept": "passport",
+   "lang": "en",
+   "q": "police verfication still pending after 1 month what do"
+  },
+  {
+   "id": "t-17",
+   "dept": "passport",
+   "lang": "en",
+   "q": "cop never came but status says sent to police"
+  },
+  {
+   "id": "t-18",
+   "dept": "passport",
+   "lang": "en",
+   "q": "got adverse report dont know why i have no case"
+  },
+  {
+   "id": "t-19",
+   "dept": "passport",
+   "lang": "en",
+   "q": "police said not found at address i was at work"
+  },
+  {
+   "id": "t-20",
+   "dept": "passport",
+   "lang": "en",
+   "q": "my kid 3 yrs old need police check for passport"
+  },
+  {
+   "id": "t-21",
+   "dept": "passport",
+   "lang": "en",
+   "q": "dad is 68 renewing passport police will come?"
+  },
+  {
+   "id": "t-22",
+   "dept": "passport",
+   "lang": "en",
+   "q": "shifted to new flat after applying now what"
+  },
+  {
+   "id": "t-23",
+   "dept": "passport",
+   "lang": "en",
+   "q": "what documents to show when police come home"
+  },
+  {
+   "id": "t-24",
+   "dept": "passport",
+   "lang": "en",
+   "q": "can police verification happen thru app no visit"
+  },
+  {
+   "id": "t-25",
+   "dept": "passport",
+   "lang": "en",
+   "q": "how long police verification take usually"
+  },
+  {
+   "id": "t-26",
+   "dept": "passport",
+   "lang": "en",
+   "q": "tatkal passport police check before or after"
+  },
+  {
+   "id": "t-27",
+   "dept": "passport",
+   "lang": "en",
+   "q": "police asking money to clear my report"
+  },
+  {
+   "id": "t-28",
+   "dept": "passport",
+   "lang": "en",
+   "q": "old fir closed will it block my passport"
+  },
+  {
+   "id": "t-29",
+   "dept": "passport",
+   "lang": "en",
+   "q": "living on rent no agreement can police verify"
+  },
+  {
+   "id": "t-30",
+   "dept": "passport",
+   "lang": "en",
+   "q": "passport came but verification shows pending is ok?"
+  },
+  {
+   "id": "t-31",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "cant afford lawyer can govt give one free"
+  },
+  {
+   "id": "t-32",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "who all can get free legal help"
+  },
+  {
+   "id": "t-33",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "how to apply free lawyer in my district"
+  },
+  {
+   "id": "t-34",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "husband harrasing me no money for case"
+  },
+  {
+   "id": "t-35",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "my son is minor police took him need lawyer"
+  },
+  {
+   "id": "t-36",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "brother in jail long time no bail no lawyer"
+  },
+  {
+   "id": "t-37",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "what is lok adalat can my case go there"
+  },
+  {
+   "id": "t-38",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "bank loan fight settle without court possible"
+  },
+  {
+   "id": "t-39",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "do i need income proof for free lawyer"
+  },
+  {
+   "id": "t-40",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "is free legal aid only for criminal case or civil also"
+  },
+  {
+   "id": "t-41",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "labour not paid salary can i get free help"
+  },
+  {
+   "id": "t-42",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "im sc can i get free advocate"
+  },
+  {
+   "id": "t-43",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "where is dlsa office how to contact"
+  },
+  {
+   "id": "t-44",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "free lawyer not coming to hearings what to do"
+  },
+  {
+   "id": "t-45",
+   "dept": "legal-aid",
+   "lang": "en",
+   "q": "land dispute with relatives free legal help avalable"
+  }
+ ]
+}

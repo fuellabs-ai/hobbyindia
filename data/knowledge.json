@@ -1,0 +1,210 @@
+{
+  "note": "Area -> department -> service map for the HobbyIndia mind map. Drafted by Claude on 2026-11-27 from the cards' official sites. NOT yet checked by a person: 'who handles what' must be verified before it is presented as fact.",
+  "checked": false,
+  "areas": [
+    {
+      "id": "id-docs",
+      "name": "ID documents",
+      "departments": [
+        {
+          "name": "External Affairs (Passport Seva)",
+          "cards": [
+            "passport"
+          ]
+        },
+        {
+          "name": "UIDAI",
+          "cards": [
+            "aadhaar-correction"
+          ]
+        },
+        {
+          "name": "Income Tax Department",
+          "cards": [
+            "pan-card"
+          ]
+        },
+        {
+          "name": "Election Commission of India",
+          "cards": [
+            "voter-id"
+          ]
+        },
+        {
+          "name": "Parivahan and state RTOs",
+          "cards": [
+            "driving-licence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rights",
+      "name": "Complaints and rights",
+      "departments": [
+        {
+          "name": "RTI (DoPT)",
+          "cards": [
+            "rti-file",
+            "rti-first-appeal"
+          ]
+        },
+        {
+          "name": "CPGRAMS (DARPG)",
+          "cards": [
+            "cpgrams-closed"
+          ]
+        },
+        {
+          "name": "Legal Services Authorities (NALSA)",
+          "cards": [
+            "free-legal-aid"
+          ]
+        },
+        {
+          "name": "Municipal bodies and panchayats",
+          "cards": [
+            "civic-complaint"
+          ]
+        },
+        {
+          "name": "National Portal of India",
+          "cards": [
+            "which-department"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ration",
+      "name": "Ration",
+      "departments": [
+        {
+          "name": "Food & Public Distribution, state food depts",
+          "cards": [
+            "ration-card-new",
+            "ration-card-add-member",
+            "ration-card-correction",
+            "ration-dealer-complaint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "certificates",
+      "name": "Certificates",
+      "departments": [
+        {
+          "name": "State revenue departments",
+          "cards": [
+            "income-certificate",
+            "caste-certificate",
+            "domicile-certificate"
+          ]
+        },
+        {
+          "name": "Civil Registration (local registrars)",
+          "cards": [
+            "birth-certificate",
+            "death-certificate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "Small business",
+      "departments": [
+        {
+          "name": "Ministry of MSME",
+          "cards": [
+            "udyam-registration",
+            "msme-samadhaan"
+          ]
+        },
+        {
+          "name": "GST",
+          "cards": [
+            "gst-need",
+            "gst-apply",
+            "gst-rejected"
+          ]
+        },
+        {
+          "name": "FSSAI",
+          "cards": [
+            "fssai"
+          ]
+        },
+        {
+          "name": "Housing and Urban Affairs",
+          "cards": [
+            "pm-svanidhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schemes",
+      "name": "Schemes and support",
+      "departments": [
+        {
+          "name": "Agriculture and Farmers Welfare",
+          "cards": [
+            "pm-kisan"
+          ]
+        },
+        {
+          "name": "National Scholarship Portal",
+          "cards": [
+            "scholarship-find",
+            "scholarship-stuck"
+          ]
+        },
+        {
+          "name": "Labour and Employment (e-Shram)",
+          "cards": [
+            "e-shram"
+          ]
+        },
+        {
+          "name": "myScheme",
+          "cards": [
+            "scheme-finder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pension",
+      "name": "Pension and PF",
+      "departments": [
+        {
+          "name": "Pensions (Jeevan Pramaan, CPENGRAMS)",
+          "cards": [
+            "life-certificate",
+            "pension-stopped"
+          ]
+        },
+        {
+          "name": "EPFO",
+          "cards": [
+            "epfo-correction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "name": "Safety",
+      "departments": [
+        {
+          "name": "Telecommunications (Sanchar Saathi)",
+          "cards": [
+            "stolen-phone"
+          ]
+        }
+      ]
+    }
+  ]
+}

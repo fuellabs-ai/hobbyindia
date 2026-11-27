@@ -29,6 +29,7 @@ RUN python -c "from sentence_transformers import SentenceTransformer as S; S('ha
 COPY server/*.py server/
 COPY data/services.json data/hinglish_map.json data/tanglish_map.json data/kanglish_map.json data/emergency.json data/search_config.json data/flows.json data/
 COPY data/index/ data/index/
+COPY data/sources/passages.json data/sources/passages.json
 COPY --from=web /web/dist/ dist/
 USER user
 ENV HF_HUB_OFFLINE=1 \

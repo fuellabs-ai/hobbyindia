@@ -3,11 +3,12 @@
 // always gets an answer from the card set and nothing is ever generated.
 // normalize / redact / isEmergency must stay identical to server/search_core.py.
 import servicesData from '../data/services.json';
-import hinglishData from '../data/hinglish_map.json';
-import tanglishData from '../data/tanglish_map.json';
-import kanglishData from '../data/kanglish_map.json';
 import emergencyData from '../data/emergency.json';
 import flowData from '../data/flows.json';
+import config from '../data/search_config.json';
+import { keywordPassages } from './passageSearch';
+import { normalize, redact, isEmergency, indicScript } from './searchText';
+export { normalize, redact, isEmergency, indicScript } from './searchText';
 
 export const cards = servicesData.cards;
 export const cardById = Object.fromEntries(cards.map(c => [c.id, c]));
@@ -15,7 +16,6 @@ export const emergencyContacts = emergencyData.contacts;
 export const API_TIMEOUT_MS = 2000;
 // Where the search server lives. Empty = same origin (local dev / single-box). On Vercel: the HF Space URL.
 export const API_BASE = (import.meta.env?.VITE_API_BASE || '').replace(/\/$/, '');
-const MAX_QUERY_CHARS = 300;
 
 // Outgoing links: https only, and only to hosts that appear in our data files.
 const flowLinks = flowData.flows.flatMap(f => Object.values(f.nodes).map(n => n.link?.url).filter(Boolean));
@@ -24,45 +24,15 @@ export function safeUrl(url) {
   try { const u = new URL(url); return u.protocol === 'https:' && ALLOWED_HOSTS.has(u.hostname) ? u.href : undefined; } catch { return undefined; }
 }
 
-const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-// Same order as PHRASE_MAPS in server/search_core.py: the first map wins on a clash.
-const phraseMap = {};
-for (const m of [hinglishData, tanglishData, kanglishData]) for (const [k, v] of Object.entries(m.phrases)) if (!(k in phraseMap)) phraseMap[k] = v;
-const phrases = Object.keys(phraseMap).sort((a, b) => b.length - a.length);
-const hinglishRe = new RegExp(`(?<![a-z0-9])(${phrases.map(escape).join('|')})(?![a-z0-9])`, 'g');
-const emergencyRes = emergencyData.patterns.map(p => new RegExp(p));
-// Explicit ASCII classes so Python and JS agree (tests/parity.mjs).
-const PII = [
-  /[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z0-9.]+/g,
-  /(?<![A-Za-z0-9])[A-Za-z]{5}[0-9]{4}[A-Za-z](?![A-Za-z0-9])/g,
-  /(?:\+?[0-9][\s().-]*){6,}/g,
-];
-
-export function redact(text) {
-  let found = false;
-  for (const rx of PII) text = text.replace(rx, () => { found = true; return ' '; });
-  return [text, found];
+export function searchMetadata(raw, source) {
+  const [text, removed] = redact(raw);
+  const cleaned = normalize(text);
+  return { source, emergency: isEmergency(raw, cleaned), covered: false,
+    threshold: config.threshold, passage_threshold: 2, quote_eligible: false, passage_method: 'none',
+    cleaned, removed_personal_data: removed, timing_ms: { embed: 0, total: 0 },
+    compared: 0, results: [], passages: [], passages_compared: 0, passage_parents_compared: 0,
+    ...(indicScript(raw) ? { reason: 'script_unsupported' } : {}) };
 }
-
-export function normalize(text) {
-  // Array.from counts code points, like Python slicing (not UTF-16 units).
-  let t = Array.from(text.toLowerCase()).slice(0, MAX_QUERY_CHARS).join('').replace(/[\u2019'`]/g, '');
-  t = t.replace(/[^a-z0-9\u0900-\u097f]+/g, ' ');
-  t = t.replace(hinglishRe, (_, p) => ` ${phraseMap[p]} `);
-  return t.replace(/\s+/g, ' ').trim();
-}
-
-export function isEmergency(raw, normalized = normalize(redact(raw)[0])) {
-  const low = raw.toLowerCase().replace(/\s+/g, ' ');
-  return emergencyRes.some(rx => rx.test(low) || rx.test(normalized));
-}
-
-// Mirrors indic_script in server/search_core.py.
-export function indicScript(text) {
-  const letters = [...text].filter(ch => /\p{L}/u.test(ch));
-  return letters.length > 0 && letters.filter(ch => ch >= '\u0900' && ch <= '\u0dff').length / letters.length > 0.3;
-}
-const scriptResult = raw => ({ emergency: isEmergency(raw), covered: false, reason: 'script_unsupported', results: [] });
 
 // ---- keyword fallback -------------------------------------------------------
 const STOP = new Set('a an the i my me we our is are was be to of in on for and or how do does did can what which where who whom why when it this that with from at by not get need want should will have has been please there any about into after since still'.split(' '));
@@ -81,23 +51,30 @@ export const KEYWORD_MIN = 4; // roughly: one distinctive keyword plus one suppo
 export const KEYWORD_AMBIGUOUS = 0.85; // second card within 15% of the first: let the person choose
 
 export function keywordSearch(raw) {
-  const [text] = redact(raw);
-  const norm = normalize(text);
-  const words = [...new Set(tokens(text))];
+  const started = performance.now();
+  const metadata = searchMetadata(raw, 'keyword');
+  const norm = metadata.cleaned;
+  if (metadata.reason || !norm) return { ...metadata, ambiguous: false, threshold: KEYWORD_MIN, ms: 0 };
+  const words = [...new Set(norm.split(' ').filter(w => w.length > 1 && !STOP.has(w)))];
   const scored = fields.map(f => {
     let s = 0;
     for (const w of words) s += has(f.strong, w) ? 2 * idf(w) : has(f.weak, w) ? idf(w) : 0;
     for (const p of f.phrases) if (norm.includes(p)) s += 3;
-    return { id: f.id, score: Math.round(s * 100) / 100 };
+    return { id: f.id, score: Math.round(s * 100) / 100, via: 'keyword', matched: cardById[f.id].title };
   }).sort((a, b) => b.score - a.score).slice(0, 3);
   const strong = scored[0].score >= KEYWORD_MIN;
   const ambiguous = strong && scored[1].score >= KEYWORD_AMBIGUOUS * scored[0].score;
-  return { emergency: isEmergency(raw, norm), covered: strong && !ambiguous, ambiguous, threshold: KEYWORD_MIN, results: scored };
+  const passageResults = keywordPassages(norm, scored[0].id);
+  const total = Math.round(performance.now() - started);
+  return { ...metadata, covered: strong && !ambiguous, ambiguous, threshold: KEYWORD_MIN,
+    results: scored, compared: cards.length, ...passageResults,
+    timing_ms: { embed: 0, total }, ms: total };
 }
 
 // ---- entry point ------------------------------------------------------------
 export async function searchQuestion(raw, { endpoint = `${API_BASE}/api/search`, timeoutMs = API_TIMEOUT_MS, fetchImpl = fetch } = {}) {
-  if (indicScript(raw)) return { ...scriptResult(raw), source: 'local', ms: 0 };
+  const metadata = searchMetadata(raw, 'embedding');
+  if (metadata.reason || !metadata.cleaned) return { ...metadata, source: 'local', ms: 0 };
   const started = performance.now();
   const controller = new AbortController();
   let timer;
@@ -111,12 +88,18 @@ export async function searchQuestion(raw, { endpoint = `${API_BASE}/api/search`,
     })();
     call.catch(() => {});
     const body = await Promise.race([call, deadline]);
-    const results = (body.results || []).filter(r => cardById[r.id]);
-    if (!results.length) { if (body.reason === 'script_unsupported') return { ...scriptResult(raw), source: 'embedding' }; throw new Error('empty result'); }
+    const results = (body.results || []).filter(r => Object.hasOwn(cardById, r.id));
+    if (!results.length) { if (body.reason === 'script_unsupported') return { ...metadata, reason: body.reason, ms: Math.round(performance.now() - started) }; throw new Error('empty result'); }
     // The browser's own emergency check always applies, even if the server disagrees.
-    return { ...body, results, emergency: body.emergency || isEmergency(raw), source: 'embedding', ms: Math.round(performance.now() - started) };
+    const total = Math.round(performance.now() - started);
+    return { ...metadata, ...body, cleaned: metadata.cleaned, removed_personal_data: metadata.removed_personal_data,
+      results, emergency: body.emergency || metadata.emergency, source: 'embedding',
+      timing_ms: { embed: body.timing_ms?.embed ?? 0, total }, ms: total };
   } catch (error) {
-    return { ...keywordSearch(raw), source: 'keyword', fallbackReason: error.name === 'AbortError' ? 'timeout' : 'unavailable', ms: Math.round(performance.now() - started) };
+    const result = keywordSearch(raw);
+    const total = Math.round(performance.now() - started);
+    return { ...result, source: 'keyword', fallbackReason: error.name === 'AbortError' ? 'timeout' : 'unavailable',
+      timing_ms: { embed: 0, total }, ms: total };
   } finally {
     clearTimeout(timer);
   }

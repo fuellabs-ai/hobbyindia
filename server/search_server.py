@@ -10,6 +10,7 @@ contain personal data patterns are redacted before embedding and never cached. R
 buckets hold only an IP and a token count, in memory.
 """
 import json
+import hashlib
 import os
 import sys
 import threading
@@ -20,9 +21,11 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import numpy as np
 
 import search_core as core
+from passage_search import PassageSearch
 
-THRESHOLD = core.load_json("search_config.json")["threshold"]  # shared with src/privateSearch.js
-TOP_K = 3
+CONFIG = core.load_json("search_config.json")
+THRESHOLD = CONFIG["threshold"]
+TOP_K = CONFIG["top_k"]
 RATE_PER_MIN = float(os.environ.get("RATE_PER_MIN", 300))  # Indian mobile users often share one IP (carrier NAT)
 RATE_BURST = float(os.environ.get("RATE_BURST", 60))
 CACHE_SIZE = int(os.environ.get("CACHE_SIZE", 5000))
@@ -65,6 +68,23 @@ class Index:
         self.card_ids = [c["id"] for c in core.load_cards()]
         col = {cid: i for i, cid in enumerate(self.card_ids)}
         self.row_card = np.array([col[r["card"]] for r in meta["rows"]])
+        cards = {c["id"]: c for c in core.load_cards()}
+        example_offsets = {cid: 0 for cid in cards}
+        self.rows = []
+        for row in meta["rows"]:
+            card = cards[row["card"]]
+            if row["kind"] == "example":
+                matched = card["examples"][example_offsets[card["id"]]]
+                example_offsets[card["id"]] += 1
+            else:
+                matched = card["title"]
+            self.rows.append({"via": row["kind"], "matched": matched})
+        passage_meta = core.load_json("sources/passages.json")
+        if passage_meta["dim"] != meta["dim"]:
+            raise ValueError("passage and card embedding dimensions differ")
+        self.passages = passage_meta["passages"]
+        self.passage_vecs = np.fromfile(core.INDEX_DIR / "passages.f32", dtype="<f4").reshape(len(passage_meta["chunks"]), meta["dim"])
+        self.passage_search = PassageSearch(passage_meta, self.passage_vecs, CONFIG)
         if model is None:
             from sentence_transformers import SentenceTransformer
             model = SentenceTransformer(core.MODEL_ID, revision=core.MODEL_REVISION, trust_remote_code=True, device="cpu")
@@ -72,26 +92,45 @@ class Index:
         self.lock = threading.Lock()
         self.scores("warm up")  # first encode is slow; pay it before serving
 
-    def scores(self, normalized):
+    def encode(self, normalized):
         with self.lock:
-            q = self.model.encode_query([normalized], normalize_embeddings=True, convert_to_numpy=True)[0]
+            return self.model.encode_query([normalized], normalize_embeddings=True, convert_to_numpy=True)[0]
+
+    def scores(self, normalized):
+        q = self.encode(normalized)
         sims = self.vecs @ q
         best = np.full(len(self.card_ids), -1.0)
         np.maximum.at(best, self.row_card, sims)  # card score = best of its card text and example questions
         return best
 
     def search(self, raw):
+        started = time.perf_counter()
         text, had_pii = core.redact(raw)
         normalized = core.normalize(text)
         emergency = core.is_emergency(raw, normalized)
+        body = {"source": "embedding", "emergency": emergency, "covered": False, "threshold": THRESHOLD,
+                "cleaned": normalized, "removed_personal_data": had_pii,
+                "timing_ms": {"embed": 0, "total": 0}, "compared": 0,
+                "results": [], "passages": [], "passages_compared": 0,
+                "passage_threshold": 2, "quote_eligible": False, "passage_method": "none", "passage_parents_compared": 0}
         if core.indic_script(raw):
-            return {"emergency": emergency, "covered": False, "reason": "script_unsupported", "threshold": THRESHOLD, "results": []}, had_pii
-        if not normalized:
-            return {"emergency": emergency, "covered": False, "threshold": THRESHOLD, "results": []}, had_pii
-        best = self.scores(normalized)
-        order = np.argsort(-best)[:TOP_K]
-        results = [{"id": self.card_ids[i], "score": round(float(best[i]), 4)} for i in order]
-        return {"emergency": emergency, "covered": results[0]["score"] >= THRESHOLD, "threshold": THRESHOLD, "results": results}, had_pii
+            body["reason"] = "script_unsupported"
+        elif normalized:
+            embed_started = time.perf_counter()
+            q = self.encode(normalized)
+            body["timing_ms"]["embed"] = round((time.perf_counter() - embed_started) * 1000)
+            sims = self.vecs @ q
+            winners = [int(np.argmax(np.where(self.row_card == i, sims, -np.inf))) for i in range(len(self.card_ids))]
+            order = sorted(range(len(self.card_ids)), key=lambda i: (-float(sims[winners[i]]), i))[:TOP_K]
+            body["results"] = [{"id": self.card_ids[i], "score": round(float(sims[winners[i]]), 4), **self.rows[winners[i]]} for i in order]
+            body["covered"] = bool(order) and body["results"][0]["score"] >= THRESHOLD
+            body["compared"] = len(self.vecs)
+            dept = self.passage_search.department_by_card.get(body["results"][0]["id"]) if order else None
+            ranked = self.passage_search.rank(normalized, q, dept)
+            body.update(self.passage_search.response(ranked))
+        body["timing_ms"]["total"] = round((time.perf_counter() - started) * 1000)
+        body["ms"] = body["timing_ms"]["total"]
+        return body, had_pii
 
 
 class Limiter:
@@ -226,17 +265,21 @@ def make_handler(index):
             if not q:
                 return self.send(400, {"error": "empty"})
             # Key only from redacted text, so personal data can never become a cache key.
-            redacted, _ = core.redact(q)
-            key = (core.indic_script(q), core.normalize(redacted))
+            started = time.perf_counter()
+            redacted, had_pii = core.redact(q)
+            cleaned = core.normalize(redacted)
+            # No raw or cleaned question string is retained as a cache key.
+            key = (core.indic_script(q), hashlib.sha256(cleaned.encode()).digest())
             hit = cache.get(key)
             if hit is not None:
-                # Safety fields are recomputed for every request, never taken from the cache.
-                return self.send(200, {**hit, "emergency": core.is_emergency(q, core.normalize(redacted))}, [("X-Cache", "hit")])
-            started = time.perf_counter()
+                total = round((time.perf_counter() - started) * 1000)
+                # Request text, redaction flags, safety and timings are never cached.
+                return self.send(200, {**hit, "cleaned": cleaned, "removed_personal_data": had_pii,
+                                      "emergency": core.is_emergency(q, cleaned),
+                                      "timing_ms": {"embed": 0, "total": total}, "ms": total}, [("X-Cache", "hit")])
             body, had_pii = index.search(q)
-            body["ms"] = round((time.perf_counter() - started) * 1000)
             if not had_pii:
-                cache.put(key, body)
+                cache.put(key, {k: v for k, v in body.items() if k not in {"cleaned", "removed_personal_data", "emergency", "timing_ms", "ms"}})
             self.send(200, body, [("X-Cache", "miss")])
 
         def post_feedback(self):

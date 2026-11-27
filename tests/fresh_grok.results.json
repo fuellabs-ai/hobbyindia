@@ -10,21 +10,27 @@
   "normalized": "passport renewal how to apply online my passport expired last month",
   "api": {
    "source": "embedding",
-   "ms": 109,
+   "ms": 116,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "passport",
-     "score": 0.8757
+     "score": 0.8757,
+     "via": "example",
+     "matched": "Renew my passport"
     },
     {
      "id": "driving-licence",
-     "score": 0.7356
+     "score": 0.7356,
+     "via": "example",
+     "matched": "Renew my driving licence"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.7199
+     "score": 0.7199,
+     "via": "example",
+     "matched": "Residence certificate apply online"
     }
    ],
    "grade": "pass"
@@ -35,15 +41,21 @@
    "results": [
     {
      "id": "passport",
-     "score": 17.5
+     "score": 17.5,
+     "via": "keyword",
+     "matched": "Passport: new, renewal or reissue"
     },
     {
      "id": "driving-licence",
-     "score": 7.28
+     "score": 7.28,
+     "via": "keyword",
+     "matched": "Driving licence: learner, new or renewal"
     },
     {
      "id": "ration-card-new",
-     "score": 4.48
+     "score": 4.48,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     }
    ],
    "grade": "pass"
@@ -60,21 +72,27 @@
   "normalized": "police verification pending for passport since 3 months what to do",
   "api": {
    "source": "embedding",
-   "ms": 76,
+   "ms": 86,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "passport",
-     "score": 0.7932
+     "score": 0.7932,
+     "via": "example",
+     "matched": "Renew my passport"
     },
     {
      "id": "driving-licence",
-     "score": 0.7048
+     "score": 0.7048,
+     "via": "example",
+     "matched": "Renew my driving licence"
     },
     {
      "id": "scholarship-stuck",
-     "score": 0.6549
+     "score": 0.6549,
+     "via": "example",
+     "matched": "NSP application pending at institute"
     }
    ],
    "grade": "pass"
@@ -85,15 +103,21 @@
    "results": [
     {
      "id": "scholarship-stuck",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "passport",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "Passport: new, renewal or reissue"
     },
     {
      "id": "msme-samadhaan",
-     "score": 3.61
+     "score": 3.61,
+     "via": "keyword",
+     "matched": "Customer has not paid my small business"
     }
    ],
    "grade": "partial (in closest 3, below threshold)"
@@ -111,21 +135,27 @@
   "normalized": "how to file rti for my land record no reply from tahsildar office",
   "api": {
    "source": "embedding",
-   "ms": 84,
+   "ms": 93,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "rti-first-appeal",
-     "score": 0.798
+     "score": 0.798,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     },
     {
      "id": "rti-file",
-     "score": 0.7713
+     "score": 0.7713,
+     "via": "example",
+     "matched": "How do I file an RTI to find out why my application was rejected?"
     },
     {
      "id": "gst-rejected",
-     "score": 0.6503
+     "score": 0.6503,
+     "via": "example",
+     "matched": "Reply to GST registration notice"
     }
    ],
    "grade": "pass"
@@ -136,15 +166,21 @@
    "results": [
     {
      "id": "rti-first-appeal",
-     "score": 24.56
+     "score": 24.56,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     },
     {
      "id": "rti-file",
-     "score": 21.41
+     "score": 21.41,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "gst-rejected",
-     "score": 4.76
+     "score": 4.76,
+     "via": "keyword",
+     "matched": "GST registration rejected or clarification asked"
     }
    ],
    "grade": "partial (right card, below threshold)"
@@ -161,21 +197,27 @@
   "normalized": "rti first appeal if no answer in 30 days",
   "api": {
    "source": "embedding",
-   "ms": 75,
+   "ms": 84,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "rti-first-appeal",
-     "score": 0.8563
+     "score": 0.8563,
+     "via": "example",
+     "matched": "My RTI reply did not come. How do I file the first appeal?"
     },
     {
      "id": "rti-file",
-     "score": 0.747
+     "score": 0.747,
+     "via": "example",
+     "matched": "How do I file an RTI to find out why my application was rejected?"
     },
     {
      "id": "scholarship-stuck",
-     "score": 0.6819
+     "score": 0.6819,
+     "via": "example",
+     "matched": "My scholarship application is rejected. Who must fix it?"
     }
    ],
    "grade": "pass"
@@ -186,15 +228,21 @@
    "results": [
     {
      "id": "rti-first-appeal",
-     "score": 38.63
+     "score": 38.63,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     },
     {
      "id": "rti-file",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "gst-rejected",
-     "score": 3.61
+     "score": 3.61,
+     "via": "keyword",
+     "matched": "GST registration rejected or clarification asked"
     }
    ],
    "grade": "pass"
@@ -211,21 +259,27 @@
   "normalized": "free lawyer for poor family my father has court case",
   "api": {
    "source": "embedding",
-   "ms": 78,
+   "ms": 89,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "free-legal-aid",
-     "score": 0.8616
+     "score": 0.8616,
+     "via": "example",
+     "matched": "I need a free lawyer for a court case"
     },
     {
      "id": "death-certificate",
-     "score": 0.7164
+     "score": 0.7164,
+     "via": "example",
+     "matched": "Get death certificate of my father"
     },
     {
      "id": "msme-samadhaan",
-     "score": 0.6307
+     "score": 0.6307,
+     "via": "example",
+     "matched": "A customer has not paid my small business for months"
     }
    ],
    "grade": "FAIL"
@@ -236,15 +290,21 @@
    "results": [
     {
      "id": "free-legal-aid",
-     "score": 39.35
+     "score": 39.35,
+     "via": "keyword",
+     "matched": "Free legal help (Legal Services Authority)"
     },
     {
      "id": "ration-card-add-member",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "Add a family member to a ration card"
     },
     {
      "id": "death-certificate",
-     "score": 3.61
+     "score": 3.61,
+     "via": "keyword",
+     "matched": "Death certificate or correction"
     }
    ],
    "grade": "FAIL"
@@ -261,21 +321,27 @@
   "normalized": "ration card name add for new born baby",
   "api": {
    "source": "embedding",
-   "ms": 68,
+   "ms": 81,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "ration-card-add-member",
-     "score": 0.8695
+     "score": 0.8695,
+     "via": "example",
+     "matched": "How do I add my newborn to the ration card?"
     },
     {
      "id": "ration-card-new",
-     "score": 0.8101
+     "score": 0.8101,
+     "via": "example",
+     "matched": "I need a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.805
+     "score": 0.805,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     }
    ],
    "grade": "pass"
@@ -286,15 +352,21 @@
    "results": [
     {
      "id": "ration-card-add-member",
-     "score": 22.35
+     "score": 22.35,
+     "via": "keyword",
+     "matched": "Add a family member to a ration card"
     },
     {
      "id": "ration-card-new",
-     "score": 15.39
+     "score": 15.39,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 15.13
+     "score": 15.13,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     }
    ],
    "grade": "pass"
@@ -311,21 +383,27 @@
   "normalized": "udyam registration for small tailoring shop is it free",
   "api": {
    "source": "embedding",
-   "ms": 76,
+   "ms": 92,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "udyam-registration",
-     "score": 0.8662
+     "score": 0.8662,
+     "via": "example",
+     "matched": "Udyam registration"
     },
     {
      "id": "e-shram",
-     "score": 0.7112
+     "score": 0.7112,
+     "via": "card",
+     "matched": "Register on e-Shram"
     },
     {
      "id": "fssai",
-     "score": 0.6982
+     "score": 0.6982,
+     "via": "example",
+     "matched": "Do I need FSSAI registration for my food business?"
     }
    ],
    "grade": "pass"
@@ -336,15 +414,21 @@
    "results": [
     {
      "id": "udyam-registration",
-     "score": 20.53
+     "score": 20.53,
+     "via": "keyword",
+     "matched": "Register a small business (MSME / Udyam)"
     },
     {
      "id": "gst-need",
-     "score": 8.18
+     "score": 8.18,
+     "via": "keyword",
+     "matched": "Do I need GST registration?"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     }
    ],
    "grade": "pass"
@@ -361,21 +445,27 @@
   "normalized": "pm farmer money not came this time status check",
   "api": {
    "source": "embedding",
-   "ms": 69,
+   "ms": 83,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "pm-kisan",
-     "score": 0.7659
+     "score": 0.7659,
+     "via": "example",
+     "matched": "PM-KISAN installment stopped"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0.7057
+     "score": 0.7057,
+     "via": "example",
+     "matched": "My pension complaint was marked resolved but payment is still missing"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.6804
+     "score": 0.6804,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     }
    ],
    "grade": "pass"
@@ -386,15 +476,21 @@
    "results": [
     {
      "id": "pm-kisan",
-     "score": 19.06
+     "score": 19.06,
+     "via": "keyword",
+     "matched": "PM-KISAN application or stopped payment"
     },
     {
      "id": "scholarship-stuck",
-     "score": 11.78
+     "score": 11.78,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "pm-svanidhi",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "Street vendor loan (PM SVANidhi)"
     }
    ],
    "grade": "pass"
@@ -411,21 +507,27 @@
   "normalized": "post matric scholarship sc student apply last date",
   "api": {
    "source": "embedding",
-   "ms": 68,
+   "ms": 81,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "scholarship-find",
-     "score": 0.7252
+     "score": 0.7252,
+     "via": "example",
+     "matched": "Scholarship for college students"
     },
     {
      "id": "scholarship-stuck",
-     "score": 0.724
+     "score": 0.724,
+     "via": "example",
+     "matched": "My scholarship application is rejected. Who must fix it?"
     },
     {
      "id": "caste-certificate",
-     "score": 0.7155
+     "score": 0.7155,
+     "via": "example",
+     "matched": "SC certificate for admission"
     }
    ],
    "grade": "pass"
@@ -436,15 +538,21 @@
    "results": [
     {
      "id": "scholarship-find",
-     "score": 31.24
+     "score": 31.24,
+     "via": "keyword",
+     "matched": "Find and apply for a scholarship"
     },
     {
      "id": "caste-certificate",
-     "score": 7.28
+     "score": 7.28,
+     "via": "keyword",
+     "matched": "Caste certificate"
     },
     {
      "id": "scholarship-stuck",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     }
    ],
    "grade": "pass"
@@ -461,21 +569,27 @@
   "normalized": "aadhar card date of birth wrong how to correct",
   "api": {
    "source": "embedding",
-   "ms": 74,
+   "ms": 89,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 0.8693
+     "score": 0.8693,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.7221
+     "score": 0.7221,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     },
     {
      "id": "epfo-correction",
-     "score": 0.6945
+     "score": 0.6945,
+     "via": "example",
+     "matched": "PF date of birth mismatch"
     }
    ],
    "grade": "pass"
@@ -486,15 +600,21 @@
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 26.99
+     "score": 26.99,
+     "via": "keyword",
+     "matched": "Aadhaar name, date of birth or address correction"
     },
     {
      "id": "epfo-correction",
-     "score": 16.77
+     "score": 16.77,
+     "via": "keyword",
+     "matched": "EPFO / UAN name or date of birth correction"
     },
     {
      "id": "ration-card-correction",
-     "score": 12.71
+     "score": 12.71,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     }
    ],
    "grade": "pass"
@@ -511,21 +631,27 @@
   "normalized": "my mobile stolen in bus how to block imei",
   "api": {
    "source": "embedding",
-   "ms": 71,
+   "ms": 83,
    "emergency": true,
    "covered": true,
    "results": [
     {
      "id": "stolen-phone",
-     "score": 0.8856
+     "score": 0.8856,
+     "via": "example",
+     "matched": "Block IMEI of stolen phone"
     },
     {
      "id": "ration-card-new",
-     "score": 0.6134
+     "score": 0.6134,
+     "via": "example",
+     "matched": "I need a ration card"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0.6119
+     "score": 0.6119,
+     "via": "example",
+     "matched": "My pension complaint was marked resolved but payment is still missing"
     }
    ],
    "grade": "pass"
@@ -536,15 +662,21 @@
    "results": [
     {
      "id": "stolen-phone",
-     "score": 38.5
+     "score": 38.5,
+     "via": "keyword",
+     "matched": "Block a lost or stolen phone"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     }
    ],
    "grade": "pass"
@@ -561,21 +693,27 @@
   "normalized": "income certificate online apply for college admission",
   "api": {
    "source": "embedding",
-   "ms": 64,
+   "ms": 86,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "income-certificate",
-     "score": 0.9269
+     "score": 0.9269,
+     "via": "example",
+     "matched": "Income certificate apply online"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.8384
+     "score": 0.8384,
+     "via": "example",
+     "matched": "Residence certificate apply online"
     },
     {
      "id": "birth-certificate",
-     "score": 0.8339
+     "score": 0.8339,
+     "via": "example",
+     "matched": "Birth certificate apply online"
     }
    ],
    "grade": "pass"
@@ -586,15 +724,21 @@
    "results": [
     {
      "id": "income-certificate",
-     "score": 14.44
+     "score": 14.44,
+     "via": "keyword",
+     "matched": "Income certificate"
     },
     {
      "id": "scholarship-find",
-     "score": 9.99
+     "score": 9.99,
+     "via": "keyword",
+     "matched": "Find and apply for a scholarship"
     },
     {
      "id": "caste-certificate",
-     "score": 8.22
+     "score": 8.22,
+     "via": "keyword",
+     "matched": "Caste certificate"
     }
    ],
    "grade": "pass"
@@ -611,21 +755,27 @@
   "normalized": "caste certificate lost need duplicate copy",
   "api": {
    "source": "embedding",
-   "ms": 67,
+   "ms": 71,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "caste-certificate",
-     "score": 0.792
+     "score": 0.792,
+     "via": "example",
+     "matched": "How do I get a caste certificate?"
     },
     {
      "id": "rti-file",
-     "score": 0.7098
+     "score": 0.7098,
+     "via": "example",
+     "matched": "I want the file notings for my rejected certificate"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.6983
+     "score": 0.6983,
+     "via": "example",
+     "matched": "Need native certificate for job"
     }
    ],
    "grade": "pass"
@@ -636,15 +786,21 @@
    "results": [
     {
      "id": "caste-certificate",
-     "score": 13.44
+     "score": 13.44,
+     "via": "keyword",
+     "matched": "Caste certificate"
     },
     {
      "id": "stolen-phone",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "Block a lost or stolen phone"
     },
     {
      "id": "income-certificate",
-     "score": 3.22
+     "score": 3.22,
+     "via": "keyword",
+     "matched": "Income certificate"
     }
    ],
    "grade": "pass"
@@ -661,21 +817,27 @@
   "normalized": "how to pay property tax online for my house",
   "api": {
    "source": "embedding",
-   "ms": 71,
+   "ms": 72,
    "emergency": false,
    "covered": false,
    "results": [
     {
      "id": "income-certificate",
-     "score": 0.6856
+     "score": 0.6856,
+     "via": "example",
+     "matched": "Income certificate apply online"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.6688
+     "score": 0.6688,
+     "via": "example",
+     "matched": "Residence certificate apply online"
     },
     {
      "id": "pan-card",
-     "score": 0.5944
+     "score": 0.5944,
+     "via": "card",
+     "matched": "PAN card: new, instant e-PAN or correction"
     }
    ],
    "grade": "pass"
@@ -686,15 +848,21 @@
    "results": [
     {
      "id": "gst-need",
-     "score": 4.65
+     "score": 4.65,
+     "via": "keyword",
+     "matched": "Do I need GST registration?"
     },
     {
      "id": "pan-card",
-     "score": 2.94
+     "score": 2.94,
+     "via": "keyword",
+     "matched": "PAN card: new, instant e-PAN or correction"
     },
     {
      "id": "rti-file",
-     "score": 1.7
+     "score": 1.7,
+     "via": "keyword",
+     "matched": "File an RTI request"
     }
    ],
    "grade": "FAIL"
@@ -711,21 +879,27 @@
   "normalized": "someone is beating my sister at home right now please help",
   "api": {
    "source": "embedding",
-   "ms": 73,
+   "ms": 124,
    "emergency": true,
    "covered": false,
    "results": [
     {
      "id": "ration-card-new",
-     "score": 0.6226
+     "score": 0.6226,
+     "via": "example",
+     "matched": "I need a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.6186
+     "score": 0.6186,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     },
     {
      "id": "aadhaar-correction",
-     "score": 0.6161
+     "score": 0.6161,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     }
    ],
    "grade": "pass"
@@ -736,15 +910,21 @@
    "results": [
     {
      "id": "rti-file",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "free-legal-aid",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "Free legal help (Legal Services Authority)"
     },
     {
      "id": "life-certificate",
-     "score": 2.94
+     "score": 2.94,
+     "via": "keyword",
+     "matched": "Submit a pension life certificate"
     }
    ],
    "grade": "pass"
@@ -761,21 +941,27 @@
   "normalized": "new driving licence apply age 18",
   "api": {
    "source": "embedding",
-   "ms": 71,
+   "ms": 96,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "driving-licence",
-     "score": 0.7787
+     "score": 0.7787,
+     "via": "example",
+     "matched": "Renew my driving licence"
     },
     {
      "id": "birth-certificate",
-     "score": 0.6401
+     "score": 0.6401,
+     "via": "example",
+     "matched": "Birth certificate apply online"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.6298
+     "score": 0.6298,
+     "via": "example",
+     "matched": "Residence certificate apply online"
     }
    ],
    "grade": "pass"
@@ -786,15 +972,21 @@
    "results": [
     {
      "id": "driving-licence",
-     "score": 21.39
+     "score": 21.39,
+     "via": "keyword",
+     "matched": "Driving licence: learner, new or renewal"
     },
     {
      "id": "ration-card-new",
-     "score": 6.66
+     "score": 6.66,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     },
     {
      "id": "fssai",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "FSSAI registration or licence for a food business"
     }
    ],
    "grade": "pass"
@@ -811,21 +1003,27 @@
   "normalized": "passport for appointment how book kare",
   "api": {
    "source": "embedding",
-   "ms": 72,
+   "ms": 85,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "passport",
-     "score": 0.8372
+     "score": 0.8372,
+     "via": "example",
+     "matched": "Passport appointment booking"
     },
     {
      "id": "pm-kisan",
-     "score": 0.6439
+     "score": 0.6439,
+     "via": "card",
+     "matched": "PM-KISAN application or stopped payment"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.6388
+     "score": 0.6388,
+     "via": "example",
+     "matched": "Residence certificate apply online"
     }
    ],
    "grade": "pass"
@@ -836,15 +1034,21 @@
    "results": [
     {
      "id": "passport",
-     "score": 10.83
+     "score": 10.83,
+     "via": "keyword",
+     "matched": "Passport: new, renewal or reissue"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     }
    ],
    "grade": "pass"
@@ -861,21 +1065,27 @@
   "normalized": "rti how dale online pension bare me",
   "api": {
    "source": "embedding",
-   "ms": 78,
+   "ms": 83,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "pension-stopped",
-     "score": 0.7379
+     "score": 0.7379,
+     "via": "example",
+     "matched": "My pension has stopped even though I submitted the life certificate"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0.6932
+     "score": 0.6932,
+     "via": "example",
+     "matched": "My pension complaint was marked resolved but payment is still missing"
     },
     {
      "id": "life-certificate",
-     "score": 0.6688
+     "score": 0.6688,
+     "via": "example",
+     "matched": "Life certificate for pension from home"
     }
    ],
    "grade": "FAIL (wrong card)"
@@ -886,15 +1096,21 @@
    "results": [
     {
      "id": "rti-file",
-     "score": 7.59
+     "score": 7.59,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "life-certificate",
-     "score": 6.83
+     "score": 6.83,
+     "via": "keyword",
+     "matched": "Submit a pension life certificate"
     },
     {
      "id": "rti-first-appeal",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     }
    ],
    "grade": "partial (right card, below threshold)"
@@ -911,21 +1127,27 @@
   "normalized": "muft vakil how to get garib hu",
   "api": {
    "source": "embedding",
-   "ms": 77,
+   "ms": 95,
    "emergency": false,
    "covered": false,
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 0.6517
+     "score": 0.6517,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     },
     {
      "id": "pan-card",
-     "score": 0.6047
+     "score": 0.6047,
+     "via": "example",
+     "matched": "Instant e-PAN with Aadhaar"
     },
     {
      "id": "pm-svanidhi",
-     "score": 0.6038
+     "score": 0.6038,
+     "via": "example",
+     "matched": "How do I get a street-vendor loan under PM SVANidhi?"
     }
    ],
    "grade": "pass"
@@ -936,15 +1158,21 @@
    "results": [
     {
      "id": "free-legal-aid",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "Free legal help (Legal Services Authority)"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     }
    ],
    "grade": "FAIL"
@@ -963,21 +1191,27 @@
   "normalized": "ration card stopped what to do 2 mahine se ration not received",
   "api": {
    "source": "embedding",
-   "ms": 82,
+   "ms": 223,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "ration-card-new",
-     "score": 0.7831
+     "score": 0.7831,
+     "via": "example",
+     "matched": "I need a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.7466
+     "score": 0.7466,
+     "via": "example",
+     "matched": "Change address on ration card"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 0.7437
+     "score": 0.7437,
+     "via": "example",
+     "matched": "The ration shop gave me less rice"
     }
    ],
    "grade": "pass"
@@ -988,15 +1222,21 @@
    "results": [
     {
      "id": "ration-card-new",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     },
     {
      "id": "ration-card-add-member",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Add a family member to a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     }
    ],
    "grade": "partial (right card, below threshold)"
@@ -1013,21 +1253,27 @@
   "normalized": "udyam certificate download how to",
   "api": {
    "source": "embedding",
-   "ms": 68,
+   "ms": 142,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "udyam-registration",
-     "score": 0.8074
+     "score": 0.8074,
+     "via": "example",
+     "matched": "Udyam registration"
     },
     {
      "id": "rti-file",
-     "score": 0.6963
+     "score": 0.6963,
+     "via": "example",
+     "matched": "I want the file notings for my rejected certificate"
     },
     {
      "id": "birth-certificate",
-     "score": 0.6935
+     "score": 0.6935,
+     "via": "example",
+     "matched": "Birth certificate apply online"
     }
    ],
    "grade": "pass"
@@ -1038,15 +1284,21 @@
    "results": [
     {
      "id": "udyam-registration",
-     "score": 8.83
+     "score": 8.83,
+     "via": "keyword",
+     "matched": "Register a small business (MSME / Udyam)"
     },
     {
      "id": "income-certificate",
-     "score": 3.22
+     "score": 3.22,
+     "via": "keyword",
+     "matched": "Income certificate"
     },
     {
      "id": "caste-certificate",
-     "score": 3.22
+     "score": 3.22,
+     "via": "keyword",
+     "matched": "Caste certificate"
     }
    ],
    "grade": "pass"
@@ -1063,21 +1315,27 @@
   "normalized": "farmer samman nidhi money not received ekyc kiya tha",
   "api": {
    "source": "embedding",
-   "ms": 73,
+   "ms": 110,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "pm-kisan",
-     "score": 0.7766
+     "score": 0.7766,
+     "via": "example",
+     "matched": "Farmer 2000 rupees not received"
     },
     {
      "id": "scholarship-stuck",
-     "score": 0.6725
+     "score": 0.6725,
+     "via": "example",
+     "matched": "Scholarship money not received"
     },
     {
      "id": "pm-svanidhi",
-     "score": 0.6647
+     "score": 0.6647,
+     "via": "example",
+     "matched": "How do I get a street-vendor loan under PM SVANidhi?"
     }
    ],
    "grade": "pass"
@@ -1088,15 +1346,21 @@
    "results": [
     {
      "id": "pm-kisan",
-     "score": 34.83
+     "score": 34.83,
+     "via": "keyword",
+     "matched": "PM-KISAN application or stopped payment"
     },
     {
      "id": "scholarship-stuck",
-     "score": 14.78
+     "score": 14.78,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 2.94
+     "score": 2.94,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     }
    ],
    "grade": "pass"
@@ -1113,21 +1377,27 @@
   "normalized": "scholarship money still not received nsp",
   "api": {
    "source": "embedding",
-   "ms": 68,
+   "ms": 115,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "scholarship-stuck",
-     "score": 0.9138
+     "score": 0.9138,
+     "via": "example",
+     "matched": "Scholarship money not received"
     },
     {
      "id": "scholarship-find",
-     "score": 0.7363
+     "score": 0.7363,
+     "via": "example",
+     "matched": "Scholarship for college students"
     },
     {
      "id": "income-certificate",
-     "score": 0.6577
+     "score": 0.6577,
+     "via": "example",
+     "matched": "Where to make income proof for scholarship"
     }
    ],
    "grade": "pass"
@@ -1138,15 +1408,21 @@
    "results": [
     {
      "id": "scholarship-stuck",
-     "score": 28.8
+     "score": 28.8,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "scholarship-find",
-     "score": 11.02
+     "score": 11.02,
+     "via": "keyword",
+     "matched": "Find and apply for a scholarship"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 2.94
+     "score": 2.94,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     }
    ],
    "grade": "pass"
@@ -1163,21 +1439,27 @@
   "normalized": "aadhar me name wrong how sahi kare",
   "api": {
    "source": "embedding",
-   "ms": 116,
+   "ms": 156,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 0.7854
+     "score": 0.7854,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     },
     {
      "id": "pan-card",
-     "score": 0.6552
+     "score": 0.6552,
+     "via": "example",
+     "matched": "Instant e-PAN with Aadhaar"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.6249
+     "score": 0.6249,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     }
    ],
    "grade": "pass"
@@ -1188,15 +1470,21 @@
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 13.16
+     "score": 13.16,
+     "via": "keyword",
+     "matched": "Aadhaar name, date of birth or address correction"
     },
     {
      "id": "ration-card-correction",
-     "score": 8.24
+     "score": 8.24,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     },
     {
      "id": "epfo-correction",
-     "score": 5.93
+     "score": 5.93,
+     "via": "keyword",
+     "matched": "EPFO / UAN name or date of birth correction"
     }
    ],
    "grade": "pass"
@@ -1213,21 +1501,27 @@
   "normalized": "upi se 20000 kat gaye fraud call aaya tha",
   "api": {
    "source": "embedding",
-   "ms": 84,
+   "ms": 107,
    "emergency": true,
    "covered": false,
    "results": [
     {
      "id": "rti-first-appeal",
-     "score": 0.6776
+     "score": 0.6776,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     },
     {
      "id": "free-legal-aid",
-     "score": 0.6697
+     "score": 0.6697,
+     "via": "example",
+     "matched": "I need a free lawyer for a court case"
     },
     {
      "id": "aadhaar-correction",
-     "score": 0.6546
+     "score": 0.6546,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     }
    ],
    "grade": "pass"
@@ -1238,15 +1532,21 @@
    "results": [
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "Government complaint closed but not fixed"
     }
    ],
    "grade": "pass"
@@ -1269,15 +1569,21 @@
    "results": [
     {
      "id": "income-certificate",
-     "score": 0.899
+     "score": 0.899,
+     "via": "example",
+     "matched": "Income certificate apply online"
     },
     {
      "id": "birth-certificate",
-     "score": 0.7943
+     "score": 0.7943,
+     "via": "example",
+     "matched": "Birth certificate apply online"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.7732
+     "score": 0.7732,
+     "via": "example",
+     "matched": "Residence certificate apply online"
     }
    ],
    "grade": "pass"
@@ -1288,15 +1594,21 @@
    "results": [
     {
      "id": "income-certificate",
-     "score": 12.74
+     "score": 12.74,
+     "via": "keyword",
+     "matched": "Income certificate"
     },
     {
      "id": "caste-certificate",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Caste certificate"
     },
     {
      "id": "domicile-certificate",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Domicile or residence certificate"
     }
    ],
    "grade": "pass"
@@ -1313,21 +1625,27 @@
   "normalized": "caste certificate online apply",
   "api": {
    "source": "embedding",
-   "ms": 65,
+   "ms": 81,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "caste-certificate",
-     "score": 0.8594
+     "score": 0.8594,
+     "via": "example",
+     "matched": "How do I get a caste certificate?"
     },
     {
      "id": "income-certificate",
-     "score": 0.8411
+     "score": 0.8411,
+     "via": "example",
+     "matched": "Income certificate apply online"
     },
     {
      "id": "birth-certificate",
-     "score": 0.837
+     "score": 0.837,
+     "via": "example",
+     "matched": "Birth certificate apply online"
     }
    ],
    "grade": "pass"
@@ -1338,15 +1656,21 @@
    "results": [
     {
      "id": "caste-certificate",
-     "score": 14.83
+     "score": 14.83,
+     "via": "keyword",
+     "matched": "Caste certificate"
     },
     {
      "id": "income-certificate",
-     "score": 6.31
+     "score": 6.31,
+     "via": "keyword",
+     "matched": "Income certificate"
     },
     {
      "id": "domicile-certificate",
-     "score": 6.31
+     "score": 6.31,
+     "via": "keyword",
+     "matched": "Domicile or residence certificate"
     }
    ],
    "grade": "pass"
@@ -1363,21 +1687,27 @@
   "normalized": "naya gas connection how to get ujjwala",
   "api": {
    "source": "embedding",
-   "ms": 80,
+   "ms": 100,
    "emergency": false,
    "covered": false,
    "results": [
     {
      "id": "pan-card",
-     "score": 0.6463
+     "score": 0.6463,
+     "via": "example",
+     "matched": "Instant e-PAN with Aadhaar"
     },
     {
      "id": "udyam-registration",
-     "score": 0.6436
+     "score": 0.6436,
+     "via": "example",
+     "matched": "Udyam registration"
     },
     {
      "id": "life-certificate",
-     "score": 0.6203
+     "score": 0.6203,
+     "via": "example",
+     "matched": "Jeevan Pramaan online"
     }
    ],
    "grade": "pass"
@@ -1388,15 +1718,21 @@
    "results": [
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "Government complaint closed but not fixed"
     }
    ],
    "grade": "pass"
@@ -1413,21 +1749,27 @@
   "normalized": "passport renew panna enna documents venum",
   "api": {
    "source": "embedding",
-   "ms": 69,
+   "ms": 84,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "passport",
-     "score": 0.8007
+     "score": 0.8007,
+     "via": "example",
+     "matched": "Renew my passport"
     },
     {
      "id": "driving-licence",
-     "score": 0.6963
+     "score": 0.6963,
+     "via": "example",
+     "matched": "Renew my driving licence"
     },
     {
      "id": "pension-stopped",
-     "score": 0.655
+     "score": 0.655,
+     "via": "example",
+     "matched": "My pension has stopped even though I submitted the life certificate"
     }
    ],
    "grade": "pass"
@@ -1438,15 +1780,21 @@
    "results": [
     {
      "id": "passport",
-     "score": 13.11
+     "score": 13.11,
+     "via": "keyword",
+     "matched": "Passport: new, renewal or reissue"
     },
     {
      "id": "driving-licence",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "Driving licence: learner, new or renewal"
     },
     {
      "id": "scholarship-find",
-     "score": 3.61
+     "score": 3.61,
+     "via": "keyword",
+     "matched": "Find and apply for a scholarship"
     }
    ],
    "grade": "pass"
@@ -1464,21 +1812,27 @@
   "normalized": "ration card la peru serkanum eppadi",
   "api": {
    "source": "embedding",
-   "ms": 79,
+   "ms": 83,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "ration-card-new",
-     "score": 0.8201
+     "score": 0.8201,
+     "via": "example",
+     "matched": "I need a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.7387
+     "score": 0.7387,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     },
     {
      "id": "ration-card-add-member",
-     "score": 0.7221
+     "score": 0.7221,
+     "via": "example",
+     "matched": "Include child in ration card"
     }
    ],
    "grade": "FAIL (wrong card)"
@@ -1489,15 +1843,21 @@
    "results": [
     {
      "id": "ration-card-new",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     },
     {
      "id": "ration-card-add-member",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Add a family member to a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     }
    ],
    "grade": "partial (in closest 3, below threshold)"
@@ -1514,21 +1874,27 @@
   "normalized": "aadhaar la need to change the address online la mudiyuma",
   "api": {
    "source": "embedding",
-   "ms": 95,
+   "ms": 96,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 0.816
+     "score": 0.816,
+     "via": "example",
+     "matched": "Update address in Aadhaar"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.6936
+     "score": 0.6936,
+     "via": "example",
+     "matched": "Change address on ration card"
     },
     {
      "id": "udyam-registration",
-     "score": 0.686
+     "score": 0.686,
+     "via": "example",
+     "matched": "Udyam registration"
     }
    ],
    "grade": "pass"
@@ -1539,15 +1905,21 @@
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 17.09
+     "score": 17.09,
+     "via": "keyword",
+     "matched": "Aadhaar name, date of birth or address correction"
     },
     {
      "id": "ration-card-correction",
-     "score": 7.69
+     "score": 7.69,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     },
     {
      "id": "udyam-registration",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Register a small business (MSME / Udyam)"
     }
    ],
    "grade": "pass"
@@ -1564,21 +1936,27 @@
   "normalized": "en phone thirudu poiduchu complaint enga kudukanum",
   "api": {
    "source": "embedding",
-   "ms": 98,
+   "ms": 92,
    "emergency": true,
    "covered": false,
    "results": [
     {
      "id": "cpgrams-closed",
-     "score": 0.6828
+     "score": 0.6828,
+     "via": "example",
+     "matched": "My government complaint was closed without fixing the problem"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.654
+     "score": 0.654,
+     "via": "example",
+     "matched": "My RTI reply did not come. How do I file the first appeal?"
     },
     {
      "id": "which-department",
-     "score": 0.6352
+     "score": 0.6352,
+     "via": "example",
+     "matched": "Which department should I contact about this problem?"
     }
    ],
    "grade": "pass"
@@ -1589,15 +1967,21 @@
    "results": [
     {
      "id": "stolen-phone",
-     "score": 7.22
+     "score": 7.22,
+     "via": "keyword",
+     "matched": "Block a lost or stolen phone"
     },
     {
      "id": "cpgrams-closed",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Government complaint closed but not fixed"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     }
    ],
    "grade": "pass"
@@ -1614,21 +1998,27 @@
   "normalized": "pm farmer amount not received what should I do",
   "api": {
    "source": "embedding",
-   "ms": 145,
+   "ms": 86,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "pm-kisan",
-     "score": 0.8003
+     "score": 0.8003,
+     "via": "example",
+     "matched": "How do I apply for PM-KISAN?"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 0.6912
+     "score": 0.6912,
+     "via": "example",
+     "matched": "Where should I complain about my ration dealer not giving full grain?"
     },
     {
      "id": "cpgrams-closed",
-     "score": 0.6845
+     "score": 0.6845,
+     "via": "example",
+     "matched": "My pension complaint was marked resolved but payment is still missing"
     }
    ],
    "grade": "pass"
@@ -1639,15 +2029,21 @@
    "results": [
     {
      "id": "pm-kisan",
-     "score": 19.06
+     "score": 19.06,
+     "via": "keyword",
+     "matched": "PM-KISAN application or stopped payment"
     },
     {
      "id": "scholarship-stuck",
-     "score": 8.89
+     "score": 8.89,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "pm-svanidhi",
-     "score": 5.89
+     "score": 5.89,
+     "via": "keyword",
+     "matched": "Street vendor loan (PM SVANidhi)"
     }
    ],
    "grade": "pass"
@@ -1664,21 +2060,27 @@
   "normalized": "current bill romba jaasthi vandhuruku complaint",
   "api": {
    "source": "embedding",
-   "ms": 97,
+   "ms": 90,
    "emergency": false,
    "covered": false,
    "results": [
     {
      "id": "cpgrams-closed",
-     "score": 0.6581
+     "score": 0.6581,
+     "via": "example",
+     "matched": "My government complaint was closed without fixing the problem"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.6243
+     "score": 0.6243,
+     "via": "example",
+     "matched": "My RTI reply did not come. How do I file the first appeal?"
     },
     {
      "id": "aadhaar-correction",
-     "score": 0.6201
+     "score": 0.6201,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     }
    ],
    "grade": "pass"
@@ -1689,15 +2091,21 @@
    "results": [
     {
      "id": "cpgrams-closed",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Government complaint closed but not fixed"
     },
     {
      "id": "ration-dealer-complaint",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Ration shop complaint"
     },
     {
      "id": "which-department",
-     "score": 4.61
+     "score": 4.61,
+     "via": "keyword",
+     "matched": "Which department handles my problem?"
     }
    ],
    "grade": "pass"
@@ -1714,21 +2122,27 @@
   "normalized": "passport apply madodu hege",
   "api": {
    "source": "embedding",
-   "ms": 87,
+   "ms": 82,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "passport",
-     "score": 0.7416
+     "score": 0.7416,
+     "via": "example",
+     "matched": "Renew my passport"
     },
     {
      "id": "udyam-registration",
-     "score": 0.6643
+     "score": 0.6643,
+     "via": "example",
+     "matched": "Udyam registration"
     },
     {
      "id": "domicile-certificate",
-     "score": 0.6573
+     "score": 0.6573,
+     "via": "example",
+     "matched": "Residence certificate apply online"
     }
    ],
    "grade": "pass"
@@ -1739,15 +2153,21 @@
    "results": [
     {
      "id": "passport",
-     "score": 8.61
+     "score": 8.61,
+     "via": "keyword",
+     "matched": "Passport: new, renewal or reissue"
     },
     {
      "id": "ration-card-new",
-     "score": 2.77
+     "score": 2.77,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     },
     {
      "id": "scholarship-find",
-     "score": 2.77
+     "score": 2.77,
+     "via": "keyword",
+     "matched": "Find and apply for a scholarship"
     }
    ],
    "grade": "pass"
@@ -1764,21 +2184,27 @@
   "normalized": "ration card hosadagi apply madbeku",
   "api": {
    "source": "embedding",
-   "ms": 103,
+   "ms": 90,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "ration-card-new",
-     "score": 0.7652
+     "score": 0.7652,
+     "via": "example",
+     "matched": "I need a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 0.7273
+     "score": 0.7273,
+     "via": "example",
+     "matched": "My ration card has the wrong name. How do I correct it?"
     },
     {
      "id": "ration-card-add-member",
-     "score": 0.7067
+     "score": 0.7067,
+     "via": "example",
+     "matched": "Add my wife's name to ration card"
     }
    ],
    "grade": "pass"
@@ -1789,15 +2215,21 @@
    "results": [
     {
      "id": "ration-card-new",
-     "score": 14.27
+     "score": 14.27,
+     "via": "keyword",
+     "matched": "Apply for a new ration card"
     },
     {
      "id": "ration-card-add-member",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Add a family member to a ration card"
     },
     {
      "id": "ration-card-correction",
-     "score": 11.5
+     "score": 11.5,
+     "via": "keyword",
+     "matched": "Correct a ration card"
     }
    ],
    "grade": "pass"
@@ -1814,21 +2246,27 @@
   "normalized": "aadhaar alli hesaru tappagide hege sari madodu",
   "api": {
    "source": "embedding",
-   "ms": 111,
+   "ms": 85,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "pan-card",
-     "score": 0.7275
+     "score": 0.7275,
+     "via": "example",
+     "matched": "Instant e-PAN with Aadhaar"
     },
     {
      "id": "aadhaar-correction",
-     "score": 0.7088
+     "score": 0.7088,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     },
     {
      "id": "udyam-registration",
-     "score": 0.6583
+     "score": 0.6583,
+     "via": "example",
+     "matched": "Udyam registration"
     }
    ],
    "grade": "FAIL (wrong card)"
@@ -1839,15 +2277,21 @@
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Aadhaar name, date of birth or address correction"
     },
     {
      "id": "udyam-registration",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Register a small business (MSME / Udyam)"
     },
     {
      "id": "pan-card",
-     "score": 2.56
+     "score": 2.56,
+     "via": "keyword",
+     "matched": "PAN card: new, instant e-PAN or correction"
     }
    ],
    "grade": "partial (right card, below threshold)"
@@ -1864,21 +2308,27 @@
   "normalized": "online fraud aagide bank alli duddu hogide",
   "api": {
    "source": "embedding",
-   "ms": 103,
+   "ms": 81,
    "emergency": true,
    "covered": false,
    "results": [
     {
      "id": "aadhaar-correction",
-     "score": 0.6508
+     "score": 0.6508,
+     "via": "example",
+     "matched": "My Aadhaar name or date of birth is wrong. What can I do?"
     },
     {
      "id": "udyam-registration",
-     "score": 0.6222
+     "score": 0.6222,
+     "via": "example",
+     "matched": "Udyam registration"
     },
     {
      "id": "stolen-phone",
-     "score": 0.6197
+     "score": 0.6197,
+     "via": "example",
+     "matched": "My phone was stolen, how do I block it?"
     }
    ],
    "grade": "pass"
@@ -1889,15 +2339,21 @@
    "results": [
     {
      "id": "life-certificate",
-     "score": 4.27
+     "score": 4.27,
+     "via": "keyword",
+     "matched": "Submit a pension life certificate"
     },
     {
      "id": "pm-kisan",
-     "score": 2.56
+     "score": 2.56,
+     "via": "keyword",
+     "matched": "PM-KISAN application or stopped payment"
     },
     {
      "id": "pension-stopped",
-     "score": 2.56
+     "score": 2.56,
+     "via": "keyword",
+     "matched": "Pension stopped or not credited"
     }
    ],
    "grade": "pass"
@@ -1914,21 +2370,27 @@
   "normalized": "jaati pramana patra hege padeyodu",
   "api": {
    "source": "embedding",
-   "ms": 97,
+   "ms": 76,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "life-certificate",
-     "score": 0.7052
+     "score": 0.7052,
+     "via": "example",
+     "matched": "Jeevan Pramaan online"
     },
     {
      "id": "pan-card",
-     "score": 0.6519
+     "score": 0.6519,
+     "via": "example",
+     "matched": "Instant e-PAN with Aadhaar"
     },
     {
      "id": "udyam-registration",
-     "score": 0.6415
+     "score": 0.6415,
+     "via": "example",
+     "matched": "Udyam registration"
     }
    ],
    "grade": "FAIL (wrong card)"
@@ -1939,15 +2401,21 @@
    "results": [
     {
      "id": "income-certificate",
-     "score": 8.58
+     "score": 8.58,
+     "via": "keyword",
+     "matched": "Income certificate"
     },
     {
      "id": "rti-file",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "File an RTI request"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0
+     "score": 0,
+     "via": "keyword",
+     "matched": "RTI first appeal"
     }
    ],
    "grade": "FAIL (wrong card)"
@@ -1964,21 +2432,27 @@
   "normalized": "scholarship ge apply madoke last date yavaga",
   "api": {
    "source": "embedding",
-   "ms": 89,
+   "ms": 82,
    "emergency": false,
    "covered": true,
    "results": [
     {
      "id": "scholarship-find",
-     "score": 0.7001
+     "score": 0.7001,
+     "via": "example",
+     "matched": "Scholarship for college students"
     },
     {
      "id": "scholarship-stuck",
-     "score": 0.6955
+     "score": 0.6955,
+     "via": "example",
+     "matched": "My scholarship application is rejected. Who must fix it?"
     },
     {
      "id": "rti-first-appeal",
-     "score": 0.6124
+     "score": 0.6124,
+     "via": "example",
+     "matched": "I filed an RTI 40 days ago and got no reply"
     }
    ],
    "grade": "pass"
@@ -1989,15 +2463,21 @@
    "results": [
     {
      "id": "scholarship-find",
-     "score": 7.9
+     "score": 7.9,
+     "via": "keyword",
+     "matched": "Find and apply for a scholarship"
     },
     {
      "id": "scholarship-stuck",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Scholarship rejected, stuck or not paid"
     },
     {
      "id": "aadhaar-correction",
-     "score": 5.13
+     "score": 5.13,
+     "via": "keyword",
+     "matched": "Aadhaar name, date of birth or address correction"
     }
    ],
    "grade": "pass"
